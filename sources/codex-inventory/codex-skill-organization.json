@@ -1,0 +1,1740 @@
+{
+  "generated_at": "2026-08-04T10:02:14.302271+00:00",
+  "summary": {
+    "skill_count": 251,
+    "unique_skill_name_count": 193,
+    "duplicate_name_count": 58,
+    "duplicate_entry_count": 116,
+    "conflict_risk_count": 33
+  },
+  "routing_table": [
+    {
+      "task": "General repo work",
+      "primary": "using-superpowers",
+      "secondary": "verification-before-completion",
+      "rule": "Start with local instructions/state, then verify before completion claims."
+    },
+    {
+      "task": "New feature or behavior change",
+      "primary": "brainstorming",
+      "secondary": "test-driven-development",
+      "rule": "Clarify design first; use TDD once implementation starts."
+    },
+    {
+      "task": "Bug, failing test, or unexpected behavior",
+      "primary": "systematic-debugging",
+      "secondary": "test-driven-development",
+      "rule": "Reproduce and isolate before fixing; add a regression test for code changes."
+    },
+    {
+      "task": "ArmorHue visual/storefront quality",
+      "primary": "armorhue-luxury-ecommerce-art-director",
+      "secondary": "armorhue-no-slop-delivery-gate",
+      "rule": "Use premium automotive direction first; use no-slop gate before handoff."
+    },
+    {
+      "task": "Shopify full site or page build",
+      "primary": "independent-site-build-orchestrator",
+      "secondary": "end-to-end-quality-auditor",
+      "rule": "Use build orchestrator for execution and full auditor before calling done."
+    },
+    {
+      "task": "Product, hero, collection, or marketing images",
+      "primary": "exact-visual-asset-director",
+      "secondary": "original-asset-production-pipeline",
+      "rule": "Find exact source-traceable assets first; generate or produce only when needed."
+    },
+    {
+      "task": "Automotive film PDP, TDS, specs, or warranty",
+      "primary": "automotive-film-pdp-tds-builder",
+      "secondary": "product-visual-pdp-consistency-auditor",
+      "rule": "Never invent specs; audit PDP/image/title consistency after edits."
+    },
+    {
+      "task": "B2B wholesale funnel or dealer intake",
+      "primary": "armorhue-b2b-wholesale-funnel-architect",
+      "secondary": "shopify-conversion-section-builder",
+      "rule": "Keep price isolation and wholesale flow clear."
+    },
+    {
+      "task": "Browser QA or visual verification",
+      "primary": "playwright",
+      "secondary": "qa",
+      "rule": "Use browser evidence and screenshots for user-facing changes."
+    },
+    {
+      "task": "Read-only audit",
+      "primary": "audit",
+      "secondary": "qa-only",
+      "rule": "Report findings without mutating unless explicitly authorized."
+    }
+  ],
+  "duplicates": [
+    {
+      "name": "autoplan",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\autoplan\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\autoplan\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\autoplan\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "benchmark",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\benchmark\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\benchmark\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\benchmark\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "benchmark-models",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\benchmark-models\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\benchmark-models\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\benchmark-models\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "browse",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\browse\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\browse\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\browse\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "canary",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\canary\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\canary\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\canary\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "careful",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\careful\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\careful\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\careful\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "codex",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\codex\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\codex\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\codex\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "context-restore",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\context-restore\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\context-restore\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\context-restore\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "context-save",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\context-save\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\context-save\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\context-save\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "cso",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\cso\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\cso\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\cso\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "design-consultation",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\design-consultation\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\design-consultation\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\design-consultation\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "design-html",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\design-html\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\design-html\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\design-html\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "design-review",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\design-review\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\design-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\design-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "design-shotgun",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\design-shotgun\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\design-shotgun\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\design-shotgun\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "devex-review",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\devex-review\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\devex-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\devex-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "diagram",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\diagram\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\diagram\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\diagram\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "document-generate",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\document-generate\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\document-generate\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\document-generate\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "document-release",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\document-release\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\document-release\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\document-release\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "freeze",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\freeze\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\freeze\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\freeze\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "gstack-openclaw-ceo-review",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-ceo-review\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-ceo-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\openclaw\\skills\\gstack-openclaw-ceo-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "gstack-openclaw-investigate",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-investigate\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-investigate\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\openclaw\\skills\\gstack-openclaw-investigate\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "gstack-openclaw-office-hours",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-office-hours\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-office-hours\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\openclaw\\skills\\gstack-openclaw-office-hours\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "gstack-openclaw-retro",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-retro\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-retro\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\openclaw\\skills\\gstack-openclaw-retro\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "gstack-upgrade",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\gstack-upgrade\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack-upgrade\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\gstack-upgrade\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        }
+      ]
+    },
+    {
+      "name": "guard",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\guard\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\guard\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\guard\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "hackernews-frontpage",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\hackernews-frontpage\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\browser-skills\\hackernews-frontpage\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\hackernews-frontpage\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "health",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\health\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\health\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\health\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "investigate",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\investigate\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\investigate\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\investigate\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "ios-clean",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\ios-clean\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\ios-clean\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\ios-clean\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "ios-design-review",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\ios-design-review\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\ios-design-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\ios-design-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "ios-fix",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\ios-fix\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\ios-fix\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\ios-fix\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "ios-qa",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\ios-qa\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\ios-qa\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\ios-qa\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "ios-sync",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\ios-sync\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\ios-sync\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\ios-sync\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "land-and-deploy",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\land-and-deploy\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\land-and-deploy\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\land-and-deploy\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "landing-report",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\landing-report\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\landing-report\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\landing-report\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "learn",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\learn\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\learn\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\learn\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "make-pdf",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\make-pdf\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\make-pdf\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\make-pdf\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "office-hours",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\office-hours\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\office-hours\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\office-hours\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "open-gstack-browser",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\open-gstack-browser\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\open-gstack-browser\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\open-gstack-browser\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "pair-agent",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\pair-agent\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\pair-agent\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\pair-agent\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "plan-ceo-review",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\plan-ceo-review\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\plan-ceo-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\plan-ceo-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "plan-design-review",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\plan-design-review\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\plan-design-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\plan-design-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "plan-devex-review",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\plan-devex-review\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\plan-devex-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\plan-devex-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "plan-eng-review",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\plan-eng-review\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\plan-eng-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\plan-eng-review\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "plan-tune",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\plan-tune\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\plan-tune\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\plan-tune\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "qa",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\qa\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\qa\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\qa\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "qa-only",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\qa-only\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\qa-only\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\qa-only\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "retro",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\retro\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\retro\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\retro\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "review",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\review\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\review\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\review\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "scrape",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\scrape\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\scrape\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\scrape\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "setup-browser-cookies",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\setup-browser-cookies\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\setup-browser-cookies\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\setup-browser-cookies\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "setup-deploy",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\setup-deploy\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\setup-deploy\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\setup-deploy\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "setup-gbrain",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\setup-gbrain\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\setup-gbrain\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\setup-gbrain\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "ship",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\ship\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\ship\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\ship\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "skillify",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\skillify\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\skillify\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\skillify\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "spec",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\spec\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\spec\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\spec\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "sync-gbrain",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\sync-gbrain\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\sync-gbrain\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\sync-gbrain\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "name": "unfreeze",
+      "count": 2,
+      "recommended_primary": "C:\\Users\\26014\\.codex\\skills\\unfreeze\\SKILL.md",
+      "action": "Keep one primary route; do not delete until the duplicate is proven unused.",
+      "paths": [
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\unfreeze\\SKILL.md",
+          "source": "user-skills",
+          "role": "duplicate-candidate"
+        },
+        {
+          "path": "C:\\Users\\26014\\.codex\\skills\\unfreeze\\SKILL.md",
+          "source": "user-skills",
+          "role": "primary"
+        }
+      ]
+    }
+  ],
+  "conflict_risks": [
+    {
+      "name": "agent-browser",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\agent-browser\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "triggers, trigger",
+      "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, verify dev server output, test web apps, navigate pages, fill forms, click buttons, take screenshots, extract data, or automate any browser task. Also triggers when a dev server starts so you can verify it visually."
+    },
+    {
+      "name": "agent-browser-verify",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\agent-browser-verify\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "triggers, trigger",
+      "description": "Automated browser verification for dev servers. Triggers when a dev server starts to run a visual gut-check with agent-browser — verifies the page loads, checks for console errors, validates key UI elements, and reports pass/fail before continuing."
+    },
+    {
+      "name": "ai-gateway",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\ai-gateway\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "before writing",
+      "description": "Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing multiple AI providers through a unified API."
+    },
+    {
+      "name": "ai-sdk",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\ai-sdk\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "before writing",
+      "description": "Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, reranking, image generation, or working with any LLM provider."
+    },
+    {
+      "name": "brainstorming",
+      "path": "C:\\Users\\26014\\.codex\\skills\\brainstorming\\SKILL.md",
+      "source": "user-skills",
+      "markers": "must use, before any, do not invoke, hard-gate",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
+    },
+    {
+      "name": "chat-sdk",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\chat-sdk\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "before writing",
+      "description": "Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear — with a single codebase. Covers the Chat class, adapters, threads, messages, cards, modals, streaming, state management, and webhook setup."
+    },
+    {
+      "name": "control-chrome",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-bundled\\chrome\\26.727.51351\\skills\\control-chrome\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "before any",
+      "description": "Control the user's Chrome browser for tasks that depend on existing Chrome state: tabs, logged-in sessions, or extensions. Prefer purpose-built connectors, APIs, or CLIs when available."
+    },
+    {
+      "name": "control-in-app-browser",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.727.51351\\skills\\control-in-app-browser\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "before any",
+      "description": "Control the in-app Browser for opening, navigating, inspecting visible or interactive page state, clicking, typing, screenshots, and local web testing. It can have existing signed-in sessions. For semantic operations on linked resources, prefer a purpose-built connector, API, or CLI when available."
+    },
+    {
+      "name": "design-taste-frontend",
+      "path": "C:\\Users\\26014\\.codex\\skills\\taste-skill\\SKILL.md",
+      "source": "user-skills",
+      "markers": "before any",
+      "description": "Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check."
+    },
+    {
+      "name": "end-to-end-quality-auditor",
+      "path": "C:\\Users\\26014\\.codex\\skills\\end-to-end-quality-auditor\\SKILL.md",
+      "source": "user-skills",
+      "markers": "final quality",
+      "description": "Final quality-audit workflow for completed site, Shopify theme, content, image, automation, and setup tasks. Use when Codex needs to avoid assumptions, inspect finished work from multiple angles, find remaining problems, fix them, re-check, and provide evidence before handing off as done."
+    },
+    {
+      "name": "figma-generate-design",
+      "path": "C:\\Users\\26014\\.codex\\skills\\figma-generate-design\\SKILL.md",
+      "source": "user-skills",
+      "markers": "triggers, trigger",
+      "description": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in Figma', 'update the Figma screen to match code'. This is the preferred workflow skill whenever the user wants to build or update a full page, screen, or view in Figma from code or a description. Discovers design system components, variables, and styles via search_design_system, imports them, and assembles screens incrementally section-by-section using design system tokens instead of hardcoded values."
+    },
+    {
+      "name": "gpt-taste",
+      "path": "C:\\Users\\26014\\.codex\\skills\\gpt-tasteskill\\SKILL.md",
+      "source": "user-skills",
+      "markers": "triggers, trigger",
+      "description": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing."
+    },
+    {
+      "name": "gstack-openclaw-office-hours",
+      "path": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-office-hours\\SKILL.md",
+      "source": "user-skills",
+      "markers": "before any, do not invoke, hard gate",
+      "description": "Use when asked to brainstorm, evaluate whether an idea is worth building, run office hours, or think through a new product idea or design direction before any code is written."
+    },
+    {
+      "name": "gstack-openclaw-office-hours",
+      "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\openclaw\\skills\\gstack-openclaw-office-hours\\SKILL.md",
+      "source": "user-skills",
+      "markers": "before any, do not invoke, hard gate",
+      "description": "Use when asked to brainstorm, evaluate whether an idea is worth building, run office hours, or think through a new product idea or design direction before any code is written."
+    },
+    {
+      "name": "gstack-upgrade",
+      "path": "C:\\Users\\26014\\.codex\\skills\\gstack-upgrade\\SKILL.md",
+      "source": "user-skills",
+      "markers": "triggers, trigger",
+      "description": "Upgrade gstack to the latest version."
+    },
+    {
+      "name": "gstack-upgrade",
+      "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\gstack-upgrade\\SKILL.md",
+      "source": "user-skills",
+      "markers": "triggers, trigger",
+      "description": "Upgrade gstack to the latest version."
+    },
+    {
+      "name": "imagegen-frontend-web",
+      "path": "C:\\Users\\26014\\.codex\\skills\\imagegen-frontend-web\\SKILL.md",
+      "source": "user-skills",
+      "markers": "always",
+      "description": "Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections produces 8 images. Never compress multiple sections into one image. Enforces composition variety (not always left-text / right-image), background-image freedom, varied CTAs, varied hero scales (giant / mid / mini minimalist), narrative concept spine, second-read moments, and a single consistent palette across all images. Optimized for landing pages, marketing sites, and product comps that developers or coding models can accurately recreate."
+    },
+    {
+      "name": "investigation-mode",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\investigation-mode\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "triggers, trigger",
+      "description": "Orchestrated debugging coordinator. Triggers on frustration signals (stuck, hung, broken, waiting) and systematically triages: runtime logs → workflow status → browser verify → deploy/env. Reports findings at every step."
+    },
+    {
+      "name": "nextjs",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\nextjs\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "always",
+      "description": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Server Components, Server Actions, Cache Components, layouts, middleware/proxy, data fetching, rendering strategies, and deployment on Vercel."
+    },
+    {
+      "name": "observability",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\observability\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "always",
+      "description": "Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and monitoring dashboards. Use when instrumenting, debugging, or optimizing application performance and user experience on Vercel."
+    },
+    {
+      "name": "plan-tune",
+      "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\plan-tune\\SKILL.md",
+      "source": "user-skills",
+      "markers": "always",
+      "description": "Self-tuning question sensitivity + developer psychographic for gstack (v1: observational). (gstack)"
+    },
+    {
+      "name": "plan-tune",
+      "path": "C:\\Users\\26014\\.codex\\skills\\plan-tune\\SKILL.md",
+      "source": "user-skills",
+      "markers": "always",
+      "description": "Self-tuning question sensitivity + developer psychographic for gstack (v1: observational). (gstack)"
+    },
+    {
+      "name": "plugin-creator",
+      "path": "C:\\Users\\26014\\.codex\\skills\\.system\\plugin-creator\\SKILL.md",
+      "source": "user-skills",
+      "markers": "always",
+      "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, valid manifest defaults, and personal-marketplace entries by default. Use when Codex needs to create a new personal plugin, add optional plugin structure, generate or update marketplace entries for plugin ordering and availability metadata, or update an existing local plugin during development with the CLI-driven cachebuster and reinstall flow."
+    },
+    {
+      "name": "react-best-practices",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\react-best-practices\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "triggers, trigger",
+      "description": "React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality checklist covering component structure, hooks usage, accessibility, performance, and TypeScript patterns."
+    },
+    {
+      "name": "systematic-debugging",
+      "path": "C:\\Users\\26014\\.codex\\skills\\systematic-debugging\\SKILL.md",
+      "source": "user-skills",
+      "markers": "always",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
+    },
+    {
+      "name": "test-driven-development",
+      "path": "C:\\Users\\26014\\.codex\\skills\\test-driven-development\\SKILL.md",
+      "source": "user-skills",
+      "markers": "always, before writing",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code"
+    },
+    {
+      "name": "using-superpowers",
+      "path": "C:\\Users\\26014\\.codex\\skills\\using-superpowers\\SKILL.md",
+      "source": "user-skills",
+      "markers": "must use, before any",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions"
+    },
+    {
+      "name": "vercel-flags",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\vercel-flags\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "before writing",
+      "description": "Vercel Flags guidance — feature flags platform with unified dashboard, Flags Explorer, gradual rollouts, A/B testing, and provider adapters. Use when implementing feature flags, experimentation, or staged rollouts."
+    },
+    {
+      "name": "vercel-queues",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\vercel-queues\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "before writing",
+      "description": "Vercel Queues guidance (public beta) — durable event streaming with topics, consumer groups, retries, and delayed delivery. $0.60/1M ops. Powers Workflow DevKit. Use when building async processing, fan-out patterns, or event-driven architectures."
+    },
+    {
+      "name": "vercel-sandbox",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\vercel-sandbox\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "before writing",
+      "description": "Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code generation, and experimentation. Use when executing user-generated or AI-generated code in isolation."
+    },
+    {
+      "name": "verification",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\verification\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "triggers, trigger",
+      "description": "Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response. Triggers on dev server start and 'why isn't this working' signals."
+    },
+    {
+      "name": "verification-before-completion",
+      "path": "C:\\Users\\26014\\.codex\\skills\\verification-before-completion\\SKILL.md",
+      "source": "user-skills",
+      "markers": "always",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always"
+    },
+    {
+      "name": "workflow",
+      "path": "C:\\Users\\26014\\.codex\\plugins\\cache\\openai-curated\\vercel\\1f87561ac4dae225447336612b9304903921bb85\\skills\\workflow\\SKILL.md",
+      "source": "plugin-cache",
+      "markers": "before writing",
+      "description": "Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orchestration with Vercel Workflow."
+    }
+  ],
+  "topics": {
+    "armorhue": [
+      "armorhue-b2b-wholesale-funnel-architect",
+      "armorhue-catalog-workbook-quality-gate",
+      "armorhue-luxury-ecommerce-art-director",
+      "armorhue-no-slop-delivery-gate",
+      "armorhue-project-supervisor-delivery-gate",
+      "automotive-film-pdp-tds-builder",
+      "codex-thread-task-supervisor",
+      "email-to-motion",
+      "independent-site-visual-director",
+      "original-asset-production-pipeline",
+      "product-visual-pdp-consistency-auditor",
+      "sauto-layout-auditor",
+      "shopify-conversion-section-builder",
+      "site-mirror-rebuild-advisor",
+      "storefront-trust-compliance-cleanup-auditor",
+      "taste-skill-art-director"
+    ],
+    "shopify": [
+      "armorhue-b2b-wholesale-funnel-architect",
+      "armorhue-catalog-workbook-quality-gate",
+      "armorhue-luxury-ecommerce-art-director",
+      "armorhue-no-slop-delivery-gate",
+      "armorhue-project-supervisor-delivery-gate",
+      "audit",
+      "automotive-film-pdp-tds-builder",
+      "codex-thread-task-supervisor",
+      "competitor-site-reference-rebuilder",
+      "email-to-motion",
+      "end-to-end-quality-auditor",
+      "exact-visual-asset-director",
+      "geistdocs",
+      "gpt-image-2",
+      "image-first",
+      "independent-site-build-orchestrator",
+      "independent-site-visual-director",
+      "ncc",
+      "original-asset-production-pipeline",
+      "premium-commerce-motion-builder",
+      "product-visual-pdp-consistency-auditor",
+      "review-ugc-migration-operator",
+      "sauto-layout-auditor",
+      "shadcn",
+      "shopify-competitor-catalog-harvester",
+      "shopify-conversion-section-builder",
+      "site-mirror-rebuild-advisor",
+      "storefront-trust-compliance-cleanup-auditor",
+      "taste-skill-art-director",
+      "web-design-engineer"
+    ],
+    "visual_design": [
+      "Spreadsheets",
+      "agent-browser",
+      "agent-browser-verify",
+      "armorhue-b2b-wholesale-funnel-architect",
+      "armorhue-catalog-workbook-quality-gate",
+      "armorhue-luxury-ecommerce-art-director",
+      "armorhue-no-slop-delivery-gate",
+      "audit",
+      "autoplan",
+      "brainstorming",
+      "brandkit",
+      "browse",
+      "cms",
+      "competitor-site-reference-rebuilder",
+      "control-chrome",
+      "control-in-app-browser",
+      "design-consultation",
+      "design-html",
+      "design-review",
+      "design-shotgun",
+      "design-taste-frontend",
+      "design-taste-frontend-v1",
+      "documents",
+      "email-to-motion",
+      "end-to-end-quality-auditor",
+      "exact-visual-asset-director",
+      "figma-generate-design",
+      "geist",
+      "gh-fix-ci",
+      "gpt-image-2",
+      "gpt-taste",
+      "gstack",
+      "gstack-openclaw-office-hours",
+      "hatch-pet",
+      "high-end-visual-design",
+      "image-first",
+      "image-to-code",
+      "imagegen",
+      "imagegen-frontend-mobile",
+      "imagegen-frontend-web",
+      "impeccable",
+      "independent-site-build-orchestrator",
+      "independent-site-visual-director",
+      "industrial-brutalist-ui",
+      "ios-design-review",
+      "minimalist-ui",
+      "nextjs",
+      "office-hours",
+      "original-asset-production-pipeline",
+      "pdf",
+      "plan-design-review",
+      "plan-devex-review",
+      "playwright-interactive",
+      "premium-commerce-motion-builder",
+      "product-design",
+      "product-visual-pdp-consistency-auditor",
+      "redesign-existing-projects",
+      "reference-first-premium-web-rebuilder",
+      "review-ugc-migration-operator",
+      "satori",
+      "sauto-layout-auditor",
+      "shadcn",
+      "shopify-competitor-catalog-harvester",
+      "shopify-conversion-section-builder",
+      "stitch-design-taste",
+      "taste-skill-art-director",
+      "template-creator",
+      "ui-ux-pro-max",
+      "vercel-services",
+      "verification",
+      "visualize",
+      "web-design-engineer"
+    ],
+    "qa_browser": [
+      "Presentations",
+      "Spreadsheets",
+      "agent-browser",
+      "agent-browser-verify",
+      "android-emulator-qa",
+      "android-performance",
+      "armorhue-luxury-ecommerce-art-director",
+      "armorhue-no-slop-delivery-gate",
+      "armorhue-project-supervisor-delivery-gate",
+      "audit",
+      "browse",
+      "canary",
+      "competitor-site-reference-rebuilder",
+      "computer-use",
+      "control-chrome",
+      "control-in-app-browser",
+      "design-review",
+      "devex-review",
+      "documents",
+      "email-to-motion",
+      "end-to-end-quality-auditor",
+      "excel-live-control",
+      "finishing-a-development-branch",
+      "gpt-image-2",
+      "gstack",
+      "hatch-pet",
+      "image-first",
+      "impeccable",
+      "independent-site-build-orchestrator",
+      "independent-site-visual-director",
+      "investigation-mode",
+      "ios-clean",
+      "ios-design-review",
+      "ios-fix",
+      "ios-qa",
+      "land-and-deploy",
+      "marketplace",
+      "open-gstack-browser",
+      "pair-agent",
+      "pdf",
+      "playwright",
+      "playwright-interactive",
+      "product-design",
+      "qa",
+      "qa-only",
+      "receiving-code-review",
+      "reference-first-premium-web-rebuilder",
+      "requesting-code-review",
+      "sauto-layout-auditor",
+      "scrape",
+      "setup-browser-cookies",
+      "shopify-competitor-catalog-harvester",
+      "skillify",
+      "verification",
+      "web-design-engineer",
+      "writing-skills"
+    ],
+    "image_assets": [
+      "ai-gateway",
+      "ai-generation-persistence",
+      "ai-sdk",
+      "armorhue-catalog-workbook-quality-gate",
+      "armorhue-luxury-ecommerce-art-director",
+      "armorhue-no-slop-delivery-gate",
+      "audit",
+      "brandkit",
+      "competitor-site-reference-rebuilder",
+      "end-to-end-quality-auditor",
+      "exact-visual-asset-director",
+      "gpt-image-2",
+      "gpt-taste",
+      "hatch-pet",
+      "image-first",
+      "image-to-code",
+      "imagegen",
+      "imagegen-frontend-mobile",
+      "imagegen-frontend-web",
+      "independent-site-visual-director",
+      "json-render",
+      "original-asset-production-pipeline",
+      "product-visual-pdp-consistency-auditor",
+      "satori",
+      "setup-deploy",
+      "shopify-competitor-catalog-harvester",
+      "shopify-conversion-section-builder",
+      "site-mirror-rebuild-advisor",
+      "storefront-trust-compliance-cleanup-auditor",
+      "template-creator"
+    ],
+    "planning_review": [
+      "android-emulator-qa",
+      "armorhue-catalog-workbook-quality-gate",
+      "armorhue-no-slop-delivery-gate",
+      "armorhue-project-supervisor-delivery-gate",
+      "audit",
+      "automotive-film-pdp-tds-builder",
+      "autoplan",
+      "brainstorming",
+      "cms",
+      "codex",
+      "competitor-site-reference-rebuilder",
+      "control-chrome",
+      "control-in-app-browser",
+      "deployments-cicd",
+      "design-consultation",
+      "design-html",
+      "design-review",
+      "design-shotgun",
+      "devex-review",
+      "dispatching-parallel-agents",
+      "document-generate",
+      "document-release",
+      "email-to-motion",
+      "end-to-end-quality-auditor",
+      "env-vars",
+      "exact-visual-asset-director",
+      "excel-live-control",
+      "executing-plans",
+      "freeze",
+      "gh-address-comments",
+      "gh-fix-ci",
+      "github",
+      "gpt-image-2",
+      "gstack-openclaw-ceo-review",
+      "gstack-openclaw-office-hours",
+      "gstack-openclaw-retro",
+      "guard",
+      "hatch-pet",
+      "image-to-code",
+      "impeccable",
+      "independent-site-build-orchestrator",
+      "independent-site-visual-director",
+      "ios-design-review",
+      "learn",
+      "office-hours",
+      "openai-docs",
+      "original-asset-production-pipeline",
+      "pdf",
+      "plan-ceo-review",
+      "plan-design-review",
+      "plan-devex-review",
+      "plan-eng-review",
+      "plan-tune",
+      "premium-commerce-motion-builder",
+      "product-visual-pdp-consistency-auditor",
+      "react-best-practices",
+      "receiving-code-review",
+      "remotion-best-practices",
+      "requesting-code-review",
+      "retro",
+      "review",
+      "review-agent",
+      "review-ugc-migration-operator",
+      "routing-middleware",
+      "ship",
+      "shopify-competitor-catalog-harvester",
+      "shopify-conversion-section-builder",
+      "site-mirror-rebuild-advisor",
+      "skill-creator",
+      "spec",
+      "storefront-trust-compliance-cleanup-auditor",
+      "subagent-driven-development",
+      "using-git-worktrees",
+      "using-superpowers",
+      "v0-dev",
+      "vercel-agent",
+      "visualize",
+      "writing-plans"
+    ],
+    "debugging": [
+      "android-emulator-qa",
+      "android-performance",
+      "canary",
+      "careful",
+      "cron-jobs",
+      "freeze",
+      "gh-fix-ci",
+      "gstack",
+      "gstack-openclaw-investigate",
+      "guard",
+      "investigate",
+      "investigation-mode",
+      "ios-clean",
+      "ios-fix",
+      "ios-sync",
+      "nextjs",
+      "observability",
+      "playwright",
+      "playwright-interactive",
+      "qa",
+      "qa-only",
+      "systematic-debugging",
+      "test-driven-development",
+      "turbopack",
+      "v0-dev",
+      "vercel-agent",
+      "vercel-functions",
+      "verification"
+    ],
+    "deployment": [
+      "ai-gateway",
+      "ai-sdk",
+      "armorhue-luxury-ecommerce-art-director",
+      "auth",
+      "bootstrap",
+      "canary",
+      "chat-sdk",
+      "cms",
+      "cron-jobs",
+      "deployments-cicd",
+      "design-taste-frontend",
+      "document-release",
+      "email",
+      "env-vars",
+      "geist",
+      "geistdocs",
+      "gstack-openclaw-ceo-review",
+      "gstack-openclaw-retro",
+      "investigation-mode",
+      "ios-fix",
+      "land-and-deploy",
+      "landing-report",
+      "marketplace",
+      "micro",
+      "ncc",
+      "next-forge",
+      "nextjs",
+      "observability",
+      "payments",
+      "playwright-interactive",
+      "product-visual-pdp-consistency-auditor",
+      "routing-middleware",
+      "runtime-cache",
+      "satori",
+      "setup-deploy",
+      "ship",
+      "sign-in-with-vercel",
+      "spec",
+      "swr",
+      "turbopack",
+      "turborepo",
+      "v0-dev",
+      "vercel-agent",
+      "vercel-api",
+      "vercel-cli",
+      "vercel-firewall",
+      "vercel-flags",
+      "vercel-functions",
+      "vercel-queues",
+      "vercel-sandbox",
+      "vercel-services",
+      "vercel-storage",
+      "workflow",
+      "writing-skills"
+    ]
+  },
+  "cleanup_policy": [
+    "Do not delete skills automatically.",
+    "Prefer root-level user skill paths over mirrored gstack subpaths when names are identical.",
+    "Use explicit task routing for overlapping design, QA, image, Shopify, and ArmorHue skills.",
+    "Strong-gate skills should be treated as process gates, not domain specialists.",
+    "Archive duplicates only after checking current references and one full successful run."
+  ]
+}

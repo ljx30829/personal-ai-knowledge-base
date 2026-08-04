@@ -1,11 +1,21 @@
 # Knowledge Vault Task State
 
-## 2026-08-04 Initial Build
+## 2026-08-04 Local Acceptance
 
-- STATUS: `IN_PROGRESS`.
+- STATUS: `LOCAL_PASS_REMOTE_PENDING`.
 - GOAL: Build a private, zero-subscription, cross-device Markdown knowledge base for the user's Codex work and long-term requirements.
-- COMPLETED: Design and implementation plan committed locally.
-- IN_PROGRESS: Root navigation, AI entry points, safety rules, templates, inventories, and topic distillation.
+- COMPLETED: Root navigation, Codex and vendor-neutral AI entry points, safety rules, templates, skills/requirements inventory, workspace/automation/skill catalogs, seven domain knowledge pages, five project handoffs, and the first Douyin source card.
+- COVERAGE: Foreign trade, ArmorHue, Shopify/independent sites, Yufeng, relay/node operations, skills, automations, self-media, content distillation, customer-first research, and portable AI workflow.
+- VERIFICATION: Vault tests `12/12 PASS`; existing skills inventory tests `5/5 PASS`; validator `scanned_files=39 errors=0 warnings=0`; `git diff --check` clean.
+- INVENTORY: `251` skills, `1569` requirement entries, `186` local skill definitions, `10` automation directories, and `6` tracked workspaces.
 - REMOTE: `NOT_CREATED`; no GitHub repository or Pages site has been created.
-- SAFETY: No passwords, tokens, cookies, API keys, browser profiles, mailbox contents, or raw customer-sensitive records may be imported.
-- NEXT: Complete local validation, review the repository name/owner/private setting, then create and verify the private GitHub remote.
+- SAFETY: No passwords, tokens, cookies, API keys, browser profiles, mailbox contents, or raw customer-sensitive records were intentionally imported. Generated automation inventory excludes prompts and memory bodies.
+- CURRENT VIEW: Open `README.md` or `KNOWLEDGE_INDEX.md` in this folder. After private GitHub creation, the authenticated repository page becomes the cross-device view.
+- NEXT: Confirm the GitHub owner, repository name, and `Private` visibility; create the remote without Pages; push `master`; read back privacy and files while authenticated.
+
+## Source Truth
+
+- Durable reusable methods live under `knowledge/`.
+- Dated operating state and resume instructions live under `projects/`.
+- Large artifacts and sensitive operational records stay in their original workspaces.
+- Relay/node status is historical and requires live revalidation; AI Global Trade OS is local-only and has an existing dirty worktree that must be preserved.

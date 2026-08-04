@@ -10,6 +10,8 @@ next_review: 2026-09-04
 
 # 跨设备 AI 大脑
 
+另一台电脑的首次克隆、日常同步、冲突处理、AI 仓库授权和秘密泄露响应见 [Private GitHub 跨设备同步与 AI 使用指南](git-cross-device-guide.md)。技能、自动化和原项目工作区还需按各自迁移指南单独恢复。
+
 ## 实际方案
 
 知识的唯一标准格式是普通 Markdown，私有 GitHub 仓库负责保存和跨设备同步：

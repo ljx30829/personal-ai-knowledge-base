@@ -10,6 +10,8 @@ next_review: 2026-08-11
 
 # 外贸运营
 
+真实脚本入口、CSV 字段、SMTP 探测、预演/实发命令、发后复核和跨设备恢复见 [ArmorHue 外贸线索、邮件与监督执行手册](foreign-trade-execution-runbook.md)。
+
 ## 可复用流程
 
 1. 从公开官方业务来源发现潜在企业，记录公司、官网、业务适配、公开联系入口和证据日期。
@@ -33,12 +35,13 @@ next_review: 2026-08-11
 - 社交队列必须包含明确平台、账号、目标和动作类型，并在操作时取得授权；准备 100 条不等于执行 100 次。
 - 登录墙、验证码、429、异常安全提示、设备或账号风险信号出现时立即停止。
 
-## 2026-08-02 ArmorHue 快照
+## 2026-08-04 ArmorHue 快照
 
-- 发现：`WATCH_NO_SEND_DISCOVERY_ONLY`，12 个种子中接受 8 个去重 A 级机会，只做准备。
-- 发送：`BLOCKED_NO_SEND`，当日真实发送 0；需要启用 Zoho IMAP/POP 或完成 day42 之后的人工 Zoho Webmail 风险复核。
-- 历史计数：截至 2026-08-01 监督报告，42 个主发送日志中有 299 条精确 `Sent`、296 个唯一已发送邮箱；这是带日期的历史快照，不代表现在还能继续发送。
-- 社交：2026-08-01 队列 100 条全部需要人工复核，`Ready-manual=0`，动作日志 0。
+- 发现：`WATCH_NO_SEND_DISCOVERY_ONLY`，接受 10 个机会，A=7、B=3；发现流程发送 0。
+- 当日 sender：day44 日志记录 12 个精确 `Sent`、0 Failed、0 Ready。
+- 历史计数：44 个主发送日志中有 311 条精确 `Sent`、308 个唯一已发送邮箱；这是带日期快照，不代表下一批可继续发送。
+- supervisor：Zoho IMAP 仍不可用，下一批为 `BLOCKED_NO_SEND`，直到完成 day44 之后的人工 Zoho Webmail 风险复核或恢复 IMAP/POP。
+- 社交：100 行全部需要人工复核，动作日志 0。
 
 ## 未知项
 
@@ -48,7 +51,6 @@ next_review: 2026-08-11
 ## 来源与证据
 
 - `D:\codex\TASK_STATE.md`
-- `D:\codex\output\armorhue-b2b-leadgen-run-20260605\automation-health-20260802-b2b-send-blocked.md`
-- `D:\codex\output\armorhue-b2b-leadgen-run-20260605\automation-health-20260802-discovery.md`
-- `D:\codex\output\armorhue-b2b-leadgen-run-20260605\automation-health-20260801.md`
-
+- `D:\codex\output\armorhue-b2b-leadgen-run-20260605\automation-health-20260804.md`
+- `D:\codex\output\armorhue-b2b-leadgen-run-20260605\automation-health-20260804-b2b-send.md`
+- `D:\codex\output\armorhue-b2b-leadgen-run-20260605\automation-health-20260804-discovery.md`

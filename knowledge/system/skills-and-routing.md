@@ -29,6 +29,8 @@ next_review: 2026-09-04
 
 完整数据见 [Codex 技能清单](../../sources/codex-inventory/codex-inventory.md) 和 [重复与路由报告](../../sources/codex-inventory/codex-skill-organization.md)。
 
+清单只说明技能存在。要让另一台电脑的 Codex 实际加载技能正文、脚本、模板和资产，按 [Codex 技能跨设备迁移指南](skills-portability-guide.md) 先做只读估算，再经用户确认导出和安装。
+
 ## 任务路由
 
 | 任务 | 首选技能 | 完成前检查 |
@@ -63,4 +65,3 @@ next_review: 2026-09-04
 - `sources/codex-inventory/codex-inventory.json`
 - `sources/codex-inventory/codex-skill-organization.json`
 - `C:\Users\26014\Documents\技能\codex_inventory.py`
-

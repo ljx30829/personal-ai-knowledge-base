@@ -10,6 +10,8 @@ next_review: 2026-08-18
 
 # 独立站与 Shopify
 
+具体的登录方式、主题 CLI、Admin API、Storefront API、权限、验证与发布关卡见 [Shopify 接入与验证指南](shopify-connection-guide.md)。
+
 ## 固定工作顺序
 
 1. 读本地 `AGENTS.md`、`TASK_STATE.md`、`IMAGE_WORKFLOW.md` 和 `PROMOTION_WORKFLOW.md`。
@@ -50,4 +52,6 @@ next_review: 2026-08-18
 - `D:\codex\IMAGE_WORKFLOW.md`
 - `D:\codex\PROMOTION_WORKFLOW.md`
 - `D:\codex\TASK_STATE.md`
-
+- [Shopify CLI 官方文档](https://shopify.dev/docs/storefronts/themes/tools/cli)
+- [Shopify Admin GraphQL API](https://shopify.dev/docs/api/admin-graphql/2026-04)
+- [Shopify Storefront GraphQL API](https://shopify.dev/docs/api/storefront/2026-04)

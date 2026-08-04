@@ -10,6 +10,8 @@ next_review: 2026-08-11
 
 # 中转站与节点运维
 
+具体的 v2rayN 导入/手工字段、VPS 与住宅出口分层、切换步骤、验证命令和故障矩阵见 [v2rayN 节点配置与出口验证指南](node-configuration-guide.md)。New API 的启动器、Docker/origin/Cloudflare/模型路由分层和跨主机恢复见 [New API 中转站配置与恢复指南](relay-configuration-guide.md)。
+
 ## 当前证据状态
 
 - `C:\Users\26014\Documents\中转站` 和 `C:\Users\26014\Documents\节点` 当前只有隐藏配置或 Git 元数据，没有可见状态文件。
@@ -51,4 +53,4 @@ next_review: 2026-08-11
 
 - `C:\Users\26014\.codex\memories\MEMORY.md` 中的 New API 恢复与 v2rayN 历史条目。
 - [工作区机器清单](../../sources/inventory/workspaces.json)
-
+- [v2rayN 节点配置与出口验证指南](node-configuration-guide.md)

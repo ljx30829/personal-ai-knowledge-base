@@ -10,6 +10,8 @@ next_review: 2026-08-18
 
 # 自媒体运营
 
+账号准备、JSON/媒体导入、本地 Whisper 转写、覆盖审计、账号蒸馏和本地搜索的具体命令见 [自媒体账号采集、转写与知识蒸馏运行手册](self-media-distillation-runbook.md)。
+
 ## 内容生产闭环
 
 1. 先定义具体商业身份和目标受众，不以“AI 很新”作为内容定位。
@@ -49,4 +51,3 @@ next_review: 2026-08-18
 - `C:\Users\26014\Documents\自媒体运营\TASK_STATE.md`
 - `C:\Users\26014\Documents\自媒体运营\accounts\benchmarks\fine-editing-candidates\references\user_reference_batch_2026-07-20`
 - `C:\Users\26014\Documents\自媒体运营\docs\cross-platform-viral-product-selection-knowledge-base-2026-07-13.md`
-

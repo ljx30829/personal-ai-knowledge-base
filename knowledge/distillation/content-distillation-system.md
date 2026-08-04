@@ -10,6 +10,8 @@ next_review: 2026-08-18
 
 # 内容蒸馏系统
 
+当前 `account_knowledge_distiller` 的逐步命令、Whisper 路径、验证和跨设备恢复见 [自媒体账号采集、转写与知识蒸馏运行手册](../media/self-media-distillation-runbook.md)。
+
 ## 证据层级
 
 从弱到强记录，不跨级冒充：
@@ -55,4 +57,3 @@ next_review: 2026-08-18
 - `C:\Users\26014\Documents\自媒体运营\README.md`
 - `C:\Users\26014\Documents\自媒体运营\src\account_knowledge_distiller`
 - `C:\Users\26014\Documents\自媒体运营\tests`
-

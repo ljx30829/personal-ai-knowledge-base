@@ -10,6 +10,8 @@ next_review: 2026-09-04
 
 # 工作区地图
 
+本页是路径索引，不是项目备份。独立 Private 仓库、Codex task pack、审阅归档以及目标电脑恢复步骤见 [项目工作区跨设备迁移指南](workspace-portability-guide.md)。
+
 ## 当前工作区
 
 | 名称 | 原始路径 | 状态 | 首要入口 |
@@ -47,4 +49,3 @@ next_review: 2026-09-04
 
 - [工作区机器清单](../../sources/inventory/workspaces.json)
 - [技能路径清单](../../sources/inventory/skills.json)
-

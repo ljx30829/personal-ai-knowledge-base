@@ -3,10 +3,10 @@
 ## 结论
 
 - 本地知识库：`PASS`。
-- GitHub 跨设备同步：`WATCH / NOT_CREATED`。
-- 总体：`LOCAL_PASS_REMOTE_PENDING`。
+- GitHub 跨设备同步：`PASS / PRIVATE_REMOTE_VERIFIED`。
+- 总体：`PASS`。
 
-本地文件、导航、结构、测试和安全扫描已通过。由于远程私有仓库尚未创建，当前不能声称另一台电脑或其他 AI 已能访问。
+本地文件、导航、结构、测试和安全扫描已通过。私有仓库已创建并推送 `master`；登录状态下已回读 `Private` 标识、根文件和导航。GitHub Pages 设置页确认当前私有免费仓库未启用 Pages。
 
 ## 内容统计
 
@@ -33,7 +33,9 @@
 | 技能清单工具测试 | `5/5 PASS` |
 | `python scripts/validate_vault.py .` | `scanned_files=39 errors=0 warnings=0` |
 | `git diff --check` | `PASS` |
-| 本地 Git 历史 | 本验收提交前已有 8 个构建提交 |
+| 本地 Git 历史 | 本报告远程状态更新前已有 9 个提交 |
+| 私有 GitHub 仓库 | `ljx30829/personal-ai-knowledge-base`，`master` 和根文件已回读 |
+| GitHub Pages | 未启用；设置页显示私有仓库需升级或改为公开才能启用 |
 
 校验器检查必要根文件、来源卡元数据、本地 Markdown 断链、UTF-8 文本和常见疑似密钥赋值。目录生成器测试证明它不会导入环境变量、隐藏凭据文件、自动化提示正文、自动化记忆正文或技能正文。
 
@@ -48,20 +50,21 @@
 | 自动化 | `sources/inventory/automations.json`、自动化目录页 | `PASS`，业务健康需看日期证据 |
 | 自媒体与蒸馏 | `knowledge/media/`、`knowledge/distillation/`、项目页 | `PASS` |
 | 客户优先选品 | `knowledge/commerce/`、独立站研究项目页 | `PASS` |
-| 跨设备 AI 大脑 | `knowledge/ai-workflows/portable-ai-brain.md` | `WATCH`，等待私有远程 |
+| 跨设备 AI 大脑 | `knowledge/ai-workflows/portable-ai-brain.md` | `PASS`，私有远程已验证；各 AI 仍需单独授权 |
 | 视频来源 | `sources/videos/douyin-7655909545654950769.md` | `PASS`，效果主张未独立验证 |
 
 ## 安全边界
 
-- 未来 GitHub 仓库必须是 `Private`，不得启用 GitHub Pages。
+- GitHub 仓库已验证为 `Private`，GitHub Pages 未启用；后续必须保持这一状态。
 - 不提交密码、令牌、Cookie、密钥、浏览器资料、邮箱正文或原始客户敏感记录。
 - 中转站/节点只保存非秘密架构与排障方法；现行服务状态标为过期待复核。
 - 大型日志、CSV、视频、图片、压缩包和源代码保留在原工作区。
 
-## 远程待办
+## 远程验收
 
-1. 确认 GitHub owner。
-2. 确认仓库名，当前建议 `personal-ai-knowledge-base`。
-3. 创建为 `Private`，不启用 Pages。
-4. 添加不含凭据的 HTTPS remote 并推送 `master`。
-5. 在登录状态下回读仓库可见性、根文件和导航。
+1. Owner：`ljx30829`。
+2. 仓库：`personal-ai-knowledge-base`。
+3. 可见性：`Private`。
+4. 分支：`master` 已推送并设置为本地跟踪分支。
+5. 登录状态下已回读根文件、知识目录、项目目录和 README。
+6. GitHub Pages 未启用。

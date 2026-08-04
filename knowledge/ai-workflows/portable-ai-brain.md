@@ -20,6 +20,8 @@ next_review: 2026-09-04
 
 不需要付费知识库、常驻电脑、数据库、向量库、本地模型或公开网页。Obsidian 可以作为阅读和编辑界面，但不是同步和 AI 授权层。
 
+当前私有远程为 [ljx30829/personal-ai-knowledge-base](https://github.com/ljx30829/personal-ai-knowledge-base)，`master` 已推送并完成登录状态下的隐私与文件回读。
+
 ## 三类入口
 
 - 人工查看：打开 [知识导航](../../KNOWLEDGE_INDEX.md)。
@@ -90,7 +92,6 @@ next_review: 2026-09-04
 
 ## 未知项
 
-- 远程 GitHub 仓库尚未创建，因此跨设备访问尚未完成。
 - 不同 AI 对私有 GitHub 的连接能力和权限模型不同，需要逐个平台确认。
 
 ## 来源与证据

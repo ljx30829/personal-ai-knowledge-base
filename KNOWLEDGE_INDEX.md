@@ -17,7 +17,7 @@
 - [自媒体运营](knowledge/media/self-media-operations.md)
 - [内容蒸馏系统](knowledge/distillation/content-distillation-system.md)
 - [客户优先选品研究](knowledge/commerce/customer-first-product-research.md)
-- 跨设备 AI 大脑：`knowledge/ai-workflows/portable-ai-brain.md`
+- [跨设备 AI 大脑](knowledge/ai-workflows/portable-ai-brain.md)
 
 ## 项目交接
 
@@ -31,6 +31,6 @@
 
 - `sources/codex-inventory/`：全部技能和用户要求的生成清单。
 - `sources/inventory/`：工作区、技能和自动化的机器可读目录。
-- `sources/videos/`：视频来源卡。
+- [视频来源卡：自动化 AI 大脑](sources/videos/douyin-7655909545654950769.md)
 
-跨设备 AI 大脑和视频来源卡将在下一批创建；最终验收不允许断链。
+最终验收不允许断链。

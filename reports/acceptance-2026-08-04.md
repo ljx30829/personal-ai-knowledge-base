@@ -2,11 +2,11 @@
 
 ## 结论
 
-- 本地补齐草稿：`REVIEW_APPROVED / PACKAGED_LOCAL`。
-- GitHub 跨设备同步：`PRIVATE_REMOTE_VERIFIED_PREVIOUS_SNAPSHOT`。
-- 总体：`PASS / PACKAGE_BUILT_LOCAL`。
+- 本地知识包：`REVIEW_APPROVED / PACKAGED_LOCAL`。
+- GitHub 跨设备同步：`PRIVATE_REMOTE_VERIFIED_CURRENT`。
+- 总体：`PASS / PACKAGED_AND_SYNCED_PRIVATE`。
 
-本地文件、导航、结构、测试和安全扫描已通过。私有仓库此前已创建并推送 `master`；登录状态下已回读 `Private` 标识、根文件和导航，GitHub Pages 未启用。用户已于 2026-08-04 批准打包；本地包已生成，本轮改动仍未提交或推送。
+本地文件、导航、结构、测试和安全扫描已通过。用户已于 2026-08-04 批准打包；本地包已生成。知识库核心内容已通过提交 `b4e8686` 推送到私有仓库 `master`；登录状态下此前已回读 `Private` 标识、根文件和导航，GitHub Pages 未启用。压缩包及完整便携技能包未提交到 Git。
 
 ## 内容统计
 
@@ -39,7 +39,7 @@
 | 技能导出 dry-run | `2468` 文件、`251` 技能、`108369128` bytes；未创建包 |
 | 实际技能包 | `2468/2468` manifest 验证通过，包含 `251` 个技能 |
 | 总包解压验证 | `2529/2529` 清单条目，`missing=0`、`hash_mismatch=0` |
-| 本地 Git 历史 | 本报告远程状态更新前已有 9 个提交 |
+| 本地 Git 历史 | 核心内容提交 `b4e8686` 已推送，随后补充远程状态记录 |
 | 私有 GitHub 仓库 | `ljx30829/personal-ai-knowledge-base`，`master` 和根文件已回读 |
 | GitHub Pages | 未启用；设置页显示私有仓库需升级或改为公开才能启用 |
 
@@ -56,7 +56,7 @@
 | 自动化 | `sources/inventory/automations.json`、自动化目录与重建指南 | `PASS_SPEC`，业务健康需看日期证据 |
 | 自媒体与蒸馏 | `knowledge/media/`、`knowledge/distillation/`、项目页 | `PASS_LOCAL_CLI` |
 | 客户优先选品 | `knowledge/commerce/`、独立站研究项目页 | `PASS_METHOD / NO_PRODUCT_SELECTED` |
-| 跨设备 AI 大脑 | `knowledge/ai-workflows/` | `PASS`，私有远程上一版已验证；各 AI 仍需单独授权 |
+| 跨设备 AI 大脑 | `knowledge/ai-workflows/` | `PASS`，当前知识库已同步到私有远程；各 AI 仍需单独授权 |
 | 视频来源 | `sources/videos/douyin-7655909545654950769.md` | `PASS`，效果主张未独立验证 |
 
 ## 安全边界

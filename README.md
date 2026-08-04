@@ -31,7 +31,7 @@
 ## 审阅与打包
 
 - [完整知识与要求审阅稿](reports/full-knowledge-requirements-review-2026-08-04.md)：打包前逐项确认长期要求、知识、项目、技能、自动化和工作区范围。
-- 当前状态：`PACKAGE_BUILT_LOCAL`。用户已于 2026-08-04 确认打包；本地总包位于 `D:\codex\output\personal-ai-knowledge-package-20260804-230623.zip`，本轮改动尚未提交或推送。
+- 当前状态：`PASS_PACKAGED_AND_SYNCED_PRIVATE`。用户已于 2026-08-04 确认打包；本地总包位于 `D:\codex\output\personal-ai-knowledge-package-20260804-230623.zip`，知识库核心内容已通过提交 `b4e8686` 推送到私有远端 `master`。压缩包未提交到 Git。
 
 Windows 解压时建议使用 `D:\AIKB` 之类的短路径。插件缓存包含较深目录，解压到长用户名/多层目录时可能触发旧版 Windows 260 字符限制。
 

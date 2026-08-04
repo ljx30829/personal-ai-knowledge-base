@@ -1,0 +1,118 @@
+[
+  {
+    "name": "ArmorHue B2B daily email sender",
+    "path": "C:\\Users\\26014\\.codex\\automations\\armorhue-b2b",
+    "updated": "2026-07-18T14:14:27.315248+00:00",
+    "status": "ACTIVE",
+    "evidence_files": [
+      "automation.toml"
+    ],
+    "rrule": "FREQ=DAILY;BYHOUR=21;BYMINUTE=30;BYSECOND=0",
+    "cwds": [
+      "D:\\codex"
+    ]
+  },
+  {
+    "name": "ArmorHue B2B daily lead discovery",
+    "path": "C:\\Users\\26014\\.codex\\automations\\armorhue-b2b-2",
+    "updated": "2026-07-18T14:14:27.321250+00:00",
+    "status": "ACTIVE",
+    "evidence_files": [
+      "automation.toml"
+    ],
+    "rrule": "FREQ=DAILY;BYHOUR=19;BYMINUTE=30;BYSECOND=0",
+    "cwds": [
+      "D:\\codex"
+    ]
+  },
+  {
+    "name": "ArmorHue B2B daily supervisor",
+    "path": "C:\\Users\\26014\\.codex\\automations\\armorhue-b2b-3",
+    "updated": "2026-07-18T14:14:27.327247+00:00",
+    "status": "ACTIVE",
+    "evidence_files": [
+      "automation.toml"
+    ],
+    "rrule": "FREQ=DAILY;BYHOUR=22;BYMINUTE=20;BYSECOND=0",
+    "cwds": [
+      "D:\\codex"
+    ]
+  },
+  {
+    "name": "ArmorHue TikTok/IG/FB/WhatsApp 100 touchpoint execution queue",
+    "path": "C:\\Users\\26014\\.codex\\automations\\armorhue-c-whatsapp",
+    "updated": "2026-07-18T14:14:27.333246+00:00",
+    "status": "ACTIVE",
+    "evidence_files": [
+      "automation.toml"
+    ],
+    "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA;BYHOUR=18;BYMINUTE=40;BYSECOND=0",
+    "cwds": [
+      "D:\\codex"
+    ]
+  },
+  {
+    "name": "ArmorHue Daily SEO Traffic Monitor",
+    "path": "C:\\Users\\26014\\.codex\\automations\\armorhue-seo",
+    "updated": "2026-07-18T14:14:27.338246+00:00",
+    "status": "ACTIVE",
+    "evidence_files": [
+      "automation.toml"
+    ],
+    "rrule": "FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0",
+    "cwds": [
+      "D:\\codex"
+    ]
+  },
+  {
+    "name": "监督 Yufeng P18 线程",
+    "path": "C:\\Users\\26014\\.codex\\automations\\claude-p17",
+    "updated": "2026-07-18T14:14:27.344246+00:00",
+    "status": "PAUSED",
+    "evidence_files": [
+      "automation.toml"
+    ],
+    "rrule": "FREQ=MINUTELY;INTERVAL=30",
+    "cwds": [
+      "D:\\codex"
+    ]
+  },
+  {
+    "name": "memory-writing-agent-phase-2",
+    "path": "C:\\Users\\26014\\.codex\\automations\\memory-writing-agent-phase-2",
+    "updated": "2026-06-12T15:17:16.060916+00:00",
+    "status": "METADATA_MISSING",
+    "evidence_files": [],
+    "rrule": null,
+    "cwds": []
+  },
+  {
+    "name": "memory-writing-agent-phase2",
+    "path": "C:\\Users\\26014\\.codex\\automations\\memory-writing-agent-phase2",
+    "updated": "2026-07-12T01:43:53.780354+00:00",
+    "status": "METADATA_MISSING",
+    "evidence_files": [],
+    "rrule": null,
+    "cwds": []
+  },
+  {
+    "name": "phase2-memory-writing-agent",
+    "path": "C:\\Users\\26014\\.codex\\automations\\phase2-memory-writing-agent",
+    "updated": "2026-06-22T13:37:11.870861+00:00",
+    "status": "METADATA_MISSING",
+    "evidence_files": [],
+    "rrule": null,
+    "cwds": []
+  },
+  {
+    "name": "UUMit 统一巡航",
+    "path": "C:\\Users\\26014\\.codex\\automations\\uumit",
+    "updated": "2026-06-07T10:39:23.505132+00:00",
+    "status": "PAUSED",
+    "evidence_files": [
+      "automation.toml"
+    ],
+    "rrule": "FREQ=MINUTELY;INTERVAL=5",
+    "cwds": []
+  }
+]

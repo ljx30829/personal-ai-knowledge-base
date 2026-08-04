@@ -1,0 +1,57 @@
+[
+  {
+    "name": "armorhue-and-trade",
+    "path": "D:\\codex",
+    "updated": "2026-08-02T13:37:22.329977+00:00",
+    "status": "ACTIVE",
+    "evidence_files": [
+      "AGENTS.md",
+      "TASK_STATE.md",
+      "IMAGE_WORKFLOW.md",
+      "PROMOTION_WORKFLOW.md"
+    ]
+  },
+  {
+    "name": "independent-site-research",
+    "path": "C:\\Users\\26014\\Documents\\独立站",
+    "updated": "2026-08-04T09:10:25.240698+00:00",
+    "status": "ACTIVE",
+    "evidence_files": [
+      "TASK_STATE.md"
+    ]
+  },
+  {
+    "name": "relay",
+    "path": "C:\\Users\\26014\\Documents\\中转站",
+    "updated": "2026-07-30T14:55:47.844908+00:00",
+    "status": "CONFIG_ONLY",
+    "evidence_files": []
+  },
+  {
+    "name": "nodes",
+    "path": "C:\\Users\\26014\\Documents\\节点",
+    "updated": "2026-07-09T10:20:28.766330+00:00",
+    "status": "CONFIG_ONLY",
+    "evidence_files": []
+  },
+  {
+    "name": "self-media",
+    "path": "C:\\Users\\26014\\Documents\\自媒体运营",
+    "updated": "2026-07-22T12:34:28.341878+00:00",
+    "status": "ACTIVE",
+    "evidence_files": [
+      "TASK_STATE.md",
+      "README.md"
+    ]
+  },
+  {
+    "name": "skill-inventory",
+    "path": "C:\\Users\\26014\\Documents\\技能",
+    "updated": "2026-07-10T21:13:05.582660+00:00",
+    "status": "ACTIVE",
+    "evidence_files": [
+      "TASK_STATE.md",
+      "README.md"
+    ]
+  }
+]

@@ -1,0 +1,1676 @@
+[
+  {
+    "name": "imagegen",
+    "path": "C:\\Users\\26014\\.codex\\skills\\.system\\imagegen",
+    "updated": "2026-07-18T14:15:01.090321+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "openai-docs",
+    "path": "C:\\Users\\26014\\.codex\\skills\\.system\\openai-docs",
+    "updated": "2026-07-18T14:15:01.100322+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "plugin-creator",
+    "path": "C:\\Users\\26014\\.codex\\skills\\.system\\plugin-creator",
+    "updated": "2026-07-18T14:15:01.109322+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "review-agent",
+    "path": "C:\\Users\\26014\\.codex\\skills\\.system\\review-agent",
+    "updated": "2026-07-18T14:15:01.118323+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "skill-creator",
+    "path": "C:\\Users\\26014\\.codex\\skills\\.system\\skill-creator",
+    "updated": "2026-07-18T14:15:01.120323+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "skill-installer",
+    "path": "C:\\Users\\26014\\.codex\\skills\\.system\\skill-installer",
+    "updated": "2026-07-18T14:15:01.128932+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "armorhue-b2b-wholesale-funnel-architect",
+    "path": "C:\\Users\\26014\\.codex\\skills\\armorhue-b2b-wholesale-funnel-architect",
+    "updated": "2026-05-20T01:47:43.298925+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "armorhue-catalog-workbook-quality-gate",
+    "path": "C:\\Users\\26014\\.codex\\skills\\armorhue-catalog-workbook-quality-gate",
+    "updated": "2026-06-02T02:37:46.322841+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "armorhue-luxury-ecommerce-art-director",
+    "path": "C:\\Users\\26014\\.codex\\skills\\armorhue-luxury-ecommerce-art-director",
+    "updated": "2026-05-20T07:03:00.514810+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "armorhue-no-slop-delivery-gate",
+    "path": "C:\\Users\\26014\\.codex\\skills\\armorhue-no-slop-delivery-gate",
+    "updated": "2026-05-20T07:03:00.512810+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "armorhue-project-supervisor-delivery-gate",
+    "path": "C:\\Users\\26014\\.codex\\skills\\armorhue-project-supervisor-delivery-gate",
+    "updated": "2026-06-02T03:15:23.123389+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "audit",
+    "path": "C:\\Users\\26014\\.codex\\skills\\audit",
+    "updated": "2026-07-10T11:39:19.529203+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "automotive-film-pdp-tds-builder",
+    "path": "C:\\Users\\26014\\.codex\\skills\\automotive-film-pdp-tds-builder",
+    "updated": "2026-05-20T01:49:50.631002+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "autoplan",
+    "path": "C:\\Users\\26014\\.codex\\skills\\autoplan",
+    "updated": "2026-06-21T07:21:54.453101+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "benchmark-models",
+    "path": "C:\\Users\\26014\\.codex\\skills\\benchmark-models",
+    "updated": "2026-06-21T07:21:54.456099+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "benchmark",
+    "path": "C:\\Users\\26014\\.codex\\skills\\benchmark",
+    "updated": "2026-06-21T07:21:54.459098+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "brainstorming",
+    "path": "C:\\Users\\26014\\.codex\\skills\\brainstorming",
+    "updated": "2026-06-21T07:20:46.757380+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "brandkit",
+    "path": "C:\\Users\\26014\\.codex\\skills\\brandkit",
+    "updated": "2026-06-21T07:20:28.329118+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "browse",
+    "path": "C:\\Users\\26014\\.codex\\skills\\browse",
+    "updated": "2026-06-21T07:21:54.529097+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "brutalist-skill",
+    "path": "C:\\Users\\26014\\.codex\\skills\\brutalist-skill",
+    "updated": "2026-06-21T07:20:28.331117+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "canary",
+    "path": "C:\\Users\\26014\\.codex\\skills\\canary",
+    "updated": "2026-06-21T07:21:54.906208+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "careful",
+    "path": "C:\\Users\\26014\\.codex\\skills\\careful",
+    "updated": "2026-06-21T07:21:54.908209+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "codex-thread-task-supervisor",
+    "path": "C:\\Users\\26014\\.codex\\skills\\codex-thread-task-supervisor",
+    "updated": "2026-06-03T21:00:48.904893+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "codex",
+    "path": "C:\\Users\\26014\\.codex\\skills\\codex",
+    "updated": "2026-06-21T07:21:54.913208+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "competitor-site-reference-rebuilder",
+    "path": "C:\\Users\\26014\\.codex\\skills\\competitor-site-reference-rebuilder",
+    "updated": "2026-05-20T02:28:07.203909+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "context-restore",
+    "path": "C:\\Users\\26014\\.codex\\skills\\context-restore",
+    "updated": "2026-06-21T07:21:54.917209+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "context-save",
+    "path": "C:\\Users\\26014\\.codex\\skills\\context-save",
+    "updated": "2026-06-21T07:21:54.921210+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "cso",
+    "path": "C:\\Users\\26014\\.codex\\skills\\cso",
+    "updated": "2026-06-21T07:21:54.927209+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "design-consultation",
+    "path": "C:\\Users\\26014\\.codex\\skills\\design-consultation",
+    "updated": "2026-06-21T07:21:54.933210+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "design-html",
+    "path": "C:\\Users\\26014\\.codex\\skills\\design-html",
+    "updated": "2026-06-21T07:21:54.940209+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "design-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\design-review",
+    "updated": "2026-06-21T07:21:54.946208+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "design-shotgun",
+    "path": "C:\\Users\\26014\\.codex\\skills\\design-shotgun",
+    "updated": "2026-06-21T07:21:54.948208+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "devex-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\devex-review",
+    "updated": "2026-06-21T07:21:54.978730+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "diagram",
+    "path": "C:\\Users\\26014\\.codex\\skills\\diagram",
+    "updated": "2026-06-21T07:21:54.980729+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "dispatching-parallel-agents",
+    "path": "C:\\Users\\26014\\.codex\\skills\\dispatching-parallel-agents",
+    "updated": "2026-06-21T07:20:46.767382+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "document-generate",
+    "path": "C:\\Users\\26014\\.codex\\skills\\document-generate",
+    "updated": "2026-06-21T07:21:55.029598+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "document-release",
+    "path": "C:\\Users\\26014\\.codex\\skills\\document-release",
+    "updated": "2026-06-21T07:21:55.032597+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "email-to-motion",
+    "path": "C:\\Users\\26014\\.codex\\skills\\email-to-motion",
+    "updated": "2026-06-02T10:53:17.272128+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "end-to-end-quality-auditor",
+    "path": "C:\\Users\\26014\\.codex\\skills\\end-to-end-quality-auditor",
+    "updated": "2026-05-20T07:03:00.517807+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "exact-visual-asset-director",
+    "path": "C:\\Users\\26014\\.codex\\skills\\exact-visual-asset-director",
+    "updated": "2026-05-20T02:28:24.775842+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "executing-plans",
+    "path": "C:\\Users\\26014\\.codex\\skills\\executing-plans",
+    "updated": "2026-06-21T07:20:46.769383+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "figma-generate-design",
+    "path": "C:\\Users\\26014\\.codex\\skills\\figma-generate-design",
+    "updated": "2026-05-13T18:01:39.122290+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "finishing-a-development-branch",
+    "path": "C:\\Users\\26014\\.codex\\skills\\finishing-a-development-branch",
+    "updated": "2026-06-21T07:20:46.771384+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "freeze",
+    "path": "C:\\Users\\26014\\.codex\\skills\\freeze",
+    "updated": "2026-06-21T07:21:55.055661+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gpt-image-2",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gpt-image-2",
+    "updated": "2026-06-01T21:09:37.416344+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gpt-tasteskill",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gpt-tasteskill",
+    "updated": "2026-06-21T07:20:28.332116+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gstack-openclaw-ceo-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-ceo-review",
+    "updated": "2026-06-21T07:21:55.326590+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gstack-openclaw-investigate",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-investigate",
+    "updated": "2026-06-21T07:21:55.328590+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gstack-openclaw-office-hours",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-office-hours",
+    "updated": "2026-06-21T07:21:55.329589+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gstack-openclaw-retro",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack-openclaw-retro",
+    "updated": "2026-06-21T07:21:55.331590+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gstack-upgrade",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack-upgrade",
+    "updated": "2026-06-21T07:21:55.059662+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "autoplan",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\autoplan",
+    "updated": "2026-06-21T07:21:13.663194+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "benchmark-models",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\benchmark-models",
+    "updated": "2026-06-21T07:21:13.666194+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "benchmark",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\benchmark",
+    "updated": "2026-06-21T07:21:13.668196+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "browse",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\browse",
+    "updated": "2026-06-21T07:21:13.732339+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "hackernews-frontpage",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\browser-skills\\hackernews-frontpage",
+    "updated": "2026-06-21T07:21:14.146278+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "canary",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\canary",
+    "updated": "2026-06-21T07:21:14.159281+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "careful",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\careful",
+    "updated": "2026-06-21T07:21:14.162277+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "codex",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\codex",
+    "updated": "2026-06-21T07:21:14.170279+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "context-restore",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\context-restore",
+    "updated": "2026-06-21T07:21:14.176280+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "context-save",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\context-save",
+    "updated": "2026-06-21T07:21:14.179278+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "cso",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\cso",
+    "updated": "2026-06-21T07:21:14.187281+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "design-consultation",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\design-consultation",
+    "updated": "2026-06-21T07:21:14.195278+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "design-html",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\design-html",
+    "updated": "2026-06-21T07:21:14.206277+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "design-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\design-review",
+    "updated": "2026-06-21T07:21:14.211281+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "design-shotgun",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\design-shotgun",
+    "updated": "2026-06-21T07:21:14.215278+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "devex-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\devex-review",
+    "updated": "2026-06-21T07:21:14.257277+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "diagram",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\diagram",
+    "updated": "2026-06-21T07:21:14.261277+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "document-generate",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\document-generate",
+    "updated": "2026-06-21T07:21:14.321503+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "document-release",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\document-release",
+    "updated": "2026-06-21T07:21:14.324203+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "freeze",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\freeze",
+    "updated": "2026-06-21T07:21:14.349215+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gstack-upgrade",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\gstack-upgrade",
+    "updated": "2026-06-21T07:21:14.355214+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "guard",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\guard",
+    "updated": "2026-06-21T07:21:14.371216+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "health",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\health",
+    "updated": "2026-06-21T07:21:14.374214+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "investigate",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\investigate",
+    "updated": "2026-06-21T07:21:14.394212+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ios-clean",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\ios-clean",
+    "updated": "2026-06-21T07:21:14.397214+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ios-design-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\ios-design-review",
+    "updated": "2026-06-21T07:21:14.400213+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ios-fix",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\ios-fix",
+    "updated": "2026-06-21T07:21:14.404216+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ios-qa",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\ios-qa",
+    "updated": "2026-06-21T07:21:14.407213+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ios-sync",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\ios-sync",
+    "updated": "2026-06-21T07:21:14.452217+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "land-and-deploy",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\land-and-deploy",
+    "updated": "2026-06-21T07:21:14.455215+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "landing-report",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\landing-report",
+    "updated": "2026-06-21T07:21:14.459214+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "learn",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\learn",
+    "updated": "2026-06-21T07:21:14.461212+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "make-pdf",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\make-pdf",
+    "updated": "2026-06-21T07:21:14.577782+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "office-hours",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\office-hours",
+    "updated": "2026-06-21T07:21:14.630781+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "open-gstack-browser",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\open-gstack-browser",
+    "updated": "2026-06-21T07:21:14.638784+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gstack-openclaw-ceo-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\openclaw\\skills\\gstack-openclaw-ceo-review",
+    "updated": "2026-06-21T07:21:14.648781+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gstack-openclaw-investigate",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\openclaw\\skills\\gstack-openclaw-investigate",
+    "updated": "2026-06-21T07:21:14.650781+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gstack-openclaw-office-hours",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\openclaw\\skills\\gstack-openclaw-office-hours",
+    "updated": "2026-06-21T07:21:14.652782+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gstack-openclaw-retro",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\openclaw\\skills\\gstack-openclaw-retro",
+    "updated": "2026-06-21T07:21:14.655785+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "pair-agent",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\pair-agent",
+    "updated": "2026-06-21T07:21:14.658782+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "plan-ceo-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\plan-ceo-review",
+    "updated": "2026-06-21T07:21:14.661780+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "plan-design-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\plan-design-review",
+    "updated": "2026-06-21T07:21:14.670783+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "plan-devex-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\plan-devex-review",
+    "updated": "2026-06-21T07:21:14.676780+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "plan-eng-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\plan-eng-review",
+    "updated": "2026-06-21T07:21:14.684781+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "plan-tune",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\plan-tune",
+    "updated": "2026-06-21T07:21:14.691779+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "qa-only",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\qa-only",
+    "updated": "2026-06-21T07:21:14.694781+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "qa",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\qa",
+    "updated": "2026-06-21T07:21:14.697780+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "retro",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\retro",
+    "updated": "2026-06-21T07:21:14.706780+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\review",
+    "updated": "2026-06-21T07:21:14.709783+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "scrape",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\scrape",
+    "updated": "2026-06-21T07:21:14.724496+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "setup-browser-cookies",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\setup-browser-cookies",
+    "updated": "2026-06-21T07:21:14.829239+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "setup-deploy",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\setup-deploy",
+    "updated": "2026-06-21T07:21:14.832238+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "setup-gbrain",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\setup-gbrain",
+    "updated": "2026-06-21T07:21:14.834238+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ship",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\ship",
+    "updated": "2026-06-21T07:21:14.839238+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "gstack",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack",
+    "updated": "2026-06-21T07:21:13.656195+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "skillify",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\skillify",
+    "updated": "2026-06-21T07:21:14.859239+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "spec",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\spec",
+    "updated": "2026-06-21T07:21:14.863238+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "sync-gbrain",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\sync-gbrain",
+    "updated": "2026-06-21T07:21:14.878238+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "unfreeze",
+    "path": "C:\\Users\\26014\\.codex\\skills\\gstack\\unfreeze",
+    "updated": "2026-06-21T07:21:15.237036+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "guard",
+    "path": "C:\\Users\\26014\\.codex\\skills\\guard",
+    "updated": "2026-06-21T07:21:55.072660+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "hackernews-frontpage",
+    "path": "C:\\Users\\26014\\.codex\\skills\\hackernews-frontpage",
+    "updated": "2026-06-21T07:21:54.898207+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "hatch-pet",
+    "path": "C:\\Users\\26014\\.codex\\skills\\hatch-pet",
+    "updated": "2026-07-09T19:23:12.816275+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "health",
+    "path": "C:\\Users\\26014\\.codex\\skills\\health",
+    "updated": "2026-06-21T07:21:55.075660+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "hermes-trade-assistant",
+    "path": "C:\\Users\\26014\\.codex\\skills\\hermes-trade-assistant",
+    "updated": "2026-06-07T14:14:22+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "image-first",
+    "path": "C:\\Users\\26014\\.codex\\skills\\image-first",
+    "updated": "2026-07-10T11:39:19.530201+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "image-to-code-skill",
+    "path": "C:\\Users\\26014\\.codex\\skills\\image-to-code-skill",
+    "updated": "2026-06-21T07:20:28.335119+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "imagegen-frontend-mobile",
+    "path": "C:\\Users\\26014\\.codex\\skills\\imagegen-frontend-mobile",
+    "updated": "2026-06-21T07:20:28.337117+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "imagegen-frontend-web",
+    "path": "C:\\Users\\26014\\.codex\\skills\\imagegen-frontend-web",
+    "updated": "2026-06-21T07:20:28.339117+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "impeccable",
+    "path": "C:\\Users\\26014\\.codex\\skills\\impeccable",
+    "updated": "2026-06-01T23:09:56+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "independent-site-build-orchestrator",
+    "path": "C:\\Users\\26014\\.codex\\skills\\independent-site-build-orchestrator",
+    "updated": "2026-05-20T07:03:00.516806+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "independent-site-visual-director",
+    "path": "C:\\Users\\26014\\.codex\\skills\\independent-site-visual-director",
+    "updated": "2026-05-20T02:14:46.772492+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "investigate",
+    "path": "C:\\Users\\26014\\.codex\\skills\\investigate",
+    "updated": "2026-06-21T07:21:55.095659+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ios-clean",
+    "path": "C:\\Users\\26014\\.codex\\skills\\ios-clean",
+    "updated": "2026-06-21T07:21:55.098658+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ios-design-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\ios-design-review",
+    "updated": "2026-06-21T07:21:55.100659+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ios-fix",
+    "path": "C:\\Users\\26014\\.codex\\skills\\ios-fix",
+    "updated": "2026-06-21T07:21:55.103660+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ios-qa",
+    "path": "C:\\Users\\26014\\.codex\\skills\\ios-qa",
+    "updated": "2026-06-21T07:21:55.105661+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ios-sync",
+    "path": "C:\\Users\\26014\\.codex\\skills\\ios-sync",
+    "updated": "2026-06-21T07:21:55.144659+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "land-and-deploy",
+    "path": "C:\\Users\\26014\\.codex\\skills\\land-and-deploy",
+    "updated": "2026-06-21T07:21:55.147660+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "landing-report",
+    "path": "C:\\Users\\26014\\.codex\\skills\\landing-report",
+    "updated": "2026-06-21T07:21:55.150661+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "learn",
+    "path": "C:\\Users\\26014\\.codex\\skills\\learn",
+    "updated": "2026-06-21T07:21:55.153662+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "make-pdf",
+    "path": "C:\\Users\\26014\\.codex\\skills\\make-pdf",
+    "updated": "2026-06-21T07:21:55.258590+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "minimalist-skill",
+    "path": "C:\\Users\\26014\\.codex\\skills\\minimalist-skill",
+    "updated": "2026-06-21T07:20:28.341119+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "office-hours",
+    "path": "C:\\Users\\26014\\.codex\\skills\\office-hours",
+    "updated": "2026-06-21T07:21:55.307592+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "open-gstack-browser",
+    "path": "C:\\Users\\26014\\.codex\\skills\\open-gstack-browser",
+    "updated": "2026-06-21T07:21:55.317594+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "original-asset-production-pipeline",
+    "path": "C:\\Users\\26014\\.codex\\skills\\original-asset-production-pipeline",
+    "updated": "2026-05-20T01:47:43.306924+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "output-skill",
+    "path": "C:\\Users\\26014\\.codex\\skills\\output-skill",
+    "updated": "2026-06-21T07:20:28.342116+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "pair-agent",
+    "path": "C:\\Users\\26014\\.codex\\skills\\pair-agent",
+    "updated": "2026-06-21T07:21:55.334593+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "plan-ceo-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\plan-ceo-review",
+    "updated": "2026-06-21T07:21:55.337591+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "plan-design-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\plan-design-review",
+    "updated": "2026-06-21T07:21:55.344588+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "plan-devex-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\plan-devex-review",
+    "updated": "2026-06-21T07:21:55.351591+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "plan-eng-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\plan-eng-review",
+    "updated": "2026-06-21T07:21:55.360590+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "plan-tune",
+    "path": "C:\\Users\\26014\\.codex\\skills\\plan-tune",
+    "updated": "2026-06-21T07:21:55.367590+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "playwright-interactive",
+    "path": "C:\\Users\\26014\\.codex\\skills\\playwright-interactive",
+    "updated": "2026-05-13T18:01:39.489799+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "playwright",
+    "path": "C:\\Users\\26014\\.codex\\skills\\playwright",
+    "updated": "2026-05-13T18:01:39.495783+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "premium-commerce-motion-builder",
+    "path": "C:\\Users\\26014\\.codex\\skills\\premium-commerce-motion-builder",
+    "updated": "2026-05-16T14:01:14.785959+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "product-design",
+    "path": "C:\\Users\\26014\\.codex\\skills\\product-design",
+    "updated": "2026-06-08T08:05:38.579478+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "product-visual-pdp-consistency-auditor",
+    "path": "C:\\Users\\26014\\.codex\\skills\\product-visual-pdp-consistency-auditor",
+    "updated": "2026-05-20T06:41:34.557700+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "qa-only",
+    "path": "C:\\Users\\26014\\.codex\\skills\\qa-only",
+    "updated": "2026-06-21T07:21:55.370595+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "qa",
+    "path": "C:\\Users\\26014\\.codex\\skills\\qa",
+    "updated": "2026-06-21T07:21:55.374590+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "receiving-code-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\receiving-code-review",
+    "updated": "2026-06-21T07:20:46.772384+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "redesign-skill",
+    "path": "C:\\Users\\26014\\.codex\\skills\\redesign-skill",
+    "updated": "2026-06-21T07:20:28.343117+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "reference-first-premium-web-rebuilder",
+    "path": "C:\\Users\\26014\\.codex\\skills\\reference-first-premium-web-rebuilder",
+    "updated": "2026-06-09T08:42:32.885232+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "requesting-code-review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\requesting-code-review",
+    "updated": "2026-06-21T07:20:46.774384+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "retro",
+    "path": "C:\\Users\\26014\\.codex\\skills\\retro",
+    "updated": "2026-06-21T07:21:55.381595+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "review-ugc-migration-operator",
+    "path": "C:\\Users\\26014\\.codex\\skills\\review-ugc-migration-operator",
+    "updated": "2026-05-16T14:01:14.788958+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "review",
+    "path": "C:\\Users\\26014\\.codex\\skills\\review",
+    "updated": "2026-06-21T07:21:55.385589+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "sauto-layout-auditor",
+    "path": "C:\\Users\\26014\\.codex\\skills\\sauto-layout-auditor",
+    "updated": "2026-06-02T10:53:17.275123+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "scrape",
+    "path": "C:\\Users\\26014\\.codex\\skills\\scrape",
+    "updated": "2026-06-21T07:21:55.398589+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "setup-browser-cookies",
+    "path": "C:\\Users\\26014\\.codex\\skills\\setup-browser-cookies",
+    "updated": "2026-06-21T07:21:55.512433+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "setup-deploy",
+    "path": "C:\\Users\\26014\\.codex\\skills\\setup-deploy",
+    "updated": "2026-06-21T07:21:55.515430+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "setup-gbrain",
+    "path": "C:\\Users\\26014\\.codex\\skills\\setup-gbrain",
+    "updated": "2026-06-21T07:21:55.518433+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ship",
+    "path": "C:\\Users\\26014\\.codex\\skills\\ship",
+    "updated": "2026-06-21T07:21:55.526431+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "shopify-competitor-catalog-harvester",
+    "path": "C:\\Users\\26014\\.codex\\skills\\shopify-competitor-catalog-harvester",
+    "updated": "2026-06-02T00:34:14.293622+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "shopify-conversion-section-builder",
+    "path": "C:\\Users\\26014\\.codex\\skills\\shopify-conversion-section-builder",
+    "updated": "2026-05-16T14:01:14.791959+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "site-mirror-rebuild-advisor",
+    "path": "C:\\Users\\26014\\.codex\\skills\\site-mirror-rebuild-advisor",
+    "updated": "2026-06-08T05:47:42.916366+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "skillify",
+    "path": "C:\\Users\\26014\\.codex\\skills\\skillify",
+    "updated": "2026-06-21T07:21:55.563431+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "soft-skill",
+    "path": "C:\\Users\\26014\\.codex\\skills\\soft-skill",
+    "updated": "2026-06-21T07:20:28.345116+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "spec",
+    "path": "C:\\Users\\26014\\.codex\\skills\\spec",
+    "updated": "2026-06-21T07:21:55.572431+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "stitch-skill",
+    "path": "C:\\Users\\26014\\.codex\\skills\\stitch-skill",
+    "updated": "2026-06-21T07:20:28.348116+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "storefront-trust-compliance-cleanup-auditor",
+    "path": "C:\\Users\\26014\\.codex\\skills\\storefront-trust-compliance-cleanup-auditor",
+    "updated": "2026-05-20T01:47:43.304923+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "subagent-driven-development",
+    "path": "C:\\Users\\26014\\.codex\\skills\\subagent-driven-development",
+    "updated": "2026-06-21T07:20:46.776383+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "sync-gbrain",
+    "path": "C:\\Users\\26014\\.codex\\skills\\sync-gbrain",
+    "updated": "2026-06-21T07:21:55.606433+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "systematic-debugging",
+    "path": "C:\\Users\\26014\\.codex\\skills\\systematic-debugging",
+    "updated": "2026-06-21T07:20:46.786385+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "taste-skill-art-director",
+    "path": "C:\\Users\\26014\\.codex\\skills\\taste-skill-art-director",
+    "updated": "2026-06-02T10:53:17.278125+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "taste-skill-v1",
+    "path": "C:\\Users\\26014\\.codex\\skills\\taste-skill-v1",
+    "updated": "2026-06-21T07:20:28.349116+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "taste-skill",
+    "path": "C:\\Users\\26014\\.codex\\skills\\taste-skill",
+    "updated": "2026-06-21T07:20:28.351118+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "test-driven-development",
+    "path": "C:\\Users\\26014\\.codex\\skills\\test-driven-development",
+    "updated": "2026-06-21T07:20:46.796382+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ui-ux-pro-max",
+    "path": "C:\\Users\\26014\\.codex\\skills\\ui-ux-pro-max",
+    "updated": "2026-06-01T21:03:08.729975+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "unfreeze",
+    "path": "C:\\Users\\26014\\.codex\\skills\\unfreeze",
+    "updated": "2026-06-21T07:21:56.024640+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "using-git-worktrees",
+    "path": "C:\\Users\\26014\\.codex\\skills\\using-git-worktrees",
+    "updated": "2026-06-21T07:20:46.801387+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "using-superpowers",
+    "path": "C:\\Users\\26014\\.codex\\skills\\using-superpowers",
+    "updated": "2026-06-21T07:20:46.804383+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "verification-before-completion",
+    "path": "C:\\Users\\26014\\.codex\\skills\\verification-before-completion",
+    "updated": "2026-06-21T07:20:46.813382+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "web-design-engineer",
+    "path": "C:\\Users\\26014\\.codex\\skills\\web-design-engineer",
+    "updated": "2026-06-01T21:09:37.414749+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "writing-plans",
+    "path": "C:\\Users\\26014\\.codex\\skills\\writing-plans",
+    "updated": "2026-06-21T07:20:46.814384+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "writing-skills",
+    "path": "C:\\Users\\26014\\.codex\\skills\\writing-skills",
+    "updated": "2026-06-21T07:20:46.818386+00:00",
+    "status": "AVAILABLE",
+    "evidence_files": [
+      "SKILL.md"
+    ]
+  }
+]

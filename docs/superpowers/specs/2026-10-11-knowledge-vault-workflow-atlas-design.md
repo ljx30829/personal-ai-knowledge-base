@@ -86,7 +86,7 @@
 - `logic`：关键判断、顺序、门禁和停止条件。
 - `outputs`：文件、报告、代码、截图或状态更新。
 - `dependencies`：脚本、运行时、外部服务和其他技能。
-- `authorization`：是否涉及发送、发布、部署、账号或付费动作。
+- `approval_gate`：是否涉及发送、发布、部署、账号或付费动作。
 - `validation`：如何证明完成。
 - `failure_modes`：常见失败和降级方式。
 - `workflow_ids`：所属工作流。

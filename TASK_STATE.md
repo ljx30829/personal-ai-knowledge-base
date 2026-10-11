@@ -19,15 +19,17 @@
 - TOOLS: Added project inventory, dependency inspection, SHA-256 manifests, source-only export, document-only export, doctor, smoke test, and complete workspace bootstrap commands.
 - VERIFY: Vault tests `30/30`; vault validator `errors=0 warnings=0`; project remote tree review found no excluded or generated paths.
 
-## 2026-10-11 Workflow Atlas Design
+## 2026-10-12 Workflow Atlas Plan
 
-- STATUS: `DESIGN_REVIEW_PENDING`.
+- STATUS: `PLAN_READY_EXECUTION_PENDING`.
 - GOAL: Organize every allowed work purpose into an executable workflow and give every included skill a sourced purpose, logic, inputs, outputs, dependencies, validation, authorization boundary, and workflow mapping.
 - DESIGN: `docs/superpowers/specs/2026-10-11-knowledge-vault-workflow-atlas-design.md`.
+- PLAN: `docs/superpowers/plans/2026-10-12-knowledge-vault-workflow-atlas.md`.
 - SCOPE: Three-layer experience: work-purpose overview, end-to-end workflows, and complete skill cards. Explicitly excluded brand-specific, vehicle-film, Candy, and adult-content material will not enter the generated workflow deliverables.
 - GIT: Work is isolated on `codex/workflow-map` from remote commit `5526753e4c4d6045d2594985e971ba5cdc3c5c34`; no current main-workspace changes are included.
 - BASELINE: Unit tests `19/19 PASS`; vault validator `scanned_files=53 errors=0 warnings=0`.
-- NEXT: User reviews the written design. After approval, write an implementation plan before generating catalogs or diagrams.
+- INVENTORY: The remote bundle contains `219` skill source instances and `161` unique names; both counts are explicit implementation gates.
+- NEXT: Choose subagent-driven or inline execution, then implement the plan task by task with tests and scoped commits.
 
 ## 2026-08-04 Reproducibility Expansion
 

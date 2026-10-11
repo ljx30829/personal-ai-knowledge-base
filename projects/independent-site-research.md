@@ -27,6 +27,8 @@ next_review: 2026-08-11
 - 第一验证人群是美国每周接单、预售自提、farm stand 或 farmers market 的家庭酸面包微型烘焙经营者。
 - 当前种子池 12 个名称：8 个 `B-UNVERIFIED`，4 个待区分或排除；A 级合格客户为 0。
 - 未发送访谈邀请，未选定产品，未询价、打样、备货、上架、投放或联系供应商。
+- 2026-10-11 已把 19 份审阅后的研究/状态文档推送到 Private 仓库 `https://github.com/ljx30829/independent-site-research-vault`，远端提交为 `74f6cbc80cd2c10a3c6cdcab6a20a908973f8da1`；本地 ZIP 为 `D:\codex\output\independent-site-research-export-20261011-clean.zip`，SHA-256 为 `78152A3F794A4EF6F20981060AE20EA490351D6DDF6C0883C0B6259E42F428A8`。
+- 该仓库是文档型研究工作区，没有应用源码或可部署服务；平台登录态、额度和账号信息不在仓库内。
 - 香氛为 `WATCH / HOLD AT METHOD GATE`；其他已研究方向也保留为观察，不并行备货。
 
 ## 阻塞项

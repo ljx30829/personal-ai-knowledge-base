@@ -16,7 +16,7 @@ next_review: 2026-09-04
 
 | 名称 | 原始路径 | 状态 | 首要入口 |
 | --- | --- | --- | --- |
-| ArmorHue、外贸与 Shopify | `D:\codex` | `ACTIVE` | `AGENTS.md`、`TASK_STATE.md`、图像与推广工作流 |
+| ExcludedBrand、外贸与 Shopify | `D:\codex` | `ACTIVE` | `AGENTS.md`、`TASK_STATE.md`、图像与推广工作流 |
 | 独立站选品研究 | `C:\Users\26014\Documents\独立站` | `ACTIVE` | `TASK_STATE.md` |
 | 自媒体运营与蒸馏 | `C:\Users\26014\Documents\自媒体运营` | `ACTIVE` | `README.md`、`TASK_STATE.md` |
 | 技能清单工具 | `C:\Users\26014\Documents\技能` | `ACTIVE` | `README.md`、`TASK_STATE.md` |

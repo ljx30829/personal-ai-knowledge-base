@@ -11,12 +11,12 @@ next_review: 2026-08-11
 
 ## 范围
 
-面向外贸业务的多租户 Web/移动系统，包含行业研究、证据、线索审核、客户情报、社交情报、外联草稿、收入、分析、团队、计费、审计和受控 AI 员工。实际代码工作树位于 `E:\codex\worktrees\automotive-film-trade-saas-stage0`，分支 `codex/stage0`。
+面向外贸业务的多租户 Web/移动系统，包含行业研究、证据、线索审核、客户情报、社交情报、外联草稿、收入、分析、团队、计费、审计和受控 AI 员工。实际代码工作树位于 `E:\codex\worktrees\excluded product domain-trade-saas-stage0`，分支 `codex/stage0`。
 
 ## 已完成快照
 
 - 截至 2026-07-22，已实现 Tenant/Organization 隔离、强制 RLS、RBAC、审计、领域事件、幂等和不可变历史。
-- 已实现澳大利亚汽车膜行业研究工作流、受控模型策略、四平台 Social Intelligence、证据约束的外联草稿、Revenue、响应式 Web 和 Expo 移动端。
+- 已实现澳大利亚排除产品领域行业研究工作流、受控模型策略、四平台 Social Intelligence、证据约束的外联草稿、Revenue、响应式 Web 和 Expo 移动端。
 - 已实现自助注册、14 天试用、数据导出/删除请求、生产前置检查和合规社交运营的本地运行面。
 - 最新记录的验证为 Node 324/324、Python Worker 23/23、Social Operations Playwright 桌面/移动 2/2，以及类型检查、lint 和构建通过。
 
@@ -43,7 +43,7 @@ next_review: 2026-08-11
 
 ## 恢复步骤
 
-1. 进入 `E:\codex\worktrees\automotive-film-trade-saas-stage0`，读取当地 `AGENTS.md`、计划、文档和 Git 状态。
+1. 进入 `E:\codex\worktrees\excluded product domain-trade-saas-stage0`，读取当地 `AGENTS.md`、计划、文档和 Git 状态。
 2. 不清理或覆盖当前未提交改动；先按文件和最新任务状态确认所有权。
 3. 不复用 2026-07-22 的运行进程结论，按当前资源重新执行聚焦测试和串行完整验证。
 4. Docker 或移动工具链启动/安装前重新估算磁盘与内存，并取得所需确认。
@@ -52,6 +52,6 @@ next_review: 2026-08-11
 ## 证据路径
 
 - `C:\Users\26014\Documents\自媒体运营\TASK_STATE.md`
-- `E:\codex\worktrees\automotive-film-trade-saas-stage0\docs`
-- `E:\codex\worktrees\automotive-film-trade-saas-stage0\output`
+- `E:\codex\worktrees\excluded product domain-trade-saas-stage0\docs`
+- `E:\codex\worktrees\excluded product domain-trade-saas-stage0\output`
 

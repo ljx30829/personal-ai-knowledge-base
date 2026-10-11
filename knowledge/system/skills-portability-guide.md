@@ -7,6 +7,7 @@ sources:
   - ../../sources/codex-inventory/codex-inventory.md
   - ../../scripts/export_portable_skills.py
   - ../../scripts/install_portable_skills.py
+  - ../../scripts/audit_portable_skills.py
   - ../../portable-skills/portable-skills-manifest.json
 next_review: 2026-09-04
 ---
@@ -29,7 +30,13 @@ next_review: 2026-09-04
 | 插件缓存 | `C:\Users\26014\.codex\plugins\cache` | 65 | 约 31.72 MB |
 | 合计 | 两个来源 | 251 | 约 123.32 MB |
 
-插件缓存是某一时点的下载结果，不等于长期稳定的用户技能。默认只恢复用户技能；插件缓存只有在目标环境无法重新安装同一插件、且用户确认需要固定快照时才恢复。
+插件缓存是某一时点的下载结果，不等于长期稳定的用户技能。手动安装器默认只恢复用户技能；完整恢复入口会同时恢复已审阅的用户技能和插件缓存快照，并且不覆盖目标电脑已有文件。
+
+当前快照的 219 个入口均能读取 UTF-8 frontmatter，并具备 `name` 和 `description`。其中 61 个符合当前严格模板，158 个保留旧版或供应商扩展字段；这是兼容性提示，不是缺文件。运行以下无第三方依赖审计可复核，出现 `FAIL` 时停止安装：
+
+```powershell
+python scripts\audit_portable_skills.py --bundle portable-skills
+```
 
 2026-08-04 的过滤后 dry-run 为 2,468 个文件、251 个 `SKILL.md`、108,369,128 bytes（约 103.35 MiB）。它还排除了 1 个指向版本目录的插件 `latest` junction，避免同一技能被重复打包。文件和体积会随技能更新而变化，实际导出前必须重新 dry-run。
 
@@ -116,7 +123,7 @@ python scripts\install_portable_skills.py `
   --execute
 ```
 
-安装器绝不覆盖同名现有文件；冲突会计入 `conflicts_skipped`。需要插件缓存时必须额外明确加入：
+安装器绝不覆盖同名现有文件；冲突会计入 `conflicts_skipped`。需要手动恢复插件缓存时加入：
 
 ```powershell
 python scripts\install_portable_skills.py `
@@ -134,6 +141,7 @@ python scripts\install_portable_skills.py `
 4. 用一个只读小任务显式指定技能，确认 Codex 能完整读取 `SKILL.md`。
 5. 如果技能引用 `scripts/`、`templates/` 或 `assets/`，逐项确认相对路径仍存在。
 6. 如果技能依赖未安装的 CLI、Python 包、浏览器、模型或 MCP，按该技能说明单独安装；迁移技能文件不等于迁移运行环境。
+7. 严格模板审计的兼容性警告应保留来源格式；不要为追求零警告而批量改写第三方 frontmatter。
 
 ## 六、零付费存放选择
 

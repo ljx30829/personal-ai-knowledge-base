@@ -6,11 +6,11 @@ sources:
   - D:\codex\AGENTS.md
   - D:\codex\TASK_STATE.md
   - D:\codex\PROMOTION_WORKFLOW.md
-  - D:\codex\output\armorhue-b2b-leadgen-run-20260605
+  - D:\codex\output\ExcludedBrand-b2b-leadgen-run-20260605
 next_review: 2026-08-05
 ---
 
-# ArmorHue 外贸线索、邮件与监督执行手册
+# ExcludedBrand 外贸线索、邮件与监督执行手册
 
 本手册把线索发现、发送包、SMTP 身份探测、真实发送、社交准备和监督分成独立步骤。所有命令都必须从当前项目状态恢复；脚本存在不代表当天具备发送资格。
 
@@ -18,7 +18,7 @@ next_review: 2026-08-05
 
 ```text
 工作区：D:\codex
-输出根：D:\codex\output\armorhue-b2b-leadgen-run-20260605
+输出根：D:\codex\output\ExcludedBrand-b2b-leadgen-run-20260605
 发现脚本：build_20260804_leads.py
 发送包脚本：build_20260804_domain_send_pack.py
 SMTP 认证探测：test_zoho_smtp_auth_probe.ps1
@@ -45,7 +45,7 @@ SMTP 认证探测：test_zoho_smtp_auth_probe.ps1
 当前脚本是固定批次脚本，无命令行参数：
 
 ```powershell
-Set-Location D:\codex\output\armorhue-b2b-leadgen-run-20260605
+Set-Location D:\codex\output\ExcludedBrand-b2b-leadgen-run-20260605
 python .\build_20260804_leads.py
 ```
 
@@ -74,7 +74,7 @@ python .\build_20260804_leads.py
 当前构建器会扫描历史候选、历史发送和风险文本，并给安全上限内的行写入 `Ready`：
 
 ```powershell
-Set-Location D:\codex\output\armorhue-b2b-leadgen-run-20260605
+Set-Location D:\codex\output\ExcludedBrand-b2b-leadgen-run-20260605
 python .\build_20260804_domain_send_pack.py
 ```
 
@@ -99,8 +99,8 @@ powershell -NoProfile -ExecutionPolicy Bypass `
 
 通过条件：
 
-- `ZOHO_SMTP_USER`、`ZOHO_SMTP_FROM`、`ZOHO_SMTP_REPLY_TO` 都以 `@armorhue.com` 结尾。
-- 当前允许的发件身份是 `samples@armorhue.com`；不得临时换 QQ、Gmail 或其他免费邮箱面向客户发送。
+- `ZOHO_SMTP_USER`、`ZOHO_SMTP_FROM`、`ZOHO_SMTP_REPLY_TO` 都以 `@ExcludedBrand.com` 结尾。
+- 当前允许的发件身份是 `samples@ExcludedBrand.com`；不得临时换 QQ、Gmail 或其他免费邮箱面向客户发送。
 - AUTH 探测为 PASS 且明确 `message_sent=NO`。
 
 SMTP AUTH 通过不等于邮件风险复核通过。Zoho IMAP/POP 不可用时，必须在 Zoho Webmail 人工检查退信、回复、STOP/退订、投诉、负面回复和审核时间。

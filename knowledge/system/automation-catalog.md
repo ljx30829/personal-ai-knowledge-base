@@ -15,11 +15,11 @@ next_review: 2026-09-04
 
 | 自动化 | 状态 | 配置周期 | 工作区 |
 | --- | --- | --- | --- |
-| ArmorHue B2B daily lead discovery | `ACTIVE` | 每天 19:30 | `D:\codex` |
-| ArmorHue B2B daily email sender | `ACTIVE` | 每天 21:30 | `D:\codex` |
-| ArmorHue B2B daily supervisor | `ACTIVE` | 每天 22:20 | `D:\codex` |
-| ArmorHue TikTok/IG/FB/WhatsApp execution queue | `ACTIVE` | 周一至周六 18:40 | `D:\codex` |
-| ArmorHue Daily SEO Traffic Monitor | `ACTIVE` | 每天 09:30 | `D:\codex` |
+| ExcludedBrand B2B daily lead discovery | `ACTIVE` | 每天 19:30 | `D:\codex` |
+| ExcludedBrand B2B daily email sender | `ACTIVE` | 每天 21:30 | `D:\codex` |
+| ExcludedBrand B2B daily supervisor | `ACTIVE` | 每天 22:20 | `D:\codex` |
+| ExcludedBrand TikTok/IG/FB/WhatsApp execution queue | `ACTIVE` | 周一至周六 18:40 | `D:\codex` |
+| ExcludedBrand Daily SEO Traffic Monitor | `ACTIVE` | 每天 09:30 | `D:\codex` |
 | 监督 Yufeng P18 线程 | `PAUSED` | 每 30 分钟 | `D:\codex` |
 | UUMit 统一巡航 | `PAUSED` | 每 5 分钟 | 未配置工作区 |
 | memory-writing-agent-phase-2 | `METADATA_MISSING` | 未知 | 未知 |

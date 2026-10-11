@@ -200,7 +200,7 @@ git -c user.name=Codex -c user.email=codex@local commit -m "feat: catalog worksp
 - Create: `knowledge/media/self-media-operations.md`
 - Create: `knowledge/distillation/content-distillation-system.md`
 - Create: `knowledge/commerce/customer-first-product-research.md`
-- Create: `projects/armorhue.md`
+- Create: `projects/ExcludedBrand.md`
 - Create: `projects/yufeng.md`
 - Create: `projects/ai-global-trade-os.md`
 - Create: `projects/self-media-distiller.md`

@@ -32,7 +32,7 @@ next_review: 2026-09-04
 
 - Shopify CLI：`3.94.3`，PowerShell 中使用 `shopify.cmd`。
 - 官方开发文档入口已配置为 `shopify-dev` MCP；通用框架文档可使用 `context7` MCP。
-- ArmorHue 历史店铺目标：`e1rkqv-mg.myshopify.com`。
+- ExcludedBrand 历史店铺目标：`e1rkqv-mg.myshopify.com`。
 - Yufeng 历史店铺目标：`wa5nu1-eb.myshopify.com`。
 
 上面两个域名只是历史目标，不代表当前登录、权限或店铺状态。每次执行前都要让用户确认品牌、店铺域名、主题 ID/角色和本次允许的动作。

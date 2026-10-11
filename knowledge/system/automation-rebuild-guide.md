@@ -24,11 +24,11 @@ next_review: 2026-08-11
 
 | 名称 | 计划（本地时区） | 工作区 | 重建目的 | 默认权限 |
 | --- | --- | --- | --- | --- |
-| ArmorHue B2B daily lead discovery | 每天 19:30 | `D:\codex` | 公开来源发现、去重、分级、生成候选与健康报告 | 只读/不发送 |
-| ArmorHue B2B daily email sender | 每天 21:30 | `D:\codex` | 对已审核队列执行发送门和受控发送 | 高风险，默认暂停 |
-| ArmorHue B2B daily supervisor | 每天 22:20 | `D:\codex` | 汇总 discovery/sender/social 的最终证据并写状态 | 只读监督 |
-| ArmorHue TikTok/IG/FB/WhatsApp 100 touchpoint execution queue | 周一至周六 18:40 | `D:\codex` | 生成/审核社交触点队列 | 准备阶段不发送 |
-| ArmorHue Daily SEO Traffic Monitor | 每天 09:30 | `D:\codex` | 只读检查网站、SEO、分析证明与阻塞 | 不修改线上系统 |
+| ExcludedBrand B2B daily lead discovery | 每天 19:30 | `D:\codex` | 公开来源发现、去重、分级、生成候选与健康报告 | 只读/不发送 |
+| ExcludedBrand B2B daily email sender | 每天 21:30 | `D:\codex` | 对已审核队列执行发送门和受控发送 | 高风险，默认暂停 |
+| ExcludedBrand B2B daily supervisor | 每天 22:20 | `D:\codex` | 汇总 discovery/sender/social 的最终证据并写状态 | 只读监督 |
+| ExcludedBrand TikTok/IG/FB/WhatsApp 100 touchpoint execution queue | 周一至周六 18:40 | `D:\codex` | 生成/审核社交触点队列 | 准备阶段不发送 |
+| ExcludedBrand Daily SEO Traffic Monitor | 每天 09:30 | `D:\codex` | 只读检查网站、SEO、分析证明与阻塞 | 不修改线上系统 |
 | 监督 Yufeng P18 线程 | 每 30 分钟 | `D:\codex` | 历史线程监督 | 保持暂停，先确认任务仍存在 |
 | UUMit 统一巡航 | 每 5 分钟 | `UNKNOWN` | 历史巡航任务 | 保持暂停，工作区未知 |
 | memory-writing-agent-phase-2 | `UNKNOWN` | `UNKNOWN` | 历史记忆写入目录 | 不重建、不删除，待确认 |
@@ -68,7 +68,7 @@ next_review: 2026-08-11
 ### 邮件发送
 
 - 新设备上默认 `PAUSED/BLOCKED_NO_SEND`。
-- 必须现场确认发件、From 和 Reply-To 都是获准的 ArmorHue 域名身份。
+- 必须现场确认发件、From 和 Reply-To 都是获准的 ExcludedBrand 域名身份。
 - 必须复核历史已发送、硬退信、退订、投诉、负面回复、邮箱可用性和人工 Zoho Webmail 状态。
 - 实际发送上限、节奏和确认口令以最新项目运行手册为准；不得直接照搬旧状态。
 - 只把发送日志中的精确 `Sent` 计入结果。

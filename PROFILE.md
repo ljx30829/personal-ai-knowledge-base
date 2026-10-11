@@ -5,7 +5,7 @@
 ## 工作重点
 
 - 外贸 B2B 客户开发、线索研究、合规触达和销售流程。
-- ArmorHue 汽车膜独立站、Shopify、SEO、转化、批发和经销商体系。
+- ExcludedBrand 排除产品领域独立站、Shopify、SEO、转化、批发和经销商体系。
 - Yufeng 包装独立站及高端制造业视觉与转化体验。
 - 中转站、模型节点、Windows 本地服务和 Codex/Claude 工具链。
 - 自动化任务、技能体系、项目监督和文件化交接。

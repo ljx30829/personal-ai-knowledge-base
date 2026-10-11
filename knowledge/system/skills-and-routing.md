@@ -40,10 +40,10 @@ next_review: 2026-09-04
 | 故障、失败测试、异常行为 | `systematic-debugging` | 回归测试与根因证据 |
 | 长计划执行 | `executing-plans` | 每项状态、测试、最终验收 |
 | 完整独立站或 Shopify 页面 | `independent-site-build-orchestrator` | `end-to-end-quality-auditor` |
-| ArmorHue 视觉与店铺质量 | `armorhue-luxury-ecommerce-art-director` | `armorhue-no-slop-delivery-gate` |
+| ExcludedBrand 视觉与店铺质量 | `ExcludedBrand-luxury-ecommerce-art-director` | `ExcludedBrand-no-slop-delivery-gate` |
 | 产品图、主图、横幅 | `exact-visual-asset-director` | 来源、颜色、车型、授权与移动端截图 |
-| 汽车膜 PDP、TDS、参数、质保 | `automotive-film-pdp-tds-builder` | 不虚构参数；做图文与变体一致性审计 |
-| B2B 批发、经销商、样品漏斗 | `armorhue-b2b-wholesale-funnel-architect` | 价格隔离、资格收集、真实商务依据 |
+| 排除产品领域 PDP、TDS、参数、质保 | `excluded product domain-pdp-tds-builder` | 不虚构参数；做图文与变体一致性审计 |
+| B2B 批发、经销商、样品漏斗 | `ExcludedBrand-b2b-wholesale-funnel-architect` | 价格隔离、资格收集、真实商务依据 |
 | 竞品参考和重建 | `competitor-site-reference-rebuilder` | 不复制代码、图片、商标、文案或评论 |
 | 自媒体或外贸执行 | 对应项目运行手册和专用技能 | 发送、发布和互动的当次明确授权 |
 | 浏览器或视觉验收 | `playwright`、`qa` | 桌面和移动端证据、控制台与关键流程 |

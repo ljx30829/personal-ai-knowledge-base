@@ -27,9 +27,9 @@
       "rule": "Reproduce and isolate before fixing; add a regression test for code changes."
     },
     {
-      "task": "ArmorHue visual/storefront quality",
-      "primary": "armorhue-luxury-ecommerce-art-director",
-      "secondary": "armorhue-no-slop-delivery-gate",
+      "task": "ExcludedBrand visual/storefront quality",
+      "primary": "ExcludedBrand-luxury-ecommerce-art-director",
+      "secondary": "ExcludedBrand-no-slop-delivery-gate",
       "rule": "Use premium automotive direction first; use no-slop gate before handoff."
     },
     {
@@ -45,14 +45,14 @@
       "rule": "Find exact source-traceable assets first; generate or produce only when needed."
     },
     {
-      "task": "Automotive film PDP, TDS, specs, or warranty",
-      "primary": "automotive-film-pdp-tds-builder",
+      "task": "excluded product domain PDP, TDS, specs, or warranty",
+      "primary": "excluded product domain-pdp-tds-builder",
       "secondary": "product-visual-pdp-consistency-auditor",
       "rule": "Never invent specs; audit PDP/image/title consistency after edits."
     },
     {
       "task": "B2B wholesale funnel or dealer intake",
-      "primary": "armorhue-b2b-wholesale-funnel-architect",
+      "primary": "ExcludedBrand-b2b-wholesale-funnel-architect",
       "secondary": "shopify-conversion-section-builder",
       "rule": "Keep price isolation and wholesale flow clear."
     },
@@ -1349,13 +1349,13 @@
     }
   ],
   "topics": {
-    "armorhue": [
-      "armorhue-b2b-wholesale-funnel-architect",
-      "armorhue-catalog-workbook-quality-gate",
-      "armorhue-luxury-ecommerce-art-director",
-      "armorhue-no-slop-delivery-gate",
-      "armorhue-project-supervisor-delivery-gate",
-      "automotive-film-pdp-tds-builder",
+    "ExcludedBrand": [
+      "ExcludedBrand-b2b-wholesale-funnel-architect",
+      "ExcludedBrand-catalog-workbook-quality-gate",
+      "ExcludedBrand-luxury-ecommerce-art-director",
+      "ExcludedBrand-no-slop-delivery-gate",
+      "ExcludedBrand-project-supervisor-delivery-gate",
+      "excluded product domain-pdp-tds-builder",
       "codex-thread-task-supervisor",
       "email-to-motion",
       "independent-site-visual-director",
@@ -1368,13 +1368,13 @@
       "taste-skill-art-director"
     ],
     "shopify": [
-      "armorhue-b2b-wholesale-funnel-architect",
-      "armorhue-catalog-workbook-quality-gate",
-      "armorhue-luxury-ecommerce-art-director",
-      "armorhue-no-slop-delivery-gate",
-      "armorhue-project-supervisor-delivery-gate",
+      "ExcludedBrand-b2b-wholesale-funnel-architect",
+      "ExcludedBrand-catalog-workbook-quality-gate",
+      "ExcludedBrand-luxury-ecommerce-art-director",
+      "ExcludedBrand-no-slop-delivery-gate",
+      "ExcludedBrand-project-supervisor-delivery-gate",
       "audit",
-      "automotive-film-pdp-tds-builder",
+      "excluded product domain-pdp-tds-builder",
       "codex-thread-task-supervisor",
       "competitor-site-reference-rebuilder",
       "email-to-motion",
@@ -1403,10 +1403,10 @@
       "Spreadsheets",
       "agent-browser",
       "agent-browser-verify",
-      "armorhue-b2b-wholesale-funnel-architect",
-      "armorhue-catalog-workbook-quality-gate",
-      "armorhue-luxury-ecommerce-art-director",
-      "armorhue-no-slop-delivery-gate",
+      "ExcludedBrand-b2b-wholesale-funnel-architect",
+      "ExcludedBrand-catalog-workbook-quality-gate",
+      "ExcludedBrand-luxury-ecommerce-art-director",
+      "ExcludedBrand-no-slop-delivery-gate",
       "audit",
       "autoplan",
       "brainstorming",
@@ -1480,9 +1480,9 @@
       "agent-browser-verify",
       "android-emulator-qa",
       "android-performance",
-      "armorhue-luxury-ecommerce-art-director",
-      "armorhue-no-slop-delivery-gate",
-      "armorhue-project-supervisor-delivery-gate",
+      "ExcludedBrand-luxury-ecommerce-art-director",
+      "ExcludedBrand-no-slop-delivery-gate",
+      "ExcludedBrand-project-supervisor-delivery-gate",
       "audit",
       "browse",
       "canary",
@@ -1535,9 +1535,9 @@
       "ai-gateway",
       "ai-generation-persistence",
       "ai-sdk",
-      "armorhue-catalog-workbook-quality-gate",
-      "armorhue-luxury-ecommerce-art-director",
-      "armorhue-no-slop-delivery-gate",
+      "ExcludedBrand-catalog-workbook-quality-gate",
+      "ExcludedBrand-luxury-ecommerce-art-director",
+      "ExcludedBrand-no-slop-delivery-gate",
       "audit",
       "brandkit",
       "competitor-site-reference-rebuilder",
@@ -1565,11 +1565,11 @@
     ],
     "planning_review": [
       "android-emulator-qa",
-      "armorhue-catalog-workbook-quality-gate",
-      "armorhue-no-slop-delivery-gate",
-      "armorhue-project-supervisor-delivery-gate",
+      "ExcludedBrand-catalog-workbook-quality-gate",
+      "ExcludedBrand-no-slop-delivery-gate",
+      "ExcludedBrand-project-supervisor-delivery-gate",
       "audit",
-      "automotive-film-pdp-tds-builder",
+      "excluded product domain-pdp-tds-builder",
       "autoplan",
       "brainstorming",
       "cms",
@@ -1676,7 +1676,7 @@
     "deployment": [
       "ai-gateway",
       "ai-sdk",
-      "armorhue-luxury-ecommerce-art-director",
+      "ExcludedBrand-luxury-ecommerce-art-director",
       "auth",
       "bootstrap",
       "canary",
@@ -1733,7 +1733,7 @@
   "cleanup_policy": [
     "Do not delete skills automatically.",
     "Prefer root-level user skill paths over mirrored gstack subpaths when names are identical.",
-    "Use explicit task routing for overlapping design, QA, image, Shopify, and ArmorHue skills.",
+    "Use explicit task routing for overlapping design, QA, image, Shopify, and ExcludedBrand skills.",
     "Strong-gate skills should be treated as process gates, not domain specialists.",
     "Archive duplicates only after checking current references and one full successful run."
   ]

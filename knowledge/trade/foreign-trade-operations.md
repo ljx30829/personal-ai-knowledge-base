@@ -10,7 +10,7 @@ next_review: 2026-08-11
 
 # 外贸运营
 
-真实脚本入口、CSV 字段、SMTP 探测、预演/实发命令、发后复核和跨设备恢复见 [ArmorHue 外贸线索、邮件与监督执行手册](foreign-trade-execution-runbook.md)。
+真实脚本入口、CSV 字段、SMTP 探测、预演/实发命令、发后复核和跨设备恢复见 [ExcludedBrand 外贸线索、邮件与监督执行手册](foreign-trade-execution-runbook.md)。
 
 ## 可复用流程
 
@@ -30,12 +30,12 @@ next_review: 2026-08-11
 
 ## 发送与社交边界
 
-- 当前 ArmorHue 邮件只允许使用经验证的 ArmorHue 域名身份；任何替代免费邮箱都不能面向客户发送。
+- 当前 ExcludedBrand 邮件只允许使用经验证的 ExcludedBrand 域名身份；任何替代免费邮箱都不能面向客户发送。
 - 发件邮箱身份正确不等于可发送。退信、回复、退订、投诉和负面回复的复核门必须同时通过。
 - 社交队列必须包含明确平台、账号、目标和动作类型，并在操作时取得授权；准备 100 条不等于执行 100 次。
 - 登录墙、验证码、429、异常安全提示、设备或账号风险信号出现时立即停止。
 
-## 2026-08-04 ArmorHue 快照
+## 2026-08-04 ExcludedBrand 快照
 
 - 发现：`WATCH_NO_SEND_DISCOVERY_ONLY`，接受 10 个机会，A=7、B=3；发现流程发送 0。
 - 当日 sender：day44 日志记录 12 个精确 `Sent`、0 Failed、0 Ready。
@@ -51,6 +51,6 @@ next_review: 2026-08-11
 ## 来源与证据
 
 - `D:\codex\TASK_STATE.md`
-- `D:\codex\output\armorhue-b2b-leadgen-run-20260605\automation-health-20260804.md`
-- `D:\codex\output\armorhue-b2b-leadgen-run-20260605\automation-health-20260804-b2b-send.md`
-- `D:\codex\output\armorhue-b2b-leadgen-run-20260605\automation-health-20260804-discovery.md`
+- `D:\codex\output\ExcludedBrand-b2b-leadgen-run-20260605\automation-health-20260804.md`
+- `D:\codex\output\ExcludedBrand-b2b-leadgen-run-20260605\automation-health-20260804-b2b-send.md`
+- `D:\codex\output\ExcludedBrand-b2b-leadgen-run-20260605\automation-health-20260804-discovery.md`

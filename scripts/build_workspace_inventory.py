@@ -10,7 +10,7 @@ from typing import Any, Mapping
 
 
 WORKSPACE_ROOTS = {
-    "armorhue-and-trade": Path(r"D:\codex"),
+    "ExcludedBrand-and-trade": Path(r"D:\codex"),
     "independent-site-research": Path(r"C:\Users\26014\Documents\独立站"),
     "relay": Path(r"C:\Users\26014\Documents\中转站"),
     "nodes": Path(r"C:\Users\26014\Documents\节点"),

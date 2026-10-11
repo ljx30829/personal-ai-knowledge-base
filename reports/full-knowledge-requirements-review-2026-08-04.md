@@ -132,7 +132,7 @@ next_review: 2026-08-11
 - **R-064**：发现、发送、社交准备和监督是四条独立流水线。
 - **R-065**：发送前复核发件身份、邮箱可用性、历史发送、硬退信、退订、投诉、负面回复和人工审核状态。
 - **R-066**：准备队列、`Ready`、草稿、演练和阻塞记录不得计入发送。
-- **R-067**：当前 ArmorHue 发送必须使用经验证的 ArmorHue 域名身份。
+- **R-067**：当前 ExcludedBrand 发送必须使用经验证的 ExcludedBrand 域名身份。
 - **R-068**：发现流程默认不发送邮件、私信、评论或 WhatsApp。
 - **R-069**：社交队列必须经过人工审核，并在动作发生时再次确认授权。
 - **R-070**：不能推断私人联系方式、地点、身份、购买力或客户意向。
@@ -161,10 +161,10 @@ next_review: 2026-08-11
 - **R-090**：程序、Theme Check 或本地截图通过，不能代替线上路由和转化流程验收。
 - **R-091**：视觉实验先做候选，并完成桌面与移动端截图审核。
 - **R-092**：实验样式不能静默推到线上。
-- **R-093**：ArmorHue 默认视觉为高端汽车工业感和工厂直供批发可信度。
-- **R-094**：ArmorHue 避免廉价模板、重复图片、错色、占位文案、假评论和未授权素材。
-- **R-095**：ArmorHue 批发漏斗要区分样品、测试卷、整卷、经销商资格和价格层级。
-- **R-096**：汽车膜术语、TDS、PDP 参数和质保内容只能来自供应商或用户确认资料。
+- **R-093**：ExcludedBrand 默认视觉为高端汽车工业感和工厂直供批发可信度。
+- **R-094**：ExcludedBrand 避免廉价模板、重复图片、错色、占位文案、假评论和未授权素材。
+- **R-095**：ExcludedBrand 批发漏斗要区分样品、测试卷、整卷、经销商资格和价格层级。
+- **R-096**：排除产品领域术语、TDS、PDP 参数和质保内容只能来自供应商或用户确认资料。
 - **R-097**：Yufeng 默认视觉为高端包装制造和清晰 B2B 转化路径。
 - **R-098**：Yufeng 候选主题在用户批准前保持未发布。
 - **R-099**：真实图片、公司信息、产品资料和报价不能从主题或竞品推断。
@@ -289,7 +289,7 @@ next_review: 2026-08-11
 
 | 项目 | 状态 | 当前结论 | 关键阻塞 |
 | --- | --- | --- | --- |
-| ArmorHue | `WATCH` | 外贸、Shopify、SEO、B2B 和社交系统已形成，但不能视为全链路健康 | 邮箱风险复核、GA4/GTM 0/8、429、Admin 身份证据 |
+| ExcludedBrand | `WATCH` | 外贸、Shopify、SEO、B2B 和社交系统已形成，但不能视为全链路健康 | 邮箱风险复核、GA4/GTM 0/8、429、Admin 身份证据 |
 | Yufeng | `WATCH_UNPUBLISHED` | 响应式图片候选已通过日期化测试，主题仍未发布 | 用户视觉批准、主题角色、Admin 店名和线上差异 |
 | AI Global Trade OS | `WATCH_LOCAL_ONLY` | 本地系统能力较完整，历史测试通过；没有公共生产部署 | 托管基础设施、正式账号、凭据、商店与法律发布 |
 | 自媒体内容蒸馏器 | `WATCH_PARTIAL_COVERAGE` | 本地蒸馏流程可用，账号证据和转写覆盖仍不完整 | 媒体 URL、平台验证壳、作者与后台数据 |
@@ -299,11 +299,11 @@ next_review: 2026-08-11
 
 | 自动化 | 配置状态 | 周期 | 解释 |
 | --- | --- | --- | --- |
-| ArmorHue B2B daily lead discovery | `ACTIVE` | 每天 19:30 | 发现，不发送 |
-| ArmorHue B2B daily email sender | `ACTIVE` | 每天 21:30 | 仍受邮箱与抑制门约束 |
-| ArmorHue B2B daily supervisor | `ACTIVE` | 每天 22:20 | 监督，不得放大发送数 |
-| ArmorHue social/WhatsApp queue | `ACTIVE` | 周一至周六 18:40 | 人工审核执行队列 |
-| ArmorHue Daily SEO Traffic Monitor | `ACTIVE` | 每天 09:30 | `ACTIVE` 不等于站点健康 |
+| ExcludedBrand B2B daily lead discovery | `ACTIVE` | 每天 19:30 | 发现，不发送 |
+| ExcludedBrand B2B daily email sender | `ACTIVE` | 每天 21:30 | 仍受邮箱与抑制门约束 |
+| ExcludedBrand B2B daily supervisor | `ACTIVE` | 每天 22:20 | 监督，不得放大发送数 |
+| ExcludedBrand social/WhatsApp queue | `ACTIVE` | 周一至周六 18:40 | 人工审核执行队列 |
+| ExcludedBrand Daily SEO Traffic Monitor | `ACTIVE` | 每天 09:30 | `ACTIVE` 不等于站点健康 |
 | 监督 Yufeng P18 线程 | `PAUSED` | 每 30 分钟 | 当前暂停 |
 | UUMit 统一巡航 | `PAUSED` | 每 5 分钟 | 当前暂停且无工作区 |
 | memory-writing-agent-phase-2 | `METADATA_MISSING` | 未知 | 不删除，待确认 |
@@ -314,7 +314,7 @@ next_review: 2026-08-11
 
 | 工作区 | 路径 | 状态 | 主要内容 |
 | --- | --- | --- | --- |
-| ArmorHue、外贸与 Shopify | `D:\codex` | `ACTIVE` | ArmorHue、Yufeng、B2B、SEO、主题和自动化 |
+| ExcludedBrand、外贸与 Shopify | `D:\codex` | `ACTIVE` | ExcludedBrand、Yufeng、B2B、SEO、主题和自动化 |
 | 独立站选品 | `C:\Users\26014\Documents\独立站` | `ACTIVE` | 客户优先研究与产品机会 |
 | 自媒体运营 | `C:\Users\26014\Documents\自媒体运营` | `ACTIVE` | 内容、蒸馏器和 AI Global Trade OS 交接 |
 | 技能清单工具 | `C:\Users\26014\Documents\技能` | `ACTIVE` | 技能与要求扫描器 |

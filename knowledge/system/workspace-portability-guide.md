@@ -45,7 +45,7 @@ git ls-files
 
 ## 方案 A：独立 Private Git 仓库
 
-适合代码型工作区，例如 ArmorHue/Yufeng、自媒体蒸馏器和研究工具。
+适合代码型工作区，例如 ExcludedBrand/Yufeng、自媒体蒸馏器和研究工具。
 
 1. 先补 `.gitignore`，排除 `.env*`、凭据、浏览器资料、数据库、缓存、日志、视频、图片大包和生成输出。
 2. 用 `git status --short` 逐项审阅待提交文件。
@@ -58,10 +58,10 @@ git ls-files
 
 ## 方案 B：Codex task pack
 
-ArmorHue Site Builder 已能把任务包输出到：
+ExcludedBrand Site Builder 已能把任务包输出到：
 
 ```text
-D:\codex\output\armorhue-site-builder\codex-task-packs
+D:\codex\output\ExcludedBrand-site-builder\codex-task-packs
 ```
 
 任务包至少包含：

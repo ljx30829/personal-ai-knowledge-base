@@ -10,13 +10,15 @@
 - [当前可迁移技能包](portable-skills/README.md)
 - [工作区地图](knowledge/system/workspace-map.md)
 - [项目工作区跨设备迁移指南](knowledge/system/workspace-portability-guide.md)
+- [项目迁移工具包](knowledge/system/project-migration-toolkit.md)
+- [完整跨设备恢复入口](knowledge/system/complete-recovery-runbook.md)
 - [自动化目录](knowledge/system/automation-catalog.md)
 - [Codex 自动化跨设备重建指南](knowledge/system/automation-rebuild-guide.md)
 
 ## 业务与项目知识
 
 - [外贸运营](knowledge/trade/foreign-trade-operations.md)
-- [ArmorHue 外贸执行手册](knowledge/trade/foreign-trade-execution-runbook.md)
+- [ExcludedBrand 外贸执行手册](knowledge/trade/foreign-trade-execution-runbook.md)
 - [独立站与 Shopify](knowledge/sites/independent-sites-and-shopify.md)
 - [Shopify 接入与验证指南](knowledge/sites/shopify-connection-guide.md)
 - [中转站与节点](knowledge/infrastructure/relay-and-node-operations.md)
@@ -33,7 +35,6 @@
 
 ## 项目交接
 
-- [ArmorHue](projects/armorhue.md)
 - [Yufeng](projects/yufeng.md)
 - [AI Global Trade OS](projects/ai-global-trade-os.md)
 - [自媒体内容蒸馏器](projects/self-media-distiller.md)

@@ -1,7 +1,7 @@
 [
   {
-    "name": "ArmorHue B2B daily email sender",
-    "path": "C:\\Users\\26014\\.codex\\automations\\armorhue-b2b",
+    "name": "ExcludedBrand B2B daily email sender",
+    "path": "C:\\Users\\26014\\.codex\\automations\\ExcludedBrand-b2b",
     "updated": "2026-07-18T14:14:27.315248+00:00",
     "status": "ACTIVE",
     "evidence_files": [
@@ -13,8 +13,8 @@
     ]
   },
   {
-    "name": "ArmorHue B2B daily lead discovery",
-    "path": "C:\\Users\\26014\\.codex\\automations\\armorhue-b2b-2",
+    "name": "ExcludedBrand B2B daily lead discovery",
+    "path": "C:\\Users\\26014\\.codex\\automations\\ExcludedBrand-b2b-2",
     "updated": "2026-07-18T14:14:27.321250+00:00",
     "status": "ACTIVE",
     "evidence_files": [
@@ -26,8 +26,8 @@
     ]
   },
   {
-    "name": "ArmorHue B2B daily supervisor",
-    "path": "C:\\Users\\26014\\.codex\\automations\\armorhue-b2b-3",
+    "name": "ExcludedBrand B2B daily supervisor",
+    "path": "C:\\Users\\26014\\.codex\\automations\\ExcludedBrand-b2b-3",
     "updated": "2026-07-18T14:14:27.327247+00:00",
     "status": "ACTIVE",
     "evidence_files": [
@@ -39,8 +39,8 @@
     ]
   },
   {
-    "name": "ArmorHue TikTok/IG/FB/WhatsApp 100 touchpoint execution queue",
-    "path": "C:\\Users\\26014\\.codex\\automations\\armorhue-c-whatsapp",
+    "name": "ExcludedBrand TikTok/IG/FB/WhatsApp 100 touchpoint execution queue",
+    "path": "C:\\Users\\26014\\.codex\\automations\\ExcludedBrand-c-whatsapp",
     "updated": "2026-07-18T14:14:27.333246+00:00",
     "status": "ACTIVE",
     "evidence_files": [
@@ -52,8 +52,8 @@
     ]
   },
   {
-    "name": "ArmorHue Daily SEO Traffic Monitor",
-    "path": "C:\\Users\\26014\\.codex\\automations\\armorhue-seo",
+    "name": "ExcludedBrand Daily SEO Traffic Monitor",
+    "path": "C:\\Users\\26014\\.codex\\automations\\ExcludedBrand-seo",
     "updated": "2026-07-18T14:14:27.338246+00:00",
     "status": "ACTIVE",
     "evidence_files": [

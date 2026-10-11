@@ -3,11 +3,47 @@ import unittest
 from unittest.mock import patch
 from pathlib import Path
 
+from scripts.audit_portable_skills import audit_bundle
 from scripts.export_portable_skills import collect_files, export_bundle
 from scripts.install_portable_skills import install_bundle
 
 
 class PortableSkillsTests(unittest.TestCase):
+    def test_audit_accepts_standard_and_extended_frontmatter(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            bundle = Path(tmp)
+            standard = bundle / "user-skills" / "standard" / "SKILL.md"
+            extended = bundle / "user-skills" / "extended" / "SKILL.md"
+            standard.parent.mkdir(parents=True)
+            extended.parent.mkdir(parents=True)
+            standard.write_text(
+                "---\nname: standard\ndescription: Standard skill.\n---\n",
+                encoding="utf-8",
+            )
+            extended.write_text(
+                "---\nname: extended\ndescription: Extended skill.\nversion: 1\n---\n",
+                encoding="utf-8",
+            )
+
+            result = audit_bundle(bundle)
+
+            self.assertEqual("PASS_COMPATIBLE", result["status"])
+            self.assertEqual(2, result["skill_files"])
+            self.assertEqual(1, result["strict_template_compatible"])
+            self.assertEqual(1, result["compatible_with_warnings"])
+
+    def test_audit_rejects_missing_required_frontmatter(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            bundle = Path(tmp)
+            skill = bundle / "user-skills" / "broken" / "SKILL.md"
+            skill.parent.mkdir(parents=True)
+            skill.write_text("---\nname: broken\n---\n", encoding="utf-8")
+
+            result = audit_bundle(bundle)
+
+            self.assertEqual("FAIL", result["status"])
+            self.assertEqual(1, len(result["errors"]))
+
     def test_export_is_dry_run_by_default(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

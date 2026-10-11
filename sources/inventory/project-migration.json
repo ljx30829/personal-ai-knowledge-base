@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-11T10:12:54.589990+00:00",
+  "project_count": 4,
+  "excluded_project_count": 1,
+  "projects": [
+    {
+      "name": "独立站",
+      "source_path": "C:\\Users\\26014\\Documents\\独立站",
+      "status": "ACTIVE",
+      "exclusion_reason": null,
+      "git": {
+        "is_repo": true
+      },
+      "entrypoints": [],
+      "state_files": [
+        "TASK_STATE.md"
+      ],
+      "evidence_files": [
+        "TASK_STATE.md"
+      ],
+      "dependency_files": [],
+      "secret_candidates": [],
+      "large_file_summary": {
+        "count": 0,
+        "bytes": 0
+      }
+    },
+    {
+      "name": "自媒体运营",
+      "source_path": "C:\\Users\\26014\\Documents\\自媒体运营",
+      "status": "ACTIVE",
+      "exclusion_reason": null,
+      "git": {
+        "is_repo": true
+      },
+      "entrypoints": [
+        "src/account_knowledge_distiller/__init__.py",
+        "src/account_knowledge_distiller/asr.py",
+        "src/account_knowledge_distiller/benchmark.py",
+        "src/account_knowledge_distiller/benchmark_deep_dive.py",
+        "src/account_knowledge_distiller/chinese_url_parser.py",
+        "src/account_knowledge_distiller/cli.py",
+        "src/account_knowledge_distiller/content_distillation.py",
+        "src/account_knowledge_distiller/distill.py",
+        "src/account_knowledge_distiller/distilled_rule_lock.py",
+        "src/account_knowledge_distiller/douyin.py",
+        "src/account_knowledge_distiller/finecut_mastery.py",
+        "src/account_knowledge_distiller/finecut_preflight.py",
+        "src/account_knowledge_distiller/finecut_redo.py",
+        "src/account_knowledge_distiller/finecut_source_screening.py",
+        "src/account_knowledge_distiller/ingest.py",
+        "src/account_knowledge_distiller/jianying_bridge.py",
+        "src/account_knowledge_distiller/jianying_export_gate.py",
+        "src/account_knowledge_distiller/media.py",
+        "src/account_knowledge_distiller/models.py",
+        "src/account_knowledge_distiller/quality.py",
+        "src/account_knowledge_distiller/search.py",
+        "src/account_knowledge_distiller/speaking_finecut.py",
+        "src/account_knowledge_distiller/synthesize.py",
+        "src/account_knowledge_distiller/viral_editing.py"
+      ],
+      "state_files": [
+        "TASK_STATE.md"
+      ],
+      "evidence_files": [
+        "README.md",
+        "TASK_STATE.md",
+        "accounts/benchmarks/ai-trade-growth/operations/2026-07-12-week1/style_previews/README.md",
+        "assets/characters/zhou-jibai/ZJB-ID-v1/README.md",
+        "output/ai-drama-benchmark-pack/README.md"
+      ],
+      "dependency_files": [],
+      "secret_candidates": [],
+      "large_file_summary": {
+        "count": 0,
+        "bytes": 0
+      }
+    },
+    {
+      "name": "中转站",
+      "source_path": "C:\\Users\\26014\\Documents\\中转站",
+      "status": "PRESENT",
+      "exclusion_reason": null,
+      "git": {
+        "is_repo": true
+      },
+      "entrypoints": [],
+      "state_files": [],
+      "evidence_files": [],
+      "dependency_files": [],
+      "secret_candidates": [],
+      "large_file_summary": {
+        "count": 0,
+        "bytes": 0
+      }
+    },
+    {
+      "name": "节点",
+      "source_path": "C:\\Users\\26014\\Documents\\节点",
+      "status": "PRESENT",
+      "exclusion_reason": null,
+      "git": {
+        "is_repo": true
+      },
+      "entrypoints": [],
+      "state_files": [],
+      "evidence_files": [],
+      "dependency_files": [],
+      "secret_candidates": [],
+      "large_file_summary": {
+        "count": 0,
+        "bytes": 0
+      }
+    }
+  ]
+}

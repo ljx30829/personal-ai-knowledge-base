@@ -49,7 +49,7 @@
 
 | 用户要求 | 证据 | 状态 |
 | --- | --- | --- |
-| 外贸与 ArmorHue | `knowledge/trade/`、`projects/armorhue.md` | `PASS`，下一邮件批次仍受 supervisor/Zoho 风险门阻塞 |
+| 外贸与 ExcludedBrand | `knowledge/trade/`、`projects/ExcludedBrand.md` | `PASS`，下一邮件批次仍受 supervisor/Zoho 风险门阻塞 |
 | 独立站、Shopify、Yufeng | `knowledge/sites/`、对应项目页 | `PASS` |
 | 中转站与节点 | `knowledge/infrastructure/` | `WATCH`，配置和恢复步骤已补齐，现行状态需实时复核 |
 | 技能与用户要求 | `sources/codex-inventory/`、`knowledge/system/` | `PASS`，实际技能包待审阅后生成 |

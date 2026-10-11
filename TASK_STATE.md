@@ -3,7 +3,7 @@
 ## 2026-10-11 Complete Portable Recovery
 
 - STATUS: `PASS_PRIVATE_REMOTES_AND_RECOVERY_ENTRYPOINT_READY`.
-- REMOTE_VAULT: `https://github.com/ljx30829/personal-ai-knowledge-base`, Private, `master`, commit `6c2968617233ff184ed572fa0d73bf66fd80be6e`.
+- RECOVERY_COMMIT: `6c2968617233ff184ed572fa0d73bf66fd80be6e` is the complete recovery tree; the latest `master` pointer may include subsequent state-only documentation commits.
 - KNOWLEDGE: This Private repository includes the durable vault, the filtered portable skill bundle, project inventory, integrity tools, and cross-platform bootstrap scripts.
 - SOURCE_PROJECT: `https://github.com/ljx30829/account-knowledge-distiller`, Private, `master`, commit `41a53041d32b063b5d97744ca33af3cdbc92b354`; 62 reviewed files; manifest verification and `118/118` tests pass after extraction.
 - RESEARCH_PROJECT: `https://github.com/ljx30829/independent-site-research-vault`, Private, `master`, commit `74f6cbc80cd2c10a3c6cdcab6a20a908973f8da1`; 23 reviewed files.

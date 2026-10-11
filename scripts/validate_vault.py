@@ -19,6 +19,7 @@ REQUIRED_ROOT_FILES = (
 TEXT_EXTENSIONS = {".md", ".json", ".toml", ".yaml", ".yml", ".txt"}
 SOURCE_METADATA = {"updated", "status", "confidence", "sources", "next_review"}
 GENERATED_SOURCE_DIRS = {"codex-inventory", "inventory"}
+EXTERNAL_PAYLOAD_DIRS = {"portable-skills"}
 LINK_RE = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
 SECRET_ASSIGNMENT_RE = re.compile(
     r"(?i)\b[A-Z0-9_]*(?:API_KEY|TOKEN|PASSWORD|SECRET|COOKIE|AUTHORIZATION|PRIVATE_KEY)"
@@ -47,7 +48,11 @@ class ValidationResult:
 
 def _is_ignored(path: Path, root: Path) -> bool:
     relative = path.relative_to(root)
-    return ".git" in relative.parts or "__pycache__" in relative.parts
+    return (
+        ".git" in relative.parts
+        or "__pycache__" in relative.parts
+        or any(part in EXTERNAL_PAYLOAD_DIRS for part in relative.parts)
+    )
 
 
 def _read_text(path: Path, result: ValidationResult) -> str | None:

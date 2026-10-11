@@ -109,6 +109,23 @@ class ValidateVaultTests(unittest.TestCase):
 
             self.assertEqual([], result.errors)
 
+    def test_portable_skill_payload_is_not_treated_as_knowledge_docs(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            make_minimal_vault(root)
+            payload = root / "portable-skills" / "user-skills" / "example"
+            payload.mkdir(parents=True)
+            (payload / "SKILL.md").write_text(
+                "[Missing](references/not-in-vault.md)\n"
+                "OPENAI_API_KEY=fixture-value-that-is-not-a-secret\n",
+                encoding="utf-8",
+            )
+
+            result = validate_vault(root)
+
+            self.assertEqual([], result.errors)
+            self.assertNotIn("portable-skills", " ".join(result.errors))
+
 
 if __name__ == "__main__":
     unittest.main()

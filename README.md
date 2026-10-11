@@ -17,6 +17,7 @@
 - `inbox/`：新资料的暂存区，不能直接当作长期知识。
 - `decisions/`：重要决定及其理由。
 - `templates/`：统一的知识卡、来源卡和项目状态模板。
+- `portable-skills/`：经过凭据过滤、内容筛选和哈希记录的可迁移技能包；原始加载路径保持不变，分类清单只用于检索。
 
 ## 关键操作指南
 
@@ -27,6 +28,7 @@
 - [自媒体蒸馏运行手册](knowledge/media/self-media-distillation-runbook.md)：账号准备、导入、Whisper 转写、审计、蒸馏和搜索。
 - [客户优先选品执行手册](knowledge/commerce/customer-first-research-runbook.md)：客户池、访谈、付费证据、概念和逐级淘汰门。
 - [技能迁移](knowledge/system/skills-portability-guide.md)、[自动化重建](knowledge/system/automation-rebuild-guide.md)、[工作区迁移](knowledge/system/workspace-portability-guide.md)和 [Git 跨设备同步](knowledge/ai-workflows/git-cross-device-guide.md)：另一台电脑恢复可执行能力。
+- [可迁移技能包](portable-skills/README.md)：恢复当前筛选后的用户技能和插件技能，并按 `portable-skills-manifest.json` 做完整性校验。
 
 ## 审阅与打包
 

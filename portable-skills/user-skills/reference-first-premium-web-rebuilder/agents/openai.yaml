@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reference-first premium web rebuilder"
+  short_description: "Replicate reference screens before adapting the target brand."
+  default_prompt: "Use $reference-first-premium-web-rebuilder. I will provide a target URL or local page and at least one reference URL. First open the reference, capture desktop/mobile reference screenshots, capture desktop/mobile target-before screenshots, build side-by-side comparisons, list differences, fix by screenshot evidence, check images/mobile/overflow/forms, then adapt the passed reference system to my brand."

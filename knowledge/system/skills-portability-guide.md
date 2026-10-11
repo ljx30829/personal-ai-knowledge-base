@@ -7,12 +7,19 @@ sources:
   - ../../sources/codex-inventory/codex-inventory.md
   - ../../scripts/export_portable_skills.py
   - ../../scripts/install_portable_skills.py
+  - ../../portable-skills/portable-skills-manifest.json
 next_review: 2026-09-04
 ---
 
 # Codex 技能跨设备迁移指南
 
 这份指南解决“另一台电脑或另一个 Codex 不只看见技能名称，还能实际加载技能文件”的问题。知识库中的技能清单只是索引；真正可执行的技能正文和配套脚本仍位于 Codex 用户目录，必须另行导出和安装。
+
+## 当前可迁移包
+
+截至 2026-10-08，仓库内的 [`portable-skills/`](../../portable-skills/README.md) 是一次筛选后的当前快照：保留原始 `user-skills/` 和 `plugin-cache/` 加载路径，包含 `219` 个技能单元和 `2389` 个 manifest 文件。`portable-skills/SKILL_CATALOG.md` 提供分类导航，`portable-skills/portable-skills-manifest.json` 提供 SHA-256 完整性校验。
+
+该快照排除了用户指定的领域技能和相关内容，以及导出器识别出的环境文件、凭据命名文件、日志、数据库、缓存目录、符号链接和其他敏感/生成文件。知识库文档与技能包是两个不同层次：文档用于长期上下文，技能包用于恢复可执行文件。
 
 ## 当前已核对范围
 

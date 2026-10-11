@@ -7,6 +7,7 @@
 - [用户长期要求](knowledge/system/user-requirements.md)
 - [技能与路由](knowledge/system/skills-and-routing.md)
 - [Codex 技能跨设备迁移指南](knowledge/system/skills-portability-guide.md)
+- [当前可迁移技能包](portable-skills/README.md)
 - [工作区地图](knowledge/system/workspace-map.md)
 - [项目工作区跨设备迁移指南](knowledge/system/workspace-portability-guide.md)
 - [自动化目录](knowledge/system/automation-catalog.md)
@@ -26,6 +27,7 @@
 - [内容蒸馏系统](knowledge/distillation/content-distillation-system.md)
 - [客户优先选品研究](knowledge/commerce/customer-first-product-research.md)
 - [客户优先选品研究执行手册](knowledge/commerce/customer-first-research-runbook.md)
+- [京东选品、核价、优化与上架自动化](knowledge/commerce/jd-product-automation.md)
 - [跨设备 AI 大脑](knowledge/ai-workflows/portable-ai-brain.md)
 - [Private GitHub 跨设备同步与 AI 使用指南](knowledge/ai-workflows/git-cross-device-guide.md)
 
@@ -36,8 +38,11 @@
 - [AI Global Trade OS](projects/ai-global-trade-os.md)
 - [自媒体内容蒸馏器](projects/self-media-distiller.md)
 - [独立站选品研究](projects/independent-site-research.md)
+- [京东电商自动化](projects/jd-commerce-automation.md)
 
 ## 详细清单
+
+- [京东选品、核价、优化与上架自动化 GitHub 调研（2026-08-24）](sources/research/jd-product-selection-pricing-listing-automation-github-research-2026-08-24.md)
 
 - [完整知识与要求审阅稿](reports/full-knowledge-requirements-review-2026-08-04.md)
 - `sources/codex-inventory/`：全部技能和用户要求的生成清单。

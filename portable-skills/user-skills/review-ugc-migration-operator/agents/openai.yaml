@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review UGC Migration"
+  short_description: "Plan real reviews and UGC blocks"
+  default_prompt: "Use $review-ugc-migration-operator to organize real customer reviews or UGC into a Shopify-ready review section or import plan."

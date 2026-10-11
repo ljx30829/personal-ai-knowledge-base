@@ -1,0 +1,4 @@
+interface:
+  display_name: "End-to-End Quality Auditor"
+  short_description: "Find and fix issues before handoff"
+  default_prompt: "Use $end-to-end-quality-auditor to inspect completed work from multiple angles, find problems, fix them, and report verified evidence."

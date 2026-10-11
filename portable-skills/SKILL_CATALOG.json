@@ -1,0 +1,1973 @@
+[
+  {
+    "name": "remotion",
+    "source": "plugin-cache",
+    "path": "openai-api-curated/remotion/2f1a8948/skills/remotion",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-api-curated/remotion/2f1a8948/skills/remotion/SKILL.md",
+    "file_count": 40,
+    "bytes": 115662
+  },
+  {
+    "name": "android-emulator-qa",
+    "source": "plugin-cache",
+    "path": "openai-api-curated/test-android-apps/2f1a8948/skills/android-emulator-qa",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-api-curated/test-android-apps/2f1a8948/skills/android-emulator-qa/SKILL.md",
+    "file_count": 5,
+    "bytes": 20120
+  },
+  {
+    "name": "android-performance",
+    "source": "plugin-cache",
+    "path": "openai-api-curated/test-android-apps/2f1a8948/skills/android-performance",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-api-curated/test-android-apps/2f1a8948/skills/android-performance/SKILL.md",
+    "file_count": 4,
+    "bytes": 25624
+  },
+  {
+    "name": "computer-use",
+    "source": "plugin-cache",
+    "path": "openai-bundled/computer-use/26.930.21537/skills/computer-use",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-bundled/computer-use/26.930.21537/skills/computer-use/SKILL.md",
+    "file_count": 1,
+    "bytes": 1497
+  },
+  {
+    "name": "visualize",
+    "source": "plugin-cache",
+    "path": "openai-bundled/visualize/1.0.46/skills/visualize",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-bundled/visualize/1.0.46/skills/visualize/SKILL.md",
+    "file_count": 11,
+    "bytes": 134739
+  },
+  {
+    "name": "agent-browser",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/agent-browser",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/agent-browser/SKILL.md",
+    "file_count": 1,
+    "bytes": 7426
+  },
+  {
+    "name": "agent-browser-verify",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/agent-browser-verify",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/agent-browser-verify/SKILL.md",
+    "file_count": 1,
+    "bytes": 7375
+  },
+  {
+    "name": "ai-elements",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/ai-elements",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/ai-elements/SKILL.md",
+    "file_count": 1,
+    "bytes": 24388
+  },
+  {
+    "name": "ai-gateway",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/ai-gateway",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/ai-gateway/SKILL.md",
+    "file_count": 1,
+    "bytes": 22648
+  },
+  {
+    "name": "ai-generation-persistence",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/ai-generation-persistence",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/ai-generation-persistence/SKILL.md",
+    "file_count": 1,
+    "bytes": 9136
+  },
+  {
+    "name": "ai-sdk",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/ai-sdk",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/ai-sdk/SKILL.md",
+    "file_count": 2,
+    "bytes": 52425
+  },
+  {
+    "name": "auth",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/auth",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/auth/SKILL.md",
+    "file_count": 1,
+    "bytes": 11845
+  },
+  {
+    "name": "bootstrap",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/bootstrap",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/bootstrap/SKILL.md",
+    "file_count": 1,
+    "bytes": 8022
+  },
+  {
+    "name": "chat-sdk",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/chat-sdk",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/chat-sdk/SKILL.md",
+    "file_count": 1,
+    "bytes": 20537
+  },
+  {
+    "name": "cms",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/cms",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/cms/SKILL.md",
+    "file_count": 1,
+    "bytes": 11511
+  },
+  {
+    "name": "cron-jobs",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/cron-jobs",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/cron-jobs/SKILL.md",
+    "file_count": 1,
+    "bytes": 3262
+  },
+  {
+    "name": "deployments-cicd",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/deployments-cicd",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/deployments-cicd/SKILL.md",
+    "file_count": 1,
+    "bytes": 12176
+  },
+  {
+    "name": "email",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/email",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/email/SKILL.md",
+    "file_count": 1,
+    "bytes": 11988
+  },
+  {
+    "name": "env-vars",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/env-vars",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/env-vars/SKILL.md",
+    "file_count": 1,
+    "bytes": 9674
+  },
+  {
+    "name": "geist",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/geist",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/geist/SKILL.md",
+    "file_count": 1,
+    "bytes": 7661
+  },
+  {
+    "name": "geistdocs",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/geistdocs",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/geistdocs/SKILL.md",
+    "file_count": 1,
+    "bytes": 9107
+  },
+  {
+    "name": "investigation-mode",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/investigation-mode",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/investigation-mode/SKILL.md",
+    "file_count": 1,
+    "bytes": 10509
+  },
+  {
+    "name": "json-render",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/json-render",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/json-render/SKILL.md",
+    "file_count": 1,
+    "bytes": 11158
+  },
+  {
+    "name": "marketplace",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/marketplace",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/marketplace/SKILL.md",
+    "file_count": 1,
+    "bytes": 19730
+  },
+  {
+    "name": "micro",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/micro",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/micro/SKILL.md",
+    "file_count": 1,
+    "bytes": 4986
+  },
+  {
+    "name": "ncc",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/ncc",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/ncc/SKILL.md",
+    "file_count": 1,
+    "bytes": 5475
+  },
+  {
+    "name": "next-forge",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/next-forge",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/next-forge/SKILL.md",
+    "file_count": 1,
+    "bytes": 15441
+  },
+  {
+    "name": "nextjs",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/nextjs",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/nextjs/SKILL.md",
+    "file_count": 2,
+    "bytes": 45968
+  },
+  {
+    "name": "observability",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/observability",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/observability/SKILL.md",
+    "file_count": 1,
+    "bytes": 28179
+  },
+  {
+    "name": "payments",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/payments",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/payments/SKILL.md",
+    "file_count": 1,
+    "bytes": 12446
+  },
+  {
+    "name": "react-best-practices",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/react-best-practices",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/react-best-practices/SKILL.md",
+    "file_count": 1,
+    "bytes": 6426
+  },
+  {
+    "name": "routing-middleware",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/routing-middleware",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/routing-middleware/SKILL.md",
+    "file_count": 1,
+    "bytes": 12319
+  },
+  {
+    "name": "runtime-cache",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/runtime-cache",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/runtime-cache/SKILL.md",
+    "file_count": 1,
+    "bytes": 9210
+  },
+  {
+    "name": "satori",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/satori",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/satori/SKILL.md",
+    "file_count": 1,
+    "bytes": 8181
+  },
+  {
+    "name": "shadcn",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/shadcn",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/shadcn/SKILL.md",
+    "file_count": 1,
+    "bytes": 20743
+  },
+  {
+    "name": "sign-in-with-vercel",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/sign-in-with-vercel",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/sign-in-with-vercel/SKILL.md",
+    "file_count": 1,
+    "bytes": 3280
+  },
+  {
+    "name": "swr",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/swr",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/swr/SKILL.md",
+    "file_count": 1,
+    "bytes": 7613
+  },
+  {
+    "name": "turbopack",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/turbopack",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/turbopack/SKILL.md",
+    "file_count": 1,
+    "bytes": 10695
+  },
+  {
+    "name": "turborepo",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/turborepo",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/turborepo/SKILL.md",
+    "file_count": 1,
+    "bytes": 17817
+  },
+  {
+    "name": "v0-dev",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/v0-dev",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/v0-dev/SKILL.md",
+    "file_count": 1,
+    "bytes": 15763
+  },
+  {
+    "name": "vercel-agent",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-agent",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-agent/SKILL.md",
+    "file_count": 1,
+    "bytes": 3175
+  },
+  {
+    "name": "vercel-api",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-api",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-api/SKILL.md",
+    "file_count": 1,
+    "bytes": 10636
+  },
+  {
+    "name": "vercel-cli",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-cli",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-cli/SKILL.md",
+    "file_count": 1,
+    "bytes": 13905
+  },
+  {
+    "name": "vercel-firewall",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-firewall",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-firewall/SKILL.md",
+    "file_count": 1,
+    "bytes": 18374
+  },
+  {
+    "name": "vercel-flags",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-flags",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-flags/SKILL.md",
+    "file_count": 1,
+    "bytes": 11225
+  },
+  {
+    "name": "vercel-functions",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-functions",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-functions/SKILL.md",
+    "file_count": 1,
+    "bytes": 16286
+  },
+  {
+    "name": "vercel-queues",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-queues",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-queues/SKILL.md",
+    "file_count": 1,
+    "bytes": 9672
+  },
+  {
+    "name": "vercel-sandbox",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-sandbox",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-sandbox/SKILL.md",
+    "file_count": 1,
+    "bytes": 10274
+  },
+  {
+    "name": "vercel-services",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-services",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-services/SKILL.md",
+    "file_count": 5,
+    "bytes": 9470
+  },
+  {
+    "name": "vercel-storage",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-storage",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/vercel-storage/SKILL.md",
+    "file_count": 1,
+    "bytes": 19845
+  },
+  {
+    "name": "verification",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/verification",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/verification/SKILL.md",
+    "file_count": 1,
+    "bytes": 8809
+  },
+  {
+    "name": "workflow",
+    "source": "plugin-cache",
+    "path": "openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/workflow",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-curated/vercel/1f87561ac4dae225447336612b9304903921bb85/skills/workflow/SKILL.md",
+    "file_count": 2,
+    "bytes": 37124
+  },
+  {
+    "name": "documents",
+    "source": "plugin-cache",
+    "path": "openai-primary-runtime/documents/26.805.11740/skills/documents",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-primary-runtime/documents/26.805.11740/skills/documents/SKILL.md",
+    "file_count": 78,
+    "bytes": 429495
+  },
+  {
+    "name": "pdf",
+    "source": "plugin-cache",
+    "path": "openai-primary-runtime/pdf/26.805.11740/skills/pdf",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-primary-runtime/pdf/26.805.11740/skills/pdf/SKILL.md",
+    "file_count": 3,
+    "bytes": 8634
+  },
+  {
+    "name": "presentations",
+    "source": "plugin-cache",
+    "path": "openai-primary-runtime/presentations/26.805.11740/skills/presentations",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-primary-runtime/presentations/26.805.11740/skills/presentations/SKILL.md",
+    "file_count": 110,
+    "bytes": 4295809
+  },
+  {
+    "name": "excel-live-control",
+    "source": "plugin-cache",
+    "path": "openai-primary-runtime/spreadsheets/26.805.11740/skills/excel-live-control",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-primary-runtime/spreadsheets/26.805.11740/skills/excel-live-control/SKILL.md",
+    "file_count": 10,
+    "bytes": 81015
+  },
+  {
+    "name": "spreadsheets",
+    "source": "plugin-cache",
+    "path": "openai-primary-runtime/spreadsheets/26.805.11740/skills/spreadsheets",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-primary-runtime/spreadsheets/26.805.11740/skills/spreadsheets/SKILL.md",
+    "file_count": 12,
+    "bytes": 102841
+  },
+  {
+    "name": "template-creator",
+    "source": "plugin-cache",
+    "path": "openai-primary-runtime/template-creator/26.805.11740/skills/template-creator",
+    "category": "plugin-cache",
+    "skill_file": "plugin-cache/openai-primary-runtime/template-creator/26.805.11740/skills/template-creator/SKILL.md",
+    "file_count": 3,
+    "bytes": 32868
+  },
+  {
+    "name": "hatch-pet",
+    "source": "user-skills",
+    "path": "hatch-pet",
+    "category": "browser-and-device",
+    "skill_file": "user-skills/hatch-pet/SKILL.md",
+    "file_count": 29,
+    "bytes": 305059
+  },
+  {
+    "name": "ios-clean",
+    "source": "user-skills",
+    "path": "ios-clean",
+    "category": "browser-and-device",
+    "skill_file": "user-skills/ios-clean/SKILL.md",
+    "file_count": 2,
+    "bytes": 51865
+  },
+  {
+    "name": "ios-fix",
+    "source": "user-skills",
+    "path": "ios-fix",
+    "category": "browser-and-device",
+    "skill_file": "user-skills/ios-fix/SKILL.md",
+    "file_count": 2,
+    "bytes": 51301
+  },
+  {
+    "name": "ios-sync",
+    "source": "user-skills",
+    "path": "ios-sync",
+    "category": "browser-and-device",
+    "skill_file": "user-skills/ios-sync/SKILL.md",
+    "file_count": 2,
+    "bytes": 51248
+  },
+  {
+    "name": "open-gstack-browser",
+    "source": "user-skills",
+    "path": "open-gstack-browser",
+    "category": "browser-and-device",
+    "skill_file": "user-skills/open-gstack-browser/SKILL.md",
+    "file_count": 2,
+    "bytes": 60800
+  },
+  {
+    "name": "playwright",
+    "source": "user-skills",
+    "path": "playwright",
+    "category": "browser-and-device",
+    "skill_file": "user-skills/playwright/SKILL.md",
+    "file_count": 9,
+    "bytes": 23256
+  },
+  {
+    "name": "playwright-interactive",
+    "source": "user-skills",
+    "path": "playwright-interactive",
+    "category": "browser-and-device",
+    "skill_file": "user-skills/playwright-interactive/SKILL.md",
+    "file_count": 6,
+    "bytes": 47429
+  },
+  {
+    "name": "setup-browser-cookies",
+    "source": "user-skills",
+    "path": "setup-browser-cookies",
+    "category": "browser-and-device",
+    "skill_file": "user-skills/setup-browser-cookies/SKILL.md",
+    "file_count": 2,
+    "bytes": 30167
+  },
+  {
+    "name": "brandkit",
+    "source": "user-skills",
+    "path": "brandkit",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/brandkit/SKILL.md",
+    "file_count": 1,
+    "bytes": 15992
+  },
+  {
+    "name": "brutalist-skill",
+    "source": "user-skills",
+    "path": "brutalist-skill",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/brutalist-skill/SKILL.md",
+    "file_count": 1,
+    "bytes": 8456
+  },
+  {
+    "name": "design-consultation",
+    "source": "user-skills",
+    "path": "design-consultation",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/design-consultation/SKILL.md",
+    "file_count": 5,
+    "bytes": 113808
+  },
+  {
+    "name": "design-html",
+    "source": "user-skills",
+    "path": "design-html",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/design-html/SKILL.md",
+    "file_count": 3,
+    "bytes": 126685
+  },
+  {
+    "name": "design-shotgun",
+    "source": "user-skills",
+    "path": "design-shotgun",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/design-shotgun/SKILL.md",
+    "file_count": 2,
+    "bytes": 83136
+  },
+  {
+    "name": "figma-generate-design",
+    "source": "user-skills",
+    "path": "figma-generate-design",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/figma-generate-design/SKILL.md",
+    "file_count": 7,
+    "bytes": 24939
+  },
+  {
+    "name": "gpt-tasteskill",
+    "source": "user-skills",
+    "path": "gpt-tasteskill",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/gpt-tasteskill/SKILL.md",
+    "file_count": 1,
+    "bytes": 7857
+  },
+  {
+    "name": "image-first",
+    "source": "user-skills",
+    "path": "image-first",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/image-first/SKILL.md",
+    "file_count": 1,
+    "bytes": 3496
+  },
+  {
+    "name": "image-to-code-skill",
+    "source": "user-skills",
+    "path": "image-to-code-skill",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/image-to-code-skill/SKILL.md",
+    "file_count": 1,
+    "bytes": 36442
+  },
+  {
+    "name": "imagegen-frontend-mobile",
+    "source": "user-skills",
+    "path": "imagegen-frontend-mobile",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/imagegen-frontend-mobile/SKILL.md",
+    "file_count": 1,
+    "bytes": 40326
+  },
+  {
+    "name": "imagegen-frontend-web",
+    "source": "user-skills",
+    "path": "imagegen-frontend-web",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/imagegen-frontend-web/SKILL.md",
+    "file_count": 1,
+    "bytes": 36854
+  },
+  {
+    "name": "impeccable",
+    "source": "user-skills",
+    "path": "impeccable",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/impeccable/SKILL.md",
+    "file_count": 83,
+    "bytes": 1829076
+  },
+  {
+    "name": "minimalist-skill",
+    "source": "user-skills",
+    "path": "minimalist-skill",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/minimalist-skill/SKILL.md",
+    "file_count": 1,
+    "bytes": 7901
+  },
+  {
+    "name": "redesign-skill",
+    "source": "user-skills",
+    "path": "redesign-skill",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/redesign-skill/SKILL.md",
+    "file_count": 1,
+    "bytes": 15060
+  },
+  {
+    "name": "stitch-skill",
+    "source": "user-skills",
+    "path": "stitch-skill",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/stitch-skill/SKILL.md",
+    "file_count": 2,
+    "bytes": 23904
+  },
+  {
+    "name": "taste-skill",
+    "source": "user-skills",
+    "path": "taste-skill",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/taste-skill/SKILL.md",
+    "file_count": 1,
+    "bytes": 87253
+  },
+  {
+    "name": "taste-skill-v1",
+    "source": "user-skills",
+    "path": "taste-skill-v1",
+    "category": "design-and-visual",
+    "skill_file": "user-skills/taste-skill-v1/SKILL.md",
+    "file_count": 1,
+    "bytes": 21195
+  },
+  {
+    "name": "diagram",
+    "source": "user-skills",
+    "path": "diagram",
+    "category": "documents-and-content",
+    "skill_file": "user-skills/diagram/SKILL.md",
+    "file_count": 2,
+    "bytes": 57542
+  },
+  {
+    "name": "document-generate",
+    "source": "user-skills",
+    "path": "document-generate",
+    "category": "documents-and-content",
+    "skill_file": "user-skills/document-generate/SKILL.md",
+    "file_count": 2,
+    "bytes": 76741
+  },
+  {
+    "name": "document-release",
+    "source": "user-skills",
+    "path": "document-release",
+    "category": "documents-and-content",
+    "skill_file": "user-skills/document-release/SKILL.md",
+    "file_count": 5,
+    "bytes": 95255
+  },
+  {
+    "name": "make-pdf",
+    "source": "user-skills",
+    "path": "make-pdf",
+    "category": "documents-and-content",
+    "skill_file": "user-skills/make-pdf/SKILL.md",
+    "file_count": 35,
+    "bytes": 622058
+  },
+  {
+    "name": "writing-plans",
+    "source": "user-skills",
+    "path": "writing-plans",
+    "category": "documents-and-content",
+    "skill_file": "user-skills/writing-plans/SKILL.md",
+    "file_count": 2,
+    "bytes": 8805
+  },
+  {
+    "name": "writing-skills",
+    "source": "user-skills",
+    "path": "writing-skills",
+    "category": "documents-and-content",
+    "skill_file": "user-skills/writing-skills/SKILL.md",
+    "file_count": 7,
+    "bytes": 107758
+  },
+  {
+    "name": "browse",
+    "source": "user-skills",
+    "path": "browse",
+    "category": "general",
+    "skill_file": "user-skills/browse/SKILL.md",
+    "file_count": 200,
+    "bytes": 30831802
+  },
+  {
+    "name": "cso",
+    "source": "user-skills",
+    "path": "cso",
+    "category": "general",
+    "skill_file": "user-skills/cso/SKILL.md",
+    "file_count": 6,
+    "bytes": 126334
+  },
+  {
+    "name": "gstack-openclaw-office-hours",
+    "source": "user-skills",
+    "path": "gstack-openclaw-office-hours",
+    "category": "general",
+    "skill_file": "user-skills/gstack-openclaw-office-hours/SKILL.md",
+    "file_count": 1,
+    "bytes": 16964
+  },
+  {
+    "name": "gstack-upgrade",
+    "source": "user-skills",
+    "path": "gstack-upgrade",
+    "category": "general",
+    "skill_file": "user-skills/gstack-upgrade/SKILL.md",
+    "file_count": 12,
+    "bytes": 64450
+  },
+  {
+    "name": "land-and-deploy",
+    "source": "user-skills",
+    "path": "land-and-deploy",
+    "category": "general",
+    "skill_file": "user-skills/land-and-deploy/SKILL.md",
+    "file_count": 2,
+    "bytes": 147477
+  },
+  {
+    "name": "landing-report",
+    "source": "user-skills",
+    "path": "landing-report",
+    "category": "general",
+    "skill_file": "user-skills/landing-report/SKILL.md",
+    "file_count": 2,
+    "bytes": 57758
+  },
+  {
+    "name": "office-hours",
+    "source": "user-skills",
+    "path": "office-hours",
+    "category": "general",
+    "skill_file": "user-skills/office-hours/SKILL.md",
+    "file_count": 5,
+    "bytes": 182140
+  },
+  {
+    "name": "pair-agent",
+    "source": "user-skills",
+    "path": "pair-agent",
+    "category": "general",
+    "skill_file": "user-skills/pair-agent/SKILL.md",
+    "file_count": 2,
+    "bytes": 62454
+  },
+  {
+    "name": "setup-deploy",
+    "source": "user-skills",
+    "path": "setup-deploy",
+    "category": "general",
+    "skill_file": "user-skills/setup-deploy/SKILL.md",
+    "file_count": 2,
+    "bytes": 58674
+  },
+  {
+    "name": "setup-gbrain",
+    "source": "user-skills",
+    "path": "setup-gbrain",
+    "category": "general",
+    "skill_file": "user-skills/setup-gbrain/SKILL.md",
+    "file_count": 3,
+    "bytes": 144803
+  },
+  {
+    "name": "soft-skill",
+    "source": "user-skills",
+    "path": "soft-skill",
+    "category": "general",
+    "skill_file": "user-skills/soft-skill/SKILL.md",
+    "file_count": 1,
+    "bytes": 10561
+  },
+  {
+    "name": "sync-gbrain",
+    "source": "user-skills",
+    "path": "sync-gbrain",
+    "category": "general",
+    "skill_file": "user-skills/sync-gbrain/SKILL.md",
+    "file_count": 2,
+    "bytes": 87775
+  },
+  {
+    "name": "ui-ux-pro-max",
+    "source": "user-skills",
+    "path": "ui-ux-pro-max",
+    "category": "general",
+    "skill_file": "user-skills/ui-ux-pro-max/SKILL.md",
+    "file_count": 28,
+    "bytes": 502374
+  },
+  {
+    "name": "gstack",
+    "source": "user-skills",
+    "path": "gstack",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/SKILL.md",
+    "file_count": 1099,
+    "bytes": 45117400
+  },
+  {
+    "name": "autoplan",
+    "source": "user-skills",
+    "path": "gstack/autoplan",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/autoplan/SKILL.md",
+    "file_count": 2,
+    "bytes": 143987
+  },
+  {
+    "name": "benchmark",
+    "source": "user-skills",
+    "path": "gstack/benchmark",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/benchmark/SKILL.md",
+    "file_count": 2,
+    "bytes": 43469
+  },
+  {
+    "name": "benchmark-models",
+    "source": "user-skills",
+    "path": "gstack/benchmark-models",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/benchmark-models/SKILL.md",
+    "file_count": 2,
+    "bytes": 36789
+  },
+  {
+    "name": "browse",
+    "source": "user-skills",
+    "path": "gstack/browse",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/browse/SKILL.md",
+    "file_count": 200,
+    "bytes": 30831802
+  },
+  {
+    "name": "hackernews-frontpage",
+    "source": "user-skills",
+    "path": "gstack/browser-skills/hackernews-frontpage",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/browser-skills/hackernews-frontpage/SKILL.md",
+    "file_count": 5,
+    "bytes": 26645
+  },
+  {
+    "name": "canary",
+    "source": "user-skills",
+    "path": "gstack/canary",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/canary/SKILL.md",
+    "file_count": 2,
+    "bytes": 62105
+  },
+  {
+    "name": "careful",
+    "source": "user-skills",
+    "path": "gstack/careful",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/careful/SKILL.md",
+    "file_count": 3,
+    "bytes": 9315
+  },
+  {
+    "name": "codex",
+    "source": "user-skills",
+    "path": "gstack/codex",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/codex/SKILL.md",
+    "file_count": 2,
+    "bytes": 121829
+  },
+  {
+    "name": "context-restore",
+    "source": "user-skills",
+    "path": "gstack/context-restore",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/context-restore/SKILL.md",
+    "file_count": 2,
+    "bytes": 53715
+  },
+  {
+    "name": "context-save",
+    "source": "user-skills",
+    "path": "gstack/context-save",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/context-save/SKILL.md",
+    "file_count": 2,
+    "bytes": 61950
+  },
+  {
+    "name": "cso",
+    "source": "user-skills",
+    "path": "gstack/cso",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/cso/SKILL.md",
+    "file_count": 6,
+    "bytes": 126334
+  },
+  {
+    "name": "design-consultation",
+    "source": "user-skills",
+    "path": "gstack/design-consultation",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/design-consultation/SKILL.md",
+    "file_count": 5,
+    "bytes": 113808
+  },
+  {
+    "name": "design-html",
+    "source": "user-skills",
+    "path": "gstack/design-html",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/design-html/SKILL.md",
+    "file_count": 3,
+    "bytes": 126685
+  },
+  {
+    "name": "design-review",
+    "source": "user-skills",
+    "path": "gstack/design-review",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/design-review/SKILL.md",
+    "file_count": 2,
+    "bytes": 114297
+  },
+  {
+    "name": "design-shotgun",
+    "source": "user-skills",
+    "path": "gstack/design-shotgun",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/design-shotgun/SKILL.md",
+    "file_count": 2,
+    "bytes": 83136
+  },
+  {
+    "name": "devex-review",
+    "source": "user-skills",
+    "path": "gstack/devex-review",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/devex-review/SKILL.md",
+    "file_count": 2,
+    "bytes": 80139
+  },
+  {
+    "name": "diagram",
+    "source": "user-skills",
+    "path": "gstack/diagram",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/diagram/SKILL.md",
+    "file_count": 2,
+    "bytes": 57542
+  },
+  {
+    "name": "document-generate",
+    "source": "user-skills",
+    "path": "gstack/document-generate",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/document-generate/SKILL.md",
+    "file_count": 2,
+    "bytes": 76741
+  },
+  {
+    "name": "document-release",
+    "source": "user-skills",
+    "path": "gstack/document-release",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/document-release/SKILL.md",
+    "file_count": 5,
+    "bytes": 95255
+  },
+  {
+    "name": "freeze",
+    "source": "user-skills",
+    "path": "gstack/freeze",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/freeze/SKILL.md",
+    "file_count": 3,
+    "bytes": 8941
+  },
+  {
+    "name": "gstack-upgrade",
+    "source": "user-skills",
+    "path": "gstack/gstack-upgrade",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/gstack-upgrade/SKILL.md",
+    "file_count": 12,
+    "bytes": 64450
+  },
+  {
+    "name": "guard",
+    "source": "user-skills",
+    "path": "gstack/guard",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/guard/SKILL.md",
+    "file_count": 2,
+    "bytes": 6510
+  },
+  {
+    "name": "health",
+    "source": "user-skills",
+    "path": "gstack/health",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/health/SKILL.md",
+    "file_count": 2,
+    "bytes": 66500
+  },
+  {
+    "name": "investigate",
+    "source": "user-skills",
+    "path": "gstack/investigate",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/investigate/SKILL.md",
+    "file_count": 2,
+    "bytes": 68937
+  },
+  {
+    "name": "ios-clean",
+    "source": "user-skills",
+    "path": "gstack/ios-clean",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/ios-clean/SKILL.md",
+    "file_count": 2,
+    "bytes": 51865
+  },
+  {
+    "name": "ios-design-review",
+    "source": "user-skills",
+    "path": "gstack/ios-design-review",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/ios-design-review/SKILL.md",
+    "file_count": 2,
+    "bytes": 53015
+  },
+  {
+    "name": "ios-fix",
+    "source": "user-skills",
+    "path": "gstack/ios-fix",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/ios-fix/SKILL.md",
+    "file_count": 2,
+    "bytes": 51301
+  },
+  {
+    "name": "ios-qa",
+    "source": "user-skills",
+    "path": "gstack/ios-qa",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/ios-qa/SKILL.md",
+    "file_count": 36,
+    "bytes": 286421
+  },
+  {
+    "name": "ios-sync",
+    "source": "user-skills",
+    "path": "gstack/ios-sync",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/ios-sync/SKILL.md",
+    "file_count": 2,
+    "bytes": 51248
+  },
+  {
+    "name": "land-and-deploy",
+    "source": "user-skills",
+    "path": "gstack/land-and-deploy",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/land-and-deploy/SKILL.md",
+    "file_count": 2,
+    "bytes": 147477
+  },
+  {
+    "name": "landing-report",
+    "source": "user-skills",
+    "path": "gstack/landing-report",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/landing-report/SKILL.md",
+    "file_count": 2,
+    "bytes": 57758
+  },
+  {
+    "name": "learn",
+    "source": "user-skills",
+    "path": "gstack/learn",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/learn/SKILL.md",
+    "file_count": 2,
+    "bytes": 54283
+  },
+  {
+    "name": "make-pdf",
+    "source": "user-skills",
+    "path": "gstack/make-pdf",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/make-pdf/SKILL.md",
+    "file_count": 35,
+    "bytes": 622058
+  },
+  {
+    "name": "office-hours",
+    "source": "user-skills",
+    "path": "gstack/office-hours",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/office-hours/SKILL.md",
+    "file_count": 5,
+    "bytes": 182140
+  },
+  {
+    "name": "open-gstack-browser",
+    "source": "user-skills",
+    "path": "gstack/open-gstack-browser",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/open-gstack-browser/SKILL.md",
+    "file_count": 2,
+    "bytes": 60800
+  },
+  {
+    "name": "gstack-openclaw-ceo-review",
+    "source": "user-skills",
+    "path": "gstack/openclaw/skills/gstack-openclaw-ceo-review",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/openclaw/skills/gstack-openclaw-ceo-review/SKILL.md",
+    "file_count": 1,
+    "bytes": 10576
+  },
+  {
+    "name": "gstack-openclaw-investigate",
+    "source": "user-skills",
+    "path": "gstack/openclaw/skills/gstack-openclaw-investigate",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/openclaw/skills/gstack-openclaw-investigate/SKILL.md",
+    "file_count": 1,
+    "bytes": 5469
+  },
+  {
+    "name": "gstack-openclaw-office-hours",
+    "source": "user-skills",
+    "path": "gstack/openclaw/skills/gstack-openclaw-office-hours",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/openclaw/skills/gstack-openclaw-office-hours/SKILL.md",
+    "file_count": 1,
+    "bytes": 16964
+  },
+  {
+    "name": "gstack-openclaw-retro",
+    "source": "user-skills",
+    "path": "gstack/openclaw/skills/gstack-openclaw-retro",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/openclaw/skills/gstack-openclaw-retro/SKILL.md",
+    "file_count": 1,
+    "bytes": 9773
+  },
+  {
+    "name": "pair-agent",
+    "source": "user-skills",
+    "path": "gstack/pair-agent",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/pair-agent/SKILL.md",
+    "file_count": 2,
+    "bytes": 62454
+  },
+  {
+    "name": "plan-ceo-review",
+    "source": "user-skills",
+    "path": "gstack/plan-ceo-review",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/plan-ceo-review/SKILL.md",
+    "file_count": 5,
+    "bytes": 213954
+  },
+  {
+    "name": "plan-design-review",
+    "source": "user-skills",
+    "path": "gstack/plan-design-review",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/plan-design-review/SKILL.md",
+    "file_count": 5,
+    "bytes": 150691
+  },
+  {
+    "name": "plan-devex-review",
+    "source": "user-skills",
+    "path": "gstack/plan-devex-review",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/plan-devex-review/SKILL.md",
+    "file_count": 6,
+    "bytes": 166822
+  },
+  {
+    "name": "plan-eng-review",
+    "source": "user-skills",
+    "path": "gstack/plan-eng-review",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/plan-eng-review/SKILL.md",
+    "file_count": 5,
+    "bytes": 146398
+  },
+  {
+    "name": "plan-tune",
+    "source": "user-skills",
+    "path": "gstack/plan-tune",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/plan-tune/SKILL.md",
+    "file_count": 2,
+    "bytes": 96944
+  },
+  {
+    "name": "qa",
+    "source": "user-skills",
+    "path": "gstack/qa",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/qa/SKILL.md",
+    "file_count": 4,
+    "bytes": 100129
+  },
+  {
+    "name": "qa-only",
+    "source": "user-skills",
+    "path": "gstack/qa-only",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/qa-only/SKILL.md",
+    "file_count": 2,
+    "bytes": 67239
+  },
+  {
+    "name": "retro",
+    "source": "user-skills",
+    "path": "gstack/retro",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/retro/SKILL.md",
+    "file_count": 2,
+    "bytes": 132283
+  },
+  {
+    "name": "review",
+    "source": "user-skills",
+    "path": "gstack/review",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/review/SKILL.md",
+    "file_count": 13,
+    "bytes": 162889
+  },
+  {
+    "name": "scrape",
+    "source": "user-skills",
+    "path": "gstack/scrape",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/scrape/SKILL.md",
+    "file_count": 2,
+    "bytes": 55828
+  },
+  {
+    "name": "setup-browser-cookies",
+    "source": "user-skills",
+    "path": "gstack/setup-browser-cookies",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/setup-browser-cookies/SKILL.md",
+    "file_count": 2,
+    "bytes": 30167
+  },
+  {
+    "name": "setup-deploy",
+    "source": "user-skills",
+    "path": "gstack/setup-deploy",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/setup-deploy/SKILL.md",
+    "file_count": 2,
+    "bytes": 58674
+  },
+  {
+    "name": "setup-gbrain",
+    "source": "user-skills",
+    "path": "gstack/setup-gbrain",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/setup-gbrain/SKILL.md",
+    "file_count": 3,
+    "bytes": 144803
+  },
+  {
+    "name": "ship",
+    "source": "user-skills",
+    "path": "gstack/ship",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/ship/SKILL.md",
+    "file_count": 19,
+    "bytes": 231049
+  },
+  {
+    "name": "skillify",
+    "source": "user-skills",
+    "path": "gstack/skillify",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/skillify/SKILL.md",
+    "file_count": 2,
+    "bytes": 75608
+  },
+  {
+    "name": "spec",
+    "source": "user-skills",
+    "path": "gstack/spec",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/spec/SKILL.md",
+    "file_count": 2,
+    "bytes": 153556
+  },
+  {
+    "name": "sync-gbrain",
+    "source": "user-skills",
+    "path": "gstack/sync-gbrain",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/sync-gbrain/SKILL.md",
+    "file_count": 2,
+    "bytes": 87775
+  },
+  {
+    "name": "unfreeze",
+    "source": "user-skills",
+    "path": "gstack/unfreeze",
+    "category": "gstack-workflows",
+    "skill_file": "user-skills/gstack/unfreeze/SKILL.md",
+    "file_count": 2,
+    "bytes": 2890
+  },
+  {
+    "name": "audit",
+    "source": "user-skills",
+    "path": "audit",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/audit/SKILL.md",
+    "file_count": 1,
+    "bytes": 2163
+  },
+  {
+    "name": "benchmark",
+    "source": "user-skills",
+    "path": "benchmark",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/benchmark/SKILL.md",
+    "file_count": 2,
+    "bytes": 43469
+  },
+  {
+    "name": "benchmark-models",
+    "source": "user-skills",
+    "path": "benchmark-models",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/benchmark-models/SKILL.md",
+    "file_count": 2,
+    "bytes": 36789
+  },
+  {
+    "name": "canary",
+    "source": "user-skills",
+    "path": "canary",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/canary/SKILL.md",
+    "file_count": 2,
+    "bytes": 62105
+  },
+  {
+    "name": "careful",
+    "source": "user-skills",
+    "path": "careful",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/careful/SKILL.md",
+    "file_count": 3,
+    "bytes": 9315
+  },
+  {
+    "name": "design-review",
+    "source": "user-skills",
+    "path": "design-review",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/design-review/SKILL.md",
+    "file_count": 2,
+    "bytes": 114297
+  },
+  {
+    "name": "devex-review",
+    "source": "user-skills",
+    "path": "devex-review",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/devex-review/SKILL.md",
+    "file_count": 2,
+    "bytes": 80139
+  },
+  {
+    "name": "end-to-end-quality-auditor",
+    "source": "user-skills",
+    "path": "end-to-end-quality-auditor",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/end-to-end-quality-auditor/SKILL.md",
+    "file_count": 3,
+    "bytes": 3764
+  },
+  {
+    "name": "gstack-openclaw-ceo-review",
+    "source": "user-skills",
+    "path": "gstack-openclaw-ceo-review",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/gstack-openclaw-ceo-review/SKILL.md",
+    "file_count": 1,
+    "bytes": 10576
+  },
+  {
+    "name": "gstack-openclaw-investigate",
+    "source": "user-skills",
+    "path": "gstack-openclaw-investigate",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/gstack-openclaw-investigate/SKILL.md",
+    "file_count": 1,
+    "bytes": 5469
+  },
+  {
+    "name": "guard",
+    "source": "user-skills",
+    "path": "guard",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/guard/SKILL.md",
+    "file_count": 2,
+    "bytes": 6510
+  },
+  {
+    "name": "health",
+    "source": "user-skills",
+    "path": "health",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/health/SKILL.md",
+    "file_count": 2,
+    "bytes": 66500
+  },
+  {
+    "name": "investigate",
+    "source": "user-skills",
+    "path": "investigate",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/investigate/SKILL.md",
+    "file_count": 2,
+    "bytes": 68937
+  },
+  {
+    "name": "ios-design-review",
+    "source": "user-skills",
+    "path": "ios-design-review",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/ios-design-review/SKILL.md",
+    "file_count": 2,
+    "bytes": 53015
+  },
+  {
+    "name": "ios-qa",
+    "source": "user-skills",
+    "path": "ios-qa",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/ios-qa/SKILL.md",
+    "file_count": 36,
+    "bytes": 286421
+  },
+  {
+    "name": "plan-ceo-review",
+    "source": "user-skills",
+    "path": "plan-ceo-review",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/plan-ceo-review/SKILL.md",
+    "file_count": 5,
+    "bytes": 213954
+  },
+  {
+    "name": "plan-design-review",
+    "source": "user-skills",
+    "path": "plan-design-review",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/plan-design-review/SKILL.md",
+    "file_count": 5,
+    "bytes": 150691
+  },
+  {
+    "name": "plan-devex-review",
+    "source": "user-skills",
+    "path": "plan-devex-review",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/plan-devex-review/SKILL.md",
+    "file_count": 6,
+    "bytes": 166822
+  },
+  {
+    "name": "plan-eng-review",
+    "source": "user-skills",
+    "path": "plan-eng-review",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/plan-eng-review/SKILL.md",
+    "file_count": 5,
+    "bytes": 146398
+  },
+  {
+    "name": "qa",
+    "source": "user-skills",
+    "path": "qa",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/qa/SKILL.md",
+    "file_count": 4,
+    "bytes": 100129
+  },
+  {
+    "name": "qa-only",
+    "source": "user-skills",
+    "path": "qa-only",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/qa-only/SKILL.md",
+    "file_count": 2,
+    "bytes": 67239
+  },
+  {
+    "name": "receiving-code-review",
+    "source": "user-skills",
+    "path": "receiving-code-review",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/receiving-code-review/SKILL.md",
+    "file_count": 1,
+    "bytes": 6382
+  },
+  {
+    "name": "requesting-code-review",
+    "source": "user-skills",
+    "path": "requesting-code-review",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/requesting-code-review/SKILL.md",
+    "file_count": 2,
+    "bytes": 8039
+  },
+  {
+    "name": "review",
+    "source": "user-skills",
+    "path": "review",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/review/SKILL.md",
+    "file_count": 13,
+    "bytes": 162889
+  },
+  {
+    "name": "review-ugc-migration-operator",
+    "source": "user-skills",
+    "path": "review-ugc-migration-operator",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/review-ugc-migration-operator/SKILL.md",
+    "file_count": 3,
+    "bytes": 3741
+  },
+  {
+    "name": "test-driven-development",
+    "source": "user-skills",
+    "path": "test-driven-development",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/test-driven-development/SKILL.md",
+    "file_count": 2,
+    "bytes": 18145
+  },
+  {
+    "name": "verification-before-completion",
+    "source": "user-skills",
+    "path": "verification-before-completion",
+    "category": "quality-and-safety",
+    "skill_file": "user-skills/verification-before-completion/SKILL.md",
+    "file_count": 1,
+    "bytes": 4201
+  },
+  {
+    "name": "imagegen",
+    "source": "user-skills",
+    "path": ".system/imagegen",
+    "category": "system",
+    "skill_file": "user-skills/.system/imagegen/SKILL.md",
+    "file_count": 12,
+    "bytes": 129734
+  },
+  {
+    "name": "openai-docs",
+    "source": "user-skills",
+    "path": ".system/openai-docs",
+    "category": "system",
+    "skill_file": "user-skills/.system/openai-docs/SKILL.md",
+    "file_count": 17,
+    "bytes": 93619
+  },
+  {
+    "name": "review-agent",
+    "source": "user-skills",
+    "path": ".system/review-agent",
+    "category": "system",
+    "skill_file": "user-skills/.system/review-agent/SKILL.md",
+    "file_count": 2,
+    "bytes": 2976
+  },
+  {
+    "name": "skill-creator",
+    "source": "user-skills",
+    "path": ".system/skill-creator",
+    "category": "system",
+    "skill_file": "user-skills/.system/skill-creator/SKILL.md",
+    "file_count": 9,
+    "bytes": 54476
+  },
+  {
+    "name": "skill-installer",
+    "source": "user-skills",
+    "path": ".system/skill-installer",
+    "category": "system",
+    "skill_file": "user-skills/.system/skill-installer/SKILL.md",
+    "file_count": 8,
+    "bytes": 33229
+  },
+  {
+    "name": "hackernews-frontpage",
+    "source": "user-skills",
+    "path": "hackernews-frontpage",
+    "category": "trade-and-research",
+    "skill_file": "user-skills/hackernews-frontpage/SKILL.md",
+    "file_count": 5,
+    "bytes": 26645
+  },
+  {
+    "name": "hermes-trade-assistant",
+    "source": "user-skills",
+    "path": "hermes-trade-assistant",
+    "category": "trade-and-research",
+    "skill_file": "user-skills/hermes-trade-assistant/SKILL.md",
+    "file_count": 16,
+    "bytes": 70310
+  },
+  {
+    "name": "scrape",
+    "source": "user-skills",
+    "path": "scrape",
+    "category": "trade-and-research",
+    "skill_file": "user-skills/scrape/SKILL.md",
+    "file_count": 2,
+    "bytes": 55828
+  },
+  {
+    "name": "reference-first-premium-web-rebuilder",
+    "source": "user-skills",
+    "path": "reference-first-premium-web-rebuilder",
+    "category": "web-and-commerce",
+    "skill_file": "user-skills/reference-first-premium-web-rebuilder/SKILL.md",
+    "file_count": 8,
+    "bytes": 47506
+  },
+  {
+    "name": "autoplan",
+    "source": "user-skills",
+    "path": "autoplan",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/autoplan/SKILL.md",
+    "file_count": 2,
+    "bytes": 143987
+  },
+  {
+    "name": "brainstorming",
+    "source": "user-skills",
+    "path": "brainstorming",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/brainstorming/SKILL.md",
+    "file_count": 8,
+    "bytes": 75053
+  },
+  {
+    "name": "codex",
+    "source": "user-skills",
+    "path": "codex",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/codex/SKILL.md",
+    "file_count": 2,
+    "bytes": 121829
+  },
+  {
+    "name": "context-restore",
+    "source": "user-skills",
+    "path": "context-restore",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/context-restore/SKILL.md",
+    "file_count": 2,
+    "bytes": 53715
+  },
+  {
+    "name": "context-save",
+    "source": "user-skills",
+    "path": "context-save",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/context-save/SKILL.md",
+    "file_count": 2,
+    "bytes": 61950
+  },
+  {
+    "name": "dispatching-parallel-agents",
+    "source": "user-skills",
+    "path": "dispatching-parallel-agents",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/dispatching-parallel-agents/SKILL.md",
+    "file_count": 1,
+    "bytes": 6644
+  },
+  {
+    "name": "executing-plans",
+    "source": "user-skills",
+    "path": "executing-plans",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/executing-plans/SKILL.md",
+    "file_count": 1,
+    "bytes": 2600
+  },
+  {
+    "name": "finishing-a-development-branch",
+    "source": "user-skills",
+    "path": "finishing-a-development-branch",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/finishing-a-development-branch/SKILL.md",
+    "file_count": 1,
+    "bytes": 6832
+  },
+  {
+    "name": "freeze",
+    "source": "user-skills",
+    "path": "freeze",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/freeze/SKILL.md",
+    "file_count": 3,
+    "bytes": 8941
+  },
+  {
+    "name": "gstack-openclaw-retro",
+    "source": "user-skills",
+    "path": "gstack-openclaw-retro",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/gstack-openclaw-retro/SKILL.md",
+    "file_count": 1,
+    "bytes": 9773
+  },
+  {
+    "name": "learn",
+    "source": "user-skills",
+    "path": "learn",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/learn/SKILL.md",
+    "file_count": 2,
+    "bytes": 54283
+  },
+  {
+    "name": "output-skill",
+    "source": "user-skills",
+    "path": "output-skill",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/output-skill/SKILL.md",
+    "file_count": 1,
+    "bytes": 2592
+  },
+  {
+    "name": "plan-tune",
+    "source": "user-skills",
+    "path": "plan-tune",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/plan-tune/SKILL.md",
+    "file_count": 2,
+    "bytes": 96944
+  },
+  {
+    "name": "retro",
+    "source": "user-skills",
+    "path": "retro",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/retro/SKILL.md",
+    "file_count": 2,
+    "bytes": 132283
+  },
+  {
+    "name": "ship",
+    "source": "user-skills",
+    "path": "ship",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/ship/SKILL.md",
+    "file_count": 19,
+    "bytes": 231049
+  },
+  {
+    "name": "skillify",
+    "source": "user-skills",
+    "path": "skillify",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/skillify/SKILL.md",
+    "file_count": 2,
+    "bytes": 75608
+  },
+  {
+    "name": "spec",
+    "source": "user-skills",
+    "path": "spec",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/spec/SKILL.md",
+    "file_count": 2,
+    "bytes": 153556
+  },
+  {
+    "name": "subagent-driven-development",
+    "source": "user-skills",
+    "path": "subagent-driven-development",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/subagent-driven-development/SKILL.md",
+    "file_count": 6,
+    "bytes": 38428
+  },
+  {
+    "name": "systematic-debugging",
+    "source": "user-skills",
+    "path": "systematic-debugging",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/systematic-debugging/SKILL.md",
+    "file_count": 11,
+    "bytes": 40734
+  },
+  {
+    "name": "unfreeze",
+    "source": "user-skills",
+    "path": "unfreeze",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/unfreeze/SKILL.md",
+    "file_count": 2,
+    "bytes": 2890
+  },
+  {
+    "name": "using-git-worktrees",
+    "source": "user-skills",
+    "path": "using-git-worktrees",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/using-git-worktrees/SKILL.md",
+    "file_count": 1,
+    "bytes": 7472
+  },
+  {
+    "name": "using-superpowers",
+    "source": "user-skills",
+    "path": "using-superpowers",
+    "category": "workflow-and-engineering",
+    "skill_file": "user-skills/using-superpowers/SKILL.md",
+    "file_count": 7,
+    "bytes": 27663
+  }
+]

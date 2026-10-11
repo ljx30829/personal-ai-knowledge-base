@@ -1,0 +1,38 @@
+{
+  "mcpServers": {
+    "code-review": {
+      "command": "cmd.exe",
+      "enabled": false,
+      "args": [
+        "/d",
+        "/c",
+        "scripts\\launch_code_review_mcp.cmd"
+      ],
+      "cwd": ".",
+      "env_vars": [
+        "PATH",
+        "GH_CONFIG_DIR",
+        "GH_ENTERPRISE_TOKEN",
+        "GH_HOST",
+        "GH_TOKEN",
+        "GITHUB_TOKEN",
+        "CODEX_API_KEY",
+        "CODEX_API_BASE_URL",
+        "CODEX_API_ENDPOINT",
+        "CODEX_HOME",
+        "CODEX_CLI_PATH",
+        "CODEX_MCP_NODE_PATH",
+        "CODEX_MANAGED_PACKAGE_ROOT",
+        "GITHUB_PROVIDER_URL",
+        "GITHUB_READ_INDEX",
+        "HTTP_PROXY",
+        "HTTPS_PROXY",
+        "ALL_PROXY",
+        "NO_PROXY",
+        "SSL_CERT_FILE",
+        "NODE_EXTRA_CA_CERTS"
+      ],
+      "tool_timeout_sec": 120
+    }
+  }
+}

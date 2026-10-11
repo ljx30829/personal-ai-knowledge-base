@@ -1,0 +1,42 @@
+{
+  "version": "26.930.21537",
+  "name": "code-review",
+  "description": "Review and manage GitHub pull requests from Codex.",
+  "author": {
+    "name": "OpenAI"
+  },
+  "homepage": "https://github.com/openai/openai/tree/master/plugins/pull-requests",
+  "repository": "https://github.com/openai/openai/tree/master/plugins/pull-requests",
+  "license": "Proprietary",
+  "keywords": [
+    "github",
+    "pull requests",
+    "code review",
+    "mcp",
+    "mcp-app"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Code Review",
+    "shortDescription": "Review and manage GitHub pull requests",
+    "longDescription": "Code Review provides GitHub pull request navigation, private Codex reviews without a repository checkout, pull request summaries, checks, comments, diffs, and manual review and merge actions through a local MCP App.",
+    "developerName": "OpenAI",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/openai/openai/tree/master/plugins/pull-requests",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "Show my pull requests",
+      "Open a pull request for review"
+    ],
+    "brandColor": "#24292F",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "logoDark": "./assets/icon-dark.svg"
+  }
+}

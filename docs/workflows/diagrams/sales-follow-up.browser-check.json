@@ -6,10 +6,10 @@
   "status": "pass",
   "visualReview": "not-requested",
   "provenance": "current",
-  "deliveryReceiptId": "2dfd0faa-b3d4-4c07-9ab9-c90986107fd3",
+  "deliveryReceiptId": "62e1a4cd-846e-4894-ab6d-369d261de666",
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\sales-follow-up.html",
-    "sha256": "7b7f27a24866c0670f509e2a125a9a34eb32d904e176b0db20526f8c6f081a60",
+    "sha256": "bc1e9be5349f840e106ff6d9d5830d7e9f8dadd2b23748d0f8b2fbe7ae667a8c",
     "bytes": 764601
   },
   "state": {
@@ -1315,7 +1315,6 @@
     "contactSheet": null
   },
   "sidecars": {
-    "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
     "receipt": "sales-follow-up.browser-check.json",
     "files": []
   }

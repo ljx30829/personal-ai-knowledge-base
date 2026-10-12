@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "receiptId": "28d236fe-c6e5-4d35-8e2b-a3ae28b19362",
+  "receiptId": "36bbb7e0-89c2-45fe-ba76-6a9eee6f4c58",
   "status": "current",
   "command": "deliver",
   "type": "workflow",
   "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\product-commerce.json",
   "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\product-commerce.html",
   "specification": {
-    "sha256": "a5a2b4a35eb3b02caca958d057aa3b11aa023ef34873bd34b1ff19de276ae745",
+    "sha256": "1406b79d6b4ff05202dd33b18fc90104aebe9026fedc7ef8609163ad4de1bfed",
     "bytes": 9067
   },
   "artifact": {
-    "sha256": "882acdc1ea22ec243ce58592c54dd1347528656bdcd52f987c72e4f5dc50fbad",
+    "sha256": "1705d5a3b668917a48e947eeeb7b19899bde96cbb823f3999e7dda292535eceb",
     "bytes": 764655
   }
 }

@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "receiptId": "4d730532-d9c5-41ff-a2ef-5e88ae90ab67",
+  "receiptId": "30302c7b-e83a-463f-b8aa-5c55fe32104f",
   "status": "current",
   "command": "deliver",
   "type": "workflow",
   "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\email-outreach.json",
   "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\email-outreach.html",
   "specification": {
-    "sha256": "ad59cbed3f4ea6b2de2dda820c46e041acbfed3bfa713857510b773f41ad13d5",
+    "sha256": "3d08bd6c76c3bbe808d1012fae249f0864359eaf9ef0da6fcff5163d8667f5d7",
     "bytes": 9038
   },
   "artifact": {
-    "sha256": "e819cf107fbce084244d7f1bef91d3da13835567a6dca85178dc8294613e5601",
+    "sha256": "3823638decc78f6a909bb49b9b88062662e782c4a191ede7d517738b1981d311",
     "bytes": 764594
   }
 }

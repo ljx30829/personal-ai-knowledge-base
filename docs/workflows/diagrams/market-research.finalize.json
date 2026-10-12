@@ -5,15 +5,15 @@
   "status": "pass",
   "type": "workflow",
   "quality": "showcase",
-  "startedAt": "2026-10-12T07:18:02.683Z",
+  "startedAt": "2026-10-12T09:24:35.375Z",
   "specification": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\market-research.json",
-    "sha256": "94a275f28c509f1f04a48e72ba1faeb0235ecedb14c094d575fdeda89ffda97e",
+    "sha256": "ec42c99958d4c714db30878c8dc215b9542f01f1aa819b12ed88b735d0f5bf40",
     "bytes": 9067
   },
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\market-research.html",
-    "sha256": "849fb630117130d0e331f2b7d942ddd0d3e9eed50b60260ebf0b288bd8d1a983",
+    "sha256": "a3cc90d20803e94b695afdf876d62ea4dfe4738f476ba217d17cffb395db294b",
     "bytes": 764697
   },
   "stages": {
@@ -40,7 +40,7 @@
         "ok": true,
         "command": "validate",
         "specification": {
-          "sha256": "94a275f28c509f1f04a48e72ba1faeb0235ecedb14c094d575fdeda89ffda97e",
+          "sha256": "ec42c99958d4c714db30878c8dc215b9542f01f1aa819b12ed88b735d0f5bf40",
           "bytes": 9067
         },
         "validation": {
@@ -56,7 +56,7 @@
     "deliver": {
       "status": "pass",
       "exitCode": 0,
-      "durationMs": 1764,
+      "durationMs": 1614,
       "command": [
         "C:\\Program Files\\nodejs\\node.exe",
         "C:\\Users\\26014\\.codex\\skills\\archify\\bin\\archify.mjs",
@@ -72,18 +72,18 @@
       ],
       "receipt": {
         "schemaVersion": 1,
-        "receiptId": "918450d5-1b6a-44a5-b58e-e380ea5f01e0",
+        "receiptId": "e9a5c81f-7f74-47d6-b545-41307e0211bd",
         "ok": true,
         "command": "deliver",
         "type": "workflow",
         "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\market-research.json",
         "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\market-research.html",
         "specification": {
-          "sha256": "94a275f28c509f1f04a48e72ba1faeb0235ecedb14c094d575fdeda89ffda97e",
+          "sha256": "ec42c99958d4c714db30878c8dc215b9542f01f1aa819b12ed88b735d0f5bf40",
           "bytes": 9067
         },
         "artifact": {
-          "sha256": "849fb630117130d0e331f2b7d942ddd0d3e9eed50b60260ebf0b288bd8d1a983",
+          "sha256": "a3cc90d20803e94b695afdf876d62ea4dfe4738f476ba217d17cffb395db294b",
           "bytes": 764697
         },
         "validation": {
@@ -97,7 +97,7 @@
         "evidence": {
           "verified": true,
           "repository": "https://github.com/ljx30829/personal-ai-knowledge-base",
-          "revision": "c5a4962ca1ab984bca524573350cbb43f8ba07d4",
+          "revision": "a647ac31e12e0dd520a9823365f22ec95beb5b80",
           "references": 10
         },
         "update": {
@@ -116,7 +116,7 @@
     "check": {
       "status": "pass",
       "exitCode": 0,
-      "durationMs": 338,
+      "durationMs": 347,
       "command": [
         "C:\\Program Files\\nodejs\\node.exe",
         "C:\\Users\\26014\\.codex\\skills\\archify\\bin\\archify.mjs",
@@ -128,7 +128,7 @@
         "ok": true,
         "file": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\market-research.html",
         "artifact": {
-          "sha256": "849fb630117130d0e331f2b7d942ddd0d3e9eed50b60260ebf0b288bd8d1a983",
+          "sha256": "a3cc90d20803e94b695afdf876d62ea4dfe4738f476ba217d17cffb395db294b",
           "bytes": 764697
         },
         "checks": [
@@ -259,22 +259,20 @@
           "issues": []
         },
         "provenance": "current",
-        "deliveryReceiptId": "918450d5-1b6a-44a5-b58e-e380ea5f01e0"
+        "deliveryReceiptId": "e9a5c81f-7f74-47d6-b545-41307e0211bd"
       }
     },
     "browser-check": {
       "status": "pass",
       "exitCode": 0,
-      "durationMs": 2679,
+      "durationMs": 2576,
       "command": [
         "C:\\Program Files\\nodejs\\node.exe",
         "C:\\Users\\26014\\.codex\\skills\\archify\\bin\\archify.mjs",
         "browser-check",
         "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\market-research.html",
         "--json",
-        "--require-provenance",
-        "--out-dir",
-        "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962"
+        "--require-provenance"
       ],
       "execution": "in-process",
       "receipt": {
@@ -285,10 +283,10 @@
         "status": "pass",
         "visualReview": "not-requested",
         "provenance": "current",
-        "deliveryReceiptId": "918450d5-1b6a-44a5-b58e-e380ea5f01e0",
+        "deliveryReceiptId": "e9a5c81f-7f74-47d6-b545-41307e0211bd",
         "artifact": {
           "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\market-research.html",
-          "sha256": "849fb630117130d0e331f2b7d942ddd0d3e9eed50b60260ebf0b288bd8d1a983",
+          "sha256": "a3cc90d20803e94b695afdf876d62ea4dfe4738f476ba217d17cffb395db294b",
           "bytes": 764697
         },
         "state": {
@@ -1594,7 +1592,6 @@
           "contactSheet": null
         },
         "sidecars": {
-          "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
           "receipt": "market-research.browser-check.json",
           "files": []
         }
@@ -1603,13 +1600,13 @@
   },
   "diagnostics": [],
   "evidence": {
-    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\market-research.finalize.json",
-    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\market-research.finalize-summary.json",
-    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\market-research.browser-check.json"
+    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\market-research.finalize.json",
+    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\market-research.finalize-summary.json",
+    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\market-research.browser-check.json"
   },
   "visualReview": "not-requested",
-  "finishedAt": "2026-10-12T07:18:09.841Z",
-  "durationMs": 7158,
+  "finishedAt": "2026-10-12T09:24:42.119Z",
+  "durationMs": 6744,
   "update": {
     "status": "current",
     "installedVersion": "3.0.1",

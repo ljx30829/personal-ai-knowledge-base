@@ -6,10 +6,10 @@
   "status": "pass",
   "visualReview": "not-requested",
   "provenance": "current",
-  "deliveryReceiptId": "33cc05d9-8953-4c73-873c-b023a7a8a873",
+  "deliveryReceiptId": "7f62e1a4-b96e-4457-81ac-262d5e93f03a",
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\deployment-operations.html",
-    "sha256": "13a697e16ca376be06cad30f13f8697ec34b669f20963aa6591223b184446a31",
+    "sha256": "fc0778844d323491793b88f49521f718d8e47157e2b3c053c56fcfd8bc107947",
     "bytes": 765027
   },
   "state": {
@@ -1315,7 +1315,6 @@
     "contactSheet": null
   },
   "sidecars": {
-    "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
     "receipt": "deployment-operations.browser-check.json",
     "files": []
   }

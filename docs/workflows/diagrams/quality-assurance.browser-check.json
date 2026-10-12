@@ -6,10 +6,10 @@
   "status": "pass",
   "visualReview": "not-requested",
   "provenance": "current",
-  "deliveryReceiptId": "0938aeeb-e083-4043-b2dc-e062cd258d35",
+  "deliveryReceiptId": "183b91d1-e2b9-40c8-bfe9-39174291063d",
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\quality-assurance.html",
-    "sha256": "fe8b252bd69f6af57a9b665bd8f71ff458359aeeafea31f21fbbdaf5cd6c7cc4",
+    "sha256": "310fe4fff32aaeedf11ef06020d6ce296340020d063c50d406029931b6f5cfa1",
     "bytes": 764669
   },
   "state": {
@@ -1315,7 +1315,6 @@
     "contactSheet": null
   },
   "sidecars": {
-    "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
     "receipt": "quality-assurance.browser-check.json",
     "files": []
   }

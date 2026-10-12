@@ -6,10 +6,10 @@
   "status": "pass",
   "visualReview": "not-requested",
   "provenance": "current",
-  "deliveryReceiptId": "b75097a2-ad61-482c-ad25-7628cf66c06e",
+  "deliveryReceiptId": "cdf17e24-3777-4a37-9add-9190f75494eb",
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\knowledge-portability.html",
-    "sha256": "53b37dcb2445c90dc38fd81f6ab433e5e314e25eb2a9676ca1accd9cfb7106a0",
+    "sha256": "46344277622ae8482fb69114d145fb7b21fdecbab66652aadd412eeff610de28",
     "bytes": 765190
   },
   "state": {
@@ -1315,7 +1315,6 @@
     "contactSheet": null
   },
   "sidecars": {
-    "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
     "receipt": "knowledge-portability.browser-check.json",
     "files": []
   }

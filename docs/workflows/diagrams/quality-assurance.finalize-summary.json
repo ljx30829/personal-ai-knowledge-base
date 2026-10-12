@@ -7,12 +7,12 @@
   "quality": "showcase",
   "specification": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\quality-assurance.json",
-    "sha256": "499839f24826b7bec84ac6f5f0c87f1b382dabd41139727ff48aaf0738f38a39",
+    "sha256": "a2581fb7dc00267ec45c9f8f383b752f9f4d0edad85c61409d15b2fed24133bf",
     "bytes": 9040
   },
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\quality-assurance.html",
-    "sha256": "fe8b252bd69f6af57a9b665bd8f71ff458359aeeafea31f21fbbdaf5cd6c7cc4",
+    "sha256": "310fe4fff32aaeedf11ef06020d6ce296340020d063c50d406029931b6f5cfa1",
     "bytes": 764669
   },
   "gates": {
@@ -28,9 +28,9 @@
     "truncated": false
   },
   "evidence": {
-    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\quality-assurance.finalize.json",
-    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\quality-assurance.finalize-summary.json",
-    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\quality-assurance.browser-check.json"
+    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\quality-assurance.finalize.json",
+    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\quality-assurance.finalize-summary.json",
+    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\quality-assurance.browser-check.json"
   },
   "update": {
     "status": "current",
@@ -43,7 +43,7 @@
     "noticeText": null
   },
   "visualReview": "not-requested",
-  "durationMs": 7011,
+  "durationMs": 6852,
   "visualReviewRecommendation": {
     "action": "inspect-route-readability",
     "signals": {

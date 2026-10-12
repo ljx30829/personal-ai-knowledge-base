@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "receiptId": "bec9fb5c-00f6-4cb2-9628-41bad6a1c0ba",
+  "receiptId": "30296569-f6bc-4623-9ed9-e410f3d41579",
   "status": "current",
   "command": "deliver",
   "type": "workflow",
   "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\automation-agents.json",
   "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\automation-agents.html",
   "specification": {
-    "sha256": "08a5342247ff1b5c5e3acdf141fe938ca9e4cc0ebb7527729cfd551ec66307ba",
+    "sha256": "d48c257b1b3ffff1e7d22464a3f1dec04a6f41020bcceb94e0b47258a2a60f21",
     "bytes": 9191
   },
   "artifact": {
-    "sha256": "c38dd42b7c1bde0587cd83d9aee1e5fa34dfd8f337e558b5214a3c08ad75db3c",
+    "sha256": "32910aff65e9256c718ffc10a8f5300375864626190424072a78497d71b38a44",
     "bytes": 764914
   }
 }

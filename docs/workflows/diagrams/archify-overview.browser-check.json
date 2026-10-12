@@ -6,10 +6,10 @@
   "status": "pass",
   "visualReview": "not-requested",
   "provenance": "current",
-  "deliveryReceiptId": "78c1a2e0-11e4-44b5-92cb-6d69b6af4643",
+  "deliveryReceiptId": "bd0d0b13-555d-429c-b349-688a75924f40",
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\archify-overview.html",
-    "sha256": "d733f0b78d7aad552f1e33ef36edc4f52007b4aa7c38a88be7f20f5a881ab121",
+    "sha256": "79009c9a7f3f04baba37234022e81744a39d9e530d131c4e2aff98e3350407c7",
     "bytes": 851793
   },
   "state": {
@@ -715,7 +715,6 @@
     "contactSheet": null
   },
   "sidecars": {
-    "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
     "receipt": "archify-overview.browser-check.json",
     "files": []
   }

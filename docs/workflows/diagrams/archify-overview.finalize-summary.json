@@ -7,12 +7,12 @@
   "quality": "showcase",
   "specification": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\archify-overview.json",
-    "sha256": "9212634edea44640a984f1b54f30d5cbdc5e2295638ec2f0799a876b1b074737",
+    "sha256": "208869c6cad174db86bdbd078f0240c7f043f5bf3b9e63a70d1f3b315054d82f",
     "bytes": 30937
   },
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\archify-overview.html",
-    "sha256": "d733f0b78d7aad552f1e33ef36edc4f52007b4aa7c38a88be7f20f5a881ab121",
+    "sha256": "79009c9a7f3f04baba37234022e81744a39d9e530d131c4e2aff98e3350407c7",
     "bytes": 851793
   },
   "gates": {
@@ -28,9 +28,9 @@
     "truncated": false
   },
   "evidence": {
-    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\archify-overview.finalize.json",
-    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\archify-overview.finalize-summary.json",
-    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\archify-overview.browser-check.json"
+    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\archify-overview.finalize.json",
+    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\archify-overview.finalize-summary.json",
+    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\archify-overview.browser-check.json"
   },
   "update": {
     "status": "current",
@@ -43,5 +43,5 @@
     "noticeText": null
   },
   "visualReview": "not-requested",
-  "durationMs": 7912
+  "durationMs": 7216
 }

@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "receiptId": "a373e5b6-1300-4c39-a56a-f9380d0a1123",
+  "receiptId": "1c5ac398-a056-4984-b05c-1dabccc74a3f",
   "status": "current",
   "command": "deliver",
   "type": "workflow",
   "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\content-production.json",
   "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\content-production.html",
   "specification": {
-    "sha256": "bf9a888f0f4f63ff8da13161c4d701ca0ac0c91951d680ed2903806d350f1cbc",
+    "sha256": "4fe62895abb6e6849bb5ae42c78e17a2ecb0c93013cc95a5bb0acdbfc2164ed4",
     "bytes": 9094
   },
   "artifact": {
-    "sha256": "7cba1f8253ebfee8624b596b88e634796fd1528b4b45175be06b08e87f909d82",
+    "sha256": "d8f336cbb327b5cfe51e0999c6de484d8de2b8fd56da5d092b5f5190824474d0",
     "bytes": 764707
   }
 }

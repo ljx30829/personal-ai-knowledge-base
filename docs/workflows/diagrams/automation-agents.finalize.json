@@ -5,15 +5,15 @@
   "status": "pass",
   "type": "workflow",
   "quality": "showcase",
-  "startedAt": "2026-10-12T07:17:15.846Z",
+  "startedAt": "2026-10-12T09:25:56.824Z",
   "specification": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\automation-agents.json",
-    "sha256": "08a5342247ff1b5c5e3acdf141fe938ca9e4cc0ebb7527729cfd551ec66307ba",
+    "sha256": "d48c257b1b3ffff1e7d22464a3f1dec04a6f41020bcceb94e0b47258a2a60f21",
     "bytes": 9191
   },
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\automation-agents.html",
-    "sha256": "c38dd42b7c1bde0587cd83d9aee1e5fa34dfd8f337e558b5214a3c08ad75db3c",
+    "sha256": "32910aff65e9256c718ffc10a8f5300375864626190424072a78497d71b38a44",
     "bytes": 764914
   },
   "stages": {
@@ -40,7 +40,7 @@
         "ok": true,
         "command": "validate",
         "specification": {
-          "sha256": "08a5342247ff1b5c5e3acdf141fe938ca9e4cc0ebb7527729cfd551ec66307ba",
+          "sha256": "d48c257b1b3ffff1e7d22464a3f1dec04a6f41020bcceb94e0b47258a2a60f21",
           "bytes": 9191
         },
         "validation": {
@@ -56,7 +56,7 @@
     "deliver": {
       "status": "pass",
       "exitCode": 0,
-      "durationMs": 1667,
+      "durationMs": 1755,
       "command": [
         "C:\\Program Files\\nodejs\\node.exe",
         "C:\\Users\\26014\\.codex\\skills\\archify\\bin\\archify.mjs",
@@ -72,18 +72,18 @@
       ],
       "receipt": {
         "schemaVersion": 1,
-        "receiptId": "bec9fb5c-00f6-4cb2-9628-41bad6a1c0ba",
+        "receiptId": "30296569-f6bc-4623-9ed9-e410f3d41579",
         "ok": true,
         "command": "deliver",
         "type": "workflow",
         "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\automation-agents.json",
         "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\automation-agents.html",
         "specification": {
-          "sha256": "08a5342247ff1b5c5e3acdf141fe938ca9e4cc0ebb7527729cfd551ec66307ba",
+          "sha256": "d48c257b1b3ffff1e7d22464a3f1dec04a6f41020bcceb94e0b47258a2a60f21",
           "bytes": 9191
         },
         "artifact": {
-          "sha256": "c38dd42b7c1bde0587cd83d9aee1e5fa34dfd8f337e558b5214a3c08ad75db3c",
+          "sha256": "32910aff65e9256c718ffc10a8f5300375864626190424072a78497d71b38a44",
           "bytes": 764914
         },
         "validation": {
@@ -97,7 +97,7 @@
         "evidence": {
           "verified": true,
           "repository": "https://github.com/ljx30829/personal-ai-knowledge-base",
-          "revision": "c5a4962ca1ab984bca524573350cbb43f8ba07d4",
+          "revision": "a647ac31e12e0dd520a9823365f22ec95beb5b80",
           "references": 10
         },
         "update": {
@@ -116,7 +116,7 @@
     "check": {
       "status": "pass",
       "exitCode": 0,
-      "durationMs": 328,
+      "durationMs": 332,
       "command": [
         "C:\\Program Files\\nodejs\\node.exe",
         "C:\\Users\\26014\\.codex\\skills\\archify\\bin\\archify.mjs",
@@ -128,7 +128,7 @@
         "ok": true,
         "file": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\automation-agents.html",
         "artifact": {
-          "sha256": "c38dd42b7c1bde0587cd83d9aee1e5fa34dfd8f337e558b5214a3c08ad75db3c",
+          "sha256": "32910aff65e9256c718ffc10a8f5300375864626190424072a78497d71b38a44",
           "bytes": 764914
         },
         "checks": [
@@ -259,22 +259,20 @@
           "issues": []
         },
         "provenance": "current",
-        "deliveryReceiptId": "bec9fb5c-00f6-4cb2-9628-41bad6a1c0ba"
+        "deliveryReceiptId": "30296569-f6bc-4623-9ed9-e410f3d41579"
       }
     },
     "browser-check": {
       "status": "pass",
       "exitCode": 0,
-      "durationMs": 2731,
+      "durationMs": 2637,
       "command": [
         "C:\\Program Files\\nodejs\\node.exe",
         "C:\\Users\\26014\\.codex\\skills\\archify\\bin\\archify.mjs",
         "browser-check",
         "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\automation-agents.html",
         "--json",
-        "--require-provenance",
-        "--out-dir",
-        "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962"
+        "--require-provenance"
       ],
       "execution": "in-process",
       "receipt": {
@@ -285,10 +283,10 @@
         "status": "pass",
         "visualReview": "not-requested",
         "provenance": "current",
-        "deliveryReceiptId": "bec9fb5c-00f6-4cb2-9628-41bad6a1c0ba",
+        "deliveryReceiptId": "30296569-f6bc-4623-9ed9-e410f3d41579",
         "artifact": {
           "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\automation-agents.html",
-          "sha256": "c38dd42b7c1bde0587cd83d9aee1e5fa34dfd8f337e558b5214a3c08ad75db3c",
+          "sha256": "32910aff65e9256c718ffc10a8f5300375864626190424072a78497d71b38a44",
           "bytes": 764914
         },
         "state": {
@@ -1594,7 +1592,6 @@
           "contactSheet": null
         },
         "sidecars": {
-          "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
           "receipt": "automation-agents.browser-check.json",
           "files": []
         }
@@ -1603,13 +1600,13 @@
   },
   "diagnostics": [],
   "evidence": {
-    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\automation-agents.finalize.json",
-    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\automation-agents.finalize-summary.json",
-    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\automation-agents.browser-check.json"
+    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\automation-agents.finalize.json",
+    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\automation-agents.finalize-summary.json",
+    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\automation-agents.browser-check.json"
   },
   "visualReview": "not-requested",
-  "finishedAt": "2026-10-12T07:17:22.973Z",
-  "durationMs": 7126,
+  "finishedAt": "2026-10-12T09:26:03.781Z",
+  "durationMs": 6956,
   "update": {
     "status": "current",
     "installedVersion": "3.0.1",

@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "receiptId": "918450d5-1b6a-44a5-b58e-e380ea5f01e0",
+  "receiptId": "e9a5c81f-7f74-47d6-b545-41307e0211bd",
   "status": "current",
   "command": "deliver",
   "type": "workflow",
   "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\market-research.json",
   "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\market-research.html",
   "specification": {
-    "sha256": "94a275f28c509f1f04a48e72ba1faeb0235ecedb14c094d575fdeda89ffda97e",
+    "sha256": "ec42c99958d4c714db30878c8dc215b9542f01f1aa819b12ed88b735d0f5bf40",
     "bytes": 9067
   },
   "artifact": {
-    "sha256": "849fb630117130d0e331f2b7d942ddd0d3e9eed50b60260ebf0b288bd8d1a983",
+    "sha256": "a3cc90d20803e94b695afdf876d62ea4dfe4738f476ba217d17cffb395db294b",
     "bytes": 764697
   }
 }

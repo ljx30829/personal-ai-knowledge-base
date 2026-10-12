@@ -6,10 +6,10 @@
   "status": "pass",
   "visualReview": "not-requested",
   "provenance": "current",
-  "deliveryReceiptId": "ad5bf59f-dd84-4127-bfb1-53555207ab5b",
+  "deliveryReceiptId": "90ba94cc-76d3-486d-853c-a0a252960ee9",
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\software-delivery.html",
-    "sha256": "df60e01b5f90b7582b6486d14841a4a663fb75655c7c2f43740252eef217965e",
+    "sha256": "975d0a0b3dd1f6e8723247dfbfe11e96f8547ea6f01d1749f8a3099a166dfcd0",
     "bytes": 764662
   },
   "state": {
@@ -1315,7 +1315,6 @@
     "contactSheet": null
   },
   "sidecars": {
-    "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
     "receipt": "software-delivery.browser-check.json",
     "files": []
   }

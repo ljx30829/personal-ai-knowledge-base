@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "receiptId": "2dfd0faa-b3d4-4c07-9ab9-c90986107fd3",
+  "receiptId": "62e1a4cd-846e-4894-ab6d-369d261de666",
   "status": "current",
   "command": "deliver",
   "type": "workflow",
   "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\sales-follow-up.json",
   "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\sales-follow-up.html",
   "specification": {
-    "sha256": "6c82aebaab466782de4fc9179d16963e9ec6e1ebcdf748285e1c9cd4acee3d72",
+    "sha256": "cdcc18f795eeadb5f4451d3e80655d0368d974a636d38441ad72f43ae33ba702",
     "bytes": 8980
   },
   "artifact": {
-    "sha256": "7b7f27a24866c0670f509e2a125a9a34eb32d904e176b0db20526f8c6f081a60",
+    "sha256": "bc1e9be5349f840e106ff6d9d5830d7e9f8dadd2b23748d0f8b2fbe7ae667a8c",
     "bytes": 764601
   }
 }

@@ -7,12 +7,12 @@
   "quality": "showcase",
   "specification": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\email-outreach.json",
-    "sha256": "ad59cbed3f4ea6b2de2dda820c46e041acbfed3bfa713857510b773f41ad13d5",
+    "sha256": "3d08bd6c76c3bbe808d1012fae249f0864359eaf9ef0da6fcff5163d8667f5d7",
     "bytes": 9038
   },
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\email-outreach.html",
-    "sha256": "e819cf107fbce084244d7f1bef91d3da13835567a6dca85178dc8294613e5601",
+    "sha256": "3823638decc78f6a909bb49b9b88062662e782c4a191ede7d517738b1981d311",
     "bytes": 764594
   },
   "gates": {
@@ -28,9 +28,9 @@
     "truncated": false
   },
   "evidence": {
-    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\email-outreach.finalize.json",
-    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\email-outreach.finalize-summary.json",
-    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\email-outreach.browser-check.json"
+    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\email-outreach.finalize.json",
+    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\email-outreach.finalize-summary.json",
+    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\email-outreach.browser-check.json"
   },
   "update": {
     "status": "current",
@@ -43,7 +43,7 @@
     "noticeText": null
   },
   "visualReview": "not-requested",
-  "durationMs": 7207,
+  "durationMs": 6630,
   "visualReviewRecommendation": {
     "action": "inspect-route-readability",
     "signals": {

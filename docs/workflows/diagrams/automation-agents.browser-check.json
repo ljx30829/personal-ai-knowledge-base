@@ -6,10 +6,10 @@
   "status": "pass",
   "visualReview": "not-requested",
   "provenance": "current",
-  "deliveryReceiptId": "bec9fb5c-00f6-4cb2-9628-41bad6a1c0ba",
+  "deliveryReceiptId": "30296569-f6bc-4623-9ed9-e410f3d41579",
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\automation-agents.html",
-    "sha256": "c38dd42b7c1bde0587cd83d9aee1e5fa34dfd8f337e558b5214a3c08ad75db3c",
+    "sha256": "32910aff65e9256c718ffc10a8f5300375864626190424072a78497d71b38a44",
     "bytes": 764914
   },
   "state": {
@@ -1315,7 +1315,6 @@
     "contactSheet": null
   },
   "sidecars": {
-    "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
     "receipt": "automation-agents.browser-check.json",
     "files": []
   }

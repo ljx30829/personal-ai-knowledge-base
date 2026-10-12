@@ -6,10 +6,10 @@
   "status": "pass",
   "visualReview": "not-requested",
   "provenance": "current",
-  "deliveryReceiptId": "918450d5-1b6a-44a5-b58e-e380ea5f01e0",
+  "deliveryReceiptId": "e9a5c81f-7f74-47d6-b545-41307e0211bd",
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\market-research.html",
-    "sha256": "849fb630117130d0e331f2b7d942ddd0d3e9eed50b60260ebf0b288bd8d1a983",
+    "sha256": "a3cc90d20803e94b695afdf876d62ea4dfe4738f476ba217d17cffb395db294b",
     "bytes": 764697
   },
   "state": {
@@ -1315,7 +1315,6 @@
     "contactSheet": null
   },
   "sidecars": {
-    "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
     "receipt": "market-research.browser-check.json",
     "files": []
   }

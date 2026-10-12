@@ -6,10 +6,10 @@
   "status": "pass",
   "visualReview": "not-requested",
   "provenance": "current",
-  "deliveryReceiptId": "e679a48d-17f0-441d-87da-cd2272e8b442",
+  "deliveryReceiptId": "b1fdcfc6-fa9c-4ce1-b1b2-804e08c7ba54",
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\visual-experience.html",
-    "sha256": "fd812b1d51336469d07c5b26cb9996d5897d6952e772ef50a5c434d2584dbbe9",
+    "sha256": "db14a48396bb06000d22db3c5a8c7db7fac2d2fe84da9697fcfe8c68de085c5b",
     "bytes": 764711
   },
   "state": {
@@ -1315,7 +1315,6 @@
     "contactSheet": null
   },
   "sidecars": {
-    "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
     "receipt": "visual-experience.browser-check.json",
     "files": []
   }

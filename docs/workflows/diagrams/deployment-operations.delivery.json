@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "receiptId": "33cc05d9-8953-4c73-873c-b023a7a8a873",
+  "receiptId": "7f62e1a4-b96e-4457-81ac-262d5e93f03a",
   "status": "current",
   "command": "deliver",
   "type": "workflow",
   "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\deployment-operations.json",
   "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\deployment-operations.html",
   "specification": {
-    "sha256": "78964b0ecbfc7ab2515ebe43547e453b6efde82eaf8abba85c12fef4e671f6bd",
+    "sha256": "f8b42f148b45ea171896bca34d49fe3723eedbc38992feaa4db17364270543aa",
     "bytes": 9291
   },
   "artifact": {
-    "sha256": "13a697e16ca376be06cad30f13f8697ec34b669f20963aa6591223b184446a31",
+    "sha256": "fc0778844d323491793b88f49521f718d8e47157e2b3c053c56fcfd8bc107947",
     "bytes": 765027
   }
 }

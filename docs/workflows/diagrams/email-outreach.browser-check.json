@@ -6,10 +6,10 @@
   "status": "pass",
   "visualReview": "not-requested",
   "provenance": "current",
-  "deliveryReceiptId": "4d730532-d9c5-41ff-a2ef-5e88ae90ab67",
+  "deliveryReceiptId": "30302c7b-e83a-463f-b8aa-5c55fe32104f",
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\email-outreach.html",
-    "sha256": "e819cf107fbce084244d7f1bef91d3da13835567a6dca85178dc8294613e5601",
+    "sha256": "3823638decc78f6a909bb49b9b88062662e782c4a191ede7d517738b1981d311",
     "bytes": 764594
   },
   "state": {
@@ -1315,7 +1315,6 @@
     "contactSheet": null
   },
   "sidecars": {
-    "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
     "receipt": "email-outreach.browser-check.json",
     "files": []
   }

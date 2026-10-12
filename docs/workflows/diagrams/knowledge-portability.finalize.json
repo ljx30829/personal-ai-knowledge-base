@@ -5,15 +5,15 @@
   "status": "pass",
   "type": "workflow",
   "quality": "showcase",
-  "startedAt": "2026-10-12T07:17:54.862Z",
+  "startedAt": "2026-10-12T09:26:04.360Z",
   "specification": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\knowledge-portability.json",
-    "sha256": "c0893d0d881d9cb66fd9cddc275d53dceb878598c54e043c0ea1c166351af6f4",
+    "sha256": "378131f8b576151a309f19b610f35d450f736a937d2a034d93126b49ef09bc24",
     "bytes": 9386
   },
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\knowledge-portability.html",
-    "sha256": "53b37dcb2445c90dc38fd81f6ab433e5e314e25eb2a9676ca1accd9cfb7106a0",
+    "sha256": "46344277622ae8482fb69114d145fb7b21fdecbab66652aadd412eeff610de28",
     "bytes": 765190
   },
   "stages": {
@@ -40,7 +40,7 @@
         "ok": true,
         "command": "validate",
         "specification": {
-          "sha256": "c0893d0d881d9cb66fd9cddc275d53dceb878598c54e043c0ea1c166351af6f4",
+          "sha256": "378131f8b576151a309f19b610f35d450f736a937d2a034d93126b49ef09bc24",
           "bytes": 9386
         },
         "validation": {
@@ -56,7 +56,7 @@
     "deliver": {
       "status": "pass",
       "exitCode": 0,
-      "durationMs": 1778,
+      "durationMs": 1710,
       "command": [
         "C:\\Program Files\\nodejs\\node.exe",
         "C:\\Users\\26014\\.codex\\skills\\archify\\bin\\archify.mjs",
@@ -72,18 +72,18 @@
       ],
       "receipt": {
         "schemaVersion": 1,
-        "receiptId": "b75097a2-ad61-482c-ad25-7628cf66c06e",
+        "receiptId": "cdf17e24-3777-4a37-9add-9190f75494eb",
         "ok": true,
         "command": "deliver",
         "type": "workflow",
         "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\knowledge-portability.json",
         "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\knowledge-portability.html",
         "specification": {
-          "sha256": "c0893d0d881d9cb66fd9cddc275d53dceb878598c54e043c0ea1c166351af6f4",
+          "sha256": "378131f8b576151a309f19b610f35d450f736a937d2a034d93126b49ef09bc24",
           "bytes": 9386
         },
         "artifact": {
-          "sha256": "53b37dcb2445c90dc38fd81f6ab433e5e314e25eb2a9676ca1accd9cfb7106a0",
+          "sha256": "46344277622ae8482fb69114d145fb7b21fdecbab66652aadd412eeff610de28",
           "bytes": 765190
         },
         "validation": {
@@ -97,7 +97,7 @@
         "evidence": {
           "verified": true,
           "repository": "https://github.com/ljx30829/personal-ai-knowledge-base",
-          "revision": "c5a4962ca1ab984bca524573350cbb43f8ba07d4",
+          "revision": "a647ac31e12e0dd520a9823365f22ec95beb5b80",
           "references": 10
         },
         "update": {
@@ -116,7 +116,7 @@
     "check": {
       "status": "pass",
       "exitCode": 0,
-      "durationMs": 325,
+      "durationMs": 333,
       "command": [
         "C:\\Program Files\\nodejs\\node.exe",
         "C:\\Users\\26014\\.codex\\skills\\archify\\bin\\archify.mjs",
@@ -128,7 +128,7 @@
         "ok": true,
         "file": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\knowledge-portability.html",
         "artifact": {
-          "sha256": "53b37dcb2445c90dc38fd81f6ab433e5e314e25eb2a9676ca1accd9cfb7106a0",
+          "sha256": "46344277622ae8482fb69114d145fb7b21fdecbab66652aadd412eeff610de28",
           "bytes": 765190
         },
         "checks": [
@@ -259,22 +259,20 @@
           "issues": []
         },
         "provenance": "current",
-        "deliveryReceiptId": "b75097a2-ad61-482c-ad25-7628cf66c06e"
+        "deliveryReceiptId": "cdf17e24-3777-4a37-9add-9190f75494eb"
       }
     },
     "browser-check": {
       "status": "pass",
       "exitCode": 0,
-      "durationMs": 2747,
+      "durationMs": 2664,
       "command": [
         "C:\\Program Files\\nodejs\\node.exe",
         "C:\\Users\\26014\\.codex\\skills\\archify\\bin\\archify.mjs",
         "browser-check",
         "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\knowledge-portability.html",
         "--json",
-        "--require-provenance",
-        "--out-dir",
-        "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962"
+        "--require-provenance"
       ],
       "execution": "in-process",
       "receipt": {
@@ -285,10 +283,10 @@
         "status": "pass",
         "visualReview": "not-requested",
         "provenance": "current",
-        "deliveryReceiptId": "b75097a2-ad61-482c-ad25-7628cf66c06e",
+        "deliveryReceiptId": "cdf17e24-3777-4a37-9add-9190f75494eb",
         "artifact": {
           "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\knowledge-portability.html",
-          "sha256": "53b37dcb2445c90dc38fd81f6ab433e5e314e25eb2a9676ca1accd9cfb7106a0",
+          "sha256": "46344277622ae8482fb69114d145fb7b21fdecbab66652aadd412eeff610de28",
           "bytes": 765190
         },
         "state": {
@@ -1594,7 +1592,6 @@
           "contactSheet": null
         },
         "sidecars": {
-          "directory": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962",
           "receipt": "knowledge-portability.browser-check.json",
           "files": []
         }
@@ -1603,13 +1600,13 @@
   },
   "diagnostics": [],
   "evidence": {
-    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\knowledge-portability.finalize.json",
-    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\knowledge-portability.finalize-summary.json",
-    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\knowledge-portability.browser-check.json"
+    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\knowledge-portability.finalize.json",
+    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\knowledge-portability.finalize-summary.json",
+    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\knowledge-portability.browser-check.json"
   },
   "visualReview": "not-requested",
-  "finishedAt": "2026-10-12T07:18:02.073Z",
-  "durationMs": 7210,
+  "finishedAt": "2026-10-12T09:26:11.232Z",
+  "durationMs": 6871,
   "update": {
     "status": "current",
     "installedVersion": "3.0.1",

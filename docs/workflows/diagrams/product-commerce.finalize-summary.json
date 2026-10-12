@@ -7,12 +7,12 @@
   "quality": "showcase",
   "specification": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\product-commerce.json",
-    "sha256": "a5a2b4a35eb3b02caca958d057aa3b11aa023ef34873bd34b1ff19de276ae745",
+    "sha256": "1406b79d6b4ff05202dd33b18fc90104aebe9026fedc7ef8609163ad4de1bfed",
     "bytes": 9067
   },
   "artifact": {
     "path": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\product-commerce.html",
-    "sha256": "882acdc1ea22ec243ce58592c54dd1347528656bdcd52f987c72e4f5dc50fbad",
+    "sha256": "1705d5a3b668917a48e947eeeb7b19899bde96cbb823f3999e7dda292535eceb",
     "bytes": 764655
   },
   "gates": {
@@ -28,9 +28,9 @@
     "truncated": false
   },
   "evidence": {
-    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\product-commerce.finalize.json",
-    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\product-commerce.finalize-summary.json",
-    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\evidence-c5a4962\\product-commerce.browser-check.json"
+    "receipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\product-commerce.finalize.json",
+    "summaryReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\product-commerce.finalize-summary.json",
+    "browserCheckReceipt": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\product-commerce.browser-check.json"
   },
   "update": {
     "status": "current",
@@ -43,7 +43,7 @@
     "noticeText": null
   },
   "visualReview": "not-requested",
-  "durationMs": 7242,
+  "durationMs": 6797,
   "visualReviewRecommendation": {
     "action": "inspect-route-readability",
     "signals": {

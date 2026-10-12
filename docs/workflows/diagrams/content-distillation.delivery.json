@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "16c2777a-567a-4131-a20d-4b1659a98f8e",
+  "status": "current",
+  "command": "deliver",
+  "type": "workflow",
+  "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\content-distillation.json",
+  "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\content-distillation.html",
+  "specification": {
+    "sha256": "5502290f2eb7007684b06251c97b0a1e3601c991f74f24c8f82b9643e528feff",
+    "bytes": 9226
+  },
+  "artifact": {
+    "sha256": "ac2e39a6b7fe150d03d0ad6204861e5e4726ea5b0801e285760b7a6e91cd05ba",
+    "bytes": 764972
+  }
+}

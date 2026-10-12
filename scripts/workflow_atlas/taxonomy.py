@@ -6,6 +6,22 @@ from pathlib import Path
 
 from .models import SkillCard, SourceRef, WorkflowDefinition, WorkflowStep
 
+NAME_ROUTE_RULES = {
+    "market-research": ("research", "scrape", "hackernews", "browse", "hermes"),
+    "email-outreach": ("email", "mail", "outreach", "sender", "hermes"),
+    "sales-follow-up": ("sales", "follow", "trade", "excel"),
+    "product-commerce": ("product", "catalog", "commerce", "marketplace", "payment"),
+    "site-commerce": ("shopify", "storefront", "ecommerce", "cms", "site", "web-rebuilder"),
+    "content-production": ("content", "document", "pdf", "presentation", "remotion", "writing", "brandkit", "template"),
+    "content-distillation": ("distill", "transcrib", "whisper", "document", "content"),
+    "visual-experience": ("design", "visual", "frontend", "ui", "ux", "image", "figma", "geist", "shadcn", "impeccable", "satori", "stitch"),
+    "software-delivery": ("code", "codex", "debug", "investigat", "dev", "software", "sdk", "api", "react", "next", "turbo", "routing", "runtime", "auth", "bootstrap", "function", "ios", "android", "skill-creator"),
+    "quality-assurance": ("test", "qa", "review", "audit", "verify", "verification", "benchmark", "health", "canary", "careful", "guard", "cso", "autoplan", "gstack", "ship", "playwright", "spreadsheet"),
+    "deployment-operations": ("deploy", "observability", "monitor", "ops", "infrastructure", "relay", "node", "gateway", "firewall", "service", "storage", "env-var", "vercel-cli"),
+    "automation-agents": ("automation", "agent", "workflow", "cron", "orchestration", "queue", "computer-use", "gbrain"),
+    "knowledge-portability": ("knowledge", "portable", "git", "vault", "context", "migration", "learn", "skill-installer", "browser-cookies", "freeze", "diagram", "landing-report", "office-hours", "spec"),
+}
+
 
 def _source(root: Path, value: dict[str, object]) -> SourceRef:
     path = str(value['path'])
@@ -40,18 +56,22 @@ def load_workflows(root: Path) -> tuple[WorkflowDefinition, ...]:
 
 
 def assign_workflows(card: SkillCard, workflows: tuple[WorkflowDefinition, ...]) -> tuple[str, ...]:
-    haystack = " ".join((card.name, card.purpose, card.source)).casefold()
+    name = card.name.casefold()
     matched = tuple(
         workflow.id for workflow in workflows
-        if any(keyword.casefold() in haystack for keyword in workflow.keywords)
+        if workflow.id in NAME_ROUTE_RULES
+        and any(keyword in name for keyword in NAME_ROUTE_RULES[workflow.id])
     )
     return matched or ("knowledge-portability",)
 
 
 def route_skill(card: SkillCard, workflows: tuple[WorkflowDefinition, ...]) -> SkillCard:
-    haystack = " ".join((card.name, card.purpose, card.source)).casefold()
     routes = assign_workflows(card, workflows)
-    explicit = any(any(keyword.casefold() in haystack for keyword in workflow.keywords) for workflow in workflows)
+    explicit = any(
+        workflow_id in NAME_ROUTE_RULES
+        and any(keyword in card.name.casefold() for keyword in NAME_ROUTE_RULES[workflow_id])
+        for workflow_id in routes
+    )
     missing = card.missing_fields if explicit else card.missing_fields + ("routing_fallback",)
     return replace(card, workflow_ids=routes, missing_fields=tuple(dict.fromkeys(missing)))
 

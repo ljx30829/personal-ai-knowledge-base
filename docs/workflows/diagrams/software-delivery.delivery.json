@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "ad5bf59f-dd84-4127-bfb1-53555207ab5b",
+  "status": "current",
+  "command": "deliver",
+  "type": "workflow",
+  "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\software-delivery.json",
+  "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\software-delivery.html",
+  "specification": {
+    "sha256": "e9c21bb4a006218003780d968341be50c62d9a08d5aeea2f1fffb42ca04d01fc",
+    "bytes": 9024
+  },
+  "artifact": {
+    "sha256": "df60e01b5f90b7582b6486d14841a4a663fb75655c7c2f43740252eef217965e",
+    "bytes": 764662
+  }
+}

@@ -20,5 +20,9 @@ class WorkflowAtlasArchifyTests(unittest.TestCase):
     def test_overview_has_thirteen_independent_work_purposes(self):
         workflows = load_workflows(Path('.'))
         candidate = build_overview_candidate(workflows, {'url': 'https://github.com/ljx30829/personal-ai-knowledge-base.git', 'revision': '0' * 40})
-        self.assertEqual(13, len([n for n in candidate['nodes'] if n['id'].startswith('purpose-')]))
-        self.assertEqual(13, len(candidate['semanticChecks']['allowedRoots']))
+        self.assertEqual(13, len([n for n in candidate['components'] if n['id'].startswith('purpose-')]))
+        self.assertEqual(52, len(candidate['components']))
+        self.assertEqual(39, len(candidate['connections']))
+        # Every relationship stays within its own work purpose.
+        for edge in candidate['connections']:
+            self.assertEqual(edge['from'].split('-', 1)[1], edge['to'].split('-', 1)[1])

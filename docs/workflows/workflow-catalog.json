@@ -1,0 +1,2863 @@
+[
+  {
+    "approval_gate": [
+      "只读研究可执行；外部接触、询价或访谈必须当次人工授权。"
+    ],
+    "failure_modes": [
+      "来源受限",
+      "字段缺失",
+      "候选未达到验证门"
+    ],
+    "id": "market-research",
+    "inputs": [
+      "研究问题",
+      "目标市场",
+      "公开来源",
+      "已知限制"
+    ],
+    "keywords": [
+      "research",
+      "scrape",
+      "market",
+      "customer",
+      "trade",
+      "调查",
+      "研究",
+      "客户"
+    ],
+    "label": "客户与市场研究",
+    "logic": [
+      "先定义待验证问题，再建立候选池；逐条核验来源；证据不足就保留未知。"
+    ],
+    "outputs": [
+      "研究卡",
+      "候选池",
+      "证据矩阵",
+      "下一验证步骤"
+    ],
+    "purpose": "用公开证据和客户事实验证市场、客户群与需求，不把猜测当结论。",
+    "source_paths": [
+      {
+        "end_line": 192,
+        "label": null,
+        "line": 12,
+        "path": "knowledge/commerce/customer-first-research-runbook.md"
+      },
+      {
+        "end_line": 56,
+        "label": null,
+        "line": 11,
+        "path": "knowledge/trade/foreign-trade-operations.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "把模糊想法改成可证伪问题和停止条件。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "明确研究目的",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 192,
+            "label": null,
+            "line": 12,
+            "path": "knowledge/commerce/customer-first-research-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "确认市场、地区、客户类型和时间范围。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "确认触发条件",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 192,
+            "label": null,
+            "line": 12,
+            "path": "knowledge/commerce/customer-first-research-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "只收集可追溯的公开来源和用户授权材料。",
+        "id": "input",
+        "kind": "process",
+        "label": "收集公开证据",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 56,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/trade/foreign-trade-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "区分来源事实、作者主张、推断和未知。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "证据分层与评分",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/commerce/customer-first-product-research.md"
+          }
+        ]
+      },
+      {
+        "detail": "建立候选池、逐项核验并淘汰不符合门槛的条目。",
+        "id": "execute",
+        "kind": "process",
+        "label": "形成候选与验证卡",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 192,
+            "label": null,
+            "line": 12,
+            "path": "knowledge/commerce/customer-first-research-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "访谈、邮件、私信、供应商联系前必须有当次授权。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "外部接触前人工确认",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 59,
+            "label": null,
+            "line": 11,
+            "path": "projects/independent-site-research.md"
+          }
+        ]
+      },
+      {
+        "detail": "输出候选、证据、分数、缺口和建议下一步。",
+        "id": "output",
+        "kind": "process",
+        "label": "输出研究报告",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/commerce/customer-first-product-research.md"
+          }
+        ]
+      },
+      {
+        "detail": "抽查链接、日期、来源身份和结论是否超出证据。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "检查来源闭环",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 192,
+            "label": null,
+            "line": 12,
+            "path": "knowledge/commerce/customer-first-research-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "平台限制、字段未知或证据冲突时停止升级结论。",
+        "id": "failure",
+        "kind": "error",
+        "label": "记录研究阻塞",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 59,
+            "label": null,
+            "line": 11,
+            "path": "projects/independent-site-research.md"
+          }
+        ]
+      },
+      {
+        "detail": "把可复用方法写入知识层，项目进展写入项目层。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "沉淀状态与来源",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "需要找客户、理解市场、验证人群或评估需求时"
+    ],
+    "validation": [
+      "每个关键结论有来源或明确标记未知。"
+    ]
+  },
+  {
+    "approval_gate": [
+      "真实发送、回复、社交或表单动作必须有明确目标和当次授权；默认只生成草稿。"
+    ],
+    "failure_modes": [
+      "邮箱身份未复核",
+      "退订或投诉",
+      "去重失败",
+      "发送授权缺失"
+    ],
+    "id": "email-outreach",
+    "inputs": [
+      "合格线索",
+      "公开证据",
+      "邮件目标",
+      "发送授权状态"
+    ],
+    "keywords": [
+      "email",
+      "mail",
+      "outreach",
+      "sender",
+      "邮件",
+      "开发信",
+      "触达"
+    ],
+    "label": "邮件与合规触达",
+    "logic": [
+      "发现、评分、个性化、风险复核、草稿、人工确认、发送证明严格分开。"
+    ],
+    "outputs": [
+      "草稿",
+      "发送包",
+      "提供商证明",
+      "回复分类"
+    ],
+    "purpose": "从合格线索到可审阅邮件草稿，经过身份、抑制、去重和授权门后才允许产生外部副作用。",
+    "source_paths": [
+      {
+        "end_line": 210,
+        "label": null,
+        "line": 13,
+        "path": "knowledge/trade/foreign-trade-execution-runbook.md"
+      },
+      {
+        "end_line": 56,
+        "label": null,
+        "line": 11,
+        "path": "knowledge/trade/foreign-trade-operations.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "区分开发、回复、跟进、报价和通知。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "明确触达目的",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 210,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/trade/foreign-trade-execution-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "只有达到线索质量门才进入邮件流程。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "确认线索状态",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 56,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/trade/foreign-trade-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "核对官网、业务匹配、邮箱来源和最近活动。",
+        "id": "input",
+        "kind": "process",
+        "label": "读取公开证据",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 210,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/trade/foreign-trade-execution-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "检查去重、退订、退信、投诉和身份风险。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "风险与抑制判断",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 210,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/trade/foreign-trade-execution-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "只引用已核验事实，不编造价格、规格或关系。",
+        "id": "execute",
+        "kind": "process",
+        "label": "生成个性化草稿",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 56,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/trade/foreign-trade-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "没有当次授权时停在草稿或预演，不能发送。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "人工发送门",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 22,
+            "label": null,
+            "line": 22,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "保留草稿、收件人、证据和提供商结果。",
+        "id": "output",
+        "kind": "process",
+        "label": "保存发送包与证明",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 210,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/trade/foreign-trade-execution-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "核对实际状态、退信、回复和退订，不以脚本退出码代替证明。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "发送后核对",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 210,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/trade/foreign-trade-execution-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "身份、抑制或邮箱风险未闭环时保持 BLOCKED_NO_SEND。",
+        "id": "failure",
+        "kind": "error",
+        "label": "阻塞并停止",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 146,
+            "label": null,
+            "line": 136,
+            "path": "knowledge/trade/foreign-trade-execution-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "把结果写回项目状态和线索记录。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "记录触达状态",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 210,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/trade/foreign-trade-execution-runbook.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "需要写开发信、回复客户或准备受控发送时"
+    ],
+    "validation": [
+      "发送状态由提供商证据证明；失败保持阻塞。"
+    ]
+  },
+  {
+    "approval_gate": [
+      "真实回复、报价、谈判和社交动作需要当次授权。"
+    ],
+    "failure_modes": [
+      "状态过期",
+      "事实缺失",
+      "客户风险未确认"
+    ],
+    "id": "sales-follow-up",
+    "inputs": [
+      "线索状态",
+      "客户回复",
+      "产品资料",
+      "授权范围"
+    ],
+    "keywords": [
+      "sales",
+      "follow",
+      "trade",
+      "客户",
+      "销售",
+      "跟进",
+      "谈判"
+    ],
+    "label": "外贸销售与客户跟进",
+    "logic": [
+      "先分类客户意图，再核对事实和权限，最后形成可审阅的下一步。"
+    ],
+    "outputs": [
+      "回复草稿",
+      "跟进任务",
+      "客户状态",
+      "风险记录"
+    ],
+    "purpose": "把线索、回复、报价和下一步变成有证据的销售跟进状态。",
+    "source_paths": [
+      {
+        "end_line": 56,
+        "label": null,
+        "line": 11,
+        "path": "knowledge/trade/foreign-trade-operations.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "区分询价、样品、技术问题、异议和沉默跟进。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "识别销售目的",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 56,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/trade/foreign-trade-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "先读取项目状态、最近触达和阻塞项。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "读取当前状态",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 10,
+            "path": "projects/ai-global-trade-os.md"
+          }
+        ]
+      },
+      {
+        "detail": "不从旧草稿推断当前价格、库存或规格。",
+        "id": "input",
+        "kind": "process",
+        "label": "核对客户与产品证据",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 56,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/trade/foreign-trade-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "根据明确需求、风险和授权决定回复、澄清或停止。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "判断下一步资格",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 210,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/trade/foreign-trade-execution-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "形成事实引用、问题清单和下一步草稿。",
+        "id": "execute",
+        "kind": "process",
+        "label": "准备回复与跟进",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 56,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/trade/foreign-trade-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "发送报价、承诺交期或社交联系需要当次授权。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "确认外部动作",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 22,
+            "label": null,
+            "line": 22,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "输出回复草稿、任务、风险和等待条件。",
+        "id": "output",
+        "kind": "process",
+        "label": "形成跟进记录",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 210,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/trade/foreign-trade-execution-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "确认没有把草稿、意向或旧快照写成成交。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "复核承诺边界",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 10,
+            "path": "projects/ai-global-trade-os.md"
+          }
+        ]
+      },
+      {
+        "detail": "事实不足或客户身份不清时不推进。",
+        "id": "failure",
+        "kind": "error",
+        "label": "保持等待或阻塞",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 56,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/trade/foreign-trade-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "更新项目交接和证据链接。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "沉淀客户状态",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "收到客户回复、需要报价或需要安排下一步时"
+    ],
+    "validation": [
+      "所有承诺都有当前证据和授权。"
+    ]
+  },
+  {
+    "approval_gate": [
+      "询价、打样、备货、价格写入、上架和投放必须分开授权。"
+    ],
+    "failure_modes": [
+      "平台权限未知",
+      "成本缺失",
+      "素材版权缺失",
+      "需求证据不足"
+    ],
+    "id": "product-commerce",
+    "inputs": [
+      "客户证据",
+      "供应商资料",
+      "成本与费用",
+      "平台规则"
+    ],
+    "keywords": [
+      "product",
+      "commerce",
+      "jd",
+      "catalog",
+      "listing",
+      "商品",
+      "选品",
+      "核价",
+      "上架"
+    ],
+    "label": "选品、核价与商品准备",
+    "logic": [
+      "客户验证先于产品决策；成本、资质、素材和平台权限全部通过后才进入草稿。"
+    ],
+    "outputs": [
+      "候选商品",
+      "核价表",
+      "商品草稿",
+      "回读证据"
+    ],
+    "purpose": "从客户问题和真实成本出发验证产品机会，再决定是否进入商品准备。",
+    "source_paths": [
+      {
+        "end_line": 192,
+        "label": null,
+        "line": 12,
+        "path": "knowledge/commerce/customer-first-research-runbook.md"
+      },
+      {
+        "end_line": 47,
+        "label": null,
+        "line": 10,
+        "path": "knowledge/commerce/jd-product-automation.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "明确客户、场景、类目和利润要求。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "定义商品目标",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/commerce/customer-first-product-research.md"
+          }
+        ]
+      },
+      {
+        "detail": "未达到需求和付费证据门不备货。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "确认验证门",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 192,
+            "label": null,
+            "line": 12,
+            "path": "knowledge/commerce/customer-first-research-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "核对供应商报价、库存、运费、税费、平台费和素材权限。",
+        "id": "input",
+        "kind": "process",
+        "label": "收集成本与资料",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 47,
+            "label": null,
+            "line": 10,
+            "path": "knowledge/commerce/jd-product-automation.md"
+          }
+        ]
+      },
+      {
+        "detail": "按真实输入核价，缺字段就标记 WATCH。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "核算与淘汰",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 47,
+            "label": null,
+            "line": 10,
+            "path": "knowledge/commerce/jd-product-automation.md"
+          }
+        ]
+      },
+      {
+        "detail": "形成标题、属性、描述、图片和价格草稿。",
+        "id": "execute",
+        "kind": "process",
+        "label": "生成商品草稿",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 47,
+            "label": null,
+            "line": 10,
+            "path": "knowledge/commerce/jd-product-automation.md"
+          }
+        ]
+      },
+      {
+        "detail": "写入价格、库存或上架动作必须单个测试并获授权。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "上架前人工批准",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 39,
+            "label": null,
+            "line": 11,
+            "path": "projects/jd-commerce-automation.md"
+          }
+        ]
+      },
+      {
+        "detail": "输出草稿、成本表、素材清单和缺口。",
+        "id": "output",
+        "kind": "process",
+        "label": "输出商品包",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 47,
+            "label": null,
+            "line": 10,
+            "path": "knowledge/commerce/jd-product-automation.md"
+          }
+        ]
+      },
+      {
+        "detail": "只在平台证明写入成功后升级状态。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "写后回读验证",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 39,
+            "label": null,
+            "line": 11,
+            "path": "projects/jd-commerce-automation.md"
+          }
+        ]
+      },
+      {
+        "detail": "权限、资质、素材或经济模型不完整时停止。",
+        "id": "failure",
+        "kind": "error",
+        "label": "停止商品动作",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 47,
+            "label": null,
+            "line": 10,
+            "path": "knowledge/commerce/jd-product-automation.md"
+          }
+        ]
+      },
+      {
+        "detail": "记录候选、淘汰理由和下一验证。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "记录商品状态",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/commerce/customer-first-product-research.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "需要选品、核价、优化商品或准备上架时"
+    ],
+    "validation": [
+      "真实成本输入完整，写入动作有回读证据。"
+    ]
+  },
+  {
+    "approval_gate": [
+      "线上上传、Admin 写操作、切换主题和发布必须单独授权。"
+    ],
+    "failure_modes": [
+      "店铺身份未知",
+      "素材未授权",
+      "线上状态过期",
+      "发布授权缺失"
+    ],
+    "id": "site-commerce",
+    "inputs": [
+      "目标页面",
+      "主题代码",
+      "产品资料",
+      "平台权限"
+    ],
+    "keywords": [
+      "shopify",
+      "storefront",
+      "website",
+      "ecommerce",
+      "theme",
+      "独立站",
+      "电商",
+      "建站"
+    ],
+    "label": "独立站与电商运营",
+    "logic": [
+      "先本地检查，再只读连接，再候选上传，再 QA，发布永远单独授权。"
+    ],
+    "outputs": [
+      "本地候选",
+      "预览",
+      "QA 报告",
+      "未发布主题"
+    ],
+    "purpose": "在本地候选、预览、质量检查和明确发布授权之间建立可回读的站点工作流。",
+    "source_paths": [
+      {
+        "end_line": 310,
+        "label": null,
+        "line": 13,
+        "path": "knowledge/sites/shopify-connection-guide.md"
+      },
+      {
+        "end_line": 57,
+        "label": null,
+        "line": 11,
+        "path": "knowledge/sites/independent-sites-and-shopify.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "区分本地改动、预览、上传和发布。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "明确站点目标",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 310,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/sites/shopify-connection-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "核对目标店铺、主题角色和操作范围。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "确认店铺与权限",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 310,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/sites/shopify-connection-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "读取状态、工作流、素材和当前主题差异。",
+        "id": "input",
+        "kind": "process",
+        "label": "读取本地与远程证据",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/sites/independent-sites-and-shopify.md"
+          }
+        ]
+      },
+      {
+        "detail": "区分主题 CLI、Admin API 和 Storefront API。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "选择接入通道",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 310,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/sites/shopify-connection-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "修改主题、内容、图片和转化组件。",
+        "id": "execute",
+        "kind": "process",
+        "label": "构建本地候选",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/sites/independent-sites-and-shopify.md"
+          }
+        ]
+      },
+      {
+        "detail": "线上写入、切换主主题和发布需要明确授权。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "上传与发布门",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 310,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/sites/shopify-connection-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "输出主题候选、截图、检查报告和回滚点。",
+        "id": "output",
+        "kind": "process",
+        "label": "生成候选交付",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "projects/yufeng.md"
+          }
+        ]
+      },
+      {
+        "detail": "检查破图、溢出、占位内容、关键路由和性能。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "桌面移动 QA",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "projects/yufeng.md"
+          }
+        ]
+      },
+      {
+        "detail": "身份、数据或证据不完整时不发布。",
+        "id": "failure",
+        "kind": "error",
+        "label": "保留未发布状态",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "projects/yufeng.md"
+          }
+        ]
+      },
+      {
+        "detail": "记录候选、远程角色和验证时间。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "记录主题状态",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 310,
+            "label": null,
+            "line": 13,
+            "path": "knowledge/sites/shopify-connection-guide.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "需要改站、Shopify 接入、PDP、SEO、转化或发布准备时"
+    ],
+    "validation": [
+      "Theme Check、桌面移动截图、关键路由和回读通过。"
+    ]
+  },
+  {
+    "approval_gate": [
+      "发布、投放、私信、评论和账号连接需要当次授权。"
+    ],
+    "failure_modes": [
+      "来源不完整",
+      "平台限制",
+      "授权不清",
+      "内容主张无法验证"
+    ],
+    "id": "content-production",
+    "inputs": [
+      "选题",
+      "受众",
+      "来源证据",
+      "平台规则"
+    ],
+    "keywords": [
+      "content",
+      "media",
+      "video",
+      "writing",
+      "social",
+      "自媒体",
+      "内容",
+      "脚本"
+    ],
+    "label": "自媒体与内容生产",
+    "logic": [
+      "先验证主题和来源，再创作，再做质量和合规检查，发布不是默认动作。"
+    ],
+    "outputs": [
+      "脚本",
+      "发布包",
+      "来源卡",
+      "质量报告"
+    ],
+    "purpose": "把选题、脚本、视觉、剪辑和发布准备组织成可审阅的内容生产闭环。",
+    "source_paths": [
+      {
+        "end_line": 53,
+        "label": null,
+        "line": 11,
+        "path": "knowledge/media/self-media-operations.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "定义受众、平台、主题和成功标准。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "明确内容目标",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 53,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/media/self-media-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "确认选题有来源、受众和可执行范围。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "筛选选题",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 53,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/media/self-media-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "记录来源、授权状态和待核验主张。",
+        "id": "input",
+        "kind": "process",
+        "label": "整理素材与证据",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 59,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/distillation/content-distillation-system.md"
+          }
+        ]
+      },
+      {
+        "detail": "区分事实、观点、演示和未验证主张。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "确定内容结构",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 53,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/media/self-media-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "完成脚本、画面、标题、描述和版本记录。",
+        "id": "execute",
+        "kind": "process",
+        "label": "生成脚本与素材",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 53,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/media/self-media-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "发布、投放、挂卡和对外互动需要当次授权。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "发布前人工确认",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 61,
+            "label": null,
+            "line": 12,
+            "path": "projects/self-media-distiller.md"
+          }
+        ]
+      },
+      {
+        "detail": "输出脚本、媒体、标题、来源和平台适配版本。",
+        "id": "output",
+        "kind": "process",
+        "label": "输出发布包",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 53,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/media/self-media-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "检查来源、版权、格式、可读性和敏感风险。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "内容质量门",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 59,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/distillation/content-distillation-system.md"
+          }
+        ]
+      },
+      {
+        "detail": "素材、授权或事实不足时只保留草稿。",
+        "id": "failure",
+        "kind": "error",
+        "label": "退回或降级",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 61,
+            "label": null,
+            "line": 12,
+            "path": "projects/self-media-distiller.md"
+          }
+        ]
+      },
+      {
+        "detail": "把复用方法与实际结果分开记录。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "沉淀内容方法",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 53,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/media/self-media-operations.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "需要做短视频、文章、脚本、封面或内容计划时"
+    ],
+    "validation": [
+      "来源、版权、格式和事实边界通过检查。"
+    ]
+  },
+  {
+    "approval_gate": [
+      "账号连接、导出、发布和互动需要明确授权；默认本地处理公开或授权数据。"
+    ],
+    "failure_modes": [
+      "缺媒体 URL",
+      "平台验证壳",
+      "转写覆盖不足",
+      "归属无法核验"
+    ],
+    "id": "content-distillation",
+    "inputs": [
+      "公开或授权素材",
+      "账号标识",
+      "媒体 URL",
+      "本地工具"
+    ],
+    "keywords": [
+      "distill",
+      "transcribe",
+      "whisper",
+      "content",
+      "蒸馏",
+      "转写",
+      "账号"
+    ],
+    "label": "内容采集、转写与知识蒸馏",
+    "logic": [
+      "先导入和记录来源，再转写和审计，缺媒体或平台受限时保持缺口。"
+    ],
+    "outputs": [
+      "转写",
+      "质量审计",
+      "知识卡",
+      "本地索引"
+    ],
+    "purpose": "把公开或获授权内容转成带来源、覆盖率和缺口标记的可检索知识。",
+    "source_paths": [
+      {
+        "end_line": 182,
+        "label": null,
+        "line": 12,
+        "path": "knowledge/media/self-media-distillation-runbook.md"
+      },
+      {
+        "end_line": 59,
+        "label": null,
+        "line": 11,
+        "path": "knowledge/distillation/content-distillation-system.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "明确需要回答的账号、内容或方法问题。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "定义蒸馏问题",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 182,
+            "label": null,
+            "line": 12,
+            "path": "knowledge/media/self-media-distillation-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "只处理公开或用户授权材料。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "确认数据授权",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 61,
+            "label": null,
+            "line": 12,
+            "path": "projects/self-media-distiller.md"
+          }
+        ]
+      },
+      {
+        "detail": "导入 JSON、CSV、页面证据和媒体捕获。",
+        "id": "input",
+        "kind": "process",
+        "label": "准备账号工作区",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 182,
+            "label": null,
+            "line": 12,
+            "path": "knowledge/media/self-media-distillation-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "判断页面、媒体、OCR 和转写是否足够。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "评估覆盖与缺口",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 59,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/distillation/content-distillation-system.md"
+          }
+        ]
+      },
+      {
+        "detail": "运行本地转写、账号构建、质量审计和蒸馏。",
+        "id": "execute",
+        "kind": "process",
+        "label": "转写、构建与审计",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 61,
+            "label": null,
+            "line": 12,
+            "path": "projects/self-media-distiller.md"
+          }
+        ]
+      },
+      {
+        "detail": "登录、导出、发布和互动不属于默认授权。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "外部数据动作门",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 61,
+            "label": null,
+            "line": 12,
+            "path": "projects/self-media-distiller.md"
+          }
+        ]
+      },
+      {
+        "detail": "生成逐条卡片、账号报告、方法和本地索引。",
+        "id": "output",
+        "kind": "process",
+        "label": "输出知识卡",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 59,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/distillation/content-distillation-system.md"
+          }
+        ]
+      },
+      {
+        "detail": "核对转写覆盖、来源引用和未验证主张。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "检查来源覆盖",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 182,
+            "label": null,
+            "line": 12,
+            "path": "knowledge/media/self-media-distillation-runbook.md"
+          }
+        ]
+      },
+      {
+        "detail": "平台验证壳或缺媒体时标记阻塞，不凑完整率。",
+        "id": "failure",
+        "kind": "error",
+        "label": "保留缺口",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 61,
+            "label": null,
+            "line": 12,
+            "path": "projects/self-media-distiller.md"
+          }
+        ]
+      },
+      {
+        "detail": "把可复用结论写入知识层，保留来源卡。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "写回可复用方法",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 59,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/distillation/content-distillation-system.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "需要导入账号、媒体、转写、审计或蒸馏时"
+    ],
+    "validation": [
+      "每条方法有来源和覆盖状态。"
+    ]
+  },
+  {
+    "approval_gate": [
+      "线上发布、素材购买和外部提交需要单独授权。"
+    ],
+    "failure_modes": [
+      "素材不匹配",
+      "占位内容",
+      "移动溢出",
+      "参考无法授权"
+    ],
+    "id": "visual-experience",
+    "inputs": [
+      "产品目标",
+      "参考图",
+      "内容资产",
+      "技术约束"
+    ],
+    "keywords": [
+      "design",
+      "visual",
+      "frontend",
+      "ui",
+      "ux",
+      "image",
+      "motion",
+      "设计",
+      "视觉",
+      "前端"
+    ],
+    "label": "视觉设计与前端体验",
+    "logic": [
+      "先理解目标和参考，再形成候选，桌面移动验证后才考虑交付。"
+    ],
+    "outputs": [
+      "设计候选",
+      "实现",
+      "截图",
+      "视觉审查"
+    ],
+    "purpose": "把产品目标、参考证据和视觉质量转成可审阅的界面、图片和动效候选。",
+    "source_paths": [
+      {
+        "end_line": 57,
+        "label": null,
+        "line": 11,
+        "path": "knowledge/sites/independent-sites-and-shopify.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "定义用户、任务、内容层级和成功标准。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "明确体验目标",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/sites/independent-sites-and-shopify.md"
+          }
+        ]
+      },
+      {
+        "detail": "记录真实资产、尺寸、品牌和平台边界。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "收集参考与约束",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/sites/independent-sites-and-shopify.md"
+          }
+        ]
+      },
+      {
+        "detail": "确认图片、文案、组件和参考来源。",
+        "id": "input",
+        "kind": "process",
+        "label": "审查素材与结构",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/sites/independent-sites-and-shopify.md"
+          }
+        ]
+      },
+      {
+        "detail": "比较层级、密度、字体、色彩和交互策略。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "选择视觉方向",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 100,
+            "label": null,
+            "line": 12,
+            "path": "knowledge/system/user-requirements.md"
+          }
+        ]
+      },
+      {
+        "detail": "输出页面、组件、图片或动效实现。",
+        "id": "execute",
+        "kind": "process",
+        "label": "生成设计候选",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/sites/independent-sites-and-shopify.md"
+          }
+        ]
+      },
+      {
+        "detail": "实验样式先截图审阅，不默认推送线上。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "候选批准门",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "输出实现、资源、截图和设计说明。",
+        "id": "output",
+        "kind": "process",
+        "label": "输出视觉交付",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/sites/independent-sites-and-shopify.md"
+          }
+        ]
+      },
+      {
+        "detail": "检查文字、间距、溢出、层级和素材准确性。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "桌面移动视觉审查",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 100,
+            "label": null,
+            "line": 12,
+            "path": "knowledge/system/user-requirements.md"
+          }
+        ]
+      },
+      {
+        "detail": "错误资产、占位内容或移动端缺陷时退回。",
+        "id": "failure",
+        "kind": "error",
+        "label": "回退候选",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/sites/independent-sites-and-shopify.md"
+          }
+        ]
+      },
+      {
+        "detail": "保留候选截图、通过项和未解决问题。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "记录视觉决策",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "需要设计、重做页面、图片、动效或体验审查时"
+    ],
+    "validation": [
+      "桌面和移动视口均无关键布局缺陷。"
+    ]
+  },
+  {
+    "approval_gate": [
+      "生产变更、部署、账号和破坏性动作需要明确授权。"
+    ],
+    "failure_modes": [
+      "测试失败",
+      "依赖缺失",
+      "上下文不足",
+      "范围污染"
+    ],
+    "id": "software-delivery",
+    "inputs": [
+      "需求或缺陷",
+      "现有代码",
+      "测试",
+      "项目状态"
+    ],
+    "keywords": [
+      "code",
+      "developer",
+      "debug",
+      "engineering",
+      "software",
+      "开发",
+      "调试",
+      "编程",
+      "工程"
+    ],
+    "label": "软件规划、开发与调试",
+    "logic": [
+      "先理解边界和证据，再测试驱动实现，最后做差异和回归验证。"
+    ],
+    "outputs": [
+      "代码",
+      "测试",
+      "提交",
+      "状态记录"
+    ],
+    "purpose": "把需求拆成可验证的实现任务，通过证据和小步提交交付代码。",
+    "source_paths": [
+      {
+        "end_line": 43,
+        "label": null,
+        "line": 1,
+        "path": "AGENTS.md"
+      },
+      {
+        "end_line": 65,
+        "label": null,
+        "line": 1,
+        "path": "TASK_STATE.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "把需求改成可测试行为和非目标。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "确定交付目标",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "读取状态、规则、入口和最近变更。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "恢复项目上下文",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 65,
+            "label": null,
+            "line": 1,
+            "path": "TASK_STATE.md"
+          }
+        ]
+      },
+      {
+        "detail": "读取真实调用链、配置、测试和依赖。",
+        "id": "input",
+        "kind": "process",
+        "label": "定位代码证据",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 67,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/system/skills-and-routing.md"
+          }
+        ]
+      },
+      {
+        "detail": "拆分独立责任，记录未知和风险。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "选择实现边界",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "先写失败测试，再用最小改动实现并重构。",
+        "id": "execute",
+        "kind": "process",
+        "label": "测试驱动实现",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "生产、账号、发布和破坏性操作需要明确授权。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "外部变更门",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "输出代码、测试、文档和提交记录。",
+        "id": "output",
+        "kind": "process",
+        "label": "提交可审阅变更",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 65,
+            "label": null,
+            "line": 1,
+            "path": "TASK_STATE.md"
+          }
+        ]
+      },
+      {
+        "detail": "运行聚焦测试、全量测试、差异和质量门。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "运行回归验证",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "测试失败或上下文不足时不宣称完成。",
+        "id": "failure",
+        "kind": "error",
+        "label": "保留失败证据",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 65,
+            "label": null,
+            "line": 1,
+            "path": "TASK_STATE.md"
+          }
+        ]
+      },
+      {
+        "detail": "记录提交、验证、阻塞和下一步。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "更新项目状态",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "需要规划、编码、修复缺陷或重构时"
+    ],
+    "validation": [
+      "测试和质量门有新鲜命令输出。"
+    ]
+  },
+  {
+    "approval_gate": [
+      "质量门通过不等于获得外部发布授权；发布仍需单独确认。"
+    ],
+    "failure_modes": [
+      "环境不可用",
+      "测试失败",
+      "视觉缺陷",
+      "证据过期"
+    ],
+    "id": "quality-assurance",
+    "inputs": [
+      "候选变更",
+      "测试命令",
+      "验收标准",
+      "运行环境"
+    ],
+    "keywords": [
+      "test",
+      "qa",
+      "review",
+      "audit",
+      "verify",
+      "quality",
+      "测试",
+      "审查",
+      "质量",
+      "验证"
+    ],
+    "label": "测试、审查与质量门",
+    "logic": [
+      "先确定声明对应的验证命令，再运行完整检查，失败时保留失败状态。"
+    ],
+    "outputs": [
+      "测试报告",
+      "审查发现",
+      "截图证据",
+      "残余风险"
+    ],
+    "purpose": "用自动测试、证据审查和视觉检查阻止未验证结果进入交付。",
+    "source_paths": [
+      {
+        "end_line": 43,
+        "label": null,
+        "line": 1,
+        "path": "AGENTS.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "区分测试通过、浏览器通过和人工视觉判断。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "定义质量声明",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "选择聚焦、全量、浏览器或视觉检查。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "确定验证范围",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 65,
+            "label": null,
+            "line": 1,
+            "path": "TASK_STATE.md"
+          }
+        ]
+      },
+      {
+        "detail": "确认工作区、提交、测试和环境状态。",
+        "id": "input",
+        "kind": "process",
+        "label": "读取变更与基线",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "没有对应命令或截图就不能升级声明。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "匹配证据与声明",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 100,
+            "label": null,
+            "line": 12,
+            "path": "knowledge/system/user-requirements.md"
+          }
+        ]
+      },
+      {
+        "detail": "运行测试、lint、构建、浏览器和视觉证据。",
+        "id": "execute",
+        "kind": "process",
+        "label": "执行质量检查",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "未通过的质量门阻止提交、发布或部署。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "发布前质量门",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 65,
+            "label": null,
+            "line": 1,
+            "path": "TASK_STATE.md"
+          }
+        ]
+      },
+      {
+        "detail": "记录命令、结果、范围和残余风险。",
+        "id": "output",
+        "kind": "process",
+        "label": "输出报告",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "确认结果来自当前变更和当前环境。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "复核证据新鲜度",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 65,
+            "label": null,
+            "line": 1,
+            "path": "TASK_STATE.md"
+          }
+        ]
+      },
+      {
+        "detail": "失败不归一化为跳过或成功。",
+        "id": "failure",
+        "kind": "error",
+        "label": "失败即阻塞",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "保留 PASS、WATCH、FAIL 和阻塞原因。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "记录质量状态",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "需要测试、代码审查、性能审计或交付验收时"
+    ],
+    "validation": [
+      "每个完成声明有对应新鲜证据。"
+    ]
+  },
+  {
+    "approval_gate": [
+      "生产部署、线上切换、购买、账号和密钥动作需要明确授权。"
+    ],
+    "failure_modes": [
+      "端口或出口失败",
+      "资源不足",
+      "凭据缺失",
+      "配置漂移"
+    ],
+    "id": "deployment-operations",
+    "inputs": [
+      "服务配置",
+      "运行状态",
+      "目标环境",
+      "资源预算"
+    ],
+    "keywords": [
+      "deploy",
+      "deployment",
+      "monitor",
+      "ops",
+      "infrastructure",
+      "relay",
+      "node",
+      "部署",
+      "运维",
+      "监控",
+      "节点"
+    ],
+    "label": "部署准备、监控与恢复",
+    "logic": [
+      "先只读检查分层依赖，再做本地候选和恢复演练；线上动作需授权。"
+    ],
+    "outputs": [
+      "诊断报告",
+      "恢复步骤",
+      "监控快照",
+      "回读证据"
+    ],
+    "purpose": "分层验证服务、节点和部署准备，避免把本地运行写成生产健康。",
+    "source_paths": [
+      {
+        "end_line": 178,
+        "label": null,
+        "line": 11,
+        "path": "knowledge/infrastructure/relay-configuration-guide.md"
+      },
+      {
+        "end_line": 239,
+        "label": null,
+        "line": 11,
+        "path": "knowledge/infrastructure/node-configuration-guide.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "区分诊断、恢复、预演和实际部署。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "定义运维目标",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 178,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/infrastructure/relay-configuration-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "确认主机、项目、端口和目标平台。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "确认环境边界",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 239,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/infrastructure/node-configuration-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "读取容器、origin、隧道、路由、监听和出口证据。",
+        "id": "input",
+        "kind": "process",
+        "label": "收集分层状态",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 178,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/infrastructure/relay-configuration-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "按本地、入口、代理、出口和目标网站顺序判断。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "定位故障层",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 239,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/infrastructure/node-configuration-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "优先最小变更、备份和回读验证。",
+        "id": "execute",
+        "kind": "process",
+        "label": "执行本地修复或演练",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 178,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/infrastructure/relay-configuration-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "线上部署、购买、凭据配置和服务切换必须授权。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "部署与账号门",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "记录检查层级、命令、结果、回滚和未知。",
+        "id": "output",
+        "kind": "process",
+        "label": "输出运维报告",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 178,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/infrastructure/relay-configuration-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "验证最终服务行为，不只看进程或退出码。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "健康与恢复验证",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 56,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/infrastructure/relay-and-node-operations.md"
+          }
+        ]
+      },
+      {
+        "detail": "资源、凭据或目标不完整时不宣称已部署。",
+        "id": "failure",
+        "kind": "error",
+        "label": "保留阻塞状态",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 57,
+            "label": null,
+            "line": 10,
+            "path": "projects/ai-global-trade-os.md"
+          }
+        ]
+      },
+      {
+        "detail": "记录当前状态、来源和下一次恢复步骤。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "更新恢复入口",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "需要部署准备、节点排障、监控或恢复时"
+    ],
+    "validation": [
+      "从最终用户行为和分层证据确认健康。"
+    ]
+  },
+  {
+    "approval_gate": [
+      "自动化不得绕过人工授权、平台权限或安全边界。"
+    ],
+    "failure_modes": [
+      "状态漂移",
+      "外部服务失败",
+      "权限过宽",
+      "重试重复副作用"
+    ],
+    "id": "automation-agents",
+    "inputs": [
+      "任务目标",
+      "触发条件",
+      "工具权限",
+      "状态文件"
+    ],
+    "keywords": [
+      "automation",
+      "agent",
+      "workflow",
+      "cron",
+      "orchestration",
+      "自动化",
+      "代理",
+      "编排"
+    ],
+    "label": "自动化与代理协作",
+    "logic": [
+      "先定义安全契约和可恢复状态，再执行只读或草稿动作，外部副作用必须审批。"
+    ],
+    "outputs": [
+      "任务配置",
+      "运行报告",
+      "恢复步骤",
+      "审计记录"
+    ],
+    "purpose": "把重复工作拆成受控自动化，明确状态、输入、输出和人工审批。",
+    "source_paths": [
+      {
+        "end_line": 127,
+        "label": null,
+        "line": 11,
+        "path": "knowledge/system/automation-rebuild-guide.md"
+      },
+      {
+        "end_line": 61,
+        "label": null,
+        "line": 10,
+        "path": "knowledge/system/automation-catalog.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "明确要减少的重复劳动和不可自动化边界。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "定义自动化目标",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 127,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/system/automation-rebuild-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "区分手动、周期和事件触发。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "确认触发方式",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 61,
+            "label": null,
+            "line": 10,
+            "path": "knowledge/system/automation-catalog.md"
+          }
+        ]
+      },
+      {
+        "detail": "只读取必要输入，不把秘密写入文件或提示词。",
+        "id": "input",
+        "kind": "process",
+        "label": "定义输入与凭据边界",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "明确 ACTIVE、失败、重试、阻塞和人工接管。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "定义状态机与停止条件",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 127,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/system/automation-rebuild-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "优先 dry-run、可回放日志和小范围验证。",
+        "id": "execute",
+        "kind": "process",
+        "label": "执行受控任务",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 127,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/system/automation-rebuild-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "发送、社交、写平台、部署和购买动作必须人工批准。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "副作用人工门",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 127,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/system/automation-rebuild-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "输出运行结果、证据、失败和下一次动作。",
+        "id": "output",
+        "kind": "process",
+        "label": "生成任务报告",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 61,
+            "label": null,
+            "line": 10,
+            "path": "knowledge/system/automation-catalog.md"
+          }
+        ]
+      },
+      {
+        "detail": "任务 ACTIVE 或退出码成功不等于业务成功。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "验证业务健康",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 61,
+            "label": null,
+            "line": 10,
+            "path": "knowledge/system/automation-catalog.md"
+          }
+        ]
+      },
+      {
+        "detail": "失败或外部状态不明时暂停自动动作。",
+        "id": "failure",
+        "kind": "error",
+        "label": "暂停并保留状态",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "保存配置、状态、证据和恢复入口。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "更新自动化目录",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 61,
+            "label": null,
+            "line": 10,
+            "path": "knowledge/system/automation-catalog.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "需要自动化任务、代理、编排或周期检查时"
+    ],
+    "validation": [
+      "最终报告证明业务结果而不是仅证明任务运行。"
+    ]
+  },
+  {
+    "approval_gate": [
+      "Git 推送、外部同步和技能恢复可执行，但不得带入秘密或用户明确排除内容。"
+    ],
+    "failure_modes": [
+      "断链",
+      "哈希不匹配",
+      "秘密扫描命中",
+      "来源状态过期"
+    ],
+    "id": "knowledge-portability",
+    "inputs": [
+      "仓库状态",
+      "技能清单",
+      "项目状态",
+      "来源证据"
+    ],
+    "keywords": [
+      "knowledge",
+      "portable",
+      "git",
+      "vault",
+      "context",
+      "migration",
+      "知识",
+      "迁移",
+      "恢复",
+      "技能"
+    ],
+    "label": "知识库维护与跨设备迁移",
+    "logic": [
+      "先读取持久状态，再按来源层级更新；生成物必须通过验证后同步。"
+    ],
+    "outputs": [
+      "知识页",
+      "技能目录",
+      "恢复包",
+      "验证报告"
+    ],
+    "purpose": "保持知识、项目状态、技能和恢复步骤可追溯、可验证、可跨设备恢复。",
+    "source_paths": [
+      {
+        "end_line": 43,
+        "label": null,
+        "line": 1,
+        "path": "AGENTS.md"
+      },
+      {
+        "end_line": 187,
+        "label": null,
+        "line": 15,
+        "path": "knowledge/system/skills-portability-guide.md"
+      },
+      {
+        "end_line": 168,
+        "label": null,
+        "line": 11,
+        "path": "knowledge/ai-workflows/git-cross-device-guide.md"
+      }
+    ],
+    "steps": [
+      {
+        "detail": "区分知识更新、项目交接、技能迁移和 Git 同步。",
+        "id": "purpose",
+        "kind": "start",
+        "label": "确定维护目标",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "先读 PROFILE、索引、任务状态和相关项目页。",
+        "id": "trigger",
+        "kind": "decision",
+        "label": "读取持久状态",
+        "lane": "intent",
+        "phase": "intake",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "区分 knowledge、projects、sources、inbox 和原始工作区。",
+        "id": "input",
+        "kind": "process",
+        "label": "盘点文件与来源",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 51,
+            "label": null,
+            "line": 1,
+            "path": "README.md"
+          }
+        ]
+      },
+      {
+        "detail": "保留 PASS、WATCH、FAIL、BLOCKED 和 UNVERIFIED，不把草稿升级为事实。",
+        "id": "logic",
+        "kind": "decision",
+        "label": "判断可信等级",
+        "lane": "evidence",
+        "phase": "evidence",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "按来源、哈希和过滤规则生成可恢复文件。",
+        "id": "execute",
+        "kind": "process",
+        "label": "更新或生成迁移包",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 187,
+            "label": null,
+            "line": 15,
+            "path": "knowledge/system/skills-portability-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "推送前运行验证并确认不含秘密或排除内容。",
+        "id": "authorize",
+        "kind": "approval",
+        "label": "同步前质量门",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 168,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/ai-workflows/git-cross-device-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "输出目录、清单、哈希、安装和验证方法。",
+        "id": "output",
+        "kind": "process",
+        "label": "输出索引与恢复入口",
+        "lane": "execution",
+        "phase": "execution",
+        "sources": [
+          {
+            "end_line": 145,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/system/workspace-portability-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "检查结构、链接、秘密、哈希、测试和差异。",
+        "id": "validate",
+        "kind": "validation",
+        "label": "运行仓库验证",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 43,
+            "label": null,
+            "line": 1,
+            "path": "AGENTS.md"
+          }
+        ]
+      },
+      {
+        "detail": "验证失败时保留工作区和失败证据。",
+        "id": "failure",
+        "kind": "error",
+        "label": "停止同步并记录阻塞",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 168,
+            "label": null,
+            "line": 11,
+            "path": "knowledge/ai-workflows/git-cross-device-guide.md"
+          }
+        ]
+      },
+      {
+        "detail": "更新索引、任务状态、来源链接和下一步。",
+        "id": "state",
+        "kind": "terminal",
+        "label": "写回持久状态",
+        "lane": "governance",
+        "phase": "governance",
+        "sources": [
+          {
+            "end_line": 65,
+            "label": null,
+            "line": 1,
+            "path": "TASK_STATE.md"
+          }
+        ]
+      }
+    ],
+    "trigger": [
+      "需要整理知识、迁移项目、恢复技能或同步 Git 时"
+    ],
+    "validation": [
+      "仓库验证、哈希验证和跨设备恢复演练通过。"
+    ]
+  }
+]

@@ -18,6 +18,7 @@
 - `decisions/`：重要决定及其理由。
 - `templates/`：统一的知识卡、来源卡和项目状态模板。
 - `portable-skills/`：经过凭据过滤、内容筛选和哈希记录的可迁移技能包；原始加载路径保持不变，分类清单只用于检索。
+- `docs/workflows/index.html`：离线交互工作流地图，从 13 类工作目的进入完整流程、技能卡和仓库内原文。
 
 ## 关键操作指南
 
@@ -31,6 +32,7 @@
 - [项目迁移工具包](knowledge/system/project-migration-toolkit.md)：盘点项目入口和依赖、生成安全哈希清单，并在目标电脑做 doctor/smoke 检查。
 - [完整跨设备恢复入口](knowledge/system/complete-recovery-runbook.md)：在另一台电脑恢复知识库、两个独立项目仓库和筛选后的技能文件。
 - [可迁移技能包](portable-skills/README.md)：恢复当前筛选后的用户技能和插件技能，并按 `portable-skills-manifest.json` 做完整性校验。
+- [离线工作流地图](docs/workflows/README.md)：查看工作目的、底层逻辑、授权门、失败恢复、对应技能和验证边界。
 
 ## 审阅与打包
 

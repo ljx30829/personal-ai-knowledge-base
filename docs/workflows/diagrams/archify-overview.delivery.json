@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "78c1a2e0-11e4-44b5-92cb-6d69b6af4643",
+  "status": "current",
+  "command": "deliver",
+  "type": "architecture",
+  "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\archify-overview.json",
+  "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\archify-overview.html",
+  "specification": {
+    "sha256": "9212634edea44640a984f1b54f30d5cbdc5e2295638ec2f0799a876b1b074737",
+    "bytes": 30937
+  },
+  "artifact": {
+    "sha256": "d733f0b78d7aad552f1e33ef36edc4f52007b4aa7c38a88be7f20f5a881ab121",
+    "bytes": 851793
+  }
+}

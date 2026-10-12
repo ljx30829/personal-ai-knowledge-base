@@ -89,10 +89,20 @@ def build_overview_candidate(workflows: tuple[WorkflowDefinition, ...], reposito
             edge = {'id': f'{workflow.id}-{left}-{right}', 'from': f'{left}-{workflow.id}', 'to': f'{right}-{workflow.id}'}
             if left == 'gate': edge.update(label='获准或仅草稿', variant='security')
             edges.append(edge)
-    return {'schema_version': 2, 'diagram_type': 'workflow',
+    # Two independent banks preserve the 52 nodes and 39 relationships while
+    # avoiding the Workflow compiler's shared, thirteen-lane height budget.
+    components = []
+    offsets = [0, 210, 380, 630]
+    for index, node in enumerate(nodes):
+        purpose_index, stage_index = divmod(index, 4)
+        bank, row = divmod(purpose_index, 7)
+        components.append({key: value for key, value in node.items()
+                           if key not in {'lane', 'col', 'width'}})
+        components[-1].update(pos=[30 + bank * 810 + offsets[stage_index], 40 + row * 110],
+                              size=[180 if stage_index == 0 else 140, 64])
+    return {'schema_version': 1, 'diagram_type': 'architecture',
             'meta': _meta('知识库 · 13 类工作目的', 'docs/workflows/diagrams/archify-overview.html', repository),
-            'lanes': lanes, 'nodes': nodes, 'edges': edges,
-            'semanticChecks': {'allowedRoots': [f'purpose-{w.id}' for w in workflows], 'allowedTerminals': [f'result-{w.id}' for w in workflows]},
+            'components': components, 'connections': edges,
             'cards': [{'dot': 'cyan', 'title': '阅读方式', 'items': ['每一行是一种可独立选择的工作目的，不表示上下行之间存在执行依赖。', '交互目录 index.html 提供完整步骤、技能筛选和原文入口。', '这是文档化指导流程，不代表已经运行、发送、发布或部署。']}]}
 
 
@@ -101,7 +111,7 @@ def attach_model_lines(candidate: dict, model_text: str) -> dict:
     import json
     lines = model_text.splitlines()
     models = json.loads(model_text)
-    for node in candidate['nodes']:
+    for node in candidate.get('nodes', candidate.get('components', [])):
         workflow = next(w for w in models if node['id'].startswith(w['id'] + '-') or node['id'].endswith('-' + w['id']))
         start = next(i for i, line in enumerate(lines, 1) if f'"id": "{workflow["id"]}"' in line)
         step_id = node['id'][len(workflow['id'])+1:] if node['id'].startswith(workflow['id'] + '-') else None

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "0938aeeb-e083-4043-b2dc-e062cd258d35",
+  "status": "current",
+  "command": "deliver",
+  "type": "workflow",
+  "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\quality-assurance.json",
+  "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\quality-assurance.html",
+  "specification": {
+    "sha256": "499839f24826b7bec84ac6f5f0c87f1b382dabd41139727ff48aaf0738f38a39",
+    "bytes": 9040
+  },
+  "artifact": {
+    "sha256": "fe8b252bd69f6af57a9b665bd8f71ff458359aeeafea31f21fbbdaf5cd6c7cc4",
+    "bytes": 764669
+  }
+}

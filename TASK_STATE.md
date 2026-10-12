@@ -21,12 +21,13 @@
 
 ## 2026-10-12 Workflow Atlas Implementation
 
-- STATUS: `WATCH_IMPLEMENTATION_IN_PROGRESS`.
+- STATUS: `PASS_OFFLINE_ATLAS_READY_PENDING_GIT_SYNC`.
 - WORKTREE: `C:\Users\26014\.codex\worktrees\workflow-map\知识库`, branch `codex/workflow-map`.
-- COMPLETED: Source-instance model, full-file extraction, 13-purpose taxonomy, deterministic catalog builder, exclusion/hash/coverage validator, and standalone offline UI with search, filters, skill detail, source links, and deep links.
+- COMPLETED: Source-instance model, full-file extraction, 13-purpose taxonomy, name-first catalog routing, deterministic builder, exclusion/hash/coverage validator, standalone offline UI, one Archify overview, and 13 purpose diagrams.
 - COVERAGE: 219 skill source instances, 161 unique names; same-name sources remain separate. Completeness refers to extracted documentation fields, not runtime availability.
-- IN_PROGRESS: Archify candidate generator and provenance-bound finalization of the overview plus 13 workflows; browser interaction and responsive checks.
-- NEXT: Commit authored definitions to pin diagram evidence, finalize diagrams, run browser and vault checks, document measured limits, then synchronize the private Git remote. Preserve the dirty primary checkout.
+- VERIFICATION: 32 unit tests passed; workflow atlas validator and vault validator reported zero errors; all 14 Archify finalization and browser receipts passed. Offline UI checked at 390x844, 1440x900, and 2048x1320 with no horizontal overflow.
+- LIMITS: All 219 cards remain WATCH because source documents do not explicitly provide every structured field. Name-first routing is navigation, and 22 fallback-routed instances remain marked for review. Runtime dependencies must still be verified on the target computer.
+- NEXT: Commit the final atlas and synchronize the authorized private Git remote. Preserve the dirty primary checkout and do not enable GitHub Pages.
 
 ## 2026-10-12 Workflow Atlas Plan
 

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "b75097a2-ad61-482c-ad25-7628cf66c06e",
+  "status": "current",
+  "command": "deliver",
+  "type": "workflow",
+  "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\knowledge-portability.json",
+  "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\knowledge-portability.html",
+  "specification": {
+    "sha256": "c0893d0d881d9cb66fd9cddc275d53dceb878598c54e043c0ea1c166351af6f4",
+    "bytes": 9386
+  },
+  "artifact": {
+    "sha256": "53b37dcb2445c90dc38fd81f6ab433e5e314e25eb2a9676ca1accd9cfb7106a0",
+    "bytes": 765190
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "e679a48d-17f0-441d-87da-cd2272e8b442",
+  "status": "current",
+  "command": "deliver",
+  "type": "workflow",
+  "input": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\sources\\visual-experience.json",
+  "output": "C:\\Users\\26014\\.codex\\worktrees\\workflow-map\\知识库\\docs\\workflows\\diagrams\\visual-experience.html",
+  "specification": {
+    "sha256": "5b6a6d58f3244527785905f10c5d43498854c5eaeabcee6939f335ab2891cdee",
+    "bytes": 9075
+  },
+  "artifact": {
+    "sha256": "fd812b1d51336469d07c5b26cb9996d5897d6952e772ef50a5c434d2584dbbe9",
+    "bytes": 764711
+  }
+}

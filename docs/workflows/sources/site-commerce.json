@@ -1,0 +1,349 @@
+{
+  "cards": [
+    {
+      "dot": "cyan",
+      "items": [
+        "在本地候选、预览、质量检查和明确发布授权之间建立可回读的站点工作流。",
+        "先本地检查，再只读连接，再候选上传，再 QA，发布永远单独授权。"
+      ],
+      "title": "工作目的与底层逻辑"
+    },
+    {
+      "dot": "amber",
+      "items": [
+        "修改主题、内容、图片和转化组件。",
+        "线上写入、切换主主题和发布需要明确授权。",
+        "输出主题候选、截图、检查报告和回滚点。"
+      ],
+      "title": "执行与授权"
+    },
+    {
+      "dot": "emerald",
+      "items": [
+        "本地候选",
+        "预览",
+        "QA 报告",
+        "未发布主题",
+        "Theme Check、桌面移动截图、关键路由和回读通过。"
+      ],
+      "title": "输出与验收"
+    },
+    {
+      "dot": "rose",
+      "items": [
+        "店铺身份未知",
+        "素材未授权",
+        "线上状态过期",
+        "发布授权缺失"
+      ],
+      "title": "失败与恢复"
+    },
+    {
+      "dot": "slate",
+      "items": [
+        "明确站点目标：区分本地改动、预览、上传和发布。",
+        "确认店铺与权限：核对目标店铺、主题角色和操作范围。",
+        "读取本地与远程证据：读取状态、工作流、素材和当前主题差异。",
+        "选择接入通道：区分主题 CLI、Admin API 和 Storefront API。",
+        "桌面移动 QA：检查破图、溢出、占位内容、关键路由和性能。",
+        "保留未发布状态：身份、数据或证据不完整时不发布。",
+        "记录主题状态：记录候选、远程角色和验证时间。"
+      ],
+      "title": "完整阶段说明"
+    }
+  ],
+  "diagram_type": "workflow",
+  "edges": [
+    {
+      "from": "site-commerce-purpose",
+      "id": "purpose-trigger",
+      "role": "main",
+      "to": "site-commerce-trigger"
+    },
+    {
+      "from": "site-commerce-trigger",
+      "id": "trigger-input",
+      "role": "main",
+      "to": "site-commerce-input"
+    },
+    {
+      "from": "site-commerce-input",
+      "id": "input-logic",
+      "role": "main",
+      "to": "site-commerce-logic"
+    },
+    {
+      "from": "site-commerce-logic",
+      "id": "logic-execute",
+      "role": "main",
+      "to": "site-commerce-execute"
+    },
+    {
+      "from": "site-commerce-execute",
+      "id": "execute-authorize",
+      "role": "main",
+      "to": "site-commerce-authorize"
+    },
+    {
+      "from": "site-commerce-authorize",
+      "id": "authorize-output",
+      "label": "获准或仅草稿",
+      "role": "main",
+      "to": "site-commerce-output",
+      "variant": "security"
+    },
+    {
+      "from": "site-commerce-output",
+      "id": "output-validate",
+      "role": "main",
+      "to": "site-commerce-validate"
+    },
+    {
+      "from": "site-commerce-validate",
+      "id": "validate-state",
+      "label": "通过",
+      "role": "main",
+      "to": "site-commerce-state",
+      "variant": "emphasis"
+    },
+    {
+      "from": "site-commerce-authorize",
+      "id": "approval-blocked",
+      "label": "未获准",
+      "role": "error",
+      "to": "site-commerce-failure",
+      "variant": "security"
+    },
+    {
+      "from": "site-commerce-validate",
+      "id": "validation-failed",
+      "label": "未通过",
+      "role": "error",
+      "to": "site-commerce-failure",
+      "variant": "security"
+    },
+    {
+      "from": "site-commerce-failure",
+      "id": "repair-recheck",
+      "label": "补证后重检",
+      "role": "return",
+      "to": "site-commerce-logic",
+      "variant": "dashed"
+    }
+  ],
+  "lanes": [
+    {
+      "id": "intent",
+      "label": "目的与触发"
+    },
+    {
+      "id": "evidence",
+      "label": "输入与判断"
+    },
+    {
+      "id": "execution",
+      "label": "准备与恢复"
+    },
+    {
+      "id": "governance",
+      "label": "授权、验收与沉淀"
+    }
+  ],
+  "mainPath": [
+    "site-commerce-purpose",
+    "site-commerce-trigger",
+    "site-commerce-input",
+    "site-commerce-logic",
+    "site-commerce-execute",
+    "site-commerce-authorize",
+    "site-commerce-output",
+    "site-commerce-validate",
+    "site-commerce-state"
+  ],
+  "meta": {
+    "animation": "none",
+    "locale": "zh-CN",
+    "output": "docs/workflows/diagrams/site-commerce.html",
+    "quality_profile": "showcase",
+    "repository": {
+      "link_mode": "web",
+      "provider": "github",
+      "revision": "c5a4962ca1ab984bca524573350cbb43f8ba07d4",
+      "url": "https://github.com/ljx30829/personal-ai-knowledge-base.git"
+    },
+    "title": "独立站与电商运营 · 指导流程"
+  },
+  "nodes": [
+    {
+      "col": 0,
+      "id": "site-commerce-purpose",
+      "label": "明确站点目标",
+      "lane": "intent",
+      "sources": [
+        {
+          "end_line": 72,
+          "label": "指导流程定义",
+          "line": 72,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "目标与停止条件",
+      "type": "backend",
+      "width": 160
+    },
+    {
+      "col": 1,
+      "id": "site-commerce-trigger",
+      "label": "确认店铺与权限",
+      "lane": "intent",
+      "sources": [
+        {
+          "end_line": 73,
+          "label": "指导流程定义",
+          "line": 73,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "当前任务与范围",
+      "type": "backend",
+      "width": 160
+    },
+    {
+      "col": 1,
+      "id": "site-commerce-input",
+      "label": "读取本地与远程证据",
+      "lane": "evidence",
+      "sources": [
+        {
+          "end_line": 74,
+          "label": "指导流程定义",
+          "line": 74,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "真实来源与日期",
+      "type": "backend",
+      "width": 160
+    },
+    {
+      "col": 2,
+      "id": "site-commerce-logic",
+      "label": "选择接入通道",
+      "lane": "evidence",
+      "sources": [
+        {
+          "end_line": 75,
+          "label": "指导流程定义",
+          "line": 75,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "证据决定下一步",
+      "type": "backend",
+      "width": 160
+    },
+    {
+      "col": 2,
+      "id": "site-commerce-execute",
+      "label": "构建本地候选",
+      "lane": "execution",
+      "sources": [
+        {
+          "end_line": 76,
+          "label": "指导流程定义",
+          "line": 76,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "本地准备与草稿",
+      "type": "backend",
+      "width": 160
+    },
+    {
+      "col": 2,
+      "id": "site-commerce-authorize",
+      "label": "上传与发布门",
+      "lane": "governance",
+      "sources": [
+        {
+          "end_line": 77,
+          "label": "指导流程定义",
+          "line": 77,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security",
+      "width": 160
+    },
+    {
+      "col": 3,
+      "id": "site-commerce-output",
+      "label": "生成候选交付",
+      "lane": "governance",
+      "sources": [
+        {
+          "end_line": 78,
+          "label": "指导流程定义",
+          "line": 78,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按授权范围执行",
+      "type": "backend",
+      "width": 160
+    },
+    {
+      "col": 4,
+      "id": "site-commerce-validate",
+      "label": "桌面移动 QA",
+      "lane": "governance",
+      "sources": [
+        {
+          "end_line": 79,
+          "label": "指导流程定义",
+          "line": 79,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "核对实际结果",
+      "type": "backend",
+      "width": 160
+    },
+    {
+      "col": 4,
+      "id": "site-commerce-failure",
+      "label": "保留未发布状态",
+      "lane": "execution",
+      "sources": [
+        {
+          "end_line": 80,
+          "label": "指导流程定义",
+          "line": 80,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "保留阻塞与原因",
+      "type": "security",
+      "width": 160
+    },
+    {
+      "col": 5,
+      "id": "site-commerce-state",
+      "label": "记录主题状态",
+      "lane": "governance",
+      "sources": [
+        {
+          "end_line": 81,
+          "label": "指导流程定义",
+          "line": 81,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "证据与下一步",
+      "type": "database",
+      "width": 160
+    }
+  ],
+  "schema_version": 2
+}

@@ -1,0 +1,300 @@
+{
+  "completeness": {
+    "WATCH": 219
+  },
+  "coverage": {
+    "fallback_routed_skill_ids": [
+      "plugin-cache-ai-elements-4c828e0bc7",
+      "plugin-cache-ai-generation-persistence-f97d8a735f",
+      "plugin-cache-json-render-9db168ede6",
+      "plugin-cache-micro-0df562050b",
+      "plugin-cache-ncc-4e1d7388ce",
+      "plugin-cache-sign-in-with-vercel-bc3b7180a2",
+      "plugin-cache-swr-5d08e943a7",
+      "plugin-cache-vercel-flags-0d2c3d7b34",
+      "plugin-cache-vercel-sandbox-1d4bf15a6a",
+      "user-skills-brainstorming-ec8f03d738",
+      "user-skills-executing-plans-1473d08f29",
+      "user-skills-full-output-enforcement-1d7d1bddec",
+      "user-skills-gpt-taste-6fd0e28fdd",
+      "user-skills-hatch-pet-2300784f2c",
+      "user-skills-openai-docs-9ae621943e",
+      "user-skills-plan-tune-537b3b7e52",
+      "user-skills-plan-tune-630ba09841",
+      "user-skills-retro-3a9aaa83ea",
+      "user-skills-retro-db047a14b9",
+      "user-skills-skillify-40eb87b387",
+      "user-skills-skillify-c7a1b418d8",
+      "user-skills-using-superpowers-089d56752d"
+    ],
+    "orphan_skill_count": 0,
+    "orphan_skill_ids": [],
+    "orphan_workflow_count": 0,
+    "orphan_workflow_ids": [],
+    "workflow_skill_counts": {
+      "automation-agents": 16,
+      "content-distillation": 5,
+      "content-production": 14,
+      "deployment-operations": 12,
+      "email-outreach": 2,
+      "knowledge-portability": 47,
+      "market-research": 13,
+      "product-commerce": 2,
+      "quality-assurance": 67,
+      "sales-follow-up": 2,
+      "site-commerce": 2,
+      "software-delivery": 45,
+      "visual-experience": 33
+    }
+  },
+  "duplicate_name_groups": {
+    "autoplan": [
+      "user-skills-autoplan-1d8724594e",
+      "user-skills-autoplan-39a1be8e26"
+    ],
+    "benchmark": [
+      "user-skills-benchmark-d59fbaeb39",
+      "user-skills-benchmark-f950a66dfa"
+    ],
+    "benchmark-models": [
+      "user-skills-benchmark-models-5a2375f866",
+      "user-skills-benchmark-models-73ce858db2"
+    ],
+    "browse": [
+      "user-skills-browse-75ef23a8d6",
+      "user-skills-browse-cfbda6631d"
+    ],
+    "canary": [
+      "user-skills-canary-7c0a16615b",
+      "user-skills-canary-89db32a502"
+    ],
+    "careful": [
+      "user-skills-careful-330c3adfd3",
+      "user-skills-careful-86da6d9995"
+    ],
+    "codex": [
+      "user-skills-codex-5e313eda37",
+      "user-skills-codex-cc53e2316e"
+    ],
+    "context-restore": [
+      "user-skills-context-restore-08581757ed",
+      "user-skills-context-restore-59a71973dd"
+    ],
+    "context-save": [
+      "user-skills-context-save-6027abcc5b",
+      "user-skills-context-save-ac2d4427ec"
+    ],
+    "cso": [
+      "user-skills-cso-49f0f43299",
+      "user-skills-cso-e5102af975"
+    ],
+    "design-consultation": [
+      "user-skills-design-consultation-cd855b291e",
+      "user-skills-design-consultation-eed03725d6"
+    ],
+    "design-html": [
+      "user-skills-design-html-566ee640fe",
+      "user-skills-design-html-819c699b68"
+    ],
+    "design-review": [
+      "user-skills-design-review-2e509d9c72",
+      "user-skills-design-review-dac180a338"
+    ],
+    "design-shotgun": [
+      "user-skills-design-shotgun-3e45ac392e",
+      "user-skills-design-shotgun-82f7e36263"
+    ],
+    "devex-review": [
+      "user-skills-devex-review-51350177f4",
+      "user-skills-devex-review-92a2a11240"
+    ],
+    "diagram": [
+      "user-skills-diagram-ab72e0fc4a",
+      "user-skills-diagram-c883f04632"
+    ],
+    "document-generate": [
+      "user-skills-document-generate-da0a622397",
+      "user-skills-document-generate-e202e0d3da"
+    ],
+    "document-release": [
+      "user-skills-document-release-1bc0345023",
+      "user-skills-document-release-9643d08d3f"
+    ],
+    "freeze": [
+      "user-skills-freeze-0b5a42c619",
+      "user-skills-freeze-d1d36fab94"
+    ],
+    "gstack-openclaw-ceo-review": [
+      "user-skills-gstack-openclaw-ceo-review-60887867dc",
+      "user-skills-gstack-openclaw-ceo-review-64e56c93a1"
+    ],
+    "gstack-openclaw-investigate": [
+      "user-skills-gstack-openclaw-investigate-001c19daec",
+      "user-skills-gstack-openclaw-investigate-aed62e1eae"
+    ],
+    "gstack-openclaw-office-hours": [
+      "user-skills-gstack-openclaw-office-hours-9b67a823ff",
+      "user-skills-gstack-openclaw-office-hours-fec625cdcb"
+    ],
+    "gstack-openclaw-retro": [
+      "user-skills-gstack-openclaw-retro-116cd7f5c2",
+      "user-skills-gstack-openclaw-retro-383b8ca943"
+    ],
+    "gstack-upgrade": [
+      "user-skills-gstack-upgrade-69c6824669",
+      "user-skills-gstack-upgrade-e28ff07838"
+    ],
+    "guard": [
+      "user-skills-guard-7683d53a34",
+      "user-skills-guard-a16a0bbd29"
+    ],
+    "hackernews-frontpage": [
+      "user-skills-hackernews-frontpage-16ecd0e1ba",
+      "user-skills-hackernews-frontpage-6632e27610"
+    ],
+    "health": [
+      "user-skills-health-07087725b6",
+      "user-skills-health-9ee61de7f0"
+    ],
+    "investigate": [
+      "user-skills-investigate-7d1125c125",
+      "user-skills-investigate-8358b96042"
+    ],
+    "ios-clean": [
+      "user-skills-ios-clean-3e2ad8da75",
+      "user-skills-ios-clean-702e6813de"
+    ],
+    "ios-design-review": [
+      "user-skills-ios-design-review-a4f8e787b0",
+      "user-skills-ios-design-review-af41e4739c"
+    ],
+    "ios-fix": [
+      "user-skills-ios-fix-9854f54406",
+      "user-skills-ios-fix-987cb8c376"
+    ],
+    "ios-qa": [
+      "user-skills-ios-qa-34960604bd",
+      "user-skills-ios-qa-b94d050364"
+    ],
+    "ios-sync": [
+      "user-skills-ios-sync-6ccdf08b25",
+      "user-skills-ios-sync-e9ea5f6241"
+    ],
+    "land-and-deploy": [
+      "user-skills-land-and-deploy-3d15f35202",
+      "user-skills-land-and-deploy-54b0b207c8"
+    ],
+    "landing-report": [
+      "user-skills-landing-report-03408e2124",
+      "user-skills-landing-report-7356fafce8"
+    ],
+    "learn": [
+      "user-skills-learn-5380f3e00a",
+      "user-skills-learn-56d92d014b"
+    ],
+    "make-pdf": [
+      "user-skills-make-pdf-dc495cf534",
+      "user-skills-make-pdf-ea7d5fa081"
+    ],
+    "office-hours": [
+      "user-skills-office-hours-36d958b4a8",
+      "user-skills-office-hours-511166419b"
+    ],
+    "open-gstack-browser": [
+      "user-skills-open-gstack-browser-bd4e7825ce",
+      "user-skills-open-gstack-browser-dc91ed9249"
+    ],
+    "pair-agent": [
+      "user-skills-pair-agent-a1b947e437",
+      "user-skills-pair-agent-d29086062f"
+    ],
+    "plan-ceo-review": [
+      "user-skills-plan-ceo-review-88d9ff8999",
+      "user-skills-plan-ceo-review-cb244e6688"
+    ],
+    "plan-design-review": [
+      "user-skills-plan-design-review-2248abe28a",
+      "user-skills-plan-design-review-614bdda9bc"
+    ],
+    "plan-devex-review": [
+      "user-skills-plan-devex-review-2412c9655d",
+      "user-skills-plan-devex-review-28296abba9"
+    ],
+    "plan-eng-review": [
+      "user-skills-plan-eng-review-d7a4bd6bba",
+      "user-skills-plan-eng-review-d871896a0d"
+    ],
+    "plan-tune": [
+      "user-skills-plan-tune-537b3b7e52",
+      "user-skills-plan-tune-630ba09841"
+    ],
+    "qa": [
+      "user-skills-qa-5bfba0e3af",
+      "user-skills-qa-e0404c7ab9"
+    ],
+    "qa-only": [
+      "user-skills-qa-only-393ad1b277",
+      "user-skills-qa-only-bc62fe71c5"
+    ],
+    "retro": [
+      "user-skills-retro-3a9aaa83ea",
+      "user-skills-retro-db047a14b9"
+    ],
+    "review": [
+      "user-skills-review-460279d902",
+      "user-skills-review-825f3d5c1d"
+    ],
+    "scrape": [
+      "user-skills-scrape-c57319fab8",
+      "user-skills-scrape-cd0253abc6"
+    ],
+    "setup-browser-cookies": [
+      "user-skills-setup-browser-cookies-76e8545972",
+      "user-skills-setup-browser-cookies-fa9224476a"
+    ],
+    "setup-deploy": [
+      "user-skills-setup-deploy-cf05cdb786",
+      "user-skills-setup-deploy-ef21db9db1"
+    ],
+    "setup-gbrain": [
+      "user-skills-setup-gbrain-523aa1969d",
+      "user-skills-setup-gbrain-6222ecf1a5"
+    ],
+    "ship": [
+      "user-skills-ship-2b308b2267",
+      "user-skills-ship-de5e4f49db"
+    ],
+    "skillify": [
+      "user-skills-skillify-40eb87b387",
+      "user-skills-skillify-c7a1b418d8"
+    ],
+    "spec": [
+      "user-skills-spec-39cb60f561",
+      "user-skills-spec-d70012debd"
+    ],
+    "sync-gbrain": [
+      "user-skills-sync-gbrain-f983a5478a",
+      "user-skills-sync-gbrain-fee0c2aa84"
+    ],
+    "unfreeze": [
+      "user-skills-unfreeze-59386d6582",
+      "user-skills-unfreeze-ea6d5b451e"
+    ]
+  },
+  "generation_command": "python scripts/build_workflow_atlas.py .",
+  "inventory": {
+    "skill_source_instances": 219,
+    "unique_skill_names": 161,
+    "workflow_count": 13
+  },
+  "missing_field_counts": {
+    "failure_modes": 214,
+    "inputs": 202,
+    "logic": 185,
+    "outputs": 121,
+    "routing_fallback": 22,
+    "validation": 177
+  },
+  "schema_version": 1,
+  "source_revision": "c5a4962ca1ab984bca524573350cbb43f8ba07d4"
+}

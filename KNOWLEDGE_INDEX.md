@@ -1,6 +1,6 @@
 # 知识导航
 
-更新日期：2026-08-04
+更新日期：2026-10-12
 
 ## 系统与要求
 
@@ -8,6 +8,7 @@
 - [技能与路由](knowledge/system/skills-and-routing.md)
 - [Codex 技能跨设备迁移指南](knowledge/system/skills-portability-guide.md)
 - [当前可迁移技能包](portable-skills/README.md)
+- [离线工作流地图](docs/workflows/README.md)
 - [工作区地图](knowledge/system/workspace-map.md)
 - [项目工作区跨设备迁移指南](knowledge/system/workspace-portability-guide.md)
 - [项目迁移工具包](knowledge/system/project-migration-toolkit.md)
@@ -35,6 +36,7 @@
 
 ## 项目交接
 
+- [知识库离线工作流地图](projects/workflow-atlas.md)
 - [Yufeng](projects/yufeng.md)
 - [AI Global Trade OS](projects/ai-global-trade-os.md)
 - [自媒体内容蒸馏器](projects/self-media-distiller.md)

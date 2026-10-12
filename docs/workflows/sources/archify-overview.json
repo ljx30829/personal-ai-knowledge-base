@@ -1,0 +1,1397 @@
+{
+  "cards": [
+    {
+      "dot": "cyan",
+      "items": [
+        "每一行是一种可独立选择的工作目的，不表示上下行之间存在执行依赖。",
+        "交互目录 index.html 提供完整步骤、技能筛选和原文入口。",
+        "这是文档化指导流程，不代表已经运行、发送、发布或部署。"
+      ],
+      "title": "阅读方式"
+    }
+  ],
+  "components": [
+    {
+      "id": "purpose-market-research",
+      "label": "客户与市场研究",
+      "pos": [
+        30,
+        40
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 3,
+          "label": "指导流程定义",
+          "line": 3,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-market-research",
+      "label": "证据与判断",
+      "pos": [
+        240,
+        40
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 3,
+          "label": "指导流程定义",
+          "line": 3,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-market-research",
+      "label": "人工授权门",
+      "pos": [
+        410,
+        40
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 3,
+          "label": "指导流程定义",
+          "line": 3,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-market-research",
+      "label": "验收与状态",
+      "pos": [
+        660,
+        40
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 3,
+          "label": "指导流程定义",
+          "line": 3,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    },
+    {
+      "id": "purpose-email-outreach",
+      "label": "邮件与合规触达",
+      "pos": [
+        30,
+        150
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 29,
+          "label": "指导流程定义",
+          "line": 29,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-email-outreach",
+      "label": "证据与判断",
+      "pos": [
+        240,
+        150
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 29,
+          "label": "指导流程定义",
+          "line": 29,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-email-outreach",
+      "label": "人工授权门",
+      "pos": [
+        410,
+        150
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 29,
+          "label": "指导流程定义",
+          "line": 29,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-email-outreach",
+      "label": "验收与状态",
+      "pos": [
+        660,
+        150
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 29,
+          "label": "指导流程定义",
+          "line": 29,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    },
+    {
+      "id": "purpose-sales-follow-up",
+      "label": "外贸销售与客户跟进",
+      "pos": [
+        30,
+        260
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 43,
+          "label": "指导流程定义",
+          "line": 43,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-sales-follow-up",
+      "label": "证据与判断",
+      "pos": [
+        240,
+        260
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 43,
+          "label": "指导流程定义",
+          "line": 43,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-sales-follow-up",
+      "label": "人工授权门",
+      "pos": [
+        410,
+        260
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 43,
+          "label": "指导流程定义",
+          "line": 43,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-sales-follow-up",
+      "label": "验收与状态",
+      "pos": [
+        660,
+        260
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 43,
+          "label": "指导流程定义",
+          "line": 43,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    },
+    {
+      "id": "purpose-product-commerce",
+      "label": "选品、核价与商品准备",
+      "pos": [
+        30,
+        370
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 57,
+          "label": "指导流程定义",
+          "line": 57,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-product-commerce",
+      "label": "证据与判断",
+      "pos": [
+        240,
+        370
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 57,
+          "label": "指导流程定义",
+          "line": 57,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-product-commerce",
+      "label": "人工授权门",
+      "pos": [
+        410,
+        370
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 57,
+          "label": "指导流程定义",
+          "line": 57,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-product-commerce",
+      "label": "验收与状态",
+      "pos": [
+        660,
+        370
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 57,
+          "label": "指导流程定义",
+          "line": 57,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    },
+    {
+      "id": "purpose-site-commerce",
+      "label": "独立站与电商运营",
+      "pos": [
+        30,
+        480
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 71,
+          "label": "指导流程定义",
+          "line": 71,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-site-commerce",
+      "label": "证据与判断",
+      "pos": [
+        240,
+        480
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 71,
+          "label": "指导流程定义",
+          "line": 71,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-site-commerce",
+      "label": "人工授权门",
+      "pos": [
+        410,
+        480
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 71,
+          "label": "指导流程定义",
+          "line": 71,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-site-commerce",
+      "label": "验收与状态",
+      "pos": [
+        660,
+        480
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 71,
+          "label": "指导流程定义",
+          "line": 71,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    },
+    {
+      "id": "purpose-content-production",
+      "label": "自媒体与内容生产",
+      "pos": [
+        30,
+        590
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 85,
+          "label": "指导流程定义",
+          "line": 85,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-content-production",
+      "label": "证据与判断",
+      "pos": [
+        240,
+        590
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 85,
+          "label": "指导流程定义",
+          "line": 85,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-content-production",
+      "label": "人工授权门",
+      "pos": [
+        410,
+        590
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 85,
+          "label": "指导流程定义",
+          "line": 85,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-content-production",
+      "label": "验收与状态",
+      "pos": [
+        660,
+        590
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 85,
+          "label": "指导流程定义",
+          "line": 85,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    },
+    {
+      "id": "purpose-content-distillation",
+      "label": "内容采集、转写与知识蒸馏",
+      "pos": [
+        30,
+        700
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 99,
+          "label": "指导流程定义",
+          "line": 99,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-content-distillation",
+      "label": "证据与判断",
+      "pos": [
+        240,
+        700
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 99,
+          "label": "指导流程定义",
+          "line": 99,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-content-distillation",
+      "label": "人工授权门",
+      "pos": [
+        410,
+        700
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 99,
+          "label": "指导流程定义",
+          "line": 99,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-content-distillation",
+      "label": "验收与状态",
+      "pos": [
+        660,
+        700
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 99,
+          "label": "指导流程定义",
+          "line": 99,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    },
+    {
+      "id": "purpose-visual-experience",
+      "label": "视觉设计与前端体验",
+      "pos": [
+        840,
+        40
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 113,
+          "label": "指导流程定义",
+          "line": 113,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-visual-experience",
+      "label": "证据与判断",
+      "pos": [
+        1050,
+        40
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 113,
+          "label": "指导流程定义",
+          "line": 113,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-visual-experience",
+      "label": "人工授权门",
+      "pos": [
+        1220,
+        40
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 113,
+          "label": "指导流程定义",
+          "line": 113,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-visual-experience",
+      "label": "验收与状态",
+      "pos": [
+        1470,
+        40
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 113,
+          "label": "指导流程定义",
+          "line": 113,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    },
+    {
+      "id": "purpose-software-delivery",
+      "label": "软件规划、开发与调试",
+      "pos": [
+        840,
+        150
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 127,
+          "label": "指导流程定义",
+          "line": 127,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-software-delivery",
+      "label": "证据与判断",
+      "pos": [
+        1050,
+        150
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 127,
+          "label": "指导流程定义",
+          "line": 127,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-software-delivery",
+      "label": "人工授权门",
+      "pos": [
+        1220,
+        150
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 127,
+          "label": "指导流程定义",
+          "line": 127,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-software-delivery",
+      "label": "验收与状态",
+      "pos": [
+        1470,
+        150
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 127,
+          "label": "指导流程定义",
+          "line": 127,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    },
+    {
+      "id": "purpose-quality-assurance",
+      "label": "测试、审查与质量门",
+      "pos": [
+        840,
+        260
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 141,
+          "label": "指导流程定义",
+          "line": 141,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-quality-assurance",
+      "label": "证据与判断",
+      "pos": [
+        1050,
+        260
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 141,
+          "label": "指导流程定义",
+          "line": 141,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-quality-assurance",
+      "label": "人工授权门",
+      "pos": [
+        1220,
+        260
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 141,
+          "label": "指导流程定义",
+          "line": 141,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-quality-assurance",
+      "label": "验收与状态",
+      "pos": [
+        1470,
+        260
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 141,
+          "label": "指导流程定义",
+          "line": 141,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    },
+    {
+      "id": "purpose-deployment-operations",
+      "label": "部署准备、监控与恢复",
+      "pos": [
+        840,
+        370
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 155,
+          "label": "指导流程定义",
+          "line": 155,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-deployment-operations",
+      "label": "证据与判断",
+      "pos": [
+        1050,
+        370
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 155,
+          "label": "指导流程定义",
+          "line": 155,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-deployment-operations",
+      "label": "人工授权门",
+      "pos": [
+        1220,
+        370
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 155,
+          "label": "指导流程定义",
+          "line": 155,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-deployment-operations",
+      "label": "验收与状态",
+      "pos": [
+        1470,
+        370
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 155,
+          "label": "指导流程定义",
+          "line": 155,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    },
+    {
+      "id": "purpose-automation-agents",
+      "label": "自动化与代理协作",
+      "pos": [
+        840,
+        480
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 169,
+          "label": "指导流程定义",
+          "line": 169,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-automation-agents",
+      "label": "证据与判断",
+      "pos": [
+        1050,
+        480
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 169,
+          "label": "指导流程定义",
+          "line": 169,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-automation-agents",
+      "label": "人工授权门",
+      "pos": [
+        1220,
+        480
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 169,
+          "label": "指导流程定义",
+          "line": 169,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-automation-agents",
+      "label": "验收与状态",
+      "pos": [
+        1470,
+        480
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 169,
+          "label": "指导流程定义",
+          "line": 169,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    },
+    {
+      "id": "purpose-knowledge-portability",
+      "label": "知识库维护与跨设备迁移",
+      "pos": [
+        840,
+        590
+      ],
+      "size": [
+        180,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 183,
+          "label": "指导流程定义",
+          "line": 183,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "按目标选择",
+      "type": "frontend"
+    },
+    {
+      "id": "logic-knowledge-portability",
+      "label": "证据与判断",
+      "pos": [
+        1050,
+        590
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 183,
+          "label": "指导流程定义",
+          "line": 183,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "输入 / 逻辑 / 草稿",
+      "type": "backend"
+    },
+    {
+      "id": "gate-knowledge-portability",
+      "label": "人工授权门",
+      "pos": [
+        1220,
+        590
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 183,
+          "label": "指导流程定义",
+          "line": 183,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "外部动作须批准",
+      "type": "security"
+    },
+    {
+      "id": "result-knowledge-portability",
+      "label": "验收与状态",
+      "pos": [
+        1470,
+        590
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "sources": [
+        {
+          "end_line": 183,
+          "label": "指导流程定义",
+          "line": 183,
+          "path": "knowledge/system/workflow-purpose-model.json"
+        }
+      ],
+      "sublabel": "失败保留并恢复",
+      "type": "database"
+    }
+  ],
+  "connections": [
+    {
+      "from": "purpose-market-research",
+      "id": "market-research-purpose-logic",
+      "to": "logic-market-research"
+    },
+    {
+      "from": "logic-market-research",
+      "id": "market-research-logic-gate",
+      "to": "gate-market-research"
+    },
+    {
+      "from": "gate-market-research",
+      "id": "market-research-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-market-research",
+      "variant": "security"
+    },
+    {
+      "from": "purpose-email-outreach",
+      "id": "email-outreach-purpose-logic",
+      "to": "logic-email-outreach"
+    },
+    {
+      "from": "logic-email-outreach",
+      "id": "email-outreach-logic-gate",
+      "to": "gate-email-outreach"
+    },
+    {
+      "from": "gate-email-outreach",
+      "id": "email-outreach-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-email-outreach",
+      "variant": "security"
+    },
+    {
+      "from": "purpose-sales-follow-up",
+      "id": "sales-follow-up-purpose-logic",
+      "to": "logic-sales-follow-up"
+    },
+    {
+      "from": "logic-sales-follow-up",
+      "id": "sales-follow-up-logic-gate",
+      "to": "gate-sales-follow-up"
+    },
+    {
+      "from": "gate-sales-follow-up",
+      "id": "sales-follow-up-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-sales-follow-up",
+      "variant": "security"
+    },
+    {
+      "from": "purpose-product-commerce",
+      "id": "product-commerce-purpose-logic",
+      "to": "logic-product-commerce"
+    },
+    {
+      "from": "logic-product-commerce",
+      "id": "product-commerce-logic-gate",
+      "to": "gate-product-commerce"
+    },
+    {
+      "from": "gate-product-commerce",
+      "id": "product-commerce-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-product-commerce",
+      "variant": "security"
+    },
+    {
+      "from": "purpose-site-commerce",
+      "id": "site-commerce-purpose-logic",
+      "to": "logic-site-commerce"
+    },
+    {
+      "from": "logic-site-commerce",
+      "id": "site-commerce-logic-gate",
+      "to": "gate-site-commerce"
+    },
+    {
+      "from": "gate-site-commerce",
+      "id": "site-commerce-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-site-commerce",
+      "variant": "security"
+    },
+    {
+      "from": "purpose-content-production",
+      "id": "content-production-purpose-logic",
+      "to": "logic-content-production"
+    },
+    {
+      "from": "logic-content-production",
+      "id": "content-production-logic-gate",
+      "to": "gate-content-production"
+    },
+    {
+      "from": "gate-content-production",
+      "id": "content-production-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-content-production",
+      "variant": "security"
+    },
+    {
+      "from": "purpose-content-distillation",
+      "id": "content-distillation-purpose-logic",
+      "to": "logic-content-distillation"
+    },
+    {
+      "from": "logic-content-distillation",
+      "id": "content-distillation-logic-gate",
+      "to": "gate-content-distillation"
+    },
+    {
+      "from": "gate-content-distillation",
+      "id": "content-distillation-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-content-distillation",
+      "variant": "security"
+    },
+    {
+      "from": "purpose-visual-experience",
+      "id": "visual-experience-purpose-logic",
+      "to": "logic-visual-experience"
+    },
+    {
+      "from": "logic-visual-experience",
+      "id": "visual-experience-logic-gate",
+      "to": "gate-visual-experience"
+    },
+    {
+      "from": "gate-visual-experience",
+      "id": "visual-experience-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-visual-experience",
+      "variant": "security"
+    },
+    {
+      "from": "purpose-software-delivery",
+      "id": "software-delivery-purpose-logic",
+      "to": "logic-software-delivery"
+    },
+    {
+      "from": "logic-software-delivery",
+      "id": "software-delivery-logic-gate",
+      "to": "gate-software-delivery"
+    },
+    {
+      "from": "gate-software-delivery",
+      "id": "software-delivery-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-software-delivery",
+      "variant": "security"
+    },
+    {
+      "from": "purpose-quality-assurance",
+      "id": "quality-assurance-purpose-logic",
+      "to": "logic-quality-assurance"
+    },
+    {
+      "from": "logic-quality-assurance",
+      "id": "quality-assurance-logic-gate",
+      "to": "gate-quality-assurance"
+    },
+    {
+      "from": "gate-quality-assurance",
+      "id": "quality-assurance-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-quality-assurance",
+      "variant": "security"
+    },
+    {
+      "from": "purpose-deployment-operations",
+      "id": "deployment-operations-purpose-logic",
+      "to": "logic-deployment-operations"
+    },
+    {
+      "from": "logic-deployment-operations",
+      "id": "deployment-operations-logic-gate",
+      "to": "gate-deployment-operations"
+    },
+    {
+      "from": "gate-deployment-operations",
+      "id": "deployment-operations-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-deployment-operations",
+      "variant": "security"
+    },
+    {
+      "from": "purpose-automation-agents",
+      "id": "automation-agents-purpose-logic",
+      "to": "logic-automation-agents"
+    },
+    {
+      "from": "logic-automation-agents",
+      "id": "automation-agents-logic-gate",
+      "to": "gate-automation-agents"
+    },
+    {
+      "from": "gate-automation-agents",
+      "id": "automation-agents-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-automation-agents",
+      "variant": "security"
+    },
+    {
+      "from": "purpose-knowledge-portability",
+      "id": "knowledge-portability-purpose-logic",
+      "to": "logic-knowledge-portability"
+    },
+    {
+      "from": "logic-knowledge-portability",
+      "id": "knowledge-portability-logic-gate",
+      "to": "gate-knowledge-portability"
+    },
+    {
+      "from": "gate-knowledge-portability",
+      "id": "knowledge-portability-gate-result",
+      "label": "获准或仅草稿",
+      "to": "result-knowledge-portability",
+      "variant": "security"
+    }
+  ],
+  "diagram_type": "architecture",
+  "meta": {
+    "animation": "none",
+    "locale": "zh-CN",
+    "output": "docs/workflows/diagrams/archify-overview.html",
+    "quality_profile": "showcase",
+    "repository": {
+      "link_mode": "web",
+      "provider": "github",
+      "revision": "c5a4962ca1ab984bca524573350cbb43f8ba07d4",
+      "url": "https://github.com/ljx30829/personal-ai-knowledge-base.git"
+    },
+    "title": "知识库 · 13 类工作目的"
+  },
+  "schema_version": 1
+}

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from hashlib import sha256
 from pathlib import Path
 import re
 import sys
@@ -27,6 +28,64 @@ def display_path(path: Path, root: Path) -> str:
         return str(path.relative_to(root))
     except ValueError:
         return str(path)
+
+
+def _sha256(path: Path) -> str:
+    return sha256(path.read_bytes()).hexdigest()
+
+
+def validate_archify_deliveries(root: Path, output: Path, workflow_ids: set[str]) -> list[str]:
+    errors: list[str] = []
+    diagram_ids = {"archify-overview", *workflow_ids}
+    for diagram_id in sorted(diagram_ids):
+        candidate_id = diagram_id if diagram_id == "archify-overview" else diagram_id
+        candidate = output / "sources" / f"{candidate_id}.json"
+        artifact = output / "diagrams" / f"{diagram_id}.html"
+        required = [
+            candidate, artifact,
+            output / "diagrams" / f"{diagram_id}.delivery.json",
+            output / "diagrams" / f"{diagram_id}.finalize.json",
+            output / "diagrams" / f"{diagram_id}.finalize-summary.json",
+            output / "diagrams" / f"{diagram_id}.browser-check.json",
+        ]
+        for path in required:
+            if not path.is_file():
+                errors.append(f"missing Archify delivery artifact: {display_path(path, root)}")
+        if any(not path.is_file() for path in required):
+            continue
+        try:
+            specification = _load(candidate)
+            summary = _load(output / "diagrams" / f"{diagram_id}.finalize-summary.json")
+            browser = _load(output / "diagrams" / f"{diagram_id}.browser-check.json")
+        except (OSError, json.JSONDecodeError) as exc:
+            errors.append(f"invalid Archify delivery receipt for {diagram_id}: {exc}")
+            continue
+        if summary.get("ok") is not True or set(summary.get("gates", {}).values()) != {"pass"}:
+            errors.append(f"Archify finalize did not pass: {diagram_id}")
+        if browser.get("ok") is not True:
+            errors.append(f"Archify browser check did not pass: {diagram_id}")
+        if summary.get("specification", {}).get("sha256") != _sha256(candidate):
+            errors.append(f"stale Archify specification receipt: {diagram_id}")
+        artifact_hash = _sha256(artifact)
+        if summary.get("artifact", {}).get("sha256") != artifact_hash or browser.get("artifact", {}).get("sha256") != artifact_hash:
+            errors.append(f"stale Archify artifact receipt: {diagram_id}")
+        repository = specification.get("meta", {}).get("repository", {})
+        if not re.fullmatch(r"[0-9a-f]{40}", str(repository.get("revision", ""))):
+            errors.append(f"unverified Archify repository revision: {diagram_id}")
+        nodes = specification.get("nodes", specification.get("components", []))
+        for node in nodes:
+            for source in node.get("sources", []):
+                source_path = root / source.get("path", "")
+                if not source_path.is_file():
+                    errors.append(f"missing Archify source for {diagram_id}: {source.get('path')}")
+                    continue
+                line_count = len(source_path.read_text(encoding="utf-8").splitlines())
+                if not 1 <= int(source.get("line", 0)) <= line_count:
+                    errors.append(f"invalid Archify source line for {diagram_id}: {source.get('path')}")
+        html = artifact.read_text(encoding="utf-8", errors="replace")
+        if re.search(r'<(?:script|link)\b[^>]*(?:src|href)=[\"\']https?://', html, re.I):
+            errors.append(f"remote runtime dependency in Archify artifact: {diagram_id}")
+    return errors
 
 
 def validate_atlas(root: Path, output: Path) -> list[str]:
@@ -84,6 +143,10 @@ def validate_atlas(root: Path, output: Path) -> list[str]:
         errors.append("duplicate-name groups mismatch")
     if report.get('coverage', {}).get('workflow_skill_counts') != counts:
         errors.append('coverage report route counts mismatch')
+    if (output / "sources").is_dir():
+        if not (output / "README.md").is_file():
+            errors.append("missing workflow atlas usage README")
+        errors.extend(validate_archify_deliveries(root, output, workflow_ids))
     page = (output / 'index.html').read_text(encoding='utf-8')
     match = re.search(r'<script id="atlas-data" type="application/json">(.*?)</script>', page, re.S)
     if not match:
@@ -105,6 +168,11 @@ def validate_atlas(root: Path, output: Path) -> list[str]:
         for term in DISALLOWED:
             if term in lowered:
                 errors.append(f"excluded term in {display_path(path, root)}: {term}")
+        # Archify HTML embeds its reviewed viewer runtime. Local JavaScript
+        # variables such as ownerToken are not repository credentials; scan
+        # the candidate JSON, receipts, and authored atlas instead.
+        if path.parent.name == "diagrams" and path.suffix.lower() == ".html":
+            continue
         for match in SECRET_RE.finditer(text):
             if match.group(1).casefold() not in SAFE_VALUES:
                 errors.append(f"possible secret assignment in {display_path(path, root)}")

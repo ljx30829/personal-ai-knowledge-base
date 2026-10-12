@@ -19,6 +19,15 @@
 - TOOLS: Added project inventory, dependency inspection, SHA-256 manifests, source-only export, document-only export, doctor, smoke test, and complete workspace bootstrap commands.
 - VERIFY: Vault tests `30/30`; vault validator `errors=0 warnings=0`; project remote tree review found no excluded or generated paths.
 
+## 2026-10-12 Workflow Atlas Implementation
+
+- STATUS: `WATCH_IMPLEMENTATION_IN_PROGRESS`.
+- WORKTREE: `C:\Users\26014\.codex\worktrees\workflow-map\知识库`, branch `codex/workflow-map`.
+- COMPLETED: Source-instance model, full-file extraction, 13-purpose taxonomy, deterministic catalog builder, exclusion/hash/coverage validator, and standalone offline UI with search, filters, skill detail, source links, and deep links.
+- COVERAGE: 219 skill source instances, 161 unique names; same-name sources remain separate. Completeness refers to extracted documentation fields, not runtime availability.
+- IN_PROGRESS: Archify candidate generator and provenance-bound finalization of the overview plus 13 workflows; browser interaction and responsive checks.
+- NEXT: Commit authored definitions to pin diagram evidence, finalize diagrams, run browser and vault checks, document measured limits, then synchronize the private Git remote. Preserve the dirty primary checkout.
+
 ## 2026-10-12 Workflow Atlas Plan
 
 - STATUS: `PLAN_READY_EXECUTION_PENDING`.

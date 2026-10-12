@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>工作流地图 · 知识库</title>
+  <style>__ATLAS_CSS__</style>
+</head>
+<body data-skill-count="__SKILL_COUNT__" data-workflow-count="__WORKFLOW_COUNT__">
+  <header><a class="wordmark" href="#overview">知识库 / 工作流地图</a><button id="theme" type="button">切换深浅色</button></header>
+  <main>
+    <section class="intro"><p class="eyebrow">从工作目的出发</p><h1>要完成什么工作？</h1><p>先选目的，看清输入、判断、授权与验收，再找到对应技能和完整原文。</p><div id="metrics" class="metrics"></div><p class="muted">这是流程与技能说明的导航。资料完整度不代表运行结果；工具、账号和环境须在目标电脑验证。</p></section>
+    <nav id="view-tabs" aria-label="浏览模式"><button data-view="overview" type="button">工作目的</button><button data-view="skills" type="button">全部技能</button><a href="diagrams/archify-overview.html">Archify 总览 ↗</a></nav>
+    <section id="filters" aria-label="筛选"><label class="search">搜索目的、流程或技能<input id="search" type="search" placeholder="例如：邮件、选品、测试、部署…"></label><label>资料完整度<select id="status"><option value="">全部状态</option><option>PASS</option><option>WATCH</option><option>UNVERIFIED</option></select></label><label>技能来源<select id="source"><option value="">全部来源</option></select></label><label class="check"><input id="duplicates" type="checkbox">只看同名多来源</label><button id="reset" type="button">重置</button></section>
+    <p id="result-count" role="status" aria-live="polite"></p>
+    <section id="overview" aria-label="工作目的"></section>
+    <section id="workflow" aria-label="流程详情" hidden></section>
+    <section id="skill-list" aria-label="技能列表" hidden></section>
+    <noscript>此交互页面需要启用 JavaScript。可直接打开同目录的 README.md 和 JSON 目录。</noscript>
+  </main>
+  <dialog id="skill-dialog" aria-labelledby="skill-title"><div class="dialog-head"><span class="eyebrow">技能说明</span><button id="close-dialog" type="button" aria-label="关闭技能详情">关闭 ×</button></div><div id="skill-detail"></div></dialog>
+  <footer>离线可用 · 按来源保留同名技能 · 外部动作遵守人工授权门 · <a href="README.md">使用与验证说明</a></footer>
+  <script id="atlas-data" type="application/json">__ATLAS_JSON__</script>
+  <script>__ATLAS_JS__</script>
+</body>
+</html>

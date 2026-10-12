@@ -10,7 +10,14 @@
   <header><a class="wordmark" href="#overview">知识库 / 工作流地图</a><button id="theme" type="button">切换深浅色</button></header>
   <main>
     <section class="intro"><p class="eyebrow">从工作目的出发</p><h1>要完成什么工作？</h1><p>先选目的，看清输入、判断、授权与验收，再找到对应技能和完整原文。</p><div id="metrics" class="metrics"></div><p class="muted">这是流程与技能说明的导航。资料完整度不代表运行结果；工具、账号和环境须在目标电脑验证。</p></section>
-    <nav id="view-tabs" aria-label="浏览模式"><button data-view="overview" type="button">工作目的</button><button data-view="skills" type="button">全部技能</button><a href="diagrams/archify-overview.html">Archify 总览 ↗</a></nav>
+    <nav id="view-tabs" aria-label="浏览模式"><button data-view="overview" type="button">可视化工作流</button><button data-view="skills" type="button">全部技能</button></nav>
+    <section id="visual-stage" aria-labelledby="visual-title">
+      <div class="visual-stage-head">
+        <div><p class="eyebrow">交互式 Archify 流程图</p><h2 id="visual-title">全部工作目的总览</h2><p id="visual-description" class="muted">点击图中的节点探索工作目的、关键关系和流程入口。</p></div>
+        <a id="visual-open" href="diagrams/archify-overview.html" target="_blank" rel="noopener">单独打开大图 ↗</a>
+      </div>
+      <div class="visual-frame-shell"><iframe id="visual-frame" src="diagrams/archify-overview.html" title="全部工作目的交互式总览" loading="eager"></iframe></div>
+    </section>
     <section id="filters" aria-label="筛选"><label class="search">搜索目的、流程或技能<input id="search" type="search" placeholder="例如：邮件、选品、测试、部署…"></label><label>资料完整度<select id="status"><option value="">全部状态</option><option>PASS</option><option>WATCH</option><option>UNVERIFIED</option></select></label><label>技能来源<select id="source"><option value="">全部来源</option></select></label><label class="check"><input id="duplicates" type="checkbox">只看同名多来源</label><button id="reset" type="button">重置</button></section>
     <p id="result-count" role="status" aria-live="polite"></p>
     <section id="overview" aria-label="工作目的"></section>

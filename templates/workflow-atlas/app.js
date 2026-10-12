@@ -8,6 +8,7 @@
   const duplicateIds = new Set(Object.values(data.coverage.duplicate_name_groups).flat());
   const names = {purpose:'目的',logic:'底层判断逻辑',inputs:'输入',outputs:'输出',dependencies:'依赖',validation:'验收',failure_modes:'失败处理',routing_fallback:'分类待复核'};
   let view = 'overview', selectedWorkflow = null, selectedStep = 'purpose';
+  let activeDiagram = 'diagrams/archify-overview.html';
   let closeTarget = '#overview';
   const field = (title, values) => `<section class="field"><h3>${esc(title)}</h3>${values?.length ? `<ul>${values.map(v => `<li>${esc(v)}</li>`).join('')}</ul>` : '<p class="missing">原文未提取到明确内容，请打开完整原文核对。UNVERIFIED</p>'}</section>`;
   const sourceLink = source => {
@@ -23,8 +24,25 @@
     return (!q || [skill.name,skill.purpose,...skill.logic,...skill.workflow_ids.map(id => workflowById.get(id)?.label || '')].join(' ').toLocaleLowerCase().includes(q)) && (!$('status').value || skill.completeness === $('status').value) && (!$('source').value || skill.source === $('source').value) && (!$('duplicates').checked || duplicateIds.has(skill.id));
   };
   const skillCards = skills => skills.length ? `<div class="skill-grid">${skills.map(s => `<button type="button" class="skill-card" data-skill="${esc(s.id)}"><h3>${esc(s.name)}</h3>${badge(s.completeness)}${duplicateIds.has(s.id) ? '<span class="badge">同名多来源</span>' : ''}<p>${esc(s.purpose)}</p><small>${esc(s.source)} · ${esc(s.source_paths[0]?.path || '')}</small></button>`).join('')}</div>` : '<div class="empty">没有匹配的技能。试试清空搜索或重置筛选。</div>';
+  function renderVisualStage() {
+    const stage = $('visual-stage');
+    if (view === 'skills') {stage.hidden = true; return;}
+    const workflow = view === 'workflow' ? workflowById.get(selectedWorkflow) : null;
+    const diagram = workflow ? `diagrams/${workflow.id}.html` : 'diagrams/archify-overview.html';
+    const title = workflow ? `${workflow.label} · 完整可视化流程` : '全部工作目的总览';
+    stage.hidden = false;
+    $('visual-title').textContent = title;
+    $('visual-description').textContent = workflow ? '图中包含十个阶段、人工授权门、验收、失败恢复和状态沉淀；可直接缩放、搜索和查看关系。' : '点击图中的节点探索 13 类工作目的、关键关系和流程入口。';
+    $('visual-open').href = diagram;
+    $('visual-frame').title = `${title}交互式图`;
+    if (activeDiagram !== diagram) {
+      $('visual-frame').src = diagram;
+      activeDiagram = diagram;
+    }
+  }
   function render() {
     $('overview').hidden = view !== 'overview'; $('workflow').hidden = view !== 'workflow'; $('skill-list').hidden = view !== 'skills';
+    renderVisualStage();
     document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-current', b.dataset.view === (view === 'workflow' ? 'overview' : view) ? 'page' : 'false'));
     const skills = data.skills.filter(matches);
     if (view === 'overview') {
@@ -38,7 +56,7 @@
       const w = workflowById.get(selectedWorkflow); if (!w) return;
       const routed = skills.filter(s => s.workflow_ids.includes(w.id));
       $('result-count').textContent = `${w.label} · ${routed.length} 个匹配技能`;
-      $('workflow').innerHTML = `<div class="workflow-head"><div><button data-view="overview" type="button">← 返回工作目的</button><h2>${esc(w.label)}</h2></div><a href="diagrams/${w.id}.html">打开 Archify 流程图 ↗</a></div><p class="workflow-purpose">${esc(w.purpose)}</p><div class="fields">${field('触发条件',w.trigger)}${field('输入与证据',w.inputs)}${field('底层判断逻辑',w.logic)}${field('人工授权门',w.approval_gate)}</div><h3>完整工作流程</h3><p class="muted">先准备证据与本地草稿；外部执行经过授权门。验收失败进入恢复，再重新检查。</p><div class="steps">${w.steps.map((s,i) => `<button class="step" type="button" data-step="${s.id}" aria-pressed="${s.id === selectedStep}"><small>${String(i+1).padStart(2,'0')} · ${esc(names[s.id] || ({trigger:'触发',execute:'执行',authorize:'授权',output:'输出',validate:'验收',failure:'失败处理',state:'状态沉淀',input:'输入与证据'})[s.id] || s.id)}</small><strong>${esc(s.label)}</strong></button>`).join('')}</div><div id="step-detail"></div><div class="fields">${field('输出',w.outputs)}${field('验收标准',w.validation)}${field('失败与恢复',w.failure_modes)}${field('状态沉淀',['记录实际完成、证据日期、产物路径、阻塞和下一步；保留 PASS / WATCH / FAIL / BLOCKED / UNVERIFIED 区别。'])}</div><h3>对应技能</h3><p class="muted">按技能名称和简介进行规则路由，可跨多个流程；分类仅作导航，执行前读取原文。</p>${skillCards(routed)}`;
+      $('workflow').innerHTML = `<div class="workflow-head"><div><button data-view="overview" type="button">← 返回工作目的</button><h2>${esc(w.label)}</h2></div><a href="diagrams/${w.id}.html" target="_blank" rel="noopener">单独打开流程图 ↗</a></div><p class="workflow-purpose">${esc(w.purpose)}</p><div class="fields">${field('触发条件',w.trigger)}${field('输入与证据',w.inputs)}${field('底层判断逻辑',w.logic)}${field('人工授权门',w.approval_gate)}</div><h3>阶段说明</h3><p class="muted">上方交互图是完整流程；下面可逐项查看每个阶段的说明和来源证据。</p><div class="steps">${w.steps.map((s,i) => `<button class="step" type="button" data-step="${s.id}" aria-pressed="${s.id === selectedStep}"><small>${String(i+1).padStart(2,'0')} · ${esc(names[s.id] || ({trigger:'触发',execute:'执行',authorize:'授权',output:'输出',validate:'验收',failure:'失败处理',state:'状态沉淀',input:'输入与证据'})[s.id] || s.id)}</small><strong>${esc(s.label)}</strong></button>`).join('')}</div><div id="step-detail"></div><div class="fields">${field('输出',w.outputs)}${field('验收标准',w.validation)}${field('失败与恢复',w.failure_modes)}${field('状态沉淀',['记录实际完成、证据日期、产物路径、阻塞和下一步；保留 PASS / WATCH / FAIL / BLOCKED / UNVERIFIED 区别。'])}</div><h3>对应技能</h3><p class="muted">按技能名称和简介进行规则路由，可跨多个流程；分类仅作导航，执行前读取原文。</p>${skillCards(routed)}`;
       renderStep();
     }
   }

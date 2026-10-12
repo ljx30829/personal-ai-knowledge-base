@@ -24,8 +24,9 @@
 - STATUS: `PASS_OFFLINE_ATLAS_SYNCED_PRIVATE`.
 - WORKTREE: `C:\Users\26014\.codex\worktrees\workflow-map\知识库`, branch `codex/workflow-map`.
 - COMPLETED: Source-instance model, full-file extraction, 13-purpose taxonomy, name-first catalog routing, deterministic builder, exclusion/hash/coverage validator, standalone offline UI, one Archify overview, and 13 purpose diagrams.
+- VISUAL_DEFAULT: The offline entry now embeds the interactive Archify overview as the primary experience and switches the same stage to the selected purpose diagram; text fields, stage buttons, and skill cards remain supporting evidence below it. The skills-only view hides the stage.
 - COVERAGE: 219 skill source instances, 161 unique names; same-name sources remain separate. Completeness refers to extracted documentation fields, not runtime availability.
-- VERIFICATION: 43 repository unit tests passed after rebasing on the latest remote; workflow atlas validator and vault validator reported zero errors; all 14 Archify finalization and browser receipts passed. Offline UI checked at 390x844, 1440x900, and 2048x1320 with no horizontal overflow.
+- VERIFICATION: Existing 14 Archify finalization and browser receipts remain valid. The embedded experience was additionally checked in Chrome at 390x844 and 1280x720: the overview and email diagram loaded as interactive SVG, diagram/open-link routing matched, the skills view hid the stage, outer horizontal overflow was zero, and console errors were zero. Full repository checks must be rerun after this state update.
 - LIMITS: All 219 cards remain WATCH because source documents do not explicitly provide every structured field. Name-first routing is navigation, and 22 fallback-routed instances remain marked for review. Runtime dependencies must still be verified on the target computer.
 - REMOTE: Implementation commit `3b2b964c2d2314acd8a3cd0883b542a1a3fdabb7` was fast-forwarded to private `origin/master` and `origin/codex/workflow-map`; GitHub Pages remains disabled.
 - NEXT: On another computer, clone or pull the private repository and open `docs/workflows/index.html`. Preserve the dirty primary checkout.

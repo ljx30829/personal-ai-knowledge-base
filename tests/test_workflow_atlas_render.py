@@ -18,6 +18,11 @@ class WorkflowAtlasRenderTests(unittest.TestCase):
             self.assertNotIn('__ATLAS_', page)
             self.assertNotIn('fetch(', page)
             self.assertNotIn('<script src=', page)
+            self.assertIn('id="visual-stage"', page)
+            self.assertIn('id="visual-frame" src="diagrams/archify-overview.html"', page)
+            self.assertIn("const diagram = workflow ? `diagrams/${workflow.id}.html` : 'diagrams/archify-overview.html';", page)
+            self.assertIn("if (view === 'skills') {stage.hidden = true; return;}", page)
+            self.assertNotIn('<iframe src="http', page)
             payload = page.split('<script id="atlas-data" type="application/json">')[1].split('</script>')[0]
             self.assertEqual(219, len(json.loads(payload)['skills']))
             self.assertEqual([], validate_atlas(Path('.'), out))

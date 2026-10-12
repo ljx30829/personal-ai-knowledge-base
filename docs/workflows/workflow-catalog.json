@@ -1794,7 +1794,7 @@
         "path": "AGENTS.md"
       },
       {
-        "end_line": 65,
+        "end_line": 67,
         "label": null,
         "line": 1,
         "path": "TASK_STATE.md"
@@ -1826,7 +1826,7 @@
         "phase": "intake",
         "sources": [
           {
-            "end_line": 65,
+            "end_line": 67,
             "label": null,
             "line": 1,
             "path": "TASK_STATE.md"
@@ -1906,7 +1906,7 @@
         "phase": "execution",
         "sources": [
           {
-            "end_line": 65,
+            "end_line": 67,
             "label": null,
             "line": 1,
             "path": "TASK_STATE.md"
@@ -1938,7 +1938,7 @@
         "phase": "governance",
         "sources": [
           {
-            "end_line": 65,
+            "end_line": 67,
             "label": null,
             "line": 1,
             "path": "TASK_STATE.md"
@@ -2043,7 +2043,7 @@
         "phase": "intake",
         "sources": [
           {
-            "end_line": 65,
+            "end_line": 67,
             "label": null,
             "line": 1,
             "path": "TASK_STATE.md"
@@ -2107,7 +2107,7 @@
         "phase": "governance",
         "sources": [
           {
-            "end_line": 65,
+            "end_line": 67,
             "label": null,
             "line": 1,
             "path": "TASK_STATE.md"
@@ -2139,7 +2139,7 @@
         "phase": "governance",
         "sources": [
           {
-            "end_line": 65,
+            "end_line": 67,
             "label": null,
             "line": 1,
             "path": "TASK_STATE.md"
@@ -2845,7 +2845,7 @@
         "phase": "governance",
         "sources": [
           {
-            "end_line": 65,
+            "end_line": 67,
             "label": null,
             "line": 1,
             "path": "TASK_STATE.md"

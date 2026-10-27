@@ -41,3 +41,7 @@ python scripts/validate_vault.py .
 ```
 
 If the validator reports a possible secret, stop and inspect the exact file before committing.
+
+## Public methods update (2026-10-27)
+
+The user explicitly chose to keep this repository Public and publish only de-identified general methods. This supersedes older Private-only visibility statements. Do not import raw conversations, private paths, customer lists, mailbox contents, account identifiers, or credentials. New learning entrypoints are LEARNING_20261015-27.md, LEARNING_REVIEW_20261027.md, and LEARNING_SOURCES_20261027.md. Historical statuses remain dated evidence, not current verification.

@@ -1,6 +1,6 @@
 # 我的 AI 知识库
 
-这是一个私有、可迁移的 Markdown 知识库。GitHub 负责跨设备保存，Codex、Claude、Gemini、Cursor 或其他 AI 只在获得授权后读取这些文件。
+这是一个可迁移的 Markdown 知识库。GitHub 负责跨设备保存，Codex、Claude、Gemini、Cursor 或其他 AI 只在获得授权后读取这些文件。
 
 ## 从这里开始
 
@@ -43,9 +43,13 @@ Windows 解压时建议使用 `D:\AIKB` 之类的短路径。插件缓存包含�
 
 ## 重要边界
 
-- 仓库必须保持 `Private`，不得启用 GitHub Pages。
+- 2026-10-27 用户选择保持公开；本次及后续新增仅提交脱敏的通用方法。不得因此上传账号、客户或原始工作记录。
 - 不保存密码、令牌、Cookie、API Key、浏览器资料或原始客户敏感信息。
 - 状态文件中的 `PASS/WATCH/FAIL/BLOCKED` 必须保留，不能把准备、草稿或本地运行写成上线、发送或成交。
 - 大型 CSV、日志、视频、图片、压缩包和完整项目代码留在原工作区，本知识库保存摘要、来源路径和恢复方法。
 
-当前远程状态：`PRIVATE_REMOTE_VERIFIED`。私有仓库为 [ljx30829/personal-ai-knowledge-base](https://github.com/ljx30829/personal-ai-knowledge-base)，`master` 已推送，GitHub Pages 未启用。
+历史记录曾标注 `PRIVATE_REMOTE_VERIFIED`；2026-10-27 实际仓库为 Public，用户确认保持公开。仓库为 [ljx30829/personal-ai-knowledge-base](https://github.com/ljx30829/personal-ai-knowledge-base)，`master` 已推送，GitHub Pages 未启用。
+
+## 2026-10 学习增补
+
+[打开 16 个主题的缺口对照与学习入口](LEARNING_REVIEW_20261027.md)。包含市场、商品图、详情页、建站、SEO、外链、AI 搜索、表单、客户开发、邮箱排障、抖店、账号内容、视频、MCP 与工作记录方法。原始会话和商业明细不随增补提交。

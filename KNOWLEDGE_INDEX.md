@@ -72,3 +72,4 @@
 - [视频与云端工具](LEARNING_20261015-27.md#topic-13)
 - [工具与 MCP](LEARNING_20261015-27.md#topic-14)
 - [日报与知识沉淀](LEARNING_20261015-27.md#topic-15)
+- [WhatsApp CRM 与 Meta 转化回传](LEARNING_20261015-27.md#topic-16)

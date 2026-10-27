@@ -1,6 +1,6 @@
 # 知识导航
 
-更新日期：2026-10-12
+更新日期：2026-10-27
 
 ## 系统与要求
 
@@ -53,3 +53,22 @@
 - [视频来源卡：自动化 AI 大脑](sources/videos/douyin-7655909545654950769.md)
 
 最终验收不允许断链。
+
+## 2026-10-15 至 10-27 新增实操学习
+
+- [本期缺口对照与覆盖范围](LEARNING_REVIEW_20261027.md)
+- [海外市场与同行核验](LEARNING_20261015-27.md#topic-1)
+- [商品图片与 AI 编辑](LEARNING_20261015-27.md#topic-2)
+- [电商详情页](LEARNING_20261015-27.md#topic-3)
+- [参考驱动网站与交付](LEARNING_20261015-27.md#topic-4)
+- [SEO 优化](LEARNING_20261015-27.md#topic-5)
+- [外链与引流](LEARNING_20261015-27.md#topic-6)
+- [Bing 与 AI 搜索](LEARNING_20261015-27.md#topic-7)
+- [表单与统计](LEARNING_20261015-27.md#topic-8)
+- [客户筛选与开发信](LEARNING_20261015-27.md#topic-9)
+- [域名邮箱及排障](LEARNING_20261015-27.md#topic-10)
+- [抖店诊断与选品](LEARNING_20261015-27.md#topic-11)
+- [账号定位和内容学习](LEARNING_20261015-27.md#topic-12)
+- [视频与云端工具](LEARNING_20261015-27.md#topic-13)
+- [工具与 MCP](LEARNING_20261015-27.md#topic-14)
+- [日报与知识沉淀](LEARNING_20261015-27.md#topic-15)

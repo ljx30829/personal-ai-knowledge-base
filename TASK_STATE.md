@@ -1,5 +1,16 @@
 # Knowledge Vault Task State
 
+## 2026-10-27 去敏学习增补
+
+- STATUS: `PASS_LOCAL_CONTENT_VALIDATED`。
+- SCOPE: 当前可访问 33 份会话文件的历史回顾，15 个主题的增量方法、来源说明和逐主题缺口报告；不上传原始记录与业务明细。
+- VISIBILITY: 当前 Public；用户明确要求保持公开、仅提交脱敏通用方法。旧 Private 记录为历史状态。
+- BASELINE: `0edbae876dd9df8b88685b8beb69d0ff87ba3048`。
+- LIMITS: 当前本机未找到 10 月 15 日记录；外部服务、业务效果未全部重验。底层技能包及自动工作流地图未改。
+- ENTRY: [本期审阅](LEARNING_REVIEW_20261027.md)。
+- VERIFY: 方法分篇草稿校验：scanned_files=150 errors=0 warnings=0；公开合订版校验：scanned_files=136 errors=0 warnings=0；新增方法针对性隐私检查零命中；提交前复查差异与链接。
+- NEXT: 通过新分支和 PR 提交，不直接推 master。
+
 ## 2026-10-11 Complete Portable Recovery
 
 - STATUS: `PASS_PRIVATE_REMOTES_AND_RECOVERY_ENTRYPOINT_READY`.

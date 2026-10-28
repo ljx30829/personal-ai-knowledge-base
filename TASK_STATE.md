@@ -65,3 +65,11 @@
 - Dated operating state and resume instructions live under `projects/`.
 - Large artifacts and sensitive operational records stay in their original workspaces.
 - Relay/node status is historical and requires live revalidation; AI Global Trade OS is local-only and has an existing dirty worktree that must be preserved.
+
+
+## 2026-10-28 De-identified Method Increment
+
+- STATUS: WATCH_REVIEW_BRANCH.
+- New general methods: catalog clarity/color coverage, PDF internal navigation, existing-page content mapping, contact authority, immutable sending audits, website conversion evidence limits.
+- No business actions executed by this review. Raw evidence stays local.
+- Public repository visibility verified. Separate dated branch from current default; PR #1 remains open. Preserve both navigation/state additions when integrating.

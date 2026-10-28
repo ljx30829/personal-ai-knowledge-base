@@ -49,3 +49,10 @@ Windows 解压时建议使用 `D:\AIKB` 之类的短路径。插件缓存包含�
 - 大型 CSV、日志、视频、图片、压缩包和完整项目代码留在原工作区，本知识库保存摘要、来源路径和恢复方法。
 
 当前远程状态：`PRIVATE_REMOTE_VERIFIED`。私有仓库为 [ljx30829/personal-ai-knowledge-base](https://github.com/ljx30829/personal-ai-knowledge-base)，`master` 已推送，GitHub Pages 未启用。
+
+
+## 2026-10-28 脱敏通用方法增补
+
+当前仓库实时可见性为Public，公开内容仅按用户授权整理通用方法；旧私有恢复状态为历史记录。
+
+- [图册、采购内容与可靠发送](LEARNING_INCREMENT_20261028.md)

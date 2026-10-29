@@ -53,3 +53,9 @@
 - [视频来源卡：自动化 AI 大脑](sources/videos/douyin-7655909545654950769.md)
 
 最终验收不允许断链。
+
+
+## 2026-10-29 通用方法增补
+
+- [细分选品、分享版 PDF 与审核接续](LEARNING_INCREMENT_20261029.md)
+- [来源及证据边界](LEARNING_SOURCES_20261029.md)

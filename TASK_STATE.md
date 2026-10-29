@@ -65,3 +65,12 @@
 - Dated operating state and resume instructions live under `projects/`.
 - Large artifacts and sensitive operational records stay in their original workspaces.
 - Relay/node status is historical and requires live revalidation; AI Global Trade OS is local-only and has an existing dirty worktree that must be preserved.
+
+
+## 2026-10-29 De-identified Learning Increment
+
+- STATUS: `WATCH_PR_REVIEW`.
+- SCOPE: Niche research evidence, series versus repeat purchase, sharing PDF validation, and authorized audit continuation.
+- SOURCE: [De-identified source boundaries](LEARNING_SOURCES_20261029.md).
+- PRIVACY: Only general methods; originals and business materials remain local.
+- MERGE: Preserve earlier dated navigation/state additions when reconciling open PRs. Default branch publication is not implied.

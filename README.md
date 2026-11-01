@@ -1,6 +1,6 @@
 # 我的 AI 知识库
 
-这是一个私有、可迁移的 Markdown 知识库。GitHub 负责跨设备保存，Codex、Claude、Gemini、Cursor 或其他 AI 只在获得授权后读取这些文件。
+这是一个公开、可迁移的 Markdown 知识库。GitHub 负责跨设备保存；仅保留脱敏后的通用方法，不放入原始会话、客户/邮件资料、凭据、私人路径或受限素材。
 
 ## 从这里开始
 
@@ -37,15 +37,15 @@
 ## 审阅与打包
 
 - [完整知识与要求审阅稿](reports/full-knowledge-requirements-review-2026-08-04.md)：打包前逐项确认长期要求、知识、项目、技能、自动化和工作区范围。
-- 当前状态：`PASS_PACKAGED_AND_SYNCED_PRIVATE`。用户已于 2026-08-04 确认打包；本地总包位于 `D:\codex\output\personal-ai-knowledge-package-20260804-230623.zip`，知识库核心内容已通过提交 `b4e8686` 推送到私有远端 `master`。压缩包未提交到 Git。
+- 历史记录：知识库曾于 2026-08-04 完成打包；相关历史验证结果见对应审阅报告。旧的本地归档位置不在公开文档中列出。
 
-Windows 解压时建议使用 `D:\AIKB` 之类的短路径。插件缓存包含较深目录，解压到长用户名/多层目录时可能触发旧版 Windows 260 字符限制。
+跨设备恢复时按当前迁移指南选择合适的短路径；依赖、远端访问和平台状态须在目标设备重新验证。
 
 ## 重要边界
 
-- 仓库必须保持 `Private`，不得启用 GitHub Pages。
+- 当前 GitHub 仓库保持 `Public`；仅允许发布脱敏后的通用知识。可见性变更需另行按用户授权执行。
 - 不保存密码、令牌、Cookie、API Key、浏览器资料或原始客户敏感信息。
 - 状态文件中的 `PASS/WATCH/FAIL/BLOCKED` 必须保留，不能把准备、草稿或本地运行写成上线、发送或成交。
-- 大型 CSV、日志、视频、图片、压缩包和完整项目代码留在原工作区，本知识库保存摘要、来源路径和恢复方法。
+- 大型 CSV、日志、视频、图片、压缩包和完整项目代码留在原工作区；公开知识库只保留脱敏摘要、公开来源和通用恢复方法，不记录私人路径。
 
-当前远程状态：`PRIVATE_REMOTE_VERIFIED`。私有仓库为 [ljx30829/personal-ai-knowledge-base](https://github.com/ljx30829/personal-ai-knowledge-base)，`master` 已推送，GitHub Pages 未启用。
+当前远端页面于 2026-11-01 检查为 `Public`，默认分支为 `master`。GitHub Pages 状态本轮未检查。

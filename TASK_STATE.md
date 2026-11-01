@@ -59,6 +59,14 @@
 - CURRENT VIEW: Open `README.md` or `KNOWLEDGE_INDEX.md` locally, or open `https://github.com/ljx30829/personal-ai-knowledge-base` while signed in to the authorized GitHub account.
 - NEXT: On another device, clone the private repository for the Markdown vault. To restore the full local skill bundle as well, copy the ZIP and follow `knowledge-vault/README.md` plus the skills portability guide.
 
+## 2026-11-01 GEO Measurement Method
+
+- STATUS: `WATCH_RESEARCH_ONLY`.
+- METHOD: Separate answer mentions and citations from product-card appearance, target-shop/SKU accuracy, and purchase attribution. Inspect implementation and sample data before classifying a tool.
+- EVIDENCE: Public repository/source review and user-facing research only; no local installation, shop-account test, live ranking experiment, or sales attribution was performed.
+- BOUNDARY: No ranking formula or improvement claim. Platform behavior, project compatibility, and repository state require fresh verification before execution.
+- REVIEW: See `LEARNING_INCREMENT_20261101.md` and `LEARNING_SOURCES_20261101.md`.
+
 ## Source Truth
 
 - Durable reusable methods live under `knowledge/`.

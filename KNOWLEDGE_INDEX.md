@@ -1,6 +1,6 @@
 # 知识导航
 
-更新日期：2026-10-12
+更新日期：2026-11-01
 
 ## 系统与要求
 
@@ -31,6 +31,11 @@
 - [客户优先选品研究](knowledge/commerce/customer-first-product-research.md)
 - [客户优先选品研究执行手册](knowledge/commerce/customer-first-research-runbook.md)
 - [京东选品、核价、优化与上架自动化](knowledge/commerce/jd-product-automation.md)
+
+## 生成式搜索与电商可见性
+
+- [豆包文本回答与抖店商品卡的分层测量](LEARNING_INCREMENT_20261101.md)
+- [本轮来源、观察面与验证边界](LEARNING_SOURCES_20261101.md)
 - [跨设备 AI 大脑](knowledge/ai-workflows/portable-ai-brain.md)
 - [Private GitHub 跨设备同步与 AI 使用指南](knowledge/ai-workflows/git-cross-device-guide.md)
 

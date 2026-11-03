@@ -35,3 +35,41 @@
 - VISUAL_DEFAULT: The offline entry now embeds the interactive Archify overview as the primary experience and switches the same stage to the selected purpose diagram; text fields, stage buttons, and skill cards remain supporting evidence below it. The skills-only view hides the stage.
 - COVERAGE: 219 skill source instances, 161 unique names; same-name sources remain separate. Completeness refers to extracted documentation fields, not runtime availability.
 - VERIFICATION: 43 repository unit tests, workflow atlas validation, vault validation, and `git diff --check` passed. All 14 diagrams were re-finalized against pinned source commit `a647ac3` with showcase validation, delivery, strict provenance, and real-browser gates passing. The embedded experience was additionally checked in Chrome at 390x844, 1280x720, and 1440x900: the overview and email diagram loaded as interactive SVG, diagram/open-link routing matched, the skills view hid the stage, outer horizontal overflow was zero, and console errors were zero.
+- LIMITS: All 219 cards remain WATCH because source documents do not explicitly provide every structured field. Name-first routing is navigation, and 22 fallback-routed instances remain marked for review. Runtime dependencies must still be verified on the target computer.
+- REMOTE: Implementation commit `3b2b964c2d2314acd8a3cd0883b542a1a3fdabb7` was fast-forwarded to private `origin/master` and `origin/codex/workflow-map`; GitHub Pages remains disabled.
+- NEXT: On another computer, clone or pull the private repository and open `docs/workflows/index.html`. Preserve the dirty primary checkout.
+
+## 2026-10-12 Workflow Atlas Plan
+
+- STATUS: `PLAN_EXECUTED`.
+- GOAL: Organize every allowed work purpose into an executable workflow and give every included skill a sourced purpose, logic, inputs, outputs, dependencies, validation, authorization boundary, and workflow mapping.
+- DESIGN: `docs/superpowers/specs/2026-10-11-knowledge-vault-workflow-atlas-design.md`.
+- PLAN: `docs/superpowers/plans/2026-10-12-knowledge-vault-workflow-atlas.md`.
+- SCOPE: Three-layer experience: work-purpose overview, end-to-end workflows, and complete skill cards. Explicitly excluded brand-specific, vehicle-film, Candy, and adult-content material will not enter the generated workflow deliverables.
+- GIT: Work is isolated on `codex/workflow-map` from remote commit `5526753e4c4d6045d2594985e971ba5cdc3c5c34`; no current main-workspace changes are included.
+- BASELINE: Unit tests `19/19 PASS`; vault validator `scanned_files=53 errors=0 warnings=0`.
+- INVENTORY: The remote bundle contains `219` skill source instances and `161` unique names; both counts are explicit implementation gates.
+- NEXT: Use `projects/workflow-atlas.md` and `docs/workflows/README.md` for operation and future maintenance.
+
+## 2026-08-04 Reproducibility Expansion
+
+- REVIEW: `APPROVED_FOR_PACKAGING`; the user replied "可以打包" on 2026-08-04. The approved review is `reports/full-knowledge-requirements-review-2026-08-04.md`.
+- STATUS: `PASS_PACKAGED_AND_SYNCED_PRIVATE`.
+- GOAL: Build a private, zero-subscription, cross-device Markdown knowledge base for the user's Codex work and long-term requirements.
+- COMPLETED: Root navigation, Codex and vendor-neutral AI entry points, safety rules, templates, skills/requirements inventory, workspace/automation/skill catalogs, 21 knowledge pages including 10 detailed execution/recovery guides, five project handoffs, and the first Douyin source card.
+- COVERAGE: Foreign trade, ExcludedBrand, Shopify/independent sites, Yufeng, relay/node operations, skills, automations, self-media, content distillation, customer-first research, and portable AI workflow.
+- VERIFICATION: Vault tests `18/18 PASS`; validator `scanned_files=50 errors=0 warnings=0`; `git diff --check` clean; 21 knowledge pages; long-term requirement IDs are continuous through `R-170`. The assembled package manifest had `2529` entries; short-path extraction verified `missing=0` and `hash_mismatch=0`.
+- INVENTORY: `251` skills, `1569` requirement entries, `186` local skill definitions, `10` automation directories, and `6` tracked workspaces.
+- PORTABILITY: The skill bundle was exported to `D:\codex\output\personal-ai-knowledge-package-20260804-230623\portable-skills`: `2468` files, `251` skills, `108369128` bytes. Full manifest verification passed `2468/2468`; high-risk pattern review classified all 13 matched files as test fixtures or documented placeholders/environment examples.
+- PACKAGE: `D:\codex\output\personal-ai-knowledge-package-20260804-230623.zip` contains `knowledge-vault/`, `portable-skills/`, and `package-manifest.json`. Extract to a short Windows path such as `D:\AIKB` to avoid legacy 260-character limits in deep plugin-cache paths.
+- REMOTE: `PRIVATE_REMOTE_VERIFIED_CURRENT`; the reproducibility expansion was pushed to `https://github.com/ljx30829/personal-ai-knowledge-base` on `master` as commit `b4e8686`. The repository was authenticated as Private and GitHub Pages was not enabled.
+- SAFETY: No passwords, tokens, cookies, API keys, browser profiles, mailbox contents, or raw customer-sensitive records were intentionally imported. Generated automation inventory excludes prompts and memory bodies.
+- CURRENT VIEW: Open `README.md` or `KNOWLEDGE_INDEX.md` locally, or open `https://github.com/ljx30829/personal-ai-knowledge-base` while signed in to the authorized GitHub account.
+- NEXT: On another device, clone the private repository for the Markdown vault. To restore the full local skill bundle as well, copy the ZIP and follow `knowledge-vault/README.md` plus the skills portability guide.
+
+## Source Truth
+
+- Durable reusable methods live under `knowledge/`.
+- Dated operating state and resume instructions live under `projects/`.
+- Large artifacts and sensitive operational records stay in their original workspaces.
+- Relay/node status is historical and requires live revalidation; AI Global Trade OS is local-only and has an existing dirty worktree that must be preserved.

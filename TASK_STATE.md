@@ -1,5 +1,13 @@
 # Knowledge Vault Task State
 
+## 2026-11-03 BitBrowser Multi-Account Publishing
+
+- STATUS: `WATCH_SINGLE_ACCOUNT_FLOW_VERIFIED`.
+- METHOD: Distinguish API health, environment launch, page readiness, login, upload, saved hashtags, submission, review, and public visibility; verify saved drafts and post records before advancing a queue.
+- EVIDENCE: One authorized short test completed upload, suggested-topic selection, draft recovery check, submission, and post-page verification in 131 seconds. The platform showed under review and Only me. Four environments launched; only one was confirmed logged in.
+- LIMITS: A formal one-minute clip, concurrent multi-account publishing, 10/50-account stability, 150 daily posts, public reach, attribution, and revenue remain unverified. The single timing is not an SLA.
+- REVIEW: See `LEARNING_INCREMENT_20261103.md` and `LEARNING_SOURCES_20261103.md`.
+
 ## 2026-10-11 Complete Portable Recovery
 
 - STATUS: `PASS_PRIVATE_REMOTES_AND_RECOVERY_ENTRYPOINT_READY`.

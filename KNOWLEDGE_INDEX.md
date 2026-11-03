@@ -53,3 +53,13 @@
 - [视频来源卡：自动化 AI 大脑](sources/videos/douyin-7655909545654950769.md)
 
 最终验收不允许断链。
+
+## 2026-11-03 学习增补
+
+- [比特浏览器分阶段启动与核验](LEARNING_INCREMENT_20261103.md)
+- [来源与边界](LEARNING_SOURCES_20261103.md)
+
+## 2026-11-02 补录
+
+- [AI 商品推荐诊断](LEARNING_INCREMENT_20261102.md)
+- [来源与边界](LEARNING_SOURCES_20261102.md)

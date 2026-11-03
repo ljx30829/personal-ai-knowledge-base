@@ -1,6 +1,6 @@
 # 知识导航
 
-更新日期：2026-10-12
+更新日期：2026-11-03
 
 ## 系统与要求
 
@@ -33,6 +33,8 @@
 - [京东选品、核价、优化与上架自动化](knowledge/commerce/jd-product-automation.md)
 - [跨设备 AI 大脑](knowledge/ai-workflows/portable-ai-brain.md)
 - [Private GitHub 跨设备同步与 AI 使用指南](knowledge/ai-workflows/git-cross-device-guide.md)
+- [比特浏览器多账号发布的分阶段启动与核验](LEARNING_INCREMENT_20261103.md)
+- [本轮比特浏览器发布方法来源与边界](LEARNING_SOURCES_20261103.md)
 
 ## 项目交接
 
@@ -46,10 +48,5 @@
 ## 详细清单
 
 - [京东选品、核价、优化与上架自动化 GitHub 调研（2026-08-24）](sources/research/jd-product-selection-pricing-listing-automation-github-research-2026-08-24.md)
-
-- [完整知识与要求审阅稿](reports/full-knowledge-requirements-review-2026-08-04.md)
-- `sources/codex-inventory/`：全部技能和用户要求的生成清单。
-- `sources/inventory/`：工作区、技能和自动化的机器可读目录。
-- [视频来源卡：自动化 AI 大脑](sources/videos/douyin-7655909545654950769.md)
 
 最终验收不允许断链。

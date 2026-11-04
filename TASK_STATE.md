@@ -65,3 +65,10 @@
 - Dated operating state and resume instructions live under `projects/`.
 - Large artifacts and sensitive operational records stay in their original workspaces.
 - Relay/node status is historical and requires live revalidation; AI Global Trade OS is local-only and has an existing dirty worktree that must be preserved.
+
+## 2026-11-04 Evidence Review
+
+- STATUS: `WATCH_DOCUMENTED_METHODS_PENDING_REVIEW`.
+- SCOPE: Model identity and full output cost; public-sales metric provenance and coverage; production-preserving SEO integration and performance regression verification.
+- SOURCE: [De-identified source card](LEARNING_SOURCES_20261104.md). Raw operational evidence remains outside this public repository.
+- LIMIT: Documentation or pricing checks do not prove successful generation, final bills, full-market sales, indexing, or business outcomes. Existing open-PR navigation/state additions must be retained during review; no automatic merge.

@@ -65,3 +65,12 @@
 - Dated operating state and resume instructions live under `projects/`.
 - Large artifacts and sensitive operational records stay in their original workspaces.
 - Relay/node status is historical and requires live revalidation; AI Global Trade OS is local-only and has an existing dirty worktree that must be preserved.
+
+
+## 2026-11-05 Evidence-based execution review
+
+- STATUS: `WATCH_RESEARCH_AND_CONFIGURATION`.
+- Added de-identified execution-chain audits, workflow configuration/export recovery, and SKU/visual evidence boundaries.
+- Offline tests and cloud-saved configuration are distinct from production writes, generation, publication, and business outcomes.
+- New documentation is public-safe; private source locations and third-party media remain local.
+- Preserve all earlier open PR navigation/state additions and the pending Public README correction when merging. No automatic merge.

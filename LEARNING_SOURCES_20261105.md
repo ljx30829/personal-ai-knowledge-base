@@ -11,3 +11,5 @@
 - 限度：本轮未进行真实改价/广告写入、本人声音/形象生成或付费运行，不公开或复制第三方受限素材。不重复既有完整方法；新页仅补执行链、状态恢复、结构验证与视觉证据缺口。
 
 - [数字人口播实操教程](DIGITAL_HUMAN_QUICKSTART.md)：步骤基于本轮已读取的云端编辑器控件与配置记录；包含尚待授权运行的下一步，明确不作已完成宣称。新增 [RunningHub](https://www.runninghub.cn/)、[价格页](https://www.runninghub.cn/vip-rights/1) 与 [Duix.Avatar](https://github.com/duixcom/Duix-Avatar) 作学习入口，不公开私有工作流或素材链接。
+
+- [三平台自动化实操](ECOMMERCE_AUTOMATION_QUICKSTART.md)：结合本轮官方入口、微信已读正文与六项目固定版本源码核查。抖店/小红书部分文档只取得目录，实际权限和生产连接待核；教程明确区分可执行路线与已完成动作。

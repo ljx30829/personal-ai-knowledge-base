@@ -61,3 +61,5 @@
 - [学习来源与边界](LEARNING_SOURCES_20261105.md)
 
 - [数字人口播实操：网站、功能、操作与费用](DIGITAL_HUMAN_QUICKSTART.md)
+
+- [抖音、小红书、微信小店自动化接入实操](ECOMMERCE_AUTOMATION_QUICKSTART.md)

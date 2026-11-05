@@ -76,3 +76,5 @@
 - Preserve all earlier open PR navigation/state additions and the pending Public README correction when merging. No automatic merge.
 
 - Added [digital-human practical guide](DIGITAL_HUMAN_QUICKSTART.md) after user requested concrete websites, capabilities and operating steps; generation and cost remain unverified.
+
+- Added [three-platform ecommerce practical guide](ECOMMERCE_AUTOMATION_QUICKSTART.md): websites, scope, connection steps, cost and recovery. Platform production accounts remain unconnected in the reviewed evidence.

@@ -56,3 +56,5 @@
 ## 配套实操教程
 
 [数字人口播入门](DIGITAL_HUMAN_QUICKSTART.md)：从 RunningHub、LTX Director、配音候选的分工开始，说明素材准备、逐步操作、费用计算及故障恢复。
+
+- [三平台电商自动化实操](ECOMMERCE_AUTOMATION_QUICKSTART.md)：店铺、内容、广告的入口与分工，接入顺序、微信关键规则、费用和恢复。

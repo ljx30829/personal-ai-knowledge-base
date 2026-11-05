@@ -9,3 +9,5 @@
 - [Director 作者实现](https://github.com/WhatDreamsCost/WhatDreamsCost-ComfyUI)：时间线/模型配置参考；作者提速声明不是本机或托管平台实测。
 - [IndexTTS2 社区封装](https://github.com/yolain/ComfyUI-Easy-IndexTTS2)、[Qwen3-TTS 社区封装](https://github.com/DarioFT/ComfyUI-Qwen3-TTS)：声音候选、Base 克隆和参考音频链路；导入或静态结构校验不证明可用、自然度或商用许可。
 - 限度：本轮未进行真实改价/广告写入、本人声音/形象生成或付费运行，不公开或复制第三方受限素材。不重复既有完整方法；新页仅补执行链、状态恢复、结构验证与视觉证据缺口。
+
+- [数字人口播实操教程](DIGITAL_HUMAN_QUICKSTART.md)：步骤基于本轮已读取的云端编辑器控件与配置记录；包含尚待授权运行的下一步，明确不作已完成宣称。新增 [RunningHub](https://www.runninghub.cn/)、[价格页](https://www.runninghub.cn/vip-rights/1) 与 [Duix.Avatar](https://github.com/duixcom/Duix-Avatar) 作学习入口，不公开私有工作流或素材链接。

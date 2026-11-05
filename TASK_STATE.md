@@ -74,3 +74,5 @@
 - Offline tests and cloud-saved configuration are distinct from production writes, generation, publication, and business outcomes.
 - New documentation is public-safe; private source locations and third-party media remain local.
 - Preserve all earlier open PR navigation/state additions and the pending Public README correction when merging. No automatic merge.
+
+- Added [digital-human practical guide](DIGITAL_HUMAN_QUICKSTART.md) after user requested concrete websites, capabilities and operating steps; generation and cost remain unverified.

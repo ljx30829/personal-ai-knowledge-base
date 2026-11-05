@@ -59,3 +59,5 @@
 
 - [执行链、工作流与素材证据](LEARNING_INCREMENT_20261105.md)
 - [学习来源与边界](LEARNING_SOURCES_20261105.md)
+
+- [数字人口播实操：网站、功能、操作与费用](DIGITAL_HUMAN_QUICKSTART.md)

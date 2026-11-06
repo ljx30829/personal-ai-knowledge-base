@@ -65,3 +65,21 @@
 - Dated operating state and resume instructions live under `projects/`.
 - Large artifacts and sensitive operational records stay in their original workspaces.
 - Relay/node status is historical and requires live revalidation; AI Global Trade OS is local-only and has an existing dirty worktree that must be preserved.
+
+
+## 2026-11-05 Evidence-based execution review
+
+- STATUS: `WATCH_RESEARCH_AND_CONFIGURATION`.
+- Added de-identified execution-chain audits, workflow configuration/export recovery, and SKU/visual evidence boundaries.
+- Offline tests and cloud-saved configuration are distinct from production writes, generation, publication, and business outcomes.
+- New documentation is public-safe; private source locations and third-party media remain local.
+- Preserve all earlier open PR navigation/state additions and the pending Public README correction when merging. No automatic merge.
+
+- Added [digital-human practical guide](DIGITAL_HUMAN_QUICKSTART.md) after user requested concrete websites, capabilities and operating steps; generation and cost remain unverified.
+
+- Added [three-platform ecommerce practical guide](ECOMMERCE_AUTOMATION_QUICKSTART.md): websites, scope, connection steps, cost and recovery. Platform production accounts remain unconnected in the reviewed evidence.
+
+
+## 项目化阅读与后续维护（2026-11-06）
+
+优先从[近期项目总入口](PROJECTS_RECENT.md)进入。日期稿是历史，不是项目主文档；同项目后续更新原入口，保留修正与变更记录。技能/工具使用及验证状态随项目更新。旧开放 PR 的导航、状态和 Public README 修正合并时保留。

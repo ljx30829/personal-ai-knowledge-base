@@ -63,3 +63,8 @@
 - [数字人口播实操：网站、功能、操作与费用](DIGITAL_HUMAN_QUICKSTART.md)
 
 - [抖音、小红书、微信小店自动化接入实操](ECOMMERCE_AUTOMATION_QUICKSTART.md)
+
+
+## 项目化阅读与后续维护（2026-11-06）
+
+优先从[近期项目总入口](PROJECTS_RECENT.md)进入。日期稿是历史，不是项目主文档；同项目后续更新原入口，保留修正与变更记录。技能/工具使用及验证状态随项目更新。旧开放 PR 的导航、状态和 Public README 修正合并时保留。

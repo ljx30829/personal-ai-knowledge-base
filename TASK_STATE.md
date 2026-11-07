@@ -65,3 +65,41 @@
 - Dated operating state and resume instructions live under `projects/`.
 - Large artifacts and sensitive operational records stay in their original workspaces.
 - Relay/node status is historical and requires live revalidation; AI Global Trade OS is local-only and has an existing dirty worktree that must be preserved.
+
+
+## 2026-11-05 Evidence-based execution review
+
+- STATUS: `WATCH_RESEARCH_AND_CONFIGURATION`.
+- Added de-identified execution-chain audits, workflow configuration/export recovery, and SKU/visual evidence boundaries.
+- Offline tests and cloud-saved configuration are distinct from production writes, generation, publication, and business outcomes.
+- New documentation is public-safe; private source locations and third-party media remain local.
+- Preserve all earlier open PR navigation/state additions and the pending Public README correction when merging. No automatic merge.
+
+- Added [digital-human practical guide](DIGITAL_HUMAN_QUICKSTART.md) after user requested concrete websites, capabilities and operating steps; generation and cost remain unverified.
+
+- Added [three-platform ecommerce practical guide](ECOMMERCE_AUTOMATION_QUICKSTART.md): websites, scope, connection steps, cost and recovery. Platform production accounts remain unconnected in the reviewed evidence.
+
+
+## 项目化阅读与后续维护（2026-11-06）
+
+优先从[近期项目总入口](PROJECTS_RECENT.md)进入。日期稿是历史，不是项目主文档；同项目后续更新原入口，保留修正与变更记录。技能/工具使用及验证状态随项目更新。旧开放 PR 的导航、状态和 Public README 修正合并时保留。
+
+## 2026-11-06 增量：数字人口播与公开榜单
+
+- STATUS: `WATCH_LOCAL_UPDATE_REMOTE_AUTH_BLOCKED`。
+- DIGITAL_HUMAN: 已记录一次 6 秒 IndexTTS2 配音运行和一次人物首帧失败的视频样片；人物遮罩/合成问题已定位。人物直连配置通过静态连接/尺寸核对但未重跑。Seedance 删除仍停在平台确认弹窗，最终保存待复核。
+- MARKET_RESEARCH: 新增 Amazon 美国站 Rain Umbrellas 榜单采集步骤；实际用 Bright Data MCP 返回 10 项，细目留本地。购买区间不是精确销量；此次调用不能证明其它站点/接口持续可用或免费。
+- SKILL_TOOL_BOUNDARY: 本地 `qinghu-amazon-product-research` Skill 文件已读取；本次采集实际使用 Bright Data MCP。没有以 Skill 安装或读取推断后台连接。
+- PUBLIC_SCOPE: 只更新既有项目主文档与来源档案；没有新增同项目日期教程、账户素材、商品明细或私有工作流链接。
+- REMOTE: 此增补仍在未合并的学习 PR #9 本地分支上；当日未同步；11月7日已恢复登录并在新日期分支补回，具体PR以本地检查点为准。默认分支未改。
+
+
+## 2026-11-07 项目增补与历史恢复
+
+- STATUS: `WATCH_PREPARED_FOR_REVIEW`；默认分支未改，新增日期分支待 PR 审阅，不自动合并。
+- 基于当前默认分支恢复 PR #9 的完整稳定项目入口与11月6日本地未同步增量，再并入11月7日方法；本PR与#9重叠，应对比后选择本项目文件的完整新版，保留其他历史PR增补，避免逐个覆盖导航。
+- 三平台：抖店/微信后台浏览器只读与飞书写表已有证据；官方API、小红书、店铺写操作、发布与广告另验。
+- SEO：实际诊断、AI草稿事实修正与首轮排名跟踪；网站/社交/广告未发布，工具估算和真实搜索/询盘分开。
+- 市场：撤回未完成素材/同规格匹配的候选；1688报价与真数据未通，接口模块当前复现待核。
+- 数字人：补录付费分支删除与A/B输入限制；自动音频时长未接通，质量与成本继续待核。
+- 详细来源与原始资产留本地，公开只含通用方法；无客户/社交发送、站点/广告操作或Meta事件。

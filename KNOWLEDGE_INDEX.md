@@ -1,6 +1,6 @@
 # 知识导航
 
-更新日期：2026-10-12
+更新日期：2026-11-06
 
 ## 系统与要求
 
@@ -53,3 +53,57 @@
 - [视频来源卡：自动化 AI 大脑](sources/videos/douyin-7655909545654950769.md)
 
 最终验收不允许断链。
+
+
+## 2026-11-05 执行与工作流证据增补
+
+- [执行链、工作流与素材证据](LEARNING_INCREMENT_20261105.md)
+- [学习来源与边界](LEARNING_SOURCES_20261105.md)
+
+- [数字人口播实操：网站、功能、操作与费用](DIGITAL_HUMAN_QUICKSTART.md)
+
+- [抖音、小红书、微信小店自动化接入实操](ECOMMERCE_AUTOMATION_QUICKSTART.md)
+
+
+## 项目化阅读与后续维护（2026-11-06）
+
+优先从[近期项目总入口](PROJECTS_RECENT.md)进入。日期稿是历史，不是项目主文档；同项目后续更新原入口，保留修正与变更记录。技能/工具使用及验证状态随项目更新。旧开放 PR 的导航、状态和 Public README 修正合并时保留。
+
+
+2026-11-07：继续使用[近期项目总入口](PROJECTS_RECENT.md)，已补浏览器后台统计与飞书、Semrush实操、素材货源匹配及数字人限制；未新增同项目日期副本。
+
+
+## 2026-11-10 持续项目增补
+
+从[近期项目](PROJECTS_RECENT.md)进入：SEO与外链、跨平台视频与版权、小红书提交、素材版本、数字人替代候选、跨渠道外贸与[Windows缓存/下载](PROJECT_WINDOWS_STORAGE_DOWNLOAD.md)。来源见[项目档案](PROJECT_SOURCES.md)。本地准备不等于远端同步。
+
+
+## 2026-11-11 项目增补
+
+[OpenMausBot部署与接入](PROJECT_OPENMAUSBOT.md)加入[近期项目入口](PROJECTS_RECENT.md)。SEO、多账号视频、Windows和外贸方法直接回写既有主文档，未新增同项目日期教程。
+
+
+## 2026-11-12 项目入口与当前状态
+
+- [STAFFDECK指南](PROJECT_STAFFDECK.md)
+- [AGENT_DESKTOP指南](PROJECT_AGENT_DESKTOP.md)
+- [CONTEXT_HUB指南](PROJECT_CONTEXT_HUB.md)
+
+SEO当前生产v36；邮箱只读API与发送后复核已跑通，token缓存修复后待实测；视频本轮重剪封装验收但未全解码/人工全看。数字人仅新增同行研究阻塞，三平台店铺、视觉、AI搜索与市场无独立新执行方法，已核对不改。
+
+
+## 2026-11-13 当前项目增补
+
+- [电商模拟器](PROJECT_ECOMMERCE_SIMULATOR.md)：新稳定实操入口，虚构经营、完整资源、存档/会计和交付包验收。
+- [SEO](PROJECT_SITE_SEO.md)：生产v38、完整目录部署与索引请求分层，未证明流量提升。
+- [外贸原手册](knowledge/trade/foreign-trade-execution-runbook.md)：API有效缓存已实测；WhatsApp独立授权、附件延迟/去重/送达、表单收到与获批分层。
+- [视觉及参考](PROJECT_ECOMMERCE_VISUAL.md)和[老板口播](DIGITAL_HUMAN_QUICKSTART.md)：历史采集仅部分完成、平台限制停止，按具体产品/场景扩题；文案不等于成片。
+
+三平台店铺、数字人生成链、AI搜索/市场、StaffDeck、Agent Desktop、OpenMausBot、中枢已核对，无新的独立成功执行证据；已有浏览器标签不能作新业务完成证据。公开方法本地维护，不表示远端已同步。
+
+
+## 2026-11-16 核对入口
+
+- [外贸原手册](knowledge/trade/foreign-trade-execution-runbook.md)：中断研究、工具路径失效及运行中邮箱阶段证据；不增加无批次验收的完成数。
+- [多账号视频原指南](PROJECT_MULTI_ACCOUNT_VIDEO.md)：API恢复不等于页面网络/登录/发布成功。
+- 数字人、三平台店铺、SEO/外链、商品视觉、市场、AI搜索、模拟器及本地工具项目已对照本轮证据，无新独立完成事实，保持原入口与历史日期；不以任务触发当新增执行。

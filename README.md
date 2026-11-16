@@ -1,6 +1,6 @@
 # 我的 AI 知识库
 
-这是一个私有、可迁移的 Markdown 知识库。GitHub 负责跨设备保存，Codex、Claude、Gemini、Cursor 或其他 AI 只在获得授权后读取这些文件。
+这是一个公开、可迁移的 Markdown 知识库，只保存脱敏通用方法。GitHub 负责跨设备保存，Codex、Claude、Gemini、Cursor 或其他 AI 只在获得授权后读取这些文件。
 
 ## 从这里开始
 
@@ -37,15 +37,18 @@
 ## 审阅与打包
 
 - [完整知识与要求审阅稿](reports/full-knowledge-requirements-review-2026-08-04.md)：打包前逐项确认长期要求、知识、项目、技能、自动化和工作区范围。
-- 当前状态：`PASS_PACKAGED_AND_SYNCED_PRIVATE`。用户已于 2026-08-04 确认打包；本地总包位于 `D:\codex\output\personal-ai-knowledge-package-20260804-230623.zip`，知识库核心内容已通过提交 `b4e8686` 推送到私有远端 `master`。压缩包未提交到 Git。
+- 历史打包已完成；原离线包及详细定位保留受控本地，不提交公开库。最新同步以 TASK_STATE 和当前PR回读为准。
 
-Windows 解压时建议使用 `D:\AIKB` 之类的短路径。插件缓存包含较深目录，解压到长用户名/多层目录时可能触发旧版 Windows 260 字符限制。
+Windows解压建议使用短路径；长目录可能触发旧版路径长度限制。
 
 ## 重要边界
 
-- 仓库必须保持 `Private`，不得启用 GitHub Pages。
+- 仓库保持 Public，仅提交脱敏通用方法；私人材料不进入公开库。
 - 不保存密码、令牌、Cookie、API Key、浏览器资料或原始客户敏感信息。
 - 状态文件中的 `PASS/WATCH/FAIL/BLOCKED` 必须保留，不能把准备、草稿或本地运行写成上线、发送或成交。
 - 大型 CSV、日志、视频、图片、压缩包和完整项目代码留在原工作区，本知识库保存摘要、来源路径和恢复方法。
 
-当前远程状态：`PRIVATE_REMOTE_VERIFIED`。私有仓库为 [ljx30829/personal-ai-knowledge-base](https://github.com/ljx30829/personal-ai-knowledge-base)，`master` 已推送，GitHub Pages 未启用。
+当前远程可见性已核为 Public，默认分支 master；本轮本地增量尚未同步，详见 TASK_STATE。
+
+
+稳定项目入口新增 [OpenMausBot](PROJECT_OPENMAUSBOT.md)；其余项目继续从[近期项目](PROJECTS_RECENT.md)进入。

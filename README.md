@@ -1,6 +1,18 @@
+# 当前维护状态（2026-11-24）
+
+日报和九个既有项目入口更新，新增Pachat与侧睡用品指南。当前仅本地准备，GitHub写入认证及内置浏览器不可用阻塞新PR；未同步，不推进远端水位。旧日期为历史，当前入口见[近期项目](PROJECTS_RECENT.md)。
+
+# 当前维护状态（2026-11-23）
+
+日报23、21日晚补录及22日覆盖说明已本地准备；更新七份原指南，新增[音乐工具研究](PROJECT_MUSIC_CLIENT_RESEARCH.md)与[数字商城规划](PROJECT_DIGITAL_GOODS_STORE.md)。158文档与43项既有测试通过；本轮尚未推送/新PR/同步，浏览器设置与Git认证阻塞仍在。当前入口见[近期项目](PROJECTS_RECENT.md)。以下旧日期为历史。
+
+# 当前维护状态（2026-11-21）
+
+日报21与20日晚补录、七既有项目主文档已增补，新增[自有测试面板指南](PROJECT_CLOUDFLARE_TEST_PANEL.md)。当前只在本地日期分支；Work设置禁用本地浏览器且Git无可用认证，尚未新PR/推送/同步。远端水位不推进，以下历史状态不代表本轮已同步。
+
 # 我的 AI 知识库
 
-这是一个私有、可迁移的 Markdown 知识库。GitHub 负责跨设备保存，Codex、Claude、Gemini、Cursor 或其他 AI 只在获得授权后读取这些文件。
+这是一个公开、可迁移的 Markdown 知识库，只保存脱敏通用方法。GitHub 负责跨设备保存，Codex、Claude、Gemini、Cursor 或其他 AI 只在获得授权后读取这些文件。
 
 ## 从这里开始
 
@@ -37,15 +49,24 @@
 ## 审阅与打包
 
 - [完整知识与要求审阅稿](reports/full-knowledge-requirements-review-2026-08-04.md)：打包前逐项确认长期要求、知识、项目、技能、自动化和工作区范围。
-- 当前状态：`PASS_PACKAGED_AND_SYNCED_PRIVATE`。用户已于 2026-08-04 确认打包；本地总包位于 `D:\codex\output\personal-ai-knowledge-package-20260804-230623.zip`，知识库核心内容已通过提交 `b4e8686` 推送到私有远端 `master`。压缩包未提交到 Git。
+- 历史打包已完成；原离线包及详细定位保留受控本地，不提交公开库。最新同步以 TASK_STATE 和当前PR回读为准。
 
-Windows 解压时建议使用 `D:\AIKB` 之类的短路径。插件缓存包含较深目录，解压到长用户名/多层目录时可能触发旧版 Windows 260 字符限制。
+Windows解压建议使用短路径；长目录可能触发旧版路径长度限制。
 
 ## 重要边界
 
-- 仓库必须保持 `Private`，不得启用 GitHub Pages。
+- 仓库保持 Public，仅提交脱敏通用方法；私人材料不进入公开库。
 - 不保存密码、令牌、Cookie、API Key、浏览器资料或原始客户敏感信息。
 - 状态文件中的 `PASS/WATCH/FAIL/BLOCKED` 必须保留，不能把准备、草稿或本地运行写成上线、发送或成交。
 - 大型 CSV、日志、视频、图片、压缩包和完整项目代码留在原工作区，本知识库保存摘要、来源路径和恢复方法。
 
-当前远程状态：`PRIVATE_REMOTE_VERIFIED`。私有仓库为 [ljx30829/personal-ai-knowledge-base](https://github.com/ljx30829/personal-ai-knowledge-base)，`master` 已推送，GitHub Pages 未启用。
+当前远程可见性已核为 Public，默认分支 master；本轮本地增量尚未同步，详见 TASK_STATE。
+
+
+稳定项目入口新增 [OpenMausBot](PROJECT_OPENMAUSBOT.md)；其余项目继续从[近期项目](PROJECTS_RECENT.md)进入。
+
+
+2026-11-16下午：新增[AI短剧与漫剧制作完整指南](PROJECT_SHORT_DRAMA.md)，继续回写各稳定项目入口。此次本地更新尚未推送/创建PR；历史PR成功不代表本轮同步，状态以[TASK_STATE](TASK_STATE.md)为准。
+
+
+2026-11-25：新增[岛仔](PROJECT_DAOZAI.md)及[OpenMontage](PROJECT_OPENMONTAGE.md)完整稳定指南，原项目继续跨日回写。当前仅本地，实际同步状态见[TASK_STATE](TASK_STATE.md)。

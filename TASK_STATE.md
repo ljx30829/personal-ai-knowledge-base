@@ -1,3 +1,35 @@
+# 当前维护状态（2026-11-24）
+
+日报和九个既有项目入口更新，新增Pachat与侧睡用品指南。当前仅本地准备，GitHub写入认证及内置浏览器不可用阻塞新PR；未同步，不推进远端水位。旧日期为历史，当前入口见[近期项目](PROJECTS_RECENT.md)。
+
+# 当前维护状态（2026-11-23）
+
+日报23、21日晚补录与22日覆盖说明，七个原项目指南及两个新稳定入口已本地准备。当前日期分支来自最新公开默认；保留既有积压。Work禁用本地浏览器、Git缺可用认证及私有API404仍阻塞新PR/同步，远端覆盖不推进。当前业务状态以[近期项目](PROJECTS_RECENT.md)为入口，以下旧日期为历史。
+
+# 当前维护状态（2026-11-21）
+
+日报21与20日晚补录、七既有项目主文档已增补，新增[自有测试面板指南](PROJECT_CLOUDFLARE_TEST_PANEL.md)。当前只在本地日期分支；Work设置禁用本地浏览器且Git无可用认证，尚未新PR/推送/同步。远端水位不推进，以下历史状态不代表本轮已同步。
+
+# 历史状态（2026-11-20）
+
+日报20及19日晚补录、六个原项目指南更新，并新增拍前测稿台稳定指南。只有本地准备；内置浏览器与GitHub认证阻塞，未推送/新PR/同步。历史条目不代表当前状态。
+
+# 历史状态（2026-11-19）
+
+日报19及18日晚补录、五个既有项目主文档已本地增补；无新项目日期教程。当前Public知识默认与开放PR已核，私有日报最新内容及Git写入受认证/内置浏览器不可用阻塞。尚未推送或创建新PR，未同步；本轮仅文档维护。
+
+# 历史状态（2026-11-17）
+
+本轮新增日报、既有项目增补与Muse Link/MuseCanvas完整指南仅本地准备；新PR和远端同步受访问阻塞，未完成。旧日期状态是历史，请从[近期项目](PROJECTS_RECENT.md)进入。本轮仅文档整理，无安装、消息发送、网站/广告修改或Meta事件。
+
+# 当前状态（2026-11-16下午）
+
+本轮内容仅本地，尚未同步。当前入口见[近期项目](PROJECTS_RECENT.md)与文末最新状态；以下旧日期状态为历史。
+
+# 当前状态索引（2026-11-16）
+
+本库为公开脱敏知识库；本轮内容在新日期分支待PR审阅；权限恢复与最终PR状态见文末。当前项目从[近期项目](PROJECTS_RECENT.md)和文末日期更新进入。下方2026-10-11及其他旧日期的Private、恢复位置和完成标记是历史，不表示当前可用、当前可见性或本轮已同步。
+
 # Knowledge Vault Task State
 
 ## 2026-10-11 Complete Portable Recovery
@@ -65,3 +97,146 @@
 - Dated operating state and resume instructions live under `projects/`.
 - Large artifacts and sensitive operational records stay in their original workspaces.
 - Relay/node status is historical and requires live revalidation; AI Global Trade OS is local-only and has an existing dirty worktree that must be preserved.
+
+
+## 2026-11-05 Evidence-based execution review
+
+- STATUS: `WATCH_RESEARCH_AND_CONFIGURATION`.
+- Added de-identified execution-chain audits, workflow configuration/export recovery, and SKU/visual evidence boundaries.
+- Offline tests and cloud-saved configuration are distinct from production writes, generation, publication, and business outcomes.
+- New documentation is public-safe; private source locations and third-party media remain local.
+- Preserve all earlier open PR navigation/state additions and the pending Public README correction when merging. No automatic merge.
+
+- Added [digital-human practical guide](DIGITAL_HUMAN_QUICKSTART.md) after user requested concrete websites, capabilities and operating steps; generation and cost remain unverified.
+
+- Added [three-platform ecommerce practical guide](ECOMMERCE_AUTOMATION_QUICKSTART.md): websites, scope, connection steps, cost and recovery. Platform production accounts remain unconnected in the reviewed evidence.
+
+
+## 项目化阅读与后续维护（2026-11-06）
+
+优先从[近期项目总入口](PROJECTS_RECENT.md)进入。日期稿是历史，不是项目主文档；同项目后续更新原入口，保留修正与变更记录。技能/工具使用及验证状态随项目更新。旧开放 PR 的导航、状态和 Public README 修正合并时保留。
+
+## 2026-11-06 增量：数字人口播与公开榜单
+
+- STATUS: `WATCH_LOCAL_UPDATE_REMOTE_AUTH_BLOCKED`。
+- DIGITAL_HUMAN: 已记录一次 6 秒 IndexTTS2 配音运行和一次人物首帧失败的视频样片；人物遮罩/合成问题已定位。人物直连配置通过静态连接/尺寸核对但未重跑。Seedance 删除仍停在平台确认弹窗，最终保存待复核。
+- MARKET_RESEARCH: 新增 Amazon 美国站 Rain Umbrellas 榜单采集步骤；实际用 Bright Data MCP 返回 10 项，细目留本地。购买区间不是精确销量；此次调用不能证明其它站点/接口持续可用或免费。
+- SKILL_TOOL_BOUNDARY: 本地 `qinghu-amazon-product-research` Skill 文件已读取；本次采集实际使用 Bright Data MCP。没有以 Skill 安装或读取推断后台连接。
+- PUBLIC_SCOPE: 只更新既有项目主文档与来源档案；没有新增同项目日期教程、账户素材、商品明细或私有工作流链接。
+- REMOTE: 此增补仍在未合并的学习 PR #9 本地分支上；当日未同步；11月7日已恢复登录并在新日期分支补回，具体PR以本地检查点为准。默认分支未改。
+
+
+## 2026-11-07 项目增补与历史恢复
+
+- STATUS: `WATCH_PREPARED_FOR_REVIEW`；默认分支未改，新增日期分支待 PR 审阅，不自动合并。
+- 基于当前默认分支恢复 PR #9 的完整稳定项目入口与11月6日本地未同步增量，再并入11月7日方法；本PR与#9重叠，应对比后选择本项目文件的完整新版，保留其他历史PR增补，避免逐个覆盖导航。
+- 三平台：抖店/微信后台浏览器只读与飞书写表已有证据；官方API、小红书、店铺写操作、发布与广告另验。
+- SEO：实际诊断、AI草稿事实修正与首轮排名跟踪；网站/社交/广告未发布，工具估算和真实搜索/询盘分开。
+- 市场：撤回未完成素材/同规格匹配的候选；1688报价与真数据未通，接口模块当前复现待核。
+- 数字人：补录付费分支删除与A/B输入限制；自动音频时长未接通，质量与成本继续待核。
+- 详细来源与原始资产留本地，公开只含通用方法；无客户/社交发送、站点/广告操作或Meta事件。
+
+
+## 2026-11-10 项目状态修正
+
+- STATUS: WATCH_LOCAL_PREPARED_REMOTE_WRITE_BLOCKED。
+- SEO：生产部署和回读已推进到最新版本；审计重新抓取未完成，不能沿用旧分数当新成效。匿名外链确认数与历史公开核查分列。
+- VIDEO：正式库存与部分平台公开有证据；另一账号仅提交待核并由用户接手；YouTube版权全球屏蔽与替换片私密处理延迟分层，不能说已公开。
+- COMMERCE：补录创作者图文提交，店铺写接口与广告权限独立待核。素材同对象新包不是新SKU。
+- TRADE：跨渠道历史、材料邮件、UNKNOWN与服务商重试纳入额度和抑制；公司候选达配额不代表联系人完整核验。
+- WINDOWS：新增稳定指南；有迁移/联接/健康检查证据，无已验证提速方案。
+- DIGITAL_HUMAN：替代平台仅文档研究，未迁移运行；AI搜索与市场未见新方法，已核对不改。
+- REMOTE：公开仓库与PR1—10已读；内置GitHub浏览器不可用，私有日报API404，非交互Git无凭据。无推送、新PR或同步；本地日期分支从最新公开默认分支建立，保留待审产物。
+
+
+## 2026-11-11 最新状态
+
+- STATUS: WATCH_LOCAL_PREPARED_REMOTE_ACCESS_BLOCKED。上述历史同步状态不代表本轮已同步。
+- SEO：生产v35已由原工作记录验收，审计/索引/富媒体/自然效果分层；目录通知与公开搜索状态分别记录。
+- VIDEO：公开/多日定时及部分合集有证据；缺失导出已重建，文件数与独立内容分列；基础发布器仍连接失败，内置RPA未完成。
+- OPENMAUSBOT：新稳定入口；应用与Docker CLI安装启动有证据，Engine、模型和完整任务待验。
+- TRADE：批次汇总与结果文件冲突不得累计为全成功；本轮邮件原会话零发送，UNKNOWN不重试。
+- WINDOWS：缺失原因未知，重剪不等于字节恢复；清理保留范围补成片与台账。
+- NO_NEW_METHOD: 数字人、三平台店铺、视觉素材、AI搜索、市场核对无独立新增方法。
+- REMOTE：当前Public/master与10个开放PR可读；本地浏览器在Work设置禁用、私有日报远端不可读。没有推送、新PR、附件或自动合并，远端覆盖时间不推进。
+
+
+## 2026-11-12 最新状态
+
+WATCH_LOCAL_PREPARED_REMOTE_ACCESS_BLOCKED：日报与项目指南已本地更新，远端同步水位不推进。内置浏览器返回不可用；私有日报读取及开放PR去重仍有缺口，公开master与开放PR已重新核对。无业务写入、消息、安装、部署或事件发送由本次整理执行。原工作流中的成功动作与本次文档维护区分。
+
+本次新增稳定入口：StaffDeck、Agent Desktop、跨对话项目中枢。原SEO/视频/外贸/数字人入口已更新，其余相关项目已核对无独立增量。恢复GitHub授权通道后先重核两仓库默认分支及开放PR，处理未同步积压，再创建和回读PR；不自动合并。
+
+
+## 2026-11-13 本地增补，远端仍受阻
+
+WATCH：SEO生产v38已在原业务会话完整部署，但索引/点击增长待核；外贸只读API缓存真实通过，SMTP接受仍不证明实收；独立授权WhatsApp逐条回读与目录延迟修正；小红书历史只部分采集且安全限制停止；老板口播仅文字候选。新[模拟器指南](PROJECT_ECOMMERCE_SIMULATOR.md)覆盖当前v3和旧档破产规则、完整包测试与合理会计。
+
+本轮仅维护文档/仓库；无客户邮件、社交消息、站点/广告/Meta事件或安装。GitHub内置浏览器不可用，私有日报读取404，Git无可用认证；没有推送/PR或自动合并。远端覆盖水位不推进，保留本地补丁及积压。下一步恢复授权GitHub访问，读私有日报/当前默认和PR后去重，分别建日期分支PR并回读，不能把本地提交称已同步。
+
+
+## 2026-11-16 本地复核
+
+外贸与视频原指南增补阶段验收及故障恢复；其他项目核对无独立新增完成证据。当前工作仅本地，GitHub授权通道受阻，未推送、未新建PR、未合并，远端覆盖水位不推进。运行中业务任务由原会话继续，本轮只整理，不执行业务动作。
+
+
+## 2026-11-16 用户开启权限后的恢复
+
+用户开启权限后，已通过新的统一Computer Use浏览器通道成功打开既有已登录GitHub的内置浏览器，私有日报和公开知识库均可读取。此前Work禁用是已恢复的历史阻塞；API无认证404不能替代已登录浏览器的真实访问状态。已核日报11个开放PR、知识库10个开放PR，默认分支未合并积压；本次准备在新日期分支提交，PR最终状态以对应回读为准。未导出凭据、未改默认分支或自动合并。
+
+
+## 2026-11-16 下午最新：本地就绪，远端受阻
+
+当前状态LOCAL_PREPARED_REMOTE_ACCESS_BLOCKED。上午恢复与PR提交为已记录历史，不代表本轮仍可操作。公开仓库仍Public，11个开放PR已核；新内容仅本地日期分支，未推送、未开新PR、未合并。日报与6个既有项目入口同时维护，新增短剧/漫剧唯一主文档；不新建同项目日期教程。
+
+SEO当前生产v39、索引请求入队不是收录；邮件已核最终接受与后续退信，下午无新发送；视频旧排期公开但未来库存耗尽；口播/脚本有用户新修正，无新合格数字人成片；短剧首版被拒、修订因余额未受理。其余三平台店铺、视觉设计、AI搜索、模拟器及工作台项目在可读Codex证据中无独立新完成结果，后台标签不作业绩证据。
+
+本轮仅文档/仓库及只读校验，没有安装、客户邮件/社交消息、网站/广告修改或Meta事件。恢复已授权GitHub通道后重新读两仓库默认/开放PR，先比较本轮与旧PR11/12重叠，再创建日期分支PR，回读成功才推进远端水位。
+
+
+## 2026-11-17 稳定入口与变更
+
+- [Muse Link微信桥](PROJECT_MUSE_LINK.md)：新完整主文档；源码审查与环境阻塞，未登录/值守。
+- [MuseCanvas画布](PROJECT_MUSE_CANVAS.md)：新完整主文档；README研究候选，未安装/生成。
+- [视觉与关键词](PROJECT_ECOMMERCE_VISUAL.md)：离线计数、原词去重、OCR及语料覆盖边界。
+- [数字人口播](DIGITAL_HUMAN_QUICKSTART.md)：导出分组、复制验真与版本保全，不等于审片/发布。
+- [外贸手册](knowledge/trade/foreign-trade-execution-runbook.md)与[Windows恢复](PROJECT_WINDOWS_STORAGE_DOWNLOAD.md)：更新原入口，不新增日期教程。
+
+相关SEO、视频、三平台店铺、AI搜索、市场、模拟器、StaffDeck、Agent Desktop、OpenMausBot及中枢已核对；本窗口无新的独立业务执行结果，原状态按日期保留。当前新内容只在本地，远端同步未完成。
+
+
+## 2026-11-18 稳定项目增补
+
+- [短剧与导演](PROJECT_SHORT_DRAMA.md)：4项新安装、16阶段工作流、白模与模型正文分离；Lint通过但Preflight仍REVISE，未真实生成。
+- [商品3D素材](PROJECT_PRODUCT_3D.md)：新完整入口，工程/开合/握点/GLB验证；原会话运行中，整伞同步门禁待回读。
+- [口播原入口](DIGITAL_HUMAN_QUICKSTART.md)：扩大归档范围与多版本口径、双账号错开及排期回读。
+- [多账号视频](PROJECT_MULTI_ACCOUNT_VIDEO.md)：3条长片公开回读与1条短片屏蔽分开，未来库存仍缺。
+- [外贸原手册](knowledge/trade/foreign-trade-execution-runbook.md)：采购相关职责与最终审批/公开转介分层。
+
+SEO/外链、三平台店铺、AI搜索、市场、模拟器、Muse Link、MuseCanvas、StaffDeck、Agent Desktop及OpenMausBot已核对可读增量，无新的独立执行结果；保留既有状态。今天未证明有新收录、流量或商业效果。本地准备不代表同步。
+
+
+## 2026-11-25 项目维护
+
+新增唯一主入口[岛仔模型用量](PROJECT_DAOZAI.md)、[OpenMontage视频框架](PROJECT_OPENMONTAGE.md)；继续回写[SEO](PROJECT_SITE_SEO.md)、[外贸手册](knowledge/trade/foreign-trade-execution-runbook.md)、[AI搜索](PROJECT_AI_SEARCH.md)、[侧睡用品](PROJECT_SLEEP_COMMERCE.md)、[市场](PROJECT_MARKET_RESEARCH.md)、[视觉](PROJECT_ECOMMERCE_VISUAL.md)、[多账号发布](PROJECT_MULTI_ACCOUNT_VIDEO.md)、[Pachat](PROJECT_PACHAT.md)和[Windows](PROJECT_WINDOWS_STORAGE_DOWNLOAD.md)。详细来源只留本地。
+
+SEO有请求接收而非新增收录；邮件仍未发送。侧睡项目已核本地测试订单，未收款/上线；CartSignal仍有实时扫描与监控缺口。岛仔编译部署不代替界面验收，OpenMontage环境通过不代替成片渲染。每项Skill编排、执行工具与模型调用分别记录；没有新证据的项目保留历史状态。当前本地准备，未新增PR或同步；恢复GitHub后先核私有积压与开放PR。
+
+
+2026-11-25 最终回读修正：OpenMontage原部署通过与当前在线分开；当前健康/首页连接被拒绝，未由日报任务重启，详见[原指南](PROJECT_OPENMONTAGE.md)。
+
+
+## 2026-11-26 项目维护
+
+新增稳定完整入口[Claude Shorts程序动画](PROJECT_CLAUDE_SHORTS_SKILLS.md)、[MuseLink Windows连接器研究](PROJECT_MUSELINK_WINDOWS.md)。后者与原微信桥不同项目，只有研究/转贴草稿，没有部署。旧日期学习稿继续作为历史，主入口不每日重建。
+
+直接回写[岛仔](PROJECT_DAOZAI.md)、[多账号发布](PROJECT_MULTI_ACCOUNT_VIDEO.md)、[Windows存储](PROJECT_WINDOWS_STORAGE_DOWNLOAD.md)、[侧睡商城](PROJECT_SLEEP_COMMERCE.md)、[SEO](PROJECT_SITE_SEO.md)、[市场](PROJECT_MARKET_RESEARCH.md)、[外贸手册](knowledge/trade/foreign-trade-execution-runbook.md)、[Pachat](PROJECT_PACHAT.md)、[视觉](PROJECT_ECOMMERCE_VISUAL.md)和[短剧](PROJECT_SHORT_DRAMA.md)。按原工具和产物区分排期/公开、迁移/删除、静态预览/支付、相对热度/成交、技能安装/模型调用；来源细定位仅保留本地。
+
+30秒程序样片已导出，45秒新集仍在渲染；最终美术和像素门禁待核。GitHub内置浏览器不可用、Git缺可用认证，私有日报远端不可读，不能声称远端去重或同步完成。三平台店铺和广告、数字人口播、AI搜索及其余项目未见本窗独立新完成证据，保留原状态；OpenMontage未做新的重启或完整渲染验证。
+
+
+## 2026-11-27：恢复GitHub提交访问
+
+用户本人重新登录后，Codex内置浏览器已实读私有日报仓库和公开知识库，确认日报默认main/12个旧开放PR、知识库默认master/11个旧开放PR。此前访问阻塞是历史状态，不能继续称当前浏览器不可用。本次仅恢复截至11月26日已审阅积压；没有据今天登录时间推进业务覆盖、推定新发布/收录/发送或业务效果。
+
+从最新默认分支建立新的日期分支，保留旧PR导航/来源/状态及所有原项目指南，交由新PR审核。旧PR全部保持未合并，默认分支不直推。项目历史段落中的当日失败保留；当前远端提交状态以本地检查点与新PR实际回读为准。浏览器登录不会自动赋予Git命令行凭据，不导出浏览器认证。
